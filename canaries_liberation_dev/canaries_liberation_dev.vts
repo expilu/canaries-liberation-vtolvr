@@ -64,7 +64,7 @@ CustomScenario
 		}
 		UnitSpawner
 		{
-			unitName = ESupply
+			unitName = Supplier
 			globalPosition = (-41482.587890625, 9139, 200992.69921875)
 			unitInstanceID = 1
 			unitID = EBomberAI
