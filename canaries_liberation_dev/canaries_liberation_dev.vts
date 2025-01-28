@@ -78,7 +78,7 @@ CustomScenario
 				unitGroup = null
 				defaultBehavior = Orbit
 				initialSpeed = 250
-				defaultNavSpeed = 300
+				defaultNavSpeed = 330
 				defaultOrbitPoint = 8
 				defaultPath = null
 				orbitAltitude = 10000
@@ -108,7 +108,7 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 300
+					defaultNavSpeed = 330
 					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
@@ -139,7 +139,7 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 300
+					defaultNavSpeed = 330
 					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
@@ -170,7 +170,7 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 300
+					defaultNavSpeed = 330
 					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
@@ -201,7 +201,7 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 300
+					defaultNavSpeed = 330
 					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
@@ -232,7 +232,7 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 300
+					defaultNavSpeed = 330
 					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
@@ -263,7 +263,7 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 300
+					defaultNavSpeed = 330
 					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
@@ -294,7 +294,7 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 250
+					defaultNavSpeed = 330
 					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
@@ -862,7 +862,7 @@ CustomScenario
 			id = 3
 			name = CapGCPath
 			loop = True
-			points = (144488.6875, 6091, 51751);(156692.25, 6091, 57634.7734375);(164578.9375, 6091, 67128.8828125);(166155.75, 6091, 79309.2890625);(161815.875, 6091, 91100.96875);(153064.9375, 6091, 96145.53125);(139322.828125, 6091, 96816.28125);(132107.046875, 6091, 88250.90625);(124440.171875, 6091, 81203.609375);(122931.859375, 6091, 70475.453125);(133967.796875, 6091, 55081.984375);
+			points = (144488.6875, 6091, 51751);(156692.25, 6091, 57634.78125);(164578.9375, 6091, 67128.875);(166155.75, 6091, 79309.2890625);(161815.875, 6091, 91100.96875);(153064.9375, 6091, 96145.53125);(139322.828125, 6091, 96816.28125);(132107.046875, 6091, 88250.90625);(124440.171875, 6091, 81203.609375);(122931.859375, 6091, 70475.453125);(133967.796875, 6091, 55081.984375);
 			pathMode = Bezier
 		}
 		PATH
@@ -870,7 +870,7 @@ CustomScenario
 			id = 4
 			name = CapChannelPath
 			loop = True
-			points = (75520.25, 6091, 60514.28125);(98166.84375, 6091, 61032.546875);(108376.15625, 6091, 71296.0390625);(118102.515625, 6091, 91362.234375);(131087.65625, 6091, 108567.984375);(120893.4375, 6091, 117686.46875);(102920.03125, 6091, 119763.71875);(92419.3125, 6091, 106059.09375);(81017.78125, 6091, 89610.53125);(69565.15625, 6091, 69281.9609375);
+			points = (75520.25, 6091, 60514.28125);(98166.84375, 6091, 61032.546875);(108376.15625, 6091, 71296.0390625);(118102.515625, 6091, 91362.234375);(131087.65625, 6091, 108567.984375);(120893.4375, 6091, 117686.46875);(102920.03125, 6091, 119763.71875);(92419.3125, 6091, 106059.09375);(81017.78125, 6091, 89610.53125);(69565.15625, 6091, 69281.96875);
 			pathMode = Bezier
 		}
 	}
