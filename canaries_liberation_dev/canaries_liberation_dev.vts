@@ -1546,6 +1546,26 @@ CustomScenario
 				isNot = False
 			}
 		}
+		CONDITIONAL
+		{
+			id = 47
+			outputNodePos = (0, 0, 0)
+		}
+		CONDITIONAL
+		{
+			id = 48
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValueCompare
+				uiPos = (-226, 62, 0)
+				gvA = 6
+				gvB = 8
+				comparison = Equals
+			}
+		}
 	}
 	ConditionalActions
 	{
@@ -2270,8 +2290,66 @@ CustomScenario
 			}
 			EVENT
 			{
+				delay = 0
+				nodeName = Reset attrition counter
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Reset Value
+						methodName = ResetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 8
+							name = Global Value
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Wait atrittion time
+				exitConditional = 48
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 9
+						eventName = Begin
+						methodName = BeginEvent
+						altTargetIdx = -1
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Stop attrition counter
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 9
+						eventName = Stop
+						methodName = Stop
+						altTargetIdx = -1
+					}
+				}
+			}
+			EVENT
+			{
 				delay = 60
-				nodeName = New Node
+				nodeName = Loop
 				EventInfo
 				{
 					eventName = 
@@ -2288,14 +2366,14 @@ CustomScenario
 		}
 		SEQUENCE
 		{
-			id = 7
-			sequenceName = MinutesCounter
-			startImmediately = True
+			id = 9
+			sequenceName = AttritionWaitCounter
+			startImmediately = False
 			whileLoop = False
 			EVENT
 			{
 				delay = 60
-				nodeName = Add one minute
+				nodeName = Increment counter each min
 				EventInfo
 				{
 					eventName = 
@@ -2309,7 +2387,7 @@ CustomScenario
 						ParamInfo
 						{
 							type = GlobalValue
-							value = 5
+							value = 8
 							name = Global Value
 						}
 						ParamInfo
@@ -2334,14 +2412,14 @@ CustomScenario
 			EVENT
 			{
 				delay = 0
-				nodeName = Loop
+				nodeName = New Node
 				EventInfo
 				{
 					eventName = 
 					EventTarget
 					{
 						targetType = Event_Sequences
-						targetID = 7
+						targetID = 9
 						eventName = Restart
 						methodName = Restart
 						altTargetIdx = -1
@@ -2465,7 +2543,11 @@ CustomScenario
 		}
 		gv
 		{
-			data = 5;minutesElapsed;Minutes passed since the beginning of the mission;0;
+			data = 6;resupplyAtrittion;Minutes to wait between resupplies. To simulate attrition.;1;
+		}
+		gv
+		{
+			data = 8;resupplyWaitCounter;;0;
 		}
 	}
 	Briefing
