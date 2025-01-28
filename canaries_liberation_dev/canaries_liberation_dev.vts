@@ -316,38 +316,6 @@ CustomScenario
 	}
 	PATHS
 	{
-		PATH
-		{
-			id = 0
-			name = limit_north
-			loop = False
-			points = (-41482.59375, 9139, 200992.6875);(278701.375, 9139, 203128.6875);
-			pathMode = Linear
-		}
-		PATH
-		{
-			id = 1
-			name = limit_east
-			loop = False
-			points = (278701.375, 9139, 203128.6875);(277720.40625, 9139, -39963.046875);
-			pathMode = Linear
-		}
-		PATH
-		{
-			id = 2
-			name = limit_south
-			loop = False
-			points = (277720.40625, 9139, -39963.03125);(-121062.71875, 9139, -40563.3125);
-			pathMode = Linear
-		}
-		PATH
-		{
-			id = 3
-			name = limit_west
-			loop = False
-			points = (277720.40625, 9139, -39963.03125);(-41482.59375, 9139, 200992.703125);
-			pathMode = Linear
-		}
 	}
 	WAYPOINTS
 	{
