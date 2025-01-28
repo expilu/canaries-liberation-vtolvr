@@ -46,13 +46,13 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = Player
-			globalPosition = (165451.46472167969, 41.124755859375, 73023.281982421875)
+			globalPosition = (-42823.4609375, 16.100006103515625, 201392.3125)
 			unitInstanceID = 0
 			unitID = PlayerSpawn
-			rotation = (1.366038E-05, -3.256888E-12, -1.366038E-05)
+			rotation = (0, 28.1477, 0)
 			lastValidPlacement = (165451.46472167969, 41.124755859375, 73023.281982421875)
 			editorPlacementMode = Ground
-			onCarrier = False
+			onCarrier = True
 			mpSelectEnabled = True
 			UnitFields
 			{
@@ -85,7 +85,7 @@ CustomScenario
 				fuel = 100
 				autoRefuel = True
 				autoRTB = True
-				rtbDestination = 
+				rtbDestination = map:0
 				parkedStartMode = FlightReady
 				engageEnemies = False
 				detectionMode = Default
@@ -108,14 +108,14 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 250
-					defaultOrbitPoint = 0
+					defaultNavSpeed = 300
+					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
 					fuel = 100
 					autoRefuel = True
 					autoRTB = True
-					rtbDestination = 
+					rtbDestination = map:1
 					parkedStartMode = FlightReady
 					engageEnemies = False
 					detectionMode = Default
@@ -139,14 +139,14 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 250
-					defaultOrbitPoint = 0
+					defaultNavSpeed = 300
+					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
 					fuel = 100
 					autoRefuel = True
 					autoRTB = True
-					rtbDestination = 
+					rtbDestination = map:2
 					parkedStartMode = FlightReady
 					engageEnemies = False
 					detectionMode = Default
@@ -170,14 +170,14 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 250
-					defaultOrbitPoint = 0
+					defaultNavSpeed = 300
+					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
 					fuel = 100
 					autoRefuel = True
 					autoRTB = True
-					rtbDestination = 
+					rtbDestination = map:0
 					parkedStartMode = FlightReady
 					engageEnemies = False
 					detectionMode = Default
@@ -201,14 +201,14 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 250
-					defaultOrbitPoint = 0
+					defaultNavSpeed = 300
+					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
 					fuel = 100
 					autoRefuel = True
 					autoRTB = True
-					rtbDestination = 
+					rtbDestination = map:1
 					parkedStartMode = FlightReady
 					engageEnemies = False
 					detectionMode = Default
@@ -232,14 +232,14 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 250
-					defaultOrbitPoint = 0
+					defaultNavSpeed = 300
+					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
 					fuel = 100
 					autoRefuel = True
 					autoRTB = True
-					rtbDestination = 
+					rtbDestination = map:2
 					parkedStartMode = FlightReady
 					engageEnemies = False
 					detectionMode = Default
@@ -263,14 +263,14 @@ CustomScenario
 					unitGroup = null
 					defaultBehavior = Orbit
 					initialSpeed = 250
-					defaultNavSpeed = 250
-					defaultOrbitPoint = 0
+					defaultNavSpeed = 300
+					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
 					fuel = 100
 					autoRefuel = True
 					autoRTB = True
-					rtbDestination = 
+					rtbDestination = map:0
 					parkedStartMode = FlightReady
 					engageEnemies = False
 					detectionMode = Default
@@ -295,13 +295,13 @@ CustomScenario
 					defaultBehavior = Orbit
 					initialSpeed = 250
 					defaultNavSpeed = 250
-					defaultOrbitPoint = 0
+					defaultOrbitPoint = 8
 					defaultPath = null
 					orbitAltitude = 10000
 					fuel = 100
 					autoRefuel = True
 					autoRTB = True
-					rtbDestination = 
+					rtbDestination = map:1
 					parkedStartMode = FlightReady
 					engageEnemies = False
 					detectionMode = Default
@@ -313,9 +313,566 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = Aircraft Carrier
+			globalPosition = (-41482.59375, -5, 200992.703125)
+			unitInstanceID = 2
+			unitID = AlliedCarrier
+			rotation = (0, 89.99999, 0)
+			lastValidPlacement = (-121062.71875, -5, -40563.3076171875)
+			editorPlacementMode = Sea
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Allied:Hotel
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 0
+				hullNumber = 42
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (278701.375, -5, 203128.7041015625)
+				rotation = (0, 180, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Allied:Hotel
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 42
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (277720.39453125, -5, -39963.046875)
+				rotation = (0, 270, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Allied:Hotel
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 42
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (-121062.71875, -5, -40563.3076171875)
+				rotation = (0, 0, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Allied:Hotel
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 42
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Assault Carrier
+			globalPosition = (-42735.0322265625, -5, 201402.88757324219)
+			unitInstanceID = 3
+			unitID = AlliedAAShip
+			rotation = (0, 90, 0)
+			lastValidPlacement = (-122079.92712402344, -5, -42447.727996826172)
+			editorPlacementMode = Sea
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Allied:Hotel
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 0
+				hullNumber = 69
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+				carrierSpawns = 0:0:-1;0:-1;0:-1;0:-1;0:-1;0:-1;
+			}
+			altSpawn
+			{
+				globalPos = (279395.03616333008, -5, 205278.79962158203)
+				rotation = (0, 180, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 0
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (279383.50085449219, -5, -41529.672485351563)
+				rotation = (0, 301.052, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 0
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (-122079.92712402344, -5, -42447.727996826172)
+				rotation = (0, 0, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 0
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Cruiser
+			globalPosition = (-41918.011352539063, -5, 200723.81951904297)
+			unitInstanceID = 4
+			unitID = EscortCruiser
+			rotation = (0, 89.99999, 0)
+			lastValidPlacement = (-120540.98608398438, -5, -40571.615966796875)
+			editorPlacementMode = Sea
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Allied:Hotel
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 0
+				hullNumber = 23
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (278177.55242919922, -5, 203147.17309570313)
+				rotation = (0, 180, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 0
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (277701.96435546875, -5, -39424.008445739746)
+				rotation = (0, 270, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 0
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (-120540.98608398438, -5, -40571.615966796875)
+				rotation = (0, 0, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 0
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Cruiser
+			globalPosition = (-42278.072387695313, -5, 201010.14053821564)
+			unitInstanceID = 5
+			unitID = EscortCruiser
+			rotation = (0, 89.99999, 0)
+			lastValidPlacement = (-121143.84187316895, -5, -41827.342407226563)
+			editorPlacementMode = Sea
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Allied:Hotel
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 0
+				hullNumber = 11
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (278705.90215444565, -5, 204303.68383789063)
+				rotation = (0, 180, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 0
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (278748.07934570313, -5, -39988.860420227051)
+				rotation = (0, 270, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 0
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (-121143.84187316895, -5, -41827.342407226563)
+				rotation = (0, 0, 0)
+				weight = 100
+				placementMode = Sea
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					defaultBehavior = Navigate_Path
+					defaultWaypoint = null
+					defaultPath = 0
+					hullNumber = 0
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = NFP Carrier
+			globalPosition = (83896.68017578125, -5, 66322.925048828125)
+			unitInstanceID = 7
+			unitID = EnemyCarrier
+			rotation = (0, 289.0762, 0)
+			lastValidPlacement = (83896.68017578125, -5, 66322.925048828125)
+			editorPlacementMode = Sea
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Whiskey
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 1
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+				carrierSpawns = 0:-1;0:-1;0:-1;0:-1;0:-1;0:-1;0:12:-1;0:-1;0:-1;0:11:-1;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = DMS Cruiser
+			globalPosition = (83796.073547363281, -5, 65877.152648925781)
+			unitInstanceID = 8
+			unitID = DroneMissileCruiser
+			rotation = (0, 289.0762, 0)
+			lastValidPlacement = (83796.073547363281, -5, 65877.152648925781)
+			editorPlacementMode = Sea
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Whiskey
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 1
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = NMSS Cruiser
+			globalPosition = (84441.644104003906, -5, 66796.515258789063)
+			unitInstanceID = 9
+			unitID = ESuperMissileCruiser
+			rotation = (0, 289.0762, 0)
+			lastValidPlacement = (84441.644104003906, -5, 66796.515258789063)
+			editorPlacementMode = Sea
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Whiskey
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 1
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = CruiserStealthCap1
+			globalPosition = (83981.118507385254, 13.530029296875, 66334.250381469727)
+			unitInstanceID = 11
+			unitID = ASF-33
+			rotation = (0, 220.7402, 0)
+			lastValidPlacement = (84153.397155761719, 79.442489624023438, 66240.152633666992)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Zulu
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 6000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = unit:7
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;;;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = CruiserStealthCap2
+			globalPosition = (83962.431678771973, 13.529998779296875, 66351.505279541016)
+			unitInstanceID = 12
+			unitID = ASF-33
+			rotation = (0, 217.4544, 0)
+			lastValidPlacement = (84131.028686523438, 79.442497253417969, 66168.554183959961)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Zulu
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 6000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = unit:7
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+		}
 	}
 	PATHS
 	{
+		PATH
+		{
+			id = 0
+			name = AlliedCarrierPath
+			loop = True
+			points = (-41482.59375, -5, 200992.6875);(278701.375, -5, 203128.6875);(277720.40625, -5, -39963.046875);(-121062.71875, -5, -40563.3125);
+			pathMode = Smooth
+		}
+		PATH
+		{
+			id = 1
+			name = EnemyCarrierPath
+			loop = True
+			points = (120032.828125, -5, 121600.40625);(96634.5, -5, 68211.921875);(67052, -5, 78726.5546875);(85912.1875, -5, 115008.5625);
+			pathMode = Smooth
+		}
+		PATH
+		{
+			id = 2
+			name = CapTFPath
+			loop = True
+			points = (42505.921875, 6091, 84289.4375);(58819.421875, 6091, 92274.1875);(65085.03125, 6091, 106564.8125);(69067.578125, 6091, 117079.515625);(82079.34375, 6091, 132585.046875);(81512.21875, 6091, 138542.8125);(74493.25, 6091, 143834.734375);(60905.5, 6091, 132018.21875);(46424.40625, 6091, 123786.6875);(29613.859375, 6091, 121548.65625);(22764.28125, 6091, 119311.46875);(23131.1875, 6091, 107700.578125);(29915.53125, 6091, 92421.71875);
+			pathMode = Bezier
+		}
+		PATH
+		{
+			id = 3
+			name = CapGCPath
+			loop = True
+			points = (144488.6875, 6091, 51751);(156692.25, 6091, 57634.7734375);(164578.9375, 6091, 67128.8828125);(166155.75, 6091, 79309.2890625);(161815.875, 6091, 91100.96875);(153064.9375, 6091, 96145.53125);(139322.828125, 6091, 96816.28125);(132107.046875, 6091, 88250.90625);(124440.171875, 6091, 81203.609375);(122931.859375, 6091, 70475.453125);(133967.796875, 6091, 55081.984375);
+			pathMode = Bezier
+		}
+		PATH
+		{
+			id = 4
+			name = CapChannelPath
+			loop = True
+			points = (75520.25, 6091, 60514.28125);(98166.84375, 6091, 61032.546875);(108376.15625, 6091, 71296.0390625);(118102.515625, 6091, 91362.234375);(131087.65625, 6091, 108567.984375);(120893.4375, 6091, 117686.46875);(102920.03125, 6091, 119763.71875);(92419.3125, 6091, 106059.09375);(81017.78125, 6091, 89610.53125);(69565.15625, 6091, 69281.9609375);
+			pathMode = Bezier
+		}
 	}
 	WAYPOINTS
 	{
@@ -376,12 +933,53 @@ CustomScenario
 	}
 	UNITGROUPS
 	{
+		ALLIED
+		{
+			Hotel = 1;2;4;5;3;
+			Hotel_SETTINGS
+			{
+				syncAltSpawns = True
+			}
+		}
+		ENEMY
+		{
+			Whiskey = 1;7;8;9;
+			Zulu = 2;11;12;
+			Whiskey_SETTINGS
+			{
+				syncAltSpawns = True
+			}
+			Zulu_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+		}
 	}
 	TimedEventGroups
 	{
 	}
 	TRIGGER_EVENTS
 	{
+		TriggerEvent
+		{
+			id = 4
+			enabled = True
+			triggerType = Conditional
+			conditional = 42
+			eventName = OnEnemyResupplierDead
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Event_Sequences
+					targetID = 6
+					eventName = Restart
+					methodName = Restart
+					altTargetIdx = -1
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -739,15 +1337,1083 @@ CustomScenario
 				c_value = 4
 			}
 		}
+		CONDITIONAL
+		{
+			id = 42
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-335.8184, 43.90559, 0)
+				unit = 1
+				methodName = SC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 41
+			outputNodePos = (202.9999, -33, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCOr
+				uiPos = (58, 69, 0)
+				factors = 1;3;2;4;5;6;7;8;
+			}
+			COMP
+			{
+				id = 1
+				type = SCCUnit
+				uiPos = (-401.4224, 618.1423, 0)
+				unit = 1
+				methodName = SCC_NearWaypoint
+				isNot = False
+				methodParameters
+				{
+					value = 1
+				}
+				methodParameters
+				{
+					value = 2000
+				}
+			}
+			COMP
+			{
+				id = 2
+				type = SCCUnit
+				uiPos = (-402.2112, 307.5085, 0)
+				unit = 1
+				methodName = SCC_NearWaypoint
+				isNot = False
+				methodParameters
+				{
+					value = 3
+				}
+				methodParameters
+				{
+					value = 2000
+				}
+			}
+			COMP
+			{
+				id = 3
+				type = SCCUnit
+				uiPos = (-402.8168, 463.7199, 0)
+				unit = 1
+				methodName = SCC_NearWaypoint
+				isNot = False
+				methodParameters
+				{
+					value = 2
+				}
+				methodParameters
+				{
+					value = 2000
+				}
+			}
+			COMP
+			{
+				id = 4
+				type = SCCUnit
+				uiPos = (-401.8721, 147.6209, 0)
+				unit = 1
+				methodName = SCC_NearWaypoint
+				isNot = False
+				methodParameters
+				{
+					value = 4
+				}
+				methodParameters
+				{
+					value = 2000
+				}
+			}
+			COMP
+			{
+				id = 5
+				type = SCCUnit
+				uiPos = (-402.872, -15.92838, 0)
+				unit = 1
+				methodName = SCC_NearWaypoint
+				isNot = False
+				methodParameters
+				{
+					value = 5
+				}
+				methodParameters
+				{
+					value = 2000
+				}
+			}
+			COMP
+			{
+				id = 6
+				type = SCCUnit
+				uiPos = (-402.5196, -171.0584, 0)
+				unit = 1
+				methodName = SCC_NearWaypoint
+				isNot = False
+				methodParameters
+				{
+					value = 6
+				}
+				methodParameters
+				{
+					value = 2000
+				}
+			}
+			COMP
+			{
+				id = 7
+				type = SCCUnit
+				uiPos = (-403.7063, -325.3213, 0)
+				unit = 1
+				methodName = SCC_NearWaypoint
+				isNot = False
+				methodParameters
+				{
+					value = 7
+				}
+				methodParameters
+				{
+					value = 2000
+				}
+			}
+			COMP
+			{
+				id = 8
+				type = SCCUnit
+				uiPos = (-403.7063, -482.1246, 0)
+				unit = 1
+				methodName = SCC_NearWaypoint
+				isNot = False
+				methodParameters
+				{
+					value = 0
+				}
+				methodParameters
+				{
+					value = 2000
+				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 43
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnitGroup
+				uiPos = (-322, 42, 0)
+				unitGroup = Enemy:Zulu
+				methodName = SCC_AllAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 44
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-373, 68, 0)
+				unit = 1
+				methodName = SC_IsLanded
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 46
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-325, 46, 0)
+				unit = 1
+				methodName = SC_IsLanded
+				isNot = False
+			}
+		}
 	}
 	ConditionalActions
 	{
 	}
 	RandomEvents
 	{
+		RANDOM_EVENT
+		{
+			id = 0
+			note = Orders the resupply aircraft to land on an available airbase (controlled by enemy) and takeoff again
+			ACTION
+			{
+				id = 1
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-374, 49, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Rearm
+						methodName = RearmAt
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = AirportReference
+							value = map:0
+							name = Airfield
+							ParamAttrInfo
+							{
+								type = TeamOptions
+								data = SameTeam
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 2
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-355, 58, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Rearm
+						methodName = RearmAt
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = AirportReference
+							value = map:2
+							name = Airfield
+							ParamAttrInfo
+							{
+								type = TeamOptions
+								data = SameTeam
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 3
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-365, 58, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Rearm
+						methodName = RearmAt
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = AirportReference
+							value = map:1
+							name = Airfield
+							ParamAttrInfo
+							{
+								type = TeamOptions
+								data = SameTeam
+							}
+						}
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 4
+			note = Choose orbit wpt
+			ACTION
+			{
+				id = 5
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Orbit Waypoint
+						methodName = SetOrbitNow
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = Waypoint
+							value = 1
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 9000
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,10000)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 6
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Orbit Waypoint
+						methodName = SetOrbitNow
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = Waypoint
+							value = 2
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 9000
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,10000)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 7
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Orbit Waypoint
+						methodName = SetOrbitNow
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = Waypoint
+							value = 3
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 9000
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,10000)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 8
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Orbit Waypoint
+						methodName = SetOrbitNow
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = Waypoint
+							value = 4
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 9000
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,10000)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 9
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Orbit Waypoint
+						methodName = SetOrbitNow
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = Waypoint
+							value = 5
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 9000
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,10000)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 10
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Orbit Waypoint
+						methodName = SetOrbitNow
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = Waypoint
+							value = 6
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 9000
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,10000)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 11
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Orbit Waypoint
+						methodName = SetOrbitNow
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = Waypoint
+							value = 7
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 9000
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,10000)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 12
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Orbit Waypoint
+						methodName = SetOrbitNow
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = Waypoint
+							value = 0
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 9000
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,10000)
+							}
+						}
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 13
+			note = 
+			ACTION
+			{
+				id = 14
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 225
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 2
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 15
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 225
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 3
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 16
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 225
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 4
+							name = Path
+						}
+					}
+				}
+			}
+		}
 	}
 	EventSequences
 	{
+		SEQUENCE
+		{
+			id = 6
+			sequenceName = EnemyResupplierBehaviour
+			startImmediately = True
+			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Randomize spawn point
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Respawn, if needed
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 1
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Choose landing base
+				exitConditional = 46
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 0
+							name = Event
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				conditional = 44
+				delay = 0
+				nodeName = Choose orbit wpt and T/O
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 4
+							name = Event
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				conditional = 41
+				delay = 0
+				nodeName = Detect egress
+				EventInfo
+				{
+					eventName = 
+				}
+			}
+			EVENT
+			{
+				delay = 60
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 6
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 7
+			sequenceName = MinutesCounter
+			startImmediately = True
+			whileLoop = False
+			EVENT
+			{
+				delay = 60
+				nodeName = Add one minute
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 5
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Loop
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 7
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 8
+			sequenceName = CarrierFighersCAP
+			startImmediately = True
+			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Choose random cap path
+				exitConditional = 43
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 13
+							name = Event
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 1200
+				nodeName = Respawn if dead in 20 mins
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 225
+						eventName = Spawn All
+						methodName = SpawnAll
+						altTargetIdx = -1
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Loop
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 8
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+			}
+		}
 	}
 	BASES
 	{
@@ -796,6 +2462,10 @@ CustomScenario
 		gv
 		{
 			data = 4;isSouthEnemyControlled;Wether South Tenerife airbase is controlled by the enemy;1;
+		}
+		gv
+		{
+			data = 5;minutesElapsed;Minutes passed since the beginning of the mission;0;
 		}
 	}
 	Briefing
