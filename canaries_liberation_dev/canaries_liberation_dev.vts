@@ -1,0 +1,837 @@
+CustomScenario
+{
+	gameVersion = 1.11.4f1
+	campaignID = canaries_liberation
+	campaignOrderIdx = 0
+	scenarioName = Liberation of the Canaries
+	scenarioID = canaries_liberation_dev
+	scenarioDescription = WIP
+	mapID = gctf
+	vehicle = F-45A
+	multiplayer = False
+	allowedEquips = f45_gun;f45_sidewinderx2;f45_aim9x1;f45_amraamInternal;f45_amraamRail;f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_droptank;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;f45_harmSDx1;f45_harmSDx2;
+	forcedEquips = ;;;;;;;;;;;
+	forceEquips = False
+	normForcedFuel = 1
+	equipsConfigurable = False
+	baseBudget = 100000
+	isTraining = False
+	rtbWptID = 
+	refuelWptID = 
+	infiniteAmmo = False
+	infAmmoReloadDelay = 5
+	fuelDrainMult = 1
+	envName = day
+	selectableEnv = False
+	windDir = 0
+	windSpeed = 0
+	windVariation = 0
+	windGusts = 0
+	defaultWeather = 0
+	customTimeOfDay = 11
+	overrideLocation = False
+	overrideLatitude = 0
+	overrideLongitude = 0
+	month = 1
+	day = 1
+	year = 2024
+	timeOfDaySpeed = 1
+	qsMode = Anywhere
+	qsLimit = -1
+	WEATHER_PRESETS
+	{
+	}
+	UNITS
+	{
+		UnitSpawner
+		{
+			unitName = Player
+			globalPosition = (165451.46472167969, 41.124755859375, 73023.281982421875)
+			unitInstanceID = 0
+			unitID = PlayerSpawn
+			rotation = (1.366038E-05, -3.256888E-12, -1.366038E-05)
+			lastValidPlacement = (165451.46472167969, 41.124755859375, 73023.281982421875)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				startMode = Cold
+				initialSpeed = 0
+				unitGroup = null
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Resupplier
+			globalPosition = (-19681.8359375, 9139, 174980.197265625)
+			unitInstanceID = 1
+			unitID = EBomberAI
+			rotation = (0, 135, 0)
+			lastValidPlacement = (-121384.3466796875, 9139, 90994.291870117188)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = Orbit
+				initialSpeed = 250
+				defaultNavSpeed = 300
+				defaultOrbitPoint = 8
+				defaultPath = null
+				orbitAltitude = 10000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				rtbDestination = 
+				parkedStartMode = FlightReady
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = ;;;;
+			}
+			altSpawn
+			{
+				globalPos = (119516.509765625, 9139, 200561.60632324219)
+				rotation = (0, 180, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					defaultBehavior = Orbit
+					initialSpeed = 250
+					defaultNavSpeed = 250
+					defaultOrbitPoint = 0
+					defaultPath = null
+					orbitAltitude = 10000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = False
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ;;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (271805.44799804688, 9139, 196636.06958007813)
+				rotation = (0, 225, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					defaultBehavior = Orbit
+					initialSpeed = 250
+					defaultNavSpeed = 250
+					defaultOrbitPoint = 0
+					defaultPath = null
+					orbitAltitude = 10000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = False
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ;;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (277380.546875, 9139, 77229.797668457031)
+				rotation = (0, 270, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					defaultBehavior = Orbit
+					initialSpeed = 250
+					defaultNavSpeed = 250
+					defaultOrbitPoint = 0
+					defaultPath = null
+					orbitAltitude = 10000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = False
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ;;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (275658.11849975586, 9139, -37931.937377929688)
+				rotation = (0, 315, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					defaultBehavior = Orbit
+					initialSpeed = 250
+					defaultNavSpeed = 250
+					defaultOrbitPoint = 0
+					defaultPath = null
+					orbitAltitude = 10000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = False
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ;;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (67858.515487670898, 9139, -39714.789611816406)
+				rotation = (0, 0, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					defaultBehavior = Orbit
+					initialSpeed = 250
+					defaultNavSpeed = 250
+					defaultOrbitPoint = 0
+					defaultPath = null
+					orbitAltitude = 10000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = False
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ;;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (-117878.73858642578, 9139, -37476.106811523438)
+				rotation = (0, 45, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					defaultBehavior = Orbit
+					initialSpeed = 250
+					defaultNavSpeed = 250
+					defaultOrbitPoint = 0
+					defaultPath = null
+					orbitAltitude = 10000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = False
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ;;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (-121384.3466796875, 9139, 90994.291870117188)
+				rotation = (0, 90, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					defaultBehavior = Orbit
+					initialSpeed = 250
+					defaultNavSpeed = 250
+					defaultOrbitPoint = 0
+					defaultPath = null
+					orbitAltitude = 10000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = False
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ;;;;
+				}
+			}
+		}
+	}
+	PATHS
+	{
+		PATH
+		{
+			id = 0
+			name = limit_north
+			loop = False
+			points = (-41482.59375, 9139, 200992.6875);(278701.375, 9139, 203128.6875);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 1
+			name = limit_east
+			loop = False
+			points = (278701.375, 9139, 203128.6875);(277720.40625, 9139, -39963.046875);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 2
+			name = limit_south
+			loop = False
+			points = (277720.40625, 9139, -39963.03125);(-121062.71875, 9139, -40563.3125);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 3
+			name = limit_west
+			loop = False
+			points = (277720.40625, 9139, -39963.03125);(-41482.59375, 9139, 200992.703125);
+			pathMode = Linear
+		}
+	}
+	WAYPOINTS
+	{
+		WAYPOINT
+		{
+			id = 0
+			name = border_nw
+			globalPoint = (-41482.587890625, 9139, 200992.69921875)
+		}
+		WAYPOINT
+		{
+			id = 1
+			name = border_n
+			globalPoint = (119839.380859375, 9139, 212547.71484375)
+		}
+		WAYPOINT
+		{
+			id = 2
+			name = border_ne
+			globalPoint = (278701.36328125, 9139, 203128.7041015625)
+		}
+		WAYPOINT
+		{
+			id = 3
+			name = border_e
+			globalPoint = (283781.57971191406, 9139, 76961.638671875)
+		}
+		WAYPOINT
+		{
+			id = 4
+			name = border_se
+			globalPoint = (277720.39453125, 9139, -39963.041015625)
+		}
+		WAYPOINT
+		{
+			id = 5
+			name = border_s
+			globalPoint = (67973.142578125, 9139, -43666.202484130859)
+		}
+		WAYPOINT
+		{
+			id = 6
+			name = border_sw
+			globalPoint = (-121062.724609375, 9139, -40563.3076171875)
+		}
+		WAYPOINT
+		{
+			id = 7
+			name = border_w
+			globalPoint = (-124179.70678710938, 9139, 91007.42578125)
+		}
+		WAYPOINT
+		{
+			id = 8
+			name = center
+			globalPoint = (94925.34375, 9139, 93838.275390625)
+		}
+	}
+	UNITGROUPS
+	{
+	}
+	TimedEventGroups
+	{
+	}
+	TRIGGER_EVENTS
+	{
+	}
+	OBJECTIVES
+	{
+	}
+	OBJECTIVES_OPFOR
+	{
+	}
+	StaticObjects
+	{
+	}
+	Conditionals
+	{
+		CONDITIONAL
+		{
+			id = 6
+			outputNodePos = (0, 0, 0)
+			root = 1
+			COMP
+			{
+				id = 0
+				type = SCCChance
+				uiPos = (-444, 203, 0)
+				chance = 33
+			}
+			COMP
+			{
+				id = 1
+				type = SCCAnd
+				uiPos = (-147, 44, 0)
+				factors = 0;2;
+			}
+			COMP
+			{
+				id = 2
+				type = SCCGlobalValue
+				uiPos = (-451.4167, -58.72339, 0)
+				gv = 2
+				comparison = Equals
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 4
+			outputNodePos = (0, 0, 0)
+		}
+		CONDITIONAL
+		{
+			id = 5
+			outputNodePos = (0, 0, 0)
+		}
+		CONDITIONAL
+		{
+			id = 7
+			outputNodePos = (32, 12, 0)
+			root = 1
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-464, 195, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 0
+			}
+			COMP
+			{
+				id = 1
+				type = SCCAnd
+				uiPos = (-131, 54, 0)
+				factors = 0;2;3;
+			}
+			COMP
+			{
+				id = 2
+				type = SCCChance
+				uiPos = (-451, 29, 0)
+				chance = 50
+			}
+			COMP
+			{
+				id = 3
+				type = SCCGlobalValue
+				uiPos = (-439, -99, 0)
+				gv = 3
+				comparison = Equals
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 8
+			outputNodePos = (47, -4, 0)
+			root = 1
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-409, 169, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 0
+			}
+			COMP
+			{
+				id = 1
+				type = SCCAnd
+				uiPos = (-102, 41, 0)
+				factors = 0;2;
+			}
+			COMP
+			{
+				id = 2
+				type = SCCGlobalValue
+				uiPos = (-407.873, -47.58081, 0)
+				gv = 4
+				comparison = Equals
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 9
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-388, 49, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 10
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-393, 61, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 11
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-411, 54, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 12
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-357, 47, 0)
+				gv = 1
+				comparison = Equals
+				c_value = 0
+			}
+		}
+		CONDITIONAL
+		{
+			id = 15
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-397, 44, 0)
+				gv = 0
+				comparison = Equals
+				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 18
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCChance
+				uiPos = (-354, 49, 0)
+				chance = 25
+			}
+		}
+		CONDITIONAL
+		{
+			id = 19
+			outputNodePos = (0, 0, 0)
+			root = 1
+			COMP
+			{
+				id = 0
+				type = SCCChance
+				uiPos = (-494, 173, 0)
+				chance = 33
+			}
+			COMP
+			{
+				id = 1
+				type = SCCAnd
+				uiPos = (-133, 48, 0)
+				factors = 0;2;
+			}
+			COMP
+			{
+				id = 2
+				type = SCCGlobalValue
+				uiPos = (-473, -13, 0)
+				gv = 5
+				comparison = Equals
+				c_value = 0
+			}
+		}
+		CONDITIONAL
+		{
+			id = 20
+			outputNodePos = (0, 0, 0)
+			root = 1
+			COMP
+			{
+				id = 0
+				type = SCCChance
+				uiPos = (-464, 175, 0)
+				chance = 50
+			}
+			COMP
+			{
+				id = 1
+				type = SCCAnd
+				uiPos = (-138, 50, 0)
+				factors = 0;2;
+			}
+			COMP
+			{
+				id = 2
+				type = SCCGlobalValue
+				uiPos = (-460, 6, 0)
+				gv = 5
+				comparison = Equals
+				c_value = 0
+			}
+		}
+		CONDITIONAL
+		{
+			id = 21
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-390, 44, 0)
+				gv = 5
+				comparison = Equals
+				c_value = 0
+			}
+		}
+		CONDITIONAL
+		{
+			id = 22
+			outputNodePos = (0, 0, 0)
+			root = 1
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-453, 168, 0)
+				gv = 5
+				comparison = Equals
+				c_value = 1
+			}
+			COMP
+			{
+				id = 1
+				type = SCCOr
+				uiPos = (-140, 51, 0)
+				factors = 0;2;
+			}
+			COMP
+			{
+				id = 2
+				type = SCCGlobalValue
+				uiPos = (-472, 11, 0)
+				gv = 5
+				comparison = Equals
+				c_value = 0
+			}
+		}
+		CONDITIONAL
+		{
+			id = 23
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-386, 48, 0)
+				gv = 5
+				comparison = Equals
+				c_value = 2
+			}
+		}
+		CONDITIONAL
+		{
+			id = 24
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-400, 52, 0)
+				gv = 5
+				comparison = Equals
+				c_value = 3
+			}
+		}
+		CONDITIONAL
+		{
+			id = 25
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-440, 67, 0)
+				gv = 5
+				comparison = Equals
+				c_value = 4
+			}
+		}
+	}
+	ConditionalActions
+	{
+	}
+	RandomEvents
+	{
+	}
+	EventSequences
+	{
+	}
+	BASES
+	{
+		BaseInfo
+		{
+			id = 0
+			overrideBaseName = 
+			baseTeam = Enemy
+			CUSTOM_DATA
+			{
+			}
+		}
+		BaseInfo
+		{
+			id = 1
+			overrideBaseName = 
+			baseTeam = Enemy
+			CUSTOM_DATA
+			{
+			}
+		}
+		BaseInfo
+		{
+			id = 2
+			overrideBaseName = 
+			baseTeam = Enemy
+			CUSTOM_DATA
+			{
+			}
+		}
+	}
+	GlobalValues
+	{
+		gv
+		{
+			data = 0;debug;Enables debug mode.///nUsed for debug messages.;1;
+		}
+		gv
+		{
+			data = 2;isGandoEnemyControlled;Wether Gando airbase is controlled by the enemy;1;
+		}
+		gv
+		{
+			data = 3;isRodeosEnemyControlled;Wether Los Rodeos airbase is controlled by the enemy;1;
+		}
+		gv
+		{
+			data = 4;isSouthEnemyControlled;Wether South Tenerife airbase is controlled by the enemy;1;
+		}
+	}
+	Briefing
+	{
+	}
+}
+
