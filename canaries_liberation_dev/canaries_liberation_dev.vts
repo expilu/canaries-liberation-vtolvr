@@ -65,11 +65,11 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = Resupplier
-			globalPosition = (-19681.8359375, 9139, 174980.197265625)
+			globalPosition = (-41482.587890625, 9139, 200992.69921875)
 			unitInstanceID = 1
 			unitID = EBomberAI
 			rotation = (0, 135, 0)
-			lastValidPlacement = (-121384.3466796875, 9139, 90994.291870117188)
+			lastValidPlacement = (-124179.70703125, 9139, 91007.421875)
 			editorPlacementMode = Air
 			onCarrier = False
 			mpSelectEnabled = True
@@ -97,7 +97,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (119516.509765625, 9139, 200561.60632324219)
+				globalPos = (119839.375, 9139, 212547.71484375)
 				rotation = (0, 180, 0)
 				weight = 100
 				placementMode = Air
@@ -128,7 +128,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (271805.44799804688, 9139, 196636.06958007813)
+				globalPos = (278701.36328125, 9139, 203128.7041015625)
 				rotation = (0, 225, 0)
 				weight = 100
 				placementMode = Air
@@ -159,7 +159,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (277380.546875, 9139, 77229.797668457031)
+				globalPos = (283781.580078125, 9139, 76961.640625)
 				rotation = (0, 270, 0)
 				weight = 100
 				placementMode = Air
@@ -190,7 +190,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (275658.11849975586, 9139, -37931.937377929688)
+				globalPos = (277720.39453125, 9139, -39963.0390625)
 				rotation = (0, 315, 0)
 				weight = 100
 				placementMode = Air
@@ -221,7 +221,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (67858.515487670898, 9139, -39714.789611816406)
+				globalPos = (67973.140625, 9139, -43666.202392578125)
 				rotation = (0, 0, 0)
 				weight = 100
 				placementMode = Air
@@ -252,7 +252,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (-117878.73858642578, 9139, -37476.106811523438)
+				globalPos = (-121062.71875, 9139, -40563.3076171875)
 				rotation = (0, 45, 0)
 				weight = 100
 				placementMode = Air
@@ -283,8 +283,8 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (-121384.3466796875, 9139, 90994.291870117188)
-				rotation = (0, 90, 0)
+				globalPos = (-124179.70703125, 9139, 91007.421875)
+				rotation = (0, 89.99999, 0)
 				weight = 100
 				placementMode = Air
 				onCarrier = False
