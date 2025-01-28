@@ -930,6 +930,24 @@ CustomScenario
 			name = center
 			globalPoint = (94925.34375, 9139, 93838.275390625)
 		}
+		WAYPOINT
+		{
+			id = 9
+			name = Gando
+			globalPoint = (165730.89978027344, 41.123779296875, 72822.044311523438)
+		}
+		WAYPOINT
+		{
+			id = 10
+			name = LosRodeos
+			globalPoint = (73740.085998535156, 589.516357421875, 132532.90127563477)
+		}
+		WAYPOINT
+		{
+			id = 11
+			name = TfSouth
+			globalPoint = (49587.258087158203, 90.81317138671875, 85423.09423828125)
+		}
 	}
 	UNITGROUPS
 	{
@@ -983,6 +1001,123 @@ CustomScenario
 	}
 	OBJECTIVES
 	{
+		Objective
+		{
+			objectiveName = Conquer Gando
+			objectiveInfo = Conquer Gando airbase. Eliminate all hostiles and land.
+			objectiveID = 0
+			orderID = 0
+			required = True
+			completionReward = 0
+			waypoint = 9
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Global_Value
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				currentValue = 2
+				targetValue = 10
+			}
+		}
+		Objective
+		{
+			objectiveName = Conquer Los Rodeos
+			objectiveInfo = Conquer Los Rodeos airbase. Eliminate all hostiles and land.
+			objectiveID = 1
+			orderID = 1
+			required = True
+			completionReward = 0
+			waypoint = 10
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Global_Value
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				currentValue = 3
+				targetValue = 10
+			}
+		}
+		Objective
+		{
+			objectiveName = Conquer South base
+			objectiveInfo = Conquer Tenerife South airbase. Eliminate all hostiles and land.
+			objectiveID = 2
+			orderID = 2
+			required = True
+			completionReward = 0
+			waypoint = 11
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Global_Value
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				currentValue = 4
+				targetValue = 10
+			}
+		}
 	}
 	OBJECTIVES_OPFOR
 	{
@@ -2540,6 +2675,10 @@ CustomScenario
 		gv
 		{
 			data = 4;isSouthEnemyControlled;Wether South Tenerife airbase is controlled by the enemy;1;
+		}
+		gv
+		{
+			data = 10;constBaseConquered;Value to check for a base having been conquered by the allied faction;0;
 		}
 		gv
 		{
