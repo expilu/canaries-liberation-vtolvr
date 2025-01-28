@@ -998,6 +998,152 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 5
+			enabled = True
+			triggerType = Conditional
+			conditional = 52
+			eventName = OnStealthCAPAirborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Random Event
+					methodName = FireRandomEvent
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = RandomEventReference
+						value = 20
+						name = Event
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 6
+			enabled = True
+			triggerType = Proximity
+			waypoint = unit:11
+			radius = 64000
+			sphericalRadius = False
+			triggerMode = AnyAllied
+			proxyMode = OnEnter
+			eventName = StealthCap1Alert
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 11
+					eventName = Set Engage Enemies
+					methodName = SetEngageEnemies
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = System.Boolean
+						value = True
+						name = Engage
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 7
+			enabled = True
+			triggerType = Proximity
+			waypoint = unit:11
+			radius = 64000
+			sphericalRadius = False
+			triggerMode = AnyAllied
+			proxyMode = OnExit
+			eventName = StealthCap1Calm
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 11
+					eventName = Set Engage Enemies
+					methodName = SetEngageEnemies
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Engage
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 8
+			enabled = True
+			triggerType = Proximity
+			waypoint = unit:12
+			radius = 64000
+			sphericalRadius = False
+			triggerMode = AnyAllied
+			proxyMode = OnEnter
+			eventName = StealthCap2Alert
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 12
+					eventName = Set Engage Enemies
+					methodName = SetEngageEnemies
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = System.Boolean
+						value = True
+						name = Engage
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 9
+			enabled = True
+			triggerType = Proximity
+			waypoint = unit:12
+			radius = 64000
+			sphericalRadius = False
+			triggerMode = AnyAllied
+			proxyMode = OnExit
+			eventName = StealthCap2Calm
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 12
+					eventName = Set Engage Enemies
+					methodName = SetEngageEnemies
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Engage
+					}
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -1638,17 +1784,17 @@ CustomScenario
 		}
 		CONDITIONAL
 		{
-			id = 43
+			id = 52
 			outputNodePos = (0, 0, 0)
 			root = 0
 			COMP
 			{
 				id = 0
 				type = SCCUnitGroup
-				uiPos = (-322, 42, 0)
+				uiPos = (-367, 62, 0)
 				unitGroup = Enemy:Zulu
-				methodName = SCC_AllAlive
-				isNot = True
+				methodName = AllAirborne
+				isNot = False
 			}
 		}
 		CONDITIONAL
@@ -1701,9 +1847,108 @@ CustomScenario
 				comparison = Equals
 			}
 		}
+		CONDITIONAL
+		{
+			id = 49
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValueCompare
+				uiPos = (-328, 68, 0)
+				gvA = 6
+				gvB = 11
+				comparison = Equals
+			}
+		}
+		CONDITIONAL
+		{
+			id = 50
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCGlobalValue
+				uiPos = (-339, 49, 0)
+				gv = 12
+				comparison = Less_Than
+				c_value = 1
+			}
+		}
 	}
 	ConditionalActions
 	{
+		ConditionalAction
+		{
+			id = 0
+			name = 
+			BASE_BLOCK
+			{
+				{blockName} = {enemyResources < 1}
+				blockId = 1
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-314, 50, 0)
+						gv = 12
+						comparison = Less_Than
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Reset Value
+						methodName = ResetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 12
+							name = Global Value
+						}
+					}
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 12
+						eventName = Stop
+						methodName = Stop
+						altTargetIdx = -1
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 17
+							name = Event
+						}
+					}
+				}
+			}
+		}
 	}
 	RandomEvents
 	{
@@ -2322,6 +2567,180 @@ CustomScenario
 				}
 			}
 		}
+		RANDOM_EVENT
+		{
+			id = 17
+			note = 
+			ACTION
+			{
+				id = 18
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCUnit
+						uiPos = (-331, 46, 0)
+						unit = 11
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 11
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 11
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 19
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCUnit
+						uiPos = (-359, 60, 0)
+						unit = 12
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 12
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 12
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 20
+			note = 
+			ACTION
+			{
+				id = 21
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 225
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 4
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 22
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 225
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 3
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 23
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 225
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 2
+							name = Path
+						}
+					}
+				}
+			}
+		}
 	}
 	EventSequences
 	{
@@ -2547,7 +2966,7 @@ CustomScenario
 			EVENT
 			{
 				delay = 0
-				nodeName = New Node
+				nodeName = Loop
 				EventInfo
 				{
 					eventName = 
@@ -2564,48 +2983,106 @@ CustomScenario
 		}
 		SEQUENCE
 		{
-			id = 8
-			sequenceName = CarrierFighersCAP
+			id = 10
+			sequenceName = EnemyRespawnerBehaviour
 			startImmediately = True
 			whileLoop = False
 			EVENT
 			{
 				delay = 0
-				nodeName = Choose random cap path
-				exitConditional = 43
+				nodeName = Reset wait counter
 				EventInfo
 				{
 					eventName = 
 					EventTarget
 					{
 						targetType = System
-						targetID = 0
-						eventName = Fire Random Event
-						methodName = FireRandomEvent
+						targetID = 2
+						eventName = Reset Value
+						methodName = ResetValue
 						altTargetIdx = -1
 						ParamInfo
 						{
-							type = RandomEventReference
-							value = 13
-							name = Event
+							type = GlobalValue
+							value = 11
+							name = Global Value
 						}
 					}
 				}
 			}
 			EVENT
 			{
-				delay = 1200
-				nodeName = Respawn if dead in 20 mins
+				delay = 0
+				nodeName = Wait respawn attrition
+				exitConditional = 49
 				EventInfo
 				{
 					eventName = 
 					EventTarget
 					{
-						targetType = UnitGroup
-						targetID = 225
-						eventName = Spawn All
-						methodName = SpawnAll
+						targetType = Event_Sequences
+						targetID = 11
+						eventName = Begin
+						methodName = BeginEvent
 						altTargetIdx = -1
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Stop counter
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 11
+						eventName = Stop
+						methodName = Stop
+						altTargetIdx = -1
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Respawn enemies
+				exitConditional = 50
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 12
+						eventName = Begin
+						methodName = BeginEvent
+						altTargetIdx = -1
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Reset resources
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Reset Value
+						methodName = ResetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 12
+							name = Global Value
+						}
 					}
 				}
 			}
@@ -2619,7 +3096,156 @@ CustomScenario
 					EventTarget
 					{
 						targetType = Event_Sequences
-						targetID = 8
+						targetID = 10
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 11
+			sequenceName = RespawnWaitCounter
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 60
+				nodeName = Increment counter each min
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 11
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Loop
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 11
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 12
+			sequenceName = RespawnEnemies
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Spawn one enemy
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 0
+							name = Action
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Decrement resources
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Decrement Value
+						methodName = DecrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 12
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Subtract
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Loop
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 12
 						eventName = Restart
 						methodName = Restart
 						altTargetIdx = -1
@@ -2687,6 +3313,14 @@ CustomScenario
 		gv
 		{
 			data = 8;resupplyWaitCounter;;0;
+		}
+		gv
+		{
+			data = 11;respawnWaitCounter;;0;
+		}
+		gv
+		{
+			data = 12;enemyResources;Each resource allows respawning one unit;0;
 		}
 	}
 	Briefing
