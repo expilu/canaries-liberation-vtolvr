@@ -3402,6 +3402,117 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = TFN SAM S/A Radar
+			globalPosition = (73347.10546875, 589.50619506835938, 132767.43450927734)
+			unitInstanceID = 42
+			unitID = SamFCR2
+			rotation = (-1.35558E-05, 109.9192, 2.163069E-06)
+			lastValidPlacement = (72226.386962890625, 663.9140625, 135659.57171630859)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (74863.071960449219, 711.3924560546875, 132561.6537361145)
+				rotation = (2.087008E-05, 109.9192, 7.56279E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (71485.029174804688, 633.06005859375, 132823.85876464844)
+				rotation = (0.5717626, 70.27267, 358.2381)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74087.503234863281, 587.60791015625, 131826.3779296875)
+				rotation = (-6.700172E-06, 134.9342, 6.715581E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72631.566040039063, 646.20458984375, 131469.52001953125)
+				rotation = (353.9658, 89.56477, 1.295413)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72226.386962890625, 663.9140625, 135659.57171630859)
+				rotation = (6.761386, 139.7979, 354.3177)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -3458,7 +3569,7 @@ CustomScenario
 			id = 6
 			name = GandoDecoyPath
 			loop = True
-			points = (162723.193359375, 1519, 68598.3955078125);(169405.919921875, 1519, 69547.925048828125);(168855.76025390625, 1519, 76192.59765625);(163320.90380859375, 1519, 75410.388671875);
+			points = (162723.1953125, 1519, 68598.390625);(169405.921875, 1519, 69547.921875);(168855.765625, 1519, 76192.59375);(163320.90625, 1519, 75410.3828125);
 			pathMode = Bezier
 		}
 	}
@@ -7252,6 +7363,65 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 41
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 45
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-125.1977, 43.67361, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-447.7147, 156.9219, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-449.6557, 22.01896, 0)
+						unit = 42
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 42
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 42
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
