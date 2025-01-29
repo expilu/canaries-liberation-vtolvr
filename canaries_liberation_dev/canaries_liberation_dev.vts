@@ -4724,6 +4724,117 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = TFN Decoy Radar
+			globalPosition = (74558.923461914063, 589.50654602050781, 132578.08889770508)
+			unitInstanceID = 53
+			unitID = eDecoyRadarTransmitter
+			rotation = (-1.352422E-05, 107.5206, 2.770428E-06)
+			lastValidPlacement = (73167.516876220703, 589.50619506835938, 132195.80899047852)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (73812.564788818359, 587.6075439453125, 132145.21179199219)
+				rotation = (-1.427928E-06, 107.5206, 4.523149E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73270.706359863281, 589.51617431640625, 133056.39868164063)
+				rotation = (1.623365E-06, 20.62764, 1.343709E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72726.901245117188, 589.5159912109375, 133173.30780029297)
+				rotation = (-2.055622E-06, 198.7806, -1.337779E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72586.801696777344, 589.5159912109375, 132487.30395507813)
+				rotation = (3.473268E-06, 14.11288, 1.327009E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73167.516876220703, 589.50619506835938, 132195.80899047852)
+				rotation = (-1.310831E-05, 101.7139, 4.075619E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -9261,6 +9372,65 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 52
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 56
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-139.7008, 39.91452, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-508.9101, 136.8498, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-483.2507, -8.55311, 0)
+						unit = 53
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 53
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 53
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
