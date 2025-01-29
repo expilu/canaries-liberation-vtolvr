@@ -5633,6 +5633,282 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = TFS IRMD Launcher 1
+			globalPosition = (51195.483764648438, 89.28021240234375, 85804.836608886719)
+			unitInstanceID = 60
+			unitID = eIRMDlauncher
+			rotation = (0.5497982, 81.49667, 357.9882)
+			lastValidPlacement = (49513.074768066406, 90.76483154296875, 85883.60693359375)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (50895.373596191406, 89.480712890625, 86356.982604980469)
+				rotation = (0.7871001, 65.15285, 0.7588125)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50714.854064941406, 99.272964477539063, 86266.545715332031)
+				rotation = (1.435583E-06, 65.14243, 3.098705E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50973.464477539063, 88.904541015625, 85474.10400390625)
+				rotation = (-1.345446E-06, 106.4787, 4.548356E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50277.099365234375, 88.904541015625, 85097.870849609375)
+				rotation = (5.049271E-07, 86.9489, 9.472907E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50219.282775878906, 90.76507568359375, 86178.658569335938)
+				rotation = (-2.469763E-05, 67.68874, -6.242165E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50481.9658203125, 88.9044189453125, 86668.453979492188)
+				rotation = (6.047907E-06, 50.39157, 7.308474E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49513.074768066406, 90.76483154296875, 85883.60693359375)
+				rotation = (-2.490985E-05, 67.25211, -6.123063E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = TFS IRMD Launcher 2
+			globalPosition = (48289.11181640625, 88.904541015625, 84512.150634765625)
+			unitInstanceID = 61
+			unitID = eIRMDlauncher
+			rotation = (-7.354351E-06, 219.172, -5.992089E-06)
+			lastValidPlacement = (48532.200317382813, 90.764434814453125, 85257.384521484375)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (48713.088623046875, 86.182373046875, 84136.429809570313)
+				rotation = (3.088391, 180.1138, 1.984356)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49321.270629882813, 88.363037109375, 84472.279052734375)
+				rotation = (3.799126, 161.2476, 358.7114)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48068.797546386719, 89.59173583984375, 85201.716003417969)
+				rotation = (1.60871, 209.5994, 358.8056)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48492.8505859375, 88.904541015625, 85774.4521484375)
+				rotation = (-6.208196E-06, 229.1234, -7.172841E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48878.30517578125, 88.904541015625, 85973.963623046875)
+				rotation = (-7.29006E-06, 219.7825, -6.070072E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48532.200317382813, 90.764434814453125, 85257.384521484375)
+				rotation = (1.460526E-05, 177.9622, -2.109845E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -10654,6 +10930,124 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 59
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 63
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-132.5732, 47.04211, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-521.7397, 173.9132, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-498.3855, -11.44896, 0)
+						unit = 60
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 60
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 60
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 64
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-162.5091, 51.31866, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-553.1011, 173.9132, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-518.8887, 4.276555, 0)
+						unit = 61
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 61
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 61
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
