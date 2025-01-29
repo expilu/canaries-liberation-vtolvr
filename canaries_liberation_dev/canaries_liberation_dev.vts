@@ -1131,6 +1131,40 @@ CustomScenario
 				equips = eucav_gun;;;;;
 			}
 		}
+		UnitSpawner
+		{
+			unitName = AEW-50 Bulwark
+			globalPosition = (74754.428100585938, 598.05661010742188, 132435.69412231445)
+			unitInstanceID = 24
+			unitID = AEW-50
+			rotation = (-2.812881E-06, 197.6983, -1.384136E-05)
+			lastValidPlacement = (74754.428100585938, 598.05661010742188, 132435.69412231445)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = TakeOff
+				initialSpeed = 210
+				defaultNavSpeed = 210
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 8000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = Cold
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+		}
 	}
 	PATHS
 	{
@@ -1179,7 +1213,7 @@ CustomScenario
 			id = 5
 			name = EnemyAlertZone
 			loop = True
-			points = (195881.90625, -5, 62052.3984375);(180784.265625, -5, 123830.1484375);(123257.9609375, -5, 126461.40625);(115122.421875, -5, 164876.53125);(61074.28125, -5, 171051.40625);(35594.953125, -5, 150750.65625);(-11368.328125, -5, 129127.7578125);(16556.140625, -5, 59644.9375);(94252.28125, -5, 61795.296875);(146113.34375, -5, 20717.03515625);(179730.71875, -5, 34312.6796875);
+			points = (195881.90625, -5, 62052.3984375);(180784.265625, -5, 123830.1484375);(123257.9609375, -5, 126461.40625);(115122.421875, -5, 164876.53125);(61074.28125, -5, 171051.40625);(35594.953125, -5, 150750.65625);(-11368.328125, -5, 129127.7578125);(16556.140625, -5, 59644.9375);(94252.28125, -5, 61795.296875);(146113.34375, -5, 20717.03125);(179730.71875, -5, 34312.6796875);
 			pathMode = Linear
 		}
 	}
