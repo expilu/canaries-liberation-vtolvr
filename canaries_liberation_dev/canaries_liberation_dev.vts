@@ -4976,6 +4976,261 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = TFN MMWT
+			globalPosition = (73150.858795166016, 589.50615692138672, 132614.81962585449)
+			unitInstanceID = 55
+			unitID = EMWSTruck
+			rotation = (-1.333831E-05, 105.3131, 3.244681E-06)
+			lastValidPlacement = (74848.582153320313, 589.5166015625, 132491.88201904297)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				radarUnits = 42;43;44;45;
+				decoyUnits = 53;
+				unitsToDefend = 46;47;48;49;50;51;52;53;54;55;
+				defenseUnits = 48;49;
+				jammerUnits = 54;
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (73396.784484863281, 589.50621032714844, 132921.93902587891)
+				rotation = (-2.832715E-06, 197.0764, -1.343183E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 42;43;44;45;
+					decoyUnits = 53;
+					unitsToDefend = 46;47;48;49;50;51;52;53;54;55;
+					defenseUnits = 48;49;
+					jammerUnits = 54;
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73464.302185058594, 589.50623321533203, 132725.58694458008)
+				rotation = (-1.34612E-05, 107.6858, 2.689719E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 42;43;44;45;
+					decoyUnits = 53;
+					unitsToDefend = 46;47;48;49;50;51;52;53;54;55;
+					defenseUnits = 48;49;
+					jammerUnits = 54;
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74071.939331054688, 589.50640869140625, 132680.48704528809)
+				rotation = (-1.353215E-05, 107.6858, 2.731424E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 42;43;44;45;
+					decoyUnits = 53;
+					unitsToDefend = 46;47;48;49;50;51;52;53;54;55;
+					defenseUnits = 48;49;
+					jammerUnits = 54;
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72403.241943359375, 587.60748291015625, 132111.17749023438)
+				rotation = (-1.440963E-06, 107.6858, 4.519013E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 42;43;44;45;
+					decoyUnits = 53;
+					unitsToDefend = 46;47;48;49;50;51;52;53;54;55;
+					defenseUnits = 48;49;
+					jammerUnits = 54;
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73459.295654296875, 589.50617218017578, 133075.71209716797)
+				rotation = (2.143916E-06, 20.00017, 1.355884E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 42;43;44;45;
+					decoyUnits = 53;
+					unitsToDefend = 46;47;48;49;50;51;52;53;54;55;
+					defenseUnits = 48;49;
+					jammerUnits = 54;
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74533.227172851563, 589.50647735595703, 132668.94268798828)
+				rotation = (-7.651617E-06, 62.75727, 1.149054E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 42;43;44;45;
+					decoyUnits = 53;
+					unitsToDefend = 46;47;48;49;50;51;52;53;54;55;
+					defenseUnits = 48;49;
+					jammerUnits = 54;
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74809.086547851563, 588.72040557861328, 131899.71087646484)
+				rotation = (359.9812, 106.6888, 357.6833)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 42;43;44;45;
+					decoyUnits = 53;
+					unitsToDefend = 46;47;48;49;50;51;52;53;54;55;
+					defenseUnits = 48;49;
+					jammerUnits = 54;
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74848.582153320313, 589.5166015625, 132491.88201904297)
+				rotation = (-1.378961E-05, 106.688, 3.056495E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 42;43;44;45;
+					decoyUnits = 53;
+					unitsToDefend = 46;47;48;49;50;51;52;53;54;55;
+					defenseUnits = 48;49;
+					jammerUnits = 54;
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -5040,7 +5295,7 @@ CustomScenario
 			id = 7
 			name = RodeosDecoyPath
 			loop = True
-			points = (73853.625, 995, 131187.1357421875);(75189.040405273438, 995, 131291.01440429688);(76006.696044921875, 995, 131938.32153320313);(75787.293701171875, 995, 133115.95446777344);(74214.929565429688, 995, 133823.30224609375);(72745.322143554688, 995, 134014.72631835938);(71151.41455078125, 995, 133070.32055664063);
+			points = (73853.625, 995, 131187.1357421875);(75189.040405273438, 995, 131291.01440429688);(76006.696044921875, 995, 131938.32153320313);(75787.293701171875, 995, 133115.95446777344);(74214.929565429688, 995, 133823.30224609375);(72745.322265625, 995, 134014.72631835938);(71151.41455078125, 995, 133070.32055664063);
 			pathMode = Bezier
 		}
 	}
@@ -9631,6 +9886,65 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 54
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 58
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-136.8498, 44.19107, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-487.5273, 156.807, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-481.8252, -8.55311, 0)
+						unit = 55
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 55
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 55
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
