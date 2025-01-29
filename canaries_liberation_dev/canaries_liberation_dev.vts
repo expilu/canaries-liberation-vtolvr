@@ -2810,6 +2810,45 @@ CustomScenario
 			}
 			EVENT
 			{
+				delay = 0
+				nodeName = Add resources
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 12
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			EVENT
+			{
 				conditional = 44
 				delay = 0
 				nodeName = Choose orbit wpt and T/O
