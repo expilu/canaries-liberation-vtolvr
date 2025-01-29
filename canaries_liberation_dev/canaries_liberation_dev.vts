@@ -1397,7 +1397,7 @@ CustomScenario
 			unitInstanceID = 28
 			unitID = SamFCR
 			rotation = (-8.722048E-06, 173.0002, 6.80547E-06)
-			lastValidPlacement = (165476.45928955078, 41.0765380859375, 71877.679138183594)
+			lastValidPlacement = (165064.03157806396, 163.00082397460938, 71561.456359863281)
 			editorPlacementMode = Ground
 			onCarrier = False
 			mpSelectEnabled = True
@@ -1482,6 +1482,24 @@ CustomScenario
 					receiveFriendlyDamage = True
 				}
 			}
+			altSpawn
+			{
+				globalPos = (165064.03157806396, 163.00082397460938, 71561.456359863281)
+				rotation = (2.588216E-07, 137.7815, -3.020849E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -1490,7 +1508,7 @@ CustomScenario
 			unitInstanceID = 29
 			unitID = SamBattery1
 			rotation = (1.933176E-05, 40.79224, -1.54668E-06)
-			lastValidPlacement = (166572.60400390625, 39.216064453125, 72704.5986328125)
+			lastValidPlacement = (164982.37580680847, 49.584480285644531, 71643.06644821167)
 			editorPlacementMode = Ground
 			onCarrier = False
 			mpSelectEnabled = True
@@ -1669,6 +1687,75 @@ CustomScenario
 					equips = ASM-66LR;
 				}
 			}
+			altSpawn
+			{
+				globalPos = (164945.45997619629, 49.584487915039063, 71676.565084457397)
+				rotation = (0, 221.0866, 0)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165087.33303833008, 49.584480285644531, 71630.206771850586)
+				rotation = (-5.38593E-07, 129.112, 6.624553E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164982.37580680847, 49.584480285644531, 71643.06644821167)
+				rotation = (0, 221.0866, 0)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -1677,7 +1764,7 @@ CustomScenario
 			unitInstanceID = 30
 			unitID = SamBattery1
 			rotation = (1.936237E-05, 40.79224, -1.535553E-06)
-			lastValidPlacement = (165161.96057128906, 41.07666015625, 71552.887268066406)
+			lastValidPlacement = (165013.08145427704, 49.584480285644531, 71615.46276473999)
 			editorPlacementMode = Ground
 			onCarrier = False
 			mpSelectEnabled = True
@@ -1791,6 +1878,52 @@ CustomScenario
 			{
 				globalPos = (165161.96057128906, 41.07666015625, 71552.887268066406)
 				rotation = (-7.351472E-07, 137.7815, 1.921687E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164964.19701385498, 49.584487915039063, 71660.77857208252)
+				rotation = (0, 221.0866, 0)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165013.08145427704, 49.584480285644531, 71615.46276473999)
+				rotation = (-6.435041E-07, 221.0866, -5.610989E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
