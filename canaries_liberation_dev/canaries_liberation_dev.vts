@@ -830,6 +830,202 @@ CustomScenario
 				receiveFriendlyDamage = True
 			}
 		}
+		UnitSpawner
+		{
+			unitName = FactoryGCNorth
+			globalPosition = (159322.77587890625, 164.574951171875, 91989.171142578125)
+			unitInstanceID = 19
+			unitID = factory1e
+			rotation = (8.817796, 272.0867, 0.3200024)
+			lastValidPlacement = (163522.40258789063, 1.0606689453125, 96276.3203125)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				combatTarget = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (165195.69970703125, 63.05908203125, 79673.96630859375)
+				rotation = (-9.483383E-06, 181.4394, -2.382964E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					combatTarget = True
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165855.310546875, 44.324951171875, 76799.776611328125)
+				rotation = (351.1626, 180.0917, 8.706661)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					combatTarget = True
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (163823.91540527344, 63.05889892578125, 83660.320373535156)
+				rotation = (-3.531377E-06, 138.1175, 3.16658E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					combatTarget = True
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (163522.40258789063, 1.0606689453125, 96276.3203125)
+				rotation = (359.9673, 179.1588, 357.7779)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					combatTarget = True
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = FactoryTFNorth
+			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
+			unitInstanceID = 18
+			unitID = factory1e
+			rotation = (351.1896, 0.08686125, 351.266)
+			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				combatTarget = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (78404.851928710938, 162.5416259765625, 129887.32958984375)
+				rotation = (351.1896, 0.08686687, 351.266)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					combatTarget = True
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (76085.743896484375, 316.99090576171875, 129770.54150390625)
+				rotation = (359.8089, 358.7686, 351.1785)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					combatTarget = True
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (76829.207763671875, 178.98046875, 128263.98559570313)
+				rotation = (351.0724, 270.6909, 8.614115)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					combatTarget = True
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (71714.73046875, 587.608154296875, 134353.6552734375)
+				rotation = (3.372972E-07, 272.0377, -9.480376E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					combatTarget = True
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -1216,6 +1412,46 @@ CustomScenario
 				{
 					targetType = Objective
 					targetID = 5
+					eventName = Begin Objective
+					methodName = BeginObjective
+					altTargetIdx = -1
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 14
+			enabled = True
+			triggerType = Conditional
+			conditional = 60
+			eventName = OnFactoryTFNorthDetected
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Objective
+					targetID = 9
+					eventName = Begin Objective
+					methodName = BeginObjective
+					altTargetIdx = -1
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 15
+			enabled = True
+			triggerType = Conditional
+			conditional = 61
+			eventName = OnFactoryGCNorthDetected
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Objective
+					targetID = 10
 					eventName = Begin Objective
 					methodName = BeginObjective
 					altTargetIdx = -1
@@ -1760,6 +1996,148 @@ CustomScenario
 			{
 				successConditional = 59
 				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = DestroyFactoryTFNort
+			objectiveInfo = Destroy enemy factory at the north of Tenerife
+			objectiveID = 9
+			orderID = 9
+			required = False
+			completionReward = 0
+			waypoint = unit:18
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 18;
+				minRequired = 1
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = DestroyFactoryGCNort
+			objectiveInfo = 
+			objectiveID = 10
+			orderID = 10
+			required = False
+			completionReward = 0
+			waypoint = unit:19
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 19;
+				minRequired = 1
+				perUnitReward = 0
+				fullCompleteBonus = 0
 			}
 		}
 	}
@@ -2496,6 +2874,44 @@ CustomScenario
 				objectReference = 2
 				methodName = SCC_IsDestroyed
 				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 60
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-411.7801, 57.94511, 0)
+				unit = 18
+				methodName = SC_DetectedBy
+				isNot = False
+				methodParameters
+				{
+					value = Allied
+				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 61
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-456.1636, 87.5341, 0)
+				unit = 19
+				methodName = SC_DetectedBy
+				isNot = False
+				methodParameters
+				{
+					value = Allied
+				}
 			}
 		}
 	}
