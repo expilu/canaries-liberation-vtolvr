@@ -6331,6 +6331,117 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = TFS Decoy Launcher
+			globalPosition = (49023.3544921875, 88.904327392578125, 86147.303405761719)
+			unitInstanceID = 67
+			unitID = staticDecoyLauncher
+			rotation = (-4.602804E-06, 166.0253, 1.145447E-06)
+			lastValidPlacement = (49145.033294677734, 90.76470947265625, 85665.286468505859)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (49311.445648193359, 90.7646484375, 85019.393920898438)
+				rotation = (6.843726E-06, 158.8851, -2.475498E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48085.022094726563, 88.90478515625, 85653.939453125)
+				rotation = (-8.849464E-06, 158.8851, 3.417377E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49908.563705444336, 90.813201904296875, 84997.594299316406)
+				rotation = (9.233318E-06, 153.6037, -2.36457E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48815.745849609375, 90.8131103515625, 84499.479553222656)
+				rotation = (9.233318E-06, 153.6037, -2.36457E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49145.033294677734, 90.76470947265625, 85665.286468505859)
+				rotation = (2.479368E-05, 218.584, -6.577688E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -6396,6 +6507,14 @@ CustomScenario
 			name = RodeosDecoyPath
 			loop = True
 			points = (73853.625, 995, 131187.13671875);(75189.041015625, 995, 131291.015625);(76006.6953125, 995, 131938.32421875);(75787.29296875, 995, 133115.95703125);(74214.9296875, 995, 133823.3046875);(72745.322265625, 995, 134014.7265625);(71151.4140625, 995, 133070.3203125);
+			pathMode = Bezier
+		}
+		PATH
+		{
+			id = 8
+			name = TfSouthDecoyPath
+			loop = True
+			points = (49736.1259765625, 1012.931884765625, 87624.1513671875);(46752.7138671875, 1012.931884765625, 87108.943481445313);(45806.99853515625, 1012.931884765625, 85056.58984375);(48182.53857421875, 1012.931884765625, 82705.0185546875);(52214.815673828125, 1012.931884765625, 83352.2431640625);(53072.9208984375, 1012.931884765625, 86026.89892578125);(50517.280029296875, 1012.931884765625, 87943.231201171875);(49805.3134765625, 1012.931884765625, 87834.617919921875);
 			pathMode = Bezier
 		}
 	}
@@ -6865,6 +6984,36 @@ CustomScenario
 					{
 						type = FollowPath
 						value = 7
+						name = Path
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 21
+			enabled = True
+			triggerType = Proximity
+			waypoint = 11
+			radius = 27000
+			sphericalRadius = False
+			triggerMode = AnyAllied
+			proxyMode = OnEnter
+			eventName = OnTFSDecoyLauncherAlert
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 67
+					eventName = Launch Random Decoy On Path
+					methodName = FireDecoyPathERandom
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = FollowPath
+						value = 8
 						name = Path
 					}
 				}
@@ -11706,6 +11855,65 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 65
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 69
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-131.1477, 51.31866, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-486.1018, 158.2325, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-486.1018, -14.25518, 0)
+						unit = 67
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 67
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 67
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
