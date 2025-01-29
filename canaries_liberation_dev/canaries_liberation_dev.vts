@@ -5909,6 +5909,242 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = TFS SAM Launcher 1
+			globalPosition = (50386.281127929688, 88.904541015625, 85238.204833984375)
+			unitInstanceID = 62
+			unitID = SamBattery1
+			rotation = (3.842876E-06, 66.10291, 8.673132E-06)
+			lastValidPlacement = (50863.5908203125, 88.90435791015625, 86762.041076660156)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				radarUnits = 57;58;59;
+				allowReload = True
+				reloadTime = 120
+				allowHOJ = True
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = ASM-66LR;
+			}
+			altSpawn
+			{
+				globalPos = (50424.258544921875, 90.765121459960938, 86079.690612792969)
+				rotation = (-2.467825E-05, 67.86555, -6.31835E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 57;58;59;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49810.443725585938, 88.1536865234375, 84715.56201171875)
+				rotation = (0.9047772, 67.85975, 359.6319)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 57;58;59;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50916.353881835938, 87.1171875, 85156.877197265625)
+				rotation = (1.268662, 67.85413, 359.4837)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 57;58;59;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50863.5908203125, 88.90435791015625, 86762.041076660156)
+				rotation = (1.787145E-06, 67.86555, 4.393628E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 57;58;59;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = TFS SAM Launcher 2
+			globalPosition = (48421.74560546875, 89.09716796875, 85880.49365234375)
+			unitInstanceID = 63
+			unitID = SamBattery1
+			rotation = (0.3210266, 238.1958, 0.5176612)
+			lastValidPlacement = (48526.041564941406, 90.764434814453125, 85295.818359375)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				radarUnits = 57;58;59;
+				allowReload = True
+				reloadTime = 120
+				allowHOJ = True
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = ASM-66LR;
+			}
+			altSpawn
+			{
+				globalPos = (48100.175964355469, 89.53546142578125, 85126.585021972656)
+				rotation = (1.999803, 242.7018, 359.8778)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 57;58;59;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48618.242431640625, 88.9044189453125, 84172.852416992188)
+				rotation = (-9.128899E-06, 195.7787, -2.579548E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 57;58;59;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49256.053283691406, 90.764602661132813, 84872.662506103516)
+				rotation = (7.982538E-06, 161.5388, -2.441157E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 57;58;59;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48526.041564941406, 90.764434814453125, 85295.818359375)
+				rotation = (8.044093E-06, 161.5388, -2.4367E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 57;58;59;
+					allowReload = True
+					reloadTime = 120
+					allowHOJ = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASM-66LR;
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -11048,6 +11284,124 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 61
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 65
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-151.1049, 47.04211, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-497.5059, 148.2539, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-476.1231, -39.91452, 0)
+						unit = 62
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 62
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 62
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 66
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-136.8498, 47.04211, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-496.0804, 171.0622, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-491.8038, -32.78692, 0)
+						unit = 63
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 63
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 63
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
