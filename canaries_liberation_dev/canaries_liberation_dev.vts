@@ -4656,6 +4656,77 @@ CustomScenario
 				fullCompleteBonus = 0
 			}
 		}
+		Objective
+		{
+			objectiveName = DestroyGandoDefenses
+			objectiveInfo = Destroy Gando base air defenses
+			objectiveID = 12
+			orderID = 12
+			required = False
+			completionReward = 0
+			waypoint = 9
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 27;28;29;30;31;32;33;34;37;38;39;40;41;36;
+				minRequired = 14
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
 	}
 	OBJECTIVES_OPFOR
 	{
