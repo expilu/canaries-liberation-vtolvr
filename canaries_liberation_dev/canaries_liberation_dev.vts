@@ -13,7 +13,7 @@ CustomScenario
 	forcedEquips = ;;;;;;;;;;;
 	forceEquips = False
 	normForcedFuel = 1
-	equipsConfigurable = False
+	equipsConfigurable = True
 	baseBudget = 100000
 	isTraining = False
 	rtbWptID = 
@@ -31,7 +31,7 @@ CustomScenario
 	customTimeOfDay = 11
 	overrideLocation = False
 	overrideLatitude = 0
-	overrideLongitude = 0
+	overrideLongitude = -2.245383E-06
 	month = 1
 	day = 1
 	year = 2024
@@ -836,7 +836,7 @@ CustomScenario
 			globalPosition = (159322.77587890625, 164.574951171875, 91989.171142578125)
 			unitInstanceID = 19
 			unitID = factory1e
-			rotation = (8.8178, 272.0867, 0.3200024)
+			rotation = (8.8178, 272.0867, 0.3200032)
 			lastValidPlacement = (163522.40258789063, 1.0606689453125, 96276.3203125)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -854,7 +854,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165195.69970703125, 63.05908203125, 79673.96630859375)
-				rotation = (-9.483386E-06, 181.4394, -2.382964E-07)
+				rotation = (-9.483388E-06, 181.4394, -2.382964E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -934,7 +934,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.0868611, 351.266)
+			rotation = (351.1896, 0.086861, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1032,7 +1032,7 @@ CustomScenario
 			globalPosition = (165369.54971313477, 43.3740234375, 71933.512939453125)
 			unitInstanceID = 20
 			unitID = ASF-58
-			rotation = (-9.909041E-07, 312.0598, -1.929326E-05)
+			rotation = (-9.909033E-07, 312.0598, -1.929326E-05)
 			lastValidPlacement = (165369.54971313477, 43.3740234375, 71933.512939453125)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1158,6 +1158,66 @@ CustomScenario
 				rtbDestination = map:2
 				parkedStartMode = Cold
 				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = GC SAM S/A Radar
+			globalPosition = (168045.44067382813, 84.1221923828125, 72641.931884765625)
+			unitInstanceID = 25
+			unitID = AlliedEWRadar
+			rotation = (359.1718, 41.22456, 347.6458)
+			lastValidPlacement = (163074.31182861328, 158.431640625, 73584.5341796875)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (163074.31182861328, 158.431640625, 73584.5341796875)
+				rotation = (5.088585E-06, 57.56035, 8.006074E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = GC EWR
+			globalPosition = (148126.68173217773, 1803.7086181640625, 75884.983673095703)
+			unitInstanceID = 26
+			unitID = ewRadarPyramid
+			rotation = (-1.132724E-05, 57.56035, -1.905197E-06)
+			lastValidPlacement = (148126.68173217773, 1803.7086181640625, 75884.983673095703)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
 				detectionMode = Default
 				spawnOnStart = True
 				invincible = False
@@ -1605,6 +1665,26 @@ CustomScenario
 						value = Close
 						name = Distance
 					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 18
+			enabled = True
+			triggerType = Conditional
+			conditional = 64
+			eventName = OnGCEWRDetected
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Objective
+					targetID = 11
+					eventName = Begin Objective
+					methodName = BeginObjective
+					altTargetIdx = -1
 				}
 			}
 		}
@@ -2290,6 +2370,77 @@ CustomScenario
 				fullCompleteBonus = 0
 			}
 		}
+		Objective
+		{
+			objectiveName = DestroyGCEWR
+			objectiveInfo = Destroy the EWR in Pico de las Nieves
+			objectiveID = 11
+			orderID = 11
+			required = False
+			completionReward = 0
+			waypoint = unit:26
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 26;
+				minRequired = 1
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
 	}
 	OBJECTIVES_OPFOR
 	{
@@ -2316,6 +2467,13 @@ CustomScenario
 			id = 2
 			globalPos = (74805.2109375, -5, 157162.294921875)
 			rotation = (0, 358.7389, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform2_2x2
+			id = 3
+			globalPos = (148115.16465759277, 1803.608642578125, 75889.472137451172)
+			rotation = (0, 57.56036, 0)
 		}
 	}
 	Conditionals
@@ -3077,6 +3235,25 @@ CustomScenario
 				unit = 20
 				methodName = SC_IsLanded
 				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 64
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-325, 53, 0)
+				unit = 26
+				methodName = SC_DetectedBy
+				isNot = False
+				methodParameters
+				{
+					value = Allied
+				}
 			}
 		}
 	}
