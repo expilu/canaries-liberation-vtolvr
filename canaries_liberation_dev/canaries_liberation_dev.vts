@@ -1039,7 +1039,7 @@ CustomScenario
 			mpSelectEnabled = True
 			UnitFields
 			{
-				unitGroup = null
+				unitGroup = Enemy:Xray
 				defaultBehavior = TakeOff
 				initialSpeed = 220
 				defaultNavSpeed = 220
@@ -1059,6 +1059,76 @@ CustomScenario
 				respawnable = True
 				receiveFriendlyDamage = True
 				equips = asf58_gun;asf58_mrmx8;asf58_mrmx8;asf58_srmx2Left;asf58_srmx2Right;;;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = LoyalWingman
+			globalPosition = (168747.9853515625, 299.79998779296875, 73213.115539550781)
+			unitInstanceID = 22
+			unitID = AIUCAV
+			rotation = (0, 29.78995, 0)
+			lastValidPlacement = (168747.9853515625, 299.79998779296875, 73213.115539550781)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Xray
+				defaultBehavior = Orbit
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = null
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = False
+				defaultRadarEnabled = True
+				rtbDestination = 
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;;;;;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = LoyalWingman
+			globalPosition = (168980.92260742188, 299.79998779296875, 73019.430053710938)
+			unitInstanceID = 23
+			unitID = AIUCAV
+			rotation = (0, 29.78995, 0)
+			lastValidPlacement = (168980.92260742188, 299.79998779296875, 73019.430053710938)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Xray
+				defaultBehavior = Orbit
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = null
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = False
+				defaultRadarEnabled = True
+				rtbDestination = 
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;;;;;
 			}
 		}
 	}
@@ -1220,11 +1290,16 @@ CustomScenario
 		{
 			Whiskey = 1;7;8;9;
 			Zulu = 2;11;12;
+			Xray = 2;20;22;23;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = True
 			}
 			Zulu_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Xray_SETTINGS
 			{
 				syncAltSpawns = False
 			}
@@ -1404,6 +1479,22 @@ CustomScenario
 						value = 25
 						name = Event
 					}
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 22
+					eventName = Spawn Unit
+					methodName = SpawnUnit
+					altTargetIdx = -2
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 23
+					eventName = Spawn Unit
+					methodName = SpawnUnit
+					altTargetIdx = -2
 				}
 			}
 		}
