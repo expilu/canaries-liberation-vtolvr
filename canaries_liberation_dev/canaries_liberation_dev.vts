@@ -6996,6 +6996,77 @@ CustomScenario
 				fullCompleteBonus = 0
 			}
 		}
+		Objective
+		{
+			objectiveName = DestroyRodeosDefense
+			objectiveInfo = 
+			objectiveID = 13
+			orderID = 13
+			required = False
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;
+				minRequired = 15
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
 	}
 	OBJECTIVES_OPFOR
 	{
