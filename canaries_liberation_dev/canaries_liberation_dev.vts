@@ -1144,6 +1144,26 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 10
+			enabled = True
+			triggerType = Conditional
+			conditional = 53
+			eventName = OnCarrierDetected
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Objective
+					targetID = 3
+					eventName = Begin Objective
+					methodName = BeginObjective
+					altTargetIdx = -1
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -1262,6 +1282,77 @@ CustomScenario
 			{
 				currentValue = 4
 				targetValue = 10
+			}
+		}
+		Objective
+		{
+			objectiveName = Sink aircraft carrie
+			objectiveInfo = Sink the enemy aircraft carrier
+			objectiveID = 3
+			orderID = 3
+			required = False
+			completionReward = 0
+			waypoint = unit:7
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 7;
+				minRequired = 1
+				perUnitReward = 0
+				fullCompleteBonus = 0
 			}
 		}
 	}
@@ -1875,6 +1966,25 @@ CustomScenario
 				gv = 12
 				comparison = Less_Than
 				c_value = 1
+			}
+		}
+		CONDITIONAL
+		{
+			id = 53
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-491.917, 69.04098, 0)
+				unit = 7
+				methodName = SC_DetectedBy
+				isNot = False
+				methodParameters
+				{
+					value = Allied
+				}
 			}
 		}
 	}
