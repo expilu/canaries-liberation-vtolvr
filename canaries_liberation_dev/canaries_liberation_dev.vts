@@ -3237,6 +3237,171 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = GC SL-MRM Launcher
+			globalPosition = (165629.14111328125, 41.646270751953125, 73018.463119506836)
+			unitInstanceID = 41
+			unitID = slmrmLauncher
+			rotation = (1.478104E-06, 130.9622, 1.936684E-05)
+			lastValidPlacement = (165052.74444580078, 41.64666748046875, 72286.437866210938)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				radarUnits = 27;28;38;
+				allowReload = False
+				reloadTime = 120
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = ASF-MRM;
+			}
+			altSpawn
+			{
+				globalPos = (166147.65631103516, 41.64599609375, 73603.2561647892)
+				rotation = (1.409351E-06, 130.9622, 1.93147E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;38;
+					allowReload = False
+					reloadTime = 120
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASF-MRM;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165059.80316162109, 41.64666748046875, 71974.888977050781)
+				rotation = (-1.915901E-05, 220.6341, 1.661576E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;38;
+					allowReload = False
+					reloadTime = 120
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASF-MRM;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (166314.13494873047, 41.646270751953125, 72458.013366699219)
+				rotation = (1.068624E-06, 132.2079, 1.936406E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;38;
+					allowReload = False
+					reloadTime = 120
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASF-MRM;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (166342.31512451172, 41.6461181640625, 72991.400863647461)
+				rotation = (9.912843E-07, 132.2079, 1.935578E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;38;
+					allowReload = False
+					reloadTime = 120
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASF-MRM;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165052.74444580078, 41.64666748046875, 72286.437866210938)
+				rotation = (-1.908825E-05, 220.861, 1.475128E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 27;28;38;
+					allowReload = False
+					reloadTime = 120
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ASF-MRM;
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -6957,6 +7122,65 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 40
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 44
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-121.3156, 45.61467, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-428.972, 141.6966, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-407.6204, -1.94105, 0)
+						unit = 41
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 41
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 41
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
