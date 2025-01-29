@@ -4613,6 +4613,117 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = TFN Decoy Launcher
+			globalPosition = (74700.239929199219, 587.607666015625, 131859.68725585938)
+			unitInstanceID = 52
+			unitID = staticDecoyLauncher
+			rotation = (-2.805255E-06, 107.2004, 9.062111E-06)
+			lastValidPlacement = (72558.37744140625, 589.51602172851563, 132385.84350585938)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (74798.572143554688, 589.506591796875, 132316.19299316406)
+				rotation = (-1.350853E-05, 107.2004, 2.845964E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74889.119140625, 589.50665283203125, 132468.7705078125)
+				rotation = (-1.350853E-05, 107.2004, 2.845964E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74194.111083984375, 589.50645446777344, 132827.6491394043)
+				rotation = (1.334579E-05, 284.2768, -3.531244E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73033.386535644531, 589.51611328125, 133153.02850341797)
+				rotation = (1.256332E-05, 319.3567, 5.035241E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72558.37744140625, 589.51602172851563, 132385.84350585938)
+				rotation = (2.326003E-06, 19.01747, 1.351845E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -4670,6 +4781,14 @@ CustomScenario
 			name = GandoDecoyPath
 			loop = True
 			points = (162723.1953125, 1519, 68598.390625);(169405.921875, 1519, 69547.921875);(168855.765625, 1519, 76192.59375);(163320.90625, 1519, 75410.3828125);
+			pathMode = Bezier
+		}
+		PATH
+		{
+			id = 7
+			name = RodeosDecoyPath
+			loop = True
+			points = (73853.625, 995, 131187.13549804688);(75189.040405273438, 995, 131291.01416015625);(76006.696044921875, 995, 131938.3212890625);(75787.293701171875, 995, 133115.95422363281);(74214.929565429688, 995, 133823.30200195313);(72745.322143554688, 995, 134014.72607421875);(71151.41455078125, 995, 133070.3203125);
 			pathMode = Bezier
 		}
 	}
@@ -5109,6 +5228,36 @@ CustomScenario
 					{
 						type = FollowPath
 						value = 6
+						name = Path
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 20
+			enabled = True
+			triggerType = Proximity
+			waypoint = 10
+			radius = 27000
+			sphericalRadius = False
+			triggerMode = AnyAllied
+			proxyMode = OnEnter
+			eventName = OnTFNDecoyLauncherAlerted
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 52
+					eventName = Launch Random Decoy On Path
+					methodName = FireDecoyPathERandom
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = FollowPath
+						value = 7
 						name = Path
 					}
 				}
@@ -9053,6 +9202,65 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 51
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 55
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-143.9774, 41.34003, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-500.357, 125.4456, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-488.9528, -19.95726, 0)
+						unit = 52
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 52
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 52
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
