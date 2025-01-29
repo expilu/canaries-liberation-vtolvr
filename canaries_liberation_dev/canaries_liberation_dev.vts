@@ -1184,6 +1184,26 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 12
+			enabled = True
+			triggerType = Conditional
+			conditional = 55
+			eventName = OnNMSSCruiserDetected
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Objective
+					targetID = 5
+					eventName = Begin Objective
+					methodName = BeginObjective
+					altTargetIdx = -1
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -1441,6 +1461,77 @@ CustomScenario
 			fields
 			{
 				targets = 8;
+				minRequired = 1
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = Sink NMSS Cruiser
+			objectiveInfo = Sink NMSS Cruiser
+			objectiveID = 5
+			orderID = 5
+			required = False
+			completionReward = 0
+			waypoint = unit:9
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 9;
 				minRequired = 1
 				perUnitReward = 0
 				fullCompleteBonus = 0
@@ -2089,6 +2180,25 @@ CustomScenario
 				type = SCCUnit
 				uiPos = (-413.013, 67.80811, 0)
 				unit = 8
+				methodName = SC_DetectedBy
+				isNot = False
+				methodParameters
+				{
+					value = Allied
+				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 55
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-321.7803, 56.71223, 0)
+				unit = 9
 				methodName = SC_DetectedBy
 				isNot = False
 				methodParameters
