@@ -948,6 +948,24 @@ CustomScenario
 			name = TfSouth
 			globalPoint = (49587.258087158203, 90.81317138671875, 85423.09423828125)
 		}
+		WAYPOINT
+		{
+			id = 12
+			name = oil1
+			globalPoint = (170822.7421875, 68.843994140625, 82871.8916015625)
+		}
+		WAYPOINT
+		{
+			id = 13
+			name = oil2
+			globalPoint = (32853.233764648438, 68.843963623046875, 81159.48095703125)
+		}
+		WAYPOINT
+		{
+			id = 14
+			name = oil3
+			globalPoint = (74805.2109375, 68.843978881835938, 157162.294921875)
+		}
 	}
 	UNITGROUPS
 	{
@@ -1537,12 +1555,240 @@ CustomScenario
 				fullCompleteBonus = 0
 			}
 		}
+		Objective
+		{
+			objectiveName = Destroy oil1
+			objectiveInfo = Destroy oil platform east of Gran Canaria
+			objectiveID = 6
+			orderID = 6
+			required = False
+			completionReward = 0
+			waypoint = 12
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				successConditional = 56
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = Destroy oil2
+			objectiveInfo = Destroy oil platform south of Tenerife
+			objectiveID = 7
+			orderID = 7
+			required = False
+			completionReward = 0
+			waypoint = 13
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				successConditional = 58
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = Destroy oil3
+			objectiveInfo = Destroy oil platform north of Tenerife
+			objectiveID = 8
+			orderID = 8
+			required = False
+			completionReward = 0
+			waypoint = 14
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				successConditional = 59
+				failConditional = null
+			}
+		}
 	}
 	OBJECTIVES_OPFOR
 	{
 	}
 	StaticObjects
 	{
+		StaticObject
+		{
+			prefabID = Destructible_OilRig
+			id = 0
+			globalPos = (170822.7421875, -5, 82871.8916015625)
+			rotation = (0, 6.118688, 0)
+		}
+		StaticObject
+		{
+			prefabID = Destructible_OilRig
+			id = 1
+			globalPos = (32853.233764648438, -5, 81159.48095703125)
+			rotation = (0, 348.3589, 0)
+		}
+		StaticObject
+		{
+			prefabID = Destructible_OilRig
+			id = 2
+			globalPos = (74805.2109375, -5, 157162.294921875)
+			rotation = (0, 358.7389, 0)
+		}
 	}
 	Conditionals
 	{
@@ -2205,6 +2451,51 @@ CustomScenario
 				{
 					value = Allied
 				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 56
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCStaticObject
+				uiPos = (-395.7527, 60.41086, 0)
+				objectReference = 0
+				methodName = SCC_IsDestroyed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 58
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCStaticObject
+				uiPos = (-445.0677, 56.71223, 0)
+				objectReference = 1
+				methodName = SCC_IsDestroyed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 59
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCStaticObject
+				uiPos = (-468.4924, 91.23272, 0)
+				objectReference = 2
+				methodName = SCC_IsDestroyed
+				isNot = False
 			}
 		}
 	}
