@@ -6442,6 +6442,117 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = TFS Decoy Radar
+			globalPosition = (49638.878311157227, 90.764816284179688, 85565.972442626953)
+			unitInstanceID = 68
+			unitID = eDecoyRadarTransmitter
+			rotation = (-1.787987E-05, 99.25257, -1.8393E-05)
+			lastValidPlacement = (49275.507553100586, 90.764617919921875, 84792.038208007813)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (50064.2841796875, 88.904541015625, 84818.431274414063)
+				rotation = (-1.525285E-06, 99.25257, 9.362958E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50445.3837890625, 88.90435791015625, 86595.193908691406)
+				rotation = (-1.525281E-06, 99.25257, 9.362931E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49209.03564453125, 90.76470947265625, 85842.748168945313)
+				rotation = (1.992001E-05, 194.3894, -1.616124E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49937.398956298828, 90.76495361328125, 85997.953308105469)
+				rotation = (4.175326E-06, 152.8099, -2.530927E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49275.507553100586, 90.764617919921875, 84792.038208007813)
+				rotation = (4.18541E-06, 152.8099, -2.534024E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -6514,7 +6625,7 @@ CustomScenario
 			id = 8
 			name = TfSouthDecoyPath
 			loop = True
-			points = (49736.1259765625, 1012.931884765625, 87624.1513671875);(46752.7138671875, 1012.931884765625, 87108.943481445313);(45806.99853515625, 1012.931884765625, 85056.58984375);(48182.53857421875, 1012.931884765625, 82705.0185546875);(52214.815673828125, 1012.931884765625, 83352.2431640625);(53072.9208984375, 1012.931884765625, 86026.89892578125);(50517.280029296875, 1012.931884765625, 87943.231201171875);(49805.3134765625, 1012.931884765625, 87834.617919921875);
+			points = (49736.1259765625, 1012.931884765625, 87624.1513671875);(46752.7138671875, 1012.931884765625, 87108.943359375);(45806.99853515625, 1012.931884765625, 85056.58984375);(48182.53857421875, 1012.931884765625, 82705.0185546875);(52214.815673828125, 1012.931884765625, 83352.2431640625);(53072.9208984375, 1012.931884765625, 86026.89892578125);(50517.280029296875, 1012.931884765625, 87943.231201171875);(49805.3134765625, 1012.931884765625, 87834.617919921875);
 			pathMode = Bezier
 		}
 	}
@@ -11914,6 +12025,65 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 67
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 70
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-148.2539, 57.02074, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-558.8032, 172.4877, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-545.9736, -18.53174, 0)
+						unit = 68
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 68
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 68
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
