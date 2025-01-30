@@ -10141,9 +10141,9 @@ CustomScenario
 				id = 0
 				type = SCCGlobalValueCompare
 				uiPos = (-226, 62, 0)
-				gvA = 6
-				gvB = 8
-				comparison = Equals
+				gvA = 8
+				gvB = 6
+				comparison = Greater_Or_Equal
 			}
 		}
 		CONDITIONAL
@@ -10156,9 +10156,9 @@ CustomScenario
 				id = 0
 				type = SCCGlobalValueCompare
 				uiPos = (-328, 68, 0)
-				gvA = 6
-				gvB = 11
-				comparison = Equals
+				gvA = 11
+				gvB = 6
+				comparison = Greater_Or_Equal
 			}
 		}
 		CONDITIONAL
@@ -14925,8 +14925,8 @@ CustomScenario
 					{
 						targetType = Event_Sequences
 						targetID = 9
-						eventName = Begin
-						methodName = BeginEvent
+						eventName = Restart
+						methodName = Restart
 						altTargetIdx = -1
 					}
 				}
@@ -15070,8 +15070,8 @@ CustomScenario
 					{
 						targetType = Event_Sequences
 						targetID = 11
-						eventName = Begin
-						methodName = BeginEvent
+						eventName = Restart
+						methodName = Restart
 						altTargetIdx = -1
 					}
 				}
@@ -15105,8 +15105,8 @@ CustomScenario
 					{
 						targetType = Event_Sequences
 						targetID = 12
-						eventName = Begin
-						methodName = BeginEvent
+						eventName = Restart
+						methodName = Restart
 						altTargetIdx = -1
 					}
 				}
