@@ -7672,7 +7672,7 @@ CustomScenario
 			id = 5
 			name = EnemyAlertZone
 			loop = True
-			points = (195881.90625, -5, 62052.3984375);(180784.265625, -5, 123830.1484375);(123257.9609375, -5, 126461.40625);(115122.421875, -5, 164876.53125);(61074.28125, -5, 171051.40625);(35594.953125, -5, 150750.65625);(-11368.328125, -5, 129127.7578125);(16556.140625, -5, 59644.9375);(94252.28125, -5, 61795.296875);(146113.34375, -5, 20717.03125);(179730.71875, -5, 34312.6796875);
+			points = (195881.90625, -5, 62052.40625);(180784.265625, -5, 123830.15625);(123257.9609375, -5, 126461.4140625);(115122.421875, -5, 164876.5390625);(61074.28125, -5, 171051.4140625);(35594.953125, -5, 150750.6640625);(-11368.328125, -5, 129127.765625);(16556.140625, -5, 59644.9453125);(94252.28125, -5, 61795.3046875);(146113.34375, -5, 20717.0390625);(179730.71875, -5, 34312.6875);
 			pathMode = Linear
 		}
 		PATH
@@ -7696,7 +7696,7 @@ CustomScenario
 			id = 8
 			name = TfSouthDecoyPath
 			loop = True
-			points = (49736.125, 1012.931640625, 87624.1484375);(46752.7109375, 1012.931640625, 87108.9453125);(45807, 1012.931640625, 85056.59375);(48182.5390625, 1012.931640625, 82705.015625);(52214.8125, 1012.931640625, 83352.2421875);(53072.921875, 1012.931640625, 86026.8984375);(50517.28125, 1012.931640625, 87943.234375);(49805.3125, 1012.931640625, 87834.6171875);
+			points = (49736.125, 1012.931640625, 87624.15625);(46752.7109375, 1012.931640625, 87108.953125);(45807, 1012.931640625, 85056.6015625);(48182.5390625, 1012.931640625, 82705.0234375);(52214.8125, 1012.931640625, 83352.25);(53072.921875, 1012.931640625, 86026.90625);(50517.28125, 1012.931640625, 87943.2421875);(49805.3125, 1012.931640625, 87834.625);
 			pathMode = Bezier
 		}
 		PATH
@@ -7712,7 +7712,7 @@ CustomScenario
 			id = 10
 			name = GC SL-MRM path
 			loop = True
-			points = (164849.578125, -2.3984375, 97210.48828125);(130080.0546875, 106.232421875, 59819.80078125);
+			points = (164849.578125, -2.3984375, 97210.484375);(130080.0546875, 106.232421875, 59819.796875);
 			pathMode = Linear
 		}
 	}
@@ -13969,6 +13969,124 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 75
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 91
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-138, 47, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-447, 185, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-445.8104, -22.82471, 0)
+						unit = 89
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 89
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 89
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 92
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-133, 51, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-441, 193, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-433, 12, 0)
+						unit = 90
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 90
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 90
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
