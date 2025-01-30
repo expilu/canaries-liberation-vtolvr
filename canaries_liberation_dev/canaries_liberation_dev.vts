@@ -7293,7 +7293,7 @@ CustomScenario
 			id = 8
 			name = TfSouthDecoyPath
 			loop = True
-			points = (49736.125, 1012.931640625, 87624.1484375);(46752.7109375, 1012.931640625, 87108.9453125);(45806.99609375, 1012.931640625, 85056.59375);(48182.5390625, 1012.931640625, 82705.015625);(52214.81640625, 1012.931640625, 83352.2421875);(53072.921875, 1012.931640625, 86026.8984375);(50517.27734375, 1012.931640625, 87943.234375);(49805.3125, 1012.931640625, 87834.6171875);
+			points = (49736.125, 1012.931640625, 87624.1484375);(46752.7109375, 1012.931640625, 87108.9453125);(45807, 1012.931640625, 85056.59375);(48182.5390625, 1012.931640625, 82705.015625);(52214.8125, 1012.931640625, 83352.2421875);(53072.921875, 1012.931640625, 86026.8984375);(50517.28125, 1012.931640625, 87943.234375);(49805.3125, 1012.931640625, 87834.6171875);
 			pathMode = Bezier
 		}
 		PATH
@@ -7301,7 +7301,7 @@ CustomScenario
 			id = 9
 			name = CapAllAroundCoast
 			loop = True
-			points = (162698.125, 299.7998046875, 99939.0859375);(151981.2265625, 299.7998046875, 97140.365234375);(141592.03125, 299.7998046875, 99152.013671875);(134244.953125, 299.7998046875, 98441.423828125);(127521.984375, 3043, 105096.953125);(113689.1484375, 3043, 122266.265625);(104056.77734375, 3043, 131612.7578125);(94666.828125, 299.7998046875, 141906.04296875);(93604.65625, 299.7998046875, 145875.96875);(89985.125, 299.7998046875, 146522.95703125);(85052.7890625, 299.7998046875, 144660.8515625);(79777.6796875, 299.7998046875, 145538.0703125);(73495.1953125, 299.7998046875, 144194.609375);(66273.3828125, 299.800048828125, 139653.1171875);(64255.890625, 299.7998046875, 137660.03515625);(56543.6328125, 299.7998046875, 129302.33984375);(54240.625, 299.7998046875, 126762.46875);(46098.0859375, 299.7998046875, 124359.15625);(23946.03125, 299.7998046875, 123439.1875);(17192.328125, 299.7998046875, 120786.65625);(14908.3125, 299.7998046875, 118897.3515625);(27148.46875, 299.800048828125, 95899.0166015625);(37371.953125, 299.7998046875, 80455.37109375);(49110.8671875, 3043, 69800.912109375);(102870.61328125, 3043, 59085.5546875);(117186.75, 3043, 56279.44921875);(137755.4453125, 299.800048828125, 52011.76953125);(145336.8515625, 299.7998046875, 50153.7421875);(161388.421875, 299.7998046875, 58049.58984375);(166248.9921875, 299.800048828125, 64364.23828125);(168862.6796875, 299.7998046875, 72384.0703125);
+			points = (162698.125, 299.7998046875, 99939.0859375);(151981.224609375, 299.7998046875, 97140.365234375);(141592.02734375, 299.7998046875, 99152.013671875);(134244.94921875, 299.7998046875, 98441.423828125);(127521.98046875, 3043, 105096.953125);(113689.1484375, 3043, 122266.265625);(104056.77734375, 3043, 131612.7578125);(94666.828125, 299.7998046875, 141906.046875);(93604.65625, 299.7998046875, 145875.96875);(89985.125, 299.7998046875, 146522.953125);(85052.7890625, 299.7998046875, 144660.8515625);(79777.6796875, 299.7998046875, 145538.0703125);(73495.1953125, 299.7998046875, 144194.609375);(66273.3828125, 299.800048828125, 139653.1171875);(64255.890625, 299.7998046875, 137660.03125);(56543.6328125, 299.7998046875, 129302.33984375);(54240.625, 299.7998046875, 126762.46875);(46098.0859375, 299.7998046875, 124359.15625);(23946.03125, 299.7998046875, 123439.1875);(17192.328125, 299.7998046875, 120786.65625);(14908.3125, 299.7998046875, 118897.3515625);(27148.46875, 299.800048828125, 95899.015625);(37371.953125, 299.7998046875, 80455.37109375);(49110.8671875, 3043, 69800.912109375);(102870.61328125, 3043, 59085.5546875);(117186.75, 3043, 56279.44921875);(137755.4453125, 299.800048828125, 52011.76953125);(145336.8515625, 299.7998046875, 50153.7421875);(161388.41796875, 299.7998046875, 58049.58984375);(166248.9931640625, 299.800048828125, 64364.23828125);(168862.67919921875, 299.7998046875, 72384.0703125);
 			pathMode = Linear
 		}
 	}
@@ -8627,7 +8627,7 @@ CustomScenario
 			objectiveInfo = Destroy Gando base air defenses
 			objectiveID = 12
 			orderID = 12
-			required = False
+			required = True
 			completionReward = 0
 			waypoint = 9
 			autoSetWaypoint = False
@@ -8698,9 +8698,9 @@ CustomScenario
 			objectiveInfo = 
 			objectiveID = 13
 			orderID = 13
-			required = False
+			required = True
 			completionReward = 0
-			waypoint = null
+			waypoint = 10
 			autoSetWaypoint = False
 			startMode = Immediate
 			objectiveType = Destroy
@@ -8769,7 +8769,7 @@ CustomScenario
 			objectiveInfo = 
 			objectiveID = 14
 			orderID = 14
-			required = False
+			required = True
 			completionReward = 0
 			waypoint = 11
 			autoSetWaypoint = False
@@ -8832,6 +8832,255 @@ CustomScenario
 				minRequired = 14
 				perUnitReward = 0
 				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = LandToCaptureGando
+			objectiveInfo = Land on Gando to capture it
+			objectiveID = 15
+			orderID = 15
+			required = True
+			completionReward = 0
+			waypoint = 9
+			autoSetWaypoint = False
+			startMode = PreReqs
+			objectiveType = Land
+			preReqObjectives = 12;
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Base
+						targetID = 0
+						eventName = Set Team
+						methodName = SetTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Teams
+							value = Allied
+							name = Team
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 2
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 0
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				radius = 1500
+			}
+		}
+		Objective
+		{
+			objectiveName = LandToCaptureRodeos
+			objectiveInfo = Land on Los Rodeos to capture it
+			objectiveID = 16
+			orderID = 16
+			required = True
+			completionReward = 0
+			waypoint = 10
+			autoSetWaypoint = False
+			startMode = PreReqs
+			objectiveType = Land
+			preReqObjectives = 13;
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Base
+						targetID = 2
+						eventName = Set Team
+						methodName = SetTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Teams
+							value = Allied
+							name = Team
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 3
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 0
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				radius = 1500
+			}
+		}
+		Objective
+		{
+			objectiveName = LandToCaptureTfSouth
+			objectiveInfo = Land on Tenerife south to capture it
+			objectiveID = 17
+			orderID = 17
+			required = True
+			completionReward = 0
+			waypoint = 11
+			autoSetWaypoint = False
+			startMode = PreReqs
+			objectiveType = Land
+			preReqObjectives = 14;
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = Base
+						targetID = 1
+						eventName = Set Team
+						methodName = SetTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Teams
+							value = Allied
+							name = Team
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 4
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 0
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				radius = 1500
 			}
 		}
 	}
