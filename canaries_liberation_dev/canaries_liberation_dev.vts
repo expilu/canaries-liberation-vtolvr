@@ -7077,6 +7077,78 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = RodeosCap1
+			globalPosition = (74056.457397460938, 591.76640319824219, 132794.61621141434)
+			unitInstanceID = 72
+			unitID = ASF-30
+			rotation = (-2.539326E-06, 196.7027, -1.329446E-05)
+			lastValidPlacement = (74056.457397460938, 591.76640319824219, 132794.61621141434)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Tango
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:2
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;asf_mrmRail;asf_mrmRail;asf_mrmDrop;asf_mrmDrop;asf_mrmRail;asf_mrmRail;asf-srmx1;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = RodeosCap2
+			globalPosition = (73877.17236328125, 591.76634216308594, 132865.24884033203)
+			unitInstanceID = 73
+			unitID = ASF-30
+			rotation = (-2.539326E-06, 196.7027, -1.329446E-05)
+			lastValidPlacement = (73877.17236328125, 591.76634216308594, 132865.24884033203)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Tango
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:2
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;asf_mrmRail;asf_mrmRail;asf_mrmDrop;asf_mrmDrop;asf_mrmRail;asf_mrmRail;asf-srmx1;asf30_jammer;
+			}
+		}
 	}
 	PATHS
 	{
@@ -7149,7 +7221,7 @@ CustomScenario
 			id = 8
 			name = TfSouthDecoyPath
 			loop = True
-			points = (49736.125, 1012.931640625, 87624.1484375);(46752.7109375, 1012.931640625, 87108.9453125);(45807, 1012.931640625, 85056.59375);(48182.5390625, 1012.931640625, 82705.015625);(52214.8125, 1012.931640625, 83352.2421875);(53072.921875, 1012.931640625, 86026.8984375);(50517.28125, 1012.931640625, 87943.234375);(49805.3125, 1012.931640625, 87834.6171875);
+			points = (49736.125, 1012.931640625, 87624.1484375);(46752.7109375, 1012.931640625, 87108.9453125);(45806.99609375, 1012.931640625, 85056.59375);(48182.5390625, 1012.931640625, 82705.015625);(52214.81640625, 1012.931640625, 83352.2421875);(53072.921875, 1012.931640625, 86026.8984375);(50517.27734375, 1012.931640625, 87943.234375);(49805.3125, 1012.931640625, 87834.6171875);
 			pathMode = Bezier
 		}
 		PATH
@@ -7157,7 +7229,7 @@ CustomScenario
 			id = 9
 			name = CapAllAroundCoast
 			loop = True
-			points = (162698.125, 299.7998046875, 99939.0859375);(151981.224609375, 299.7998046875, 97140.36572265625);(141592.02734375, 299.7998046875, 99152.01318359375);(134244.94921875, 299.7998046875, 98441.423828125);(127521.98046875, 3043, 105096.953125);(113689.1484375, 3043, 122266.267578125);(104056.77734375, 3043, 131612.7578125);(94666.828125, 299.7998046875, 141906.04296875);(93604.65625, 299.7998046875, 145875.96875);(89985.125, 299.7998046875, 146522.95703125);(85052.7890625, 299.7998046875, 144660.8515625);(79777.6796875, 299.7998046875, 145538.0703125);(73495.1953125, 299.7998046875, 144194.609375);(66273.3828125, 299.7998046875, 139653.1171875);(64255.890625, 299.7998046875, 137660.03515625);(56543.6328125, 299.7998046875, 129302.33984375);(54240.625, 299.7998046875, 126762.46875);(46098.0859375, 299.7998046875, 124359.15625);(23946.03125, 299.7998046875, 123439.189453125);(17192.328125, 299.7998046875, 120786.654296875);(14908.3125, 299.7998046875, 118897.3515625);(27148.46875, 299.7998046875, 95899.0166015625);(37371.953125, 299.7998046875, 80455.37109375);(49110.8671875, 3043, 69800.912109375);(102870.61328125, 3043, 59085.5546875);(117186.75, 3043, 56279.44921875);(137755.4453125, 299.7998046875, 52011.76953125);(145336.8515625, 299.7998046875, 50153.7421875);(161388.41796875, 299.7998046875, 58049.58984375);(166248.9921875, 299.7998046875, 64364.23828125);(168862.6796875, 299.7998046875, 72384.0703125);
+			points = (162698.125, 299.7998046875, 99939.0859375);(151981.2265625, 299.7998046875, 97140.3671875);(141592.03125, 299.7998046875, 99152.01171875);(134244.94921875, 299.7998046875, 98441.421875);(127521.98046875, 3043, 105096.953125);(113689.1484375, 3043, 122266.267578125);(104056.77734375, 3043, 131612.759765625);(94666.828125, 299.7998046875, 141906.04296875);(93604.65625, 299.7998046875, 145875.96875);(89985.125, 299.7998046875, 146522.95703125);(85052.7890625, 299.7998046875, 144660.8515625);(79777.6796875, 299.7998046875, 145538.0703125);(73495.1953125, 299.7998046875, 144194.609375);(66273.3828125, 299.800048828125, 139653.1171875);(64255.890625, 299.7998046875, 137660.03515625);(56543.6328125, 299.7998046875, 129302.33984375);(54240.625, 299.7998046875, 126762.46875);(46098.0859375, 299.7998046875, 124359.15625);(23946.03125, 299.7998046875, 123439.189453125);(17192.328125, 299.7998046875, 120786.654296875);(14908.3125, 299.7998046875, 118897.3515625);(27148.46875, 299.800048828125, 95899.015625);(37371.953125, 299.7998046875, 80455.37109375);(49110.8671875, 3043, 69800.9140625);(102870.61328125, 3043, 59085.5546875);(117186.75, 3043, 56279.453125);(137755.4453125, 299.800048828125, 52011.765625);(145336.8515625, 299.7998046875, 50153.7421875);(161388.421875, 299.7998046875, 58049.59375);(166248.9921875, 299.800048828125, 64364.234375);(168862.6796875, 299.7998046875, 72384.0703125);
 			pathMode = Linear
 		}
 	}
@@ -7269,6 +7341,7 @@ CustomScenario
 			Whiskey = 1;7;8;9;
 			Zulu = 2;11;12;
 			Xray = 2;20;22;23;
+			Tango = 2;72;73;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = True
@@ -7278,6 +7351,10 @@ CustomScenario
 				syncAltSpawns = False
 			}
 			Xray_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Tango_SETTINGS
 			{
 				syncAltSpawns = False
 			}
@@ -7658,6 +7735,32 @@ CustomScenario
 						type = FollowPath
 						value = 8
 						name = Path
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 22
+			enabled = True
+			triggerType = Conditional
+			conditional = 65
+			eventName = OnRodeosCapAirborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Random Event
+					methodName = FireRandomEvent
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = RandomEventReference
+						value = 77
+						name = Event
 					}
 				}
 			}
@@ -9441,6 +9544,21 @@ CustomScenario
 				{
 					value = Allied
 				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 65
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnitGroup
+				uiPos = (-381, 66, 0)
+				unitGroup = Enemy:Tango
+				methodName = AllAirborne
+				isNot = False
 			}
 		}
 	}
@@ -12870,6 +12988,100 @@ CustomScenario
 					}
 				}
 			}
+			ACTION
+			{
+				id = 82
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-151, 47, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-449, 166, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-459, 4, 0)
+						unit = 72
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 72
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 83
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-140, 44, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-448, 139, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-433, -5, 0)
+						unit = 73
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+				}
+			}
 		}
 		RANDOM_EVENT
 		{
@@ -13171,6 +13383,161 @@ CustomScenario
 						eventName = Set Path
 						methodName = SetPath
 						altTargetIdx = -2
+						ParamInfo
+						{
+							type = FollowPath
+							value = 9
+							name = Path
+						}
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 77
+			note = 
+			ACTION
+			{
+				id = 78
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 219
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 4
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 79
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-392, 66, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 219
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 3
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 80
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCOr
+						uiPos = (-145, 51, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-442, 138, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-431, -23, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 219
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 2
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 81
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 219
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
 						ParamInfo
 						{
 							type = FollowPath
