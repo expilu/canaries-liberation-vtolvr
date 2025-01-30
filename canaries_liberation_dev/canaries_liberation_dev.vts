@@ -7149,6 +7149,78 @@ CustomScenario
 				equips = asf30_gun;asf30_jammer;asf-srmx1;asf_mrmRail;asf_mrmRail;asf_mrmDrop;asf_mrmDrop;asf_mrmRail;asf_mrmRail;asf-srmx1;asf30_jammer;
 			}
 		}
+		UnitSpawner
+		{
+			unitName = SouthCap1
+			globalPosition = (48444.19384765625, 92.593049049377441, 85282.94140625)
+			unitInstanceID = 74
+			unitID = T-55 AI-E
+			rotation = (1.066309E-05, 157.1122, -2.303631E-05)
+			lastValidPlacement = (48444.19384765625, 92.593049049377441, 85282.94140625)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Romeo
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:1
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = t55_gun;t55_aim9x1;t55_aim7Rail;t55_amraamRail;t55_amraamRail;t55_aim7Rail;t55_aim9x1;t55_jammer;;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SouthCap2
+			globalPosition = (48651.909362792969, 92.593079566955566, 85377.981597900391)
+			unitInstanceID = 75
+			unitID = T-55 AI-E
+			rotation = (1.066309E-05, 157.1122, -2.303631E-05)
+			lastValidPlacement = (48651.909362792969, 92.593079566955566, 85377.981597900391)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Romeo
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:1
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = t55_gun;t55_aim9x1;t55_aim7Rail;t55_amraamRail;t55_amraamRail;t55_aim7Rail;t55_aim9x1;t55_jammer;;
+			}
+		}
 	}
 	PATHS
 	{
@@ -7229,7 +7301,7 @@ CustomScenario
 			id = 9
 			name = CapAllAroundCoast
 			loop = True
-			points = (162698.125, 299.7998046875, 99939.0859375);(151981.2265625, 299.7998046875, 97140.3671875);(141592.03125, 299.7998046875, 99152.01171875);(134244.94921875, 299.7998046875, 98441.421875);(127521.98046875, 3043, 105096.953125);(113689.1484375, 3043, 122266.267578125);(104056.77734375, 3043, 131612.759765625);(94666.828125, 299.7998046875, 141906.04296875);(93604.65625, 299.7998046875, 145875.96875);(89985.125, 299.7998046875, 146522.95703125);(85052.7890625, 299.7998046875, 144660.8515625);(79777.6796875, 299.7998046875, 145538.0703125);(73495.1953125, 299.7998046875, 144194.609375);(66273.3828125, 299.800048828125, 139653.1171875);(64255.890625, 299.7998046875, 137660.03515625);(56543.6328125, 299.7998046875, 129302.33984375);(54240.625, 299.7998046875, 126762.46875);(46098.0859375, 299.7998046875, 124359.15625);(23946.03125, 299.7998046875, 123439.189453125);(17192.328125, 299.7998046875, 120786.654296875);(14908.3125, 299.7998046875, 118897.3515625);(27148.46875, 299.800048828125, 95899.015625);(37371.953125, 299.7998046875, 80455.37109375);(49110.8671875, 3043, 69800.9140625);(102870.61328125, 3043, 59085.5546875);(117186.75, 3043, 56279.453125);(137755.4453125, 299.800048828125, 52011.765625);(145336.8515625, 299.7998046875, 50153.7421875);(161388.421875, 299.7998046875, 58049.59375);(166248.9921875, 299.800048828125, 64364.234375);(168862.6796875, 299.7998046875, 72384.0703125);
+			points = (162698.125, 299.7998046875, 99939.0859375);(151981.2265625, 299.7998046875, 97140.365234375);(141592.03125, 299.7998046875, 99152.013671875);(134244.953125, 299.7998046875, 98441.423828125);(127521.984375, 3043, 105096.953125);(113689.1484375, 3043, 122266.265625);(104056.77734375, 3043, 131612.7578125);(94666.828125, 299.7998046875, 141906.04296875);(93604.65625, 299.7998046875, 145875.96875);(89985.125, 299.7998046875, 146522.95703125);(85052.7890625, 299.7998046875, 144660.8515625);(79777.6796875, 299.7998046875, 145538.0703125);(73495.1953125, 299.7998046875, 144194.609375);(66273.3828125, 299.800048828125, 139653.1171875);(64255.890625, 299.7998046875, 137660.03515625);(56543.6328125, 299.7998046875, 129302.33984375);(54240.625, 299.7998046875, 126762.46875);(46098.0859375, 299.7998046875, 124359.15625);(23946.03125, 299.7998046875, 123439.1875);(17192.328125, 299.7998046875, 120786.65625);(14908.3125, 299.7998046875, 118897.3515625);(27148.46875, 299.800048828125, 95899.0166015625);(37371.953125, 299.7998046875, 80455.37109375);(49110.8671875, 3043, 69800.912109375);(102870.61328125, 3043, 59085.5546875);(117186.75, 3043, 56279.44921875);(137755.4453125, 299.800048828125, 52011.76953125);(145336.8515625, 299.7998046875, 50153.7421875);(161388.421875, 299.7998046875, 58049.58984375);(166248.9921875, 299.800048828125, 64364.23828125);(168862.6796875, 299.7998046875, 72384.0703125);
 			pathMode = Linear
 		}
 	}
@@ -7342,6 +7414,7 @@ CustomScenario
 			Zulu = 2;11;12;
 			Xray = 2;20;22;23;
 			Tango = 2;72;73;
+			Romeo = 2;74;75;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = True
@@ -7355,6 +7428,10 @@ CustomScenario
 				syncAltSpawns = False
 			}
 			Tango_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Romeo_SETTINGS
 			{
 				syncAltSpawns = False
 			}
@@ -7760,6 +7837,32 @@ CustomScenario
 					{
 						type = RandomEventReference
 						value = 77
+						name = Event
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 23
+			enabled = True
+			triggerType = Conditional
+			conditional = 66
+			eventName = OnSouthCapAirborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Fire Random Event
+					methodName = FireRandomEvent
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = RandomEventReference
+						value = 84
 						name = Event
 					}
 				}
@@ -9557,6 +9660,21 @@ CustomScenario
 				type = SCCUnitGroup
 				uiPos = (-381, 66, 0)
 				unitGroup = Enemy:Tango
+				methodName = AllAirborne
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 66
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnitGroup
+				uiPos = (-369, 77, 0)
+				unitGroup = Enemy:Romeo
 				methodName = AllAirborne
 				isNot = False
 			}
@@ -13080,6 +13198,116 @@ CustomScenario
 				EVENT_INFO
 				{
 					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 73
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 89
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-121, 41, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-422, 164, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-426, 9, 0)
+						unit = 74
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 74
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 90
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-139, 40, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-445, 184, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-439, 20, 0)
+						unit = 75
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 75
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
 				}
 			}
 		}
@@ -13535,6 +13763,161 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 219
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 9
+							name = Path
+						}
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 84
+			note = 
+			ACTION
+			{
+				id = 85
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 217
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 4
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 86
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-357, 59, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 217
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 3
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 87
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCOr
+						uiPos = (-141, 50, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-437, 145, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-429, -32, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 217
+						eventName = Fly Nav Path
+						methodName = FlyNavPath
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = FollowPath
+							value = 2
+							name = Path
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 88
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 217
 						eventName = Fly Nav Path
 						methodName = FlyNavPath
 						altTargetIdx = -1
