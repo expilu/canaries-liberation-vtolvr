@@ -7149,7 +7149,7 @@ CustomScenario
 			id = 8
 			name = TfSouthDecoyPath
 			loop = True
-			points = (49736.1259765625, 1012.931884765625, 87624.1513671875);(46752.7138671875, 1012.931884765625, 87108.943359375);(45806.99853515625, 1012.931884765625, 85056.58984375);(48182.53857421875, 1012.931884765625, 82705.0185546875);(52214.815673828125, 1012.931884765625, 83352.2431640625);(53072.920654296875, 1012.931884765625, 86026.89892578125);(50517.280029296875, 1012.931884765625, 87943.231201171875);(49805.3134765625, 1012.931884765625, 87834.617919921875);
+			points = (49736.1259765625, 1012.931884765625, 87624.1513671875);(46752.7138671875, 1012.931884765625, 87108.943359375);(45806.99853515625, 1012.931884765625, 85056.58984375);(48182.53857421875, 1012.931884765625, 82705.0185546875);(52214.8154296875, 1012.931884765625, 83352.2431640625);(53072.9208984375, 1012.931884765625, 86026.89892578125);(50517.280029296875, 1012.931884765625, 87943.231201171875);(49805.3134765625, 1012.931884765625, 87834.617919921875);
 			pathMode = Bezier
 		}
 	}
@@ -8545,6 +8545,77 @@ CustomScenario
 			{
 				targets = 42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;
 				minRequired = 15
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = DestroyTfSouthDefens
+			objectiveInfo = 
+			objectiveID = 14
+			orderID = 14
+			required = False
+			completionReward = 0
+			waypoint = 11
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 57;58;59;60;61;62;63;64;65;67;68;69;70;71;
+				minRequired = 14
 				perUnitReward = 0
 				fullCompleteBonus = 0
 			}
