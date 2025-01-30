@@ -10452,6 +10452,47 @@ CustomScenario
 				}
 			}
 		}
+		ConditionalAction
+		{
+			id = 2
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 3
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-363, 57, 0)
+						gv = 12
+						comparison = Less_Than
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 12
+						eventName = Stop
+						methodName = Stop
+						altTargetIdx = -1
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
 	}
 	RandomEvents
 	{
@@ -15114,7 +15155,24 @@ CustomScenario
 			EVENT
 			{
 				delay = 0
-				nodeName = Reset resources
+				nodeName = Ensure stop respawner
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 12
+						eventName = Stop
+						methodName = Stop
+						altTargetIdx = -1
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Ensure reset resources
 				EventInfo
 				{
 					eventName = 
@@ -15279,6 +15337,29 @@ CustomScenario
 								type = MinMax
 								data = (0,99999)
 							}
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Check remaining resources
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 2
+							name = Action
 						}
 					}
 				}
