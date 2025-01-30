@@ -934,7 +934,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686089, 351.266)
+			rotation = (351.1896, 0.08686083, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1171,7 +1171,7 @@ CustomScenario
 			globalPosition = (168045.8466796875, 84.716796875, 72659.431884765625)
 			unitInstanceID = 38
 			unitID = SamFCR2
-			rotation = (11.33743, 69.03109, 5.0094)
+			rotation = (11.33743, 69.03109, 5.009399)
 			lastValidPlacement = (163079.21566772461, 253.80419921875, 75430.01171875)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1414,7 +1414,7 @@ CustomScenario
 			globalPosition = (165866.81372070313, 39.21588134765625, 71432.944091796875)
 			unitInstanceID = 28
 			unitID = SamFCR
-			rotation = (-8.72205E-06, 173.0002, 6.80547E-06)
+			rotation = (-8.722051E-06, 173.0002, 6.80547E-06)
 			lastValidPlacement = (165064.03157806396, 163.00082397460938, 71561.456359863281)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1503,7 +1503,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165064.03157806396, 163.00082397460938, 71561.456359863281)
-				rotation = (2.588233E-07, 137.7815, -3.020849E-05)
+				rotation = (2.588241E-07, 137.7815, -3.020849E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -1781,7 +1781,7 @@ CustomScenario
 			globalPosition = (165793.69329833984, 41.076171875, 73375.332397460938)
 			unitInstanceID = 30
 			unitID = SamBattery1
-			rotation = (1.936237E-05, 40.79224, -1.535551E-06)
+			rotation = (1.936237E-05, 40.79224, -1.53555E-06)
 			lastValidPlacement = (165013.08145427704, 49.584480285644531, 71615.46276473999)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1985,7 +1985,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166450.07824707031, 41.075927734375, 73969.309448242188)
-				rotation = (1.934784E-05, 42.65075, -8.396086E-07)
+				rotation = (1.934784E-05, 42.65075, -8.396078E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2057,7 +2057,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165326.36950683594, 39.28955078125, 71449.486511230469)
-				rotation = (0.008342996, 221.8672, 1.278325)
+				rotation = (0.008342943, 221.8672, 1.278325)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2150,7 +2150,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165089.81555175781, 41.07666015625, 71934.582824707031)
-				rotation = (-1.921762E-05, 223.4594, 7.152037E-07)
+				rotation = (-1.921762E-05, 223.4594, 7.152028E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2297,7 +2297,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803459E-06, 21.87292, 3.534135E-06)
+				rotation = (8.80346E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2373,7 +2373,7 @@ CustomScenario
 			globalPosition = (165865.04296875, 39.2158203125, 71004.475158691406)
 			unitInstanceID = 34
 			unitID = staticAAA-20x2
-			rotation = (2.365924E-06, 166.2594, 9.67564E-06)
+			rotation = (2.365924E-06, 166.2594, 9.675641E-06)
 			lastValidPlacement = (165651.96810913086, 41.0765380859375, 72071.246643066406)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2648,7 +2648,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166471.17041015625, 41.076080322265625, 72938.75048828125)
-				rotation = (1.93457E-05, 41.67382, -1.171644E-06)
+				rotation = (1.93457E-05, 41.67382, -1.171643E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2666,7 +2666,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166471.17041015625, 41.076080322265625, 72938.75048828125)
-				rotation = (1.93457E-05, 41.67382, -1.171644E-06)
+				rotation = (1.93457E-05, 41.67382, -1.171643E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2796,7 +2796,7 @@ CustomScenario
 			globalPosition = (165214.64721679688, 41.076416015625, 72632.578979492188)
 			unitInstanceID = 39
 			unitID = EJammerTruck
-			rotation = (1.939836E-05, 42.43105, -9.811888E-07)
+			rotation = (1.939836E-05, 42.43105, -9.811893E-07)
 			lastValidPlacement = (166340.171875, 41.076126098632813, 73003.915893554688)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -3043,7 +3043,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166519.68359375, 41.0758056640625, 74011.199401855469)
-				rotation = (1.934852E-05, 42.6975, -8.238217E-07)
+				rotation = (1.934852E-05, 42.6975, -8.238225E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -3155,7 +3155,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165247.55224609375, 41.07666015625, 71716.535339355469)
-				rotation = (6.741099E-07, 133.5819, 1.921911E-05)
+				rotation = (6.741091E-07, 133.5819, 1.921911E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -3554,7 +3554,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (73741.38330078125, 587.608154296875, 131857.54809570313)
-				rotation = (-7.20558E-06, 139.4264, 6.170164E-06)
+				rotation = (-7.205579E-06, 139.4264, 6.170164E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -3687,7 +3687,7 @@ CustomScenario
 			globalPosition = (74289.693481445313, 589.50645446777344, 132667.60968017578)
 			unitInstanceID = 45
 			unitID = SamFCR
-			rotation = (5.630005E-07, 26.76011, 1.379358E-05)
+			rotation = (5.630009E-07, 26.76011, 1.379358E-05)
 			lastValidPlacement = (74015.30322265625, 589.50636291503906, 132897.74273681641)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -4022,7 +4022,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74217.800415039063, 587.607666015625, 131896.07641601563)
-				rotation = (-4.102881E-06, 115.6265, 8.553205E-06)
+				rotation = (-4.102882E-06, 115.6265, 8.553205E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -4561,7 +4561,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (75212.21142578125, 586.54296875, 132779.62353515625)
-				rotation = (4.112391, 78.63666, 2.731643)
+				rotation = (4.112391, 78.63667, 2.731644)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -4619,7 +4619,7 @@ CustomScenario
 			globalPosition = (74700.239929199219, 587.607666015625, 131859.68725585938)
 			unitInstanceID = 52
 			unitID = staticDecoyLauncher
-			rotation = (-2.805255E-06, 107.2004, 9.062112E-06)
+			rotation = (-2.805255E-06, 107.2004, 9.062113E-06)
 			lastValidPlacement = (72558.37744140625, 589.51602172851563, 132385.84350585938)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -5237,7 +5237,7 @@ CustomScenario
 			globalPosition = (72655.66357421875, 590.07606506347656, 132760.21057128906)
 			unitInstanceID = 56
 			unitID = slmrmLauncher
-			rotation = (-1.341232E-05, 106.688, 2.923708E-06)
+			rotation = (-1.341232E-05, 106.688, 2.923709E-06)
 			lastValidPlacement = (75036.421997070313, 588.17766571044922, 132701.11956787109)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -5262,7 +5262,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (72968.562438964844, 588.4949951171875, 131930.77548217773)
-				rotation = (0.6445748, 106.7212, 2.947356)
+				rotation = (0.6445746, 106.7212, 2.947356)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -5656,7 +5656,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (50895.373596191406, 89.480712890625, 86356.982604980469)
-				rotation = (0.7871002, 65.15285, 0.7588125)
+				rotation = (0.7871003, 65.15285, 0.7588125)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -5710,7 +5710,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (50277.099365234375, 88.904541015625, 85097.870849609375)
-				rotation = (5.049267E-07, 86.9489, 9.472908E-06)
+				rotation = (5.049271E-07, 86.9489, 9.472908E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -5821,7 +5821,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49321.270629882813, 88.363037109375, 84472.279052734375)
-				rotation = (3.799127, 161.2476, 358.7114)
+				rotation = (3.799128, 161.2476, 358.7114)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -5937,7 +5937,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (50424.258544921875, 90.765121459960938, 86079.690612792969)
-				rotation = (-2.467825E-05, 67.86555, -6.318351E-06)
+				rotation = (-2.467825E-05, 67.86555, -6.318352E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -6033,7 +6033,7 @@ CustomScenario
 			globalPosition = (48421.74560546875, 89.09716796875, 85880.49365234375)
 			unitInstanceID = 63
 			unitID = SamBattery1
-			rotation = (0.3210267, 238.1958, 0.5176612)
+			rotation = (0.3210268, 238.1958, 0.5176612)
 			lastValidPlacement = (48526.041564941406, 90.764434814453125, 85295.818359375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -6101,7 +6101,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49256.053283691406, 90.764602661132813, 84872.662506103516)
-				rotation = (7.982539E-06, 161.5388, -2.441157E-05)
+				rotation = (7.98254E-06, 161.5388, -2.441157E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -6124,7 +6124,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (48526.041564941406, 90.764434814453125, 85295.818359375)
-				rotation = (8.044094E-06, 161.5388, -2.4367E-05)
+				rotation = (8.044095E-06, 161.5388, -2.4367E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -6354,7 +6354,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49311.445648193359, 90.7646484375, 85019.393920898438)
-				rotation = (6.843727E-06, 158.8851, -2.475498E-05)
+				rotation = (6.843728E-06, 158.8851, -2.475498E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -6372,7 +6372,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (48085.022094726563, 88.90478515625, 85653.939453125)
-				rotation = (-8.849463E-06, 158.8851, 3.417377E-06)
+				rotation = (-8.849462E-06, 158.8851, 3.417377E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -6483,7 +6483,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (50445.3837890625, 88.90435791015625, 86595.193908691406)
-				rotation = (-1.525281E-06, 99.25257, 9.362932E-06)
+				rotation = (-1.52528E-06, 99.25257, 9.362932E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -6696,7 +6696,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49673.794219970703, 90.7647705078125, 85224.548797607422)
-				rotation = (2.485641E-05, 248.0117, 6.465627E-06)
+				rotation = (2.485641E-05, 248.0117, 6.465628E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -6778,7 +6778,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49138.710876464844, 90.76458740234375, 85083.023223876953)
-				rotation = (-2.512241E-05, 64.85798, -5.157148E-06)
+				rotation = (-2.512241E-05, 64.85798, -5.157147E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -7221,6 +7221,303 @@ CustomScenario
 				equips = t55_gun;t55_aim9x1;t55_aim7Rail;t55_amraamRail;t55_amraamRail;t55_aim7Rail;t55_aim9x1;t55_jammer;;
 			}
 		}
+		UnitSpawner
+		{
+			unitName = oil1 IRMD Launcher 2
+			globalPosition = (170862.09762573242, 59.203353881835938, 82882.234573364258)
+			unitInstanceID = 76
+			unitID = eIRMDlauncher
+			rotation = (-2.443277E-08, 95.31573, -1.356088E-05)
+			lastValidPlacement = (170862.09762573242, 59.203353881835938, 82882.234573364258)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil1 IRMD Launcher 2
+			globalPosition = (170815.43444442749, 195.4102783203125, 82843.598003387451)
+			unitInstanceID = 78
+			unitID = eIRMDlauncher
+			rotation = (6.981916E-06, 184.9707, -6.78257E-07)
+			lastValidPlacement = (170815.43444442749, 195.4102783203125, 82843.598003387451)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil1 MMWT
+			globalPosition = (170826.25164222717, 59.203369140625, 82911.087951660156)
+			unitInstanceID = 79
+			unitID = EMWSTruck
+			rotation = (-1.355413E-05, 3.60798, 4.285551E-07)
+			lastValidPlacement = (170826.25164222717, 59.203369140625, 82911.087951660156)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				radarUnits = 
+				decoyUnits = 
+				unitsToDefend = 76;78;79;80;
+				defenseUnits = 76;78;
+				jammerUnits = 80;
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil1 GECM Truck
+			globalPosition = (170811.96358108521, 68.84393310546875, 82867.673309326172)
+			unitInstanceID = 80
+			unitID = EJammerTruck
+			rotation = (-7.377299E-08, 95.10725, -1.35607E-05)
+			lastValidPlacement = (170811.96358108521, 68.84393310546875, 82867.673309326172)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil3 IRMD Launcher 1
+			globalPosition = (74803.349151611328, 59.203353881835938, 157204.62893676758)
+			unitInstanceID = 81
+			unitID = eIRMDlauncher
+			rotation = (-1.338605E-05, 358.1483, 5.395504E-07)
+			lastValidPlacement = (74803.349151611328, 59.203353881835938, 157204.62893676758)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil3 IRMD Launcher 2
+			globalPosition = (74799.565765380859, 195.41027069091797, 157134.31326293945)
+			unitInstanceID = 82
+			unitID = eIRMDlauncher
+			rotation = (-2.480454E-07, 272.8639, 7.094294E-06)
+			lastValidPlacement = (74799.565765380859, 195.41027069091797, 157134.31326293945)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil3 GECM Truck
+			globalPosition = (74841.882934570313, 59.203353881835938, 157179.10095214844)
+			unitInstanceID = 83
+			unitID = EJammerTruck
+			rotation = (-1.338822E-05, 358.3915, 4.827119E-07)
+			lastValidPlacement = (74841.882934570313, 59.203353881835938, 157179.10095214844)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil3 MMWT
+			globalPosition = (74823.677734375, 73.109886169433594, 157181.25305175781)
+			unitInstanceID = 84
+			unitID = EMWSTruck
+			rotation = (-1.338822E-05, 358.3915, 4.827119E-07)
+			lastValidPlacement = (74823.677734375, 73.109886169433594, 157181.25305175781)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				radarUnits = 
+				decoyUnits = 
+				unitsToDefend = 81;82;83;84;
+				defenseUnits = 81;82;
+				jammerUnits = 83;
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil2 IRMD Launcher 1
+			globalPosition = (32837.247623443604, 68.843971252441406, 81153.630760192871)
+			unitInstanceID = 85
+			unitID = eIRMDlauncher
+			rotation = (-1.32277E-05, 347.0556, 1.288266E-06)
+			lastValidPlacement = (32837.247623443604, 68.843971252441406, 81153.630760192871)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil2 IRMD Launcher 2
+			globalPosition = (32891.031967163086, 59.203353881835938, 81182.276191711426)
+			unitInstanceID = 86
+			unitID = eIRMDlauncher
+			rotation = (-8.23391E-07, 79.06618, -1.326475E-05)
+			lastValidPlacement = (32891.031967163086, 59.203353881835938, 81182.276191711426)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil2 MMWT
+			globalPosition = (32855.100006103516, 195.4102783203125, 81130.593360900879)
+			unitInstanceID = 87
+			unitID = EMWSTruck
+			rotation = (3.10186E-07, 79.06618, -7.396824E-06)
+			lastValidPlacement = (32855.100006103516, 195.4102783203125, 81130.593360900879)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				radarUnits = 
+				decoyUnits = 
+				unitsToDefend = 85;86;87;88;
+				defenseUnits = 85;86;
+				jammerUnits = 88;
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = oil2 GECM Truck
+			globalPosition = (32842.301677703857, 59.203369140625, 81200.592483520508)
+			unitInstanceID = 88
+			unitID = EJammerTruck
+			rotation = (-8.23391E-07, 79.06618, -1.326475E-05)
+			lastValidPlacement = (32842.301677703857, 59.203369140625, 81200.592483520508)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
 	}
 	PATHS
 	{
@@ -7301,7 +7598,7 @@ CustomScenario
 			id = 9
 			name = CapAllAroundCoast
 			loop = True
-			points = (162698.125, 299.7998046875, 99939.0859375);(151981.224609375, 299.7998046875, 97140.365234375);(141592.02734375, 299.7998046875, 99152.013671875);(134244.94921875, 299.7998046875, 98441.423828125);(127521.98046875, 3043, 105096.953125);(113689.1484375, 3043, 122266.267578125);(104056.78125, 3043, 131612.759765625);(94666.828125, 299.7998046875, 141906.04296875);(93604.65625, 299.7998046875, 145875.96875);(89985.125, 299.7998046875, 146522.95703125);(85052.7890625, 299.7998046875, 144660.8515625);(79777.6796875, 299.7998046875, 145538.0703125);(73495.1953125, 299.7998046875, 144194.609375);(66273.3828125, 299.7998046875, 139653.1171875);(64255.890625, 299.7998046875, 137660.03515625);(56543.6328125, 299.7998046875, 129302.33984375);(54240.625, 299.7998046875, 126762.46875);(46098.0859375, 299.7998046875, 124359.15625);(23946.03125, 299.7998046875, 123439.189453125);(17192.328125, 299.7998046875, 120786.654296875);(14908.3125, 299.7998046875, 118897.3515625);(27148.46875, 299.7998046875, 95899.015625);(37371.953125, 299.7998046875, 80455.37109375);(49110.8671875, 3043, 69800.9140625);(102870.609375, 3043, 59085.5546875);(117186.75, 3043, 56279.44921875);(137755.4453125, 299.7998046875, 52011.76953125);(145336.8515625, 299.7998046875, 50153.7421875);(161388.41796875, 299.7998046875, 58049.58984375);(166248.9931640625, 299.7998046875, 64364.23828125);(168862.67919921875, 299.7998046875, 72384.0703125);
+			points = (162698.125, 299.7998046875, 99939.0859375);(151981.21875, 299.7998046875, 97140.3671875);(141592.03125, 299.7998046875, 99152.015625);(134244.953125, 299.7998046875, 98441.421875);(127521.984375, 3043, 105096.953125);(113689.1484375, 3043, 122266.265625);(104056.78125, 3043, 131612.765625);(94666.828125, 299.7998046875, 141906.046875);(93604.65625, 299.7998046875, 145875.96875);(89985.125, 299.7998046875, 146522.953125);(85052.7890625, 299.7998046875, 144660.84375);(79777.6796875, 299.7998046875, 145538.0625);(73495.1953125, 299.7998046875, 144194.609375);(66273.3828125, 299.7998046875, 139653.125);(64255.890625, 299.7998046875, 137660.03125);(56543.6328125, 299.7998046875, 129302.34375);(54240.625, 299.7998046875, 126762.46875);(46098.0859375, 299.7998046875, 124359.15625);(23946.03125, 299.7998046875, 123439.1875);(17192.328125, 299.7998046875, 120786.65625);(14908.3125, 299.7998046875, 118897.3515625);(27148.46875, 299.7998046875, 95899.015625);(37371.953125, 299.7998046875, 80455.375);(49110.8671875, 3043, 69800.9140625);(102870.609375, 3043, 59085.5546875);(117186.75, 3043, 56279.44921875);(137755.4375, 299.7998046875, 52011.76953125);(145336.84375, 299.7998046875, 50153.7421875);(161388.421875, 299.7998046875, 58049.58984375);(166249, 299.7998046875, 64364.23828125);(168862.671875, 299.7998046875, 72384.0703125);
 			pathMode = Linear
 		}
 	}
