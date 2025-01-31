@@ -9744,6 +9744,26 @@ CustomScenario
 				EventInfo
 				{
 					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = conquered-gando.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
 				}
 			}
 			fields
@@ -9783,6 +9803,26 @@ CustomScenario
 				EventInfo
 				{
 					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = conquered-losrodeos.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
 				}
 			}
 			fields
@@ -9822,6 +9862,26 @@ CustomScenario
 				EventInfo
 				{
 					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = conquered-south.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
 				}
 			}
 			fields
@@ -10932,26 +10992,6 @@ CustomScenario
 							}
 						}
 					}
-					EventTarget
-					{
-						targetType = System
-						targetID = 0
-						eventName = Radio Message Team
-						methodName = RadioMessageTeam
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = VTSAudioReference
-							value = conquered-gando.mp3
-							name = Audio
-						}
-						ParamInfo
-						{
-							type = MPUITeams
-							value = Team_A
-							name = Team
-						}
-					}
 				}
 			}
 			fields
@@ -11035,26 +11075,6 @@ CustomScenario
 							}
 						}
 					}
-					EventTarget
-					{
-						targetType = System
-						targetID = 0
-						eventName = Radio Message Team
-						methodName = RadioMessageTeam
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = VTSAudioReference
-							value = conquered-losrodeos.mp3
-							name = Audio
-						}
-						ParamInfo
-						{
-							type = MPUITeams
-							value = Team_A
-							name = Team
-						}
-					}
 				}
 			}
 			fields
@@ -11136,26 +11156,6 @@ CustomScenario
 								type = MinMax
 								data = (-99999,99999)
 							}
-						}
-					}
-					EventTarget
-					{
-						targetType = System
-						targetID = 0
-						eventName = Radio Message Team
-						methodName = RadioMessageTeam
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = VTSAudioReference
-							value = conquered-south.mp3
-							name = Audio
-						}
-						ParamInfo
-						{
-							type = MPUITeams
-							value = Team_A
-							name = Team
 						}
 					}
 				}
@@ -17824,11 +17824,11 @@ CustomScenario
 		33 = gando-defenses-eliminated.mp3
 		34 = losrodeos-defenses-eliminated.mp3
 		35 = south-defenses-eliminated.mp3
-		36 = conquered-gando.mp3
-		37 = conquered-losrodeos.mp3
-		38 = conquered-south.mp3
-		39 = carrier-sunk.mp3
-		40 = cruiser-sunk.mp3
+		36 = carrier-sunk.mp3
+		37 = cruiser-sunk.mp3
+		38 = conquered-gando.mp3
+		39 = conquered-losrodeos.mp3
+		40 = conquered-south.mp3
 	}
 }
 
