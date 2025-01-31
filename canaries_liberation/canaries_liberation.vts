@@ -4,7 +4,7 @@ CustomScenario
 	campaignID = canaries_liberation
 	campaignOrderIdx = 0
 	scenarioName = Liberation of the Canaries
-	scenarioID = canaries_liberation_dev
+	scenarioID = canaries_liberation
 	scenarioDescription = WIP
 	mapID = gctf
 	vehicle = F-45A
