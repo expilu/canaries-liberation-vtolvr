@@ -14,11 +14,11 @@ CustomScenario
 	forceEquips = False
 	normForcedFuel = 1
 	equipsConfigurable = True
-	baseBudget = 100000
+	baseBudget = 1000000
 	isTraining = False
 	rtbWptID = 
 	refuelWptID = 
-	mpPlayerCount = 2
+	mpPlayerCount = 4
 	autoPlayerCount = True
 	overrideAlliedPlayerCount = 1
 	overrideEnemyPlayerCount = 0
@@ -30,7 +30,7 @@ CustomScenario
 	rtbWptID_B = 
 	refuelWptID_B = 
 	separateBriefings = False
-	baseBudgetB = 100000
+	baseBudgetB = 1000000
 	infiniteAmmo = False
 	infAmmoReloadDelay = 5
 	fuelDrainMult = 1
@@ -360,6 +360,8 @@ CustomScenario
 				invincible = False
 				respawnable = False
 				receiveFriendlyDamage = True
+				lsoFreq = 284.4
+				carrierSpawns = 0:-1;0:-1;0:-1;0:97:-1;0:98:-1;0:-1;0:-1;0:-1;0:-1;
 			}
 			altSpawn
 			{
@@ -7784,6 +7786,64 @@ CustomScenario
 				receiveFriendlyDamage = True
 			}
 		}
+		UnitSpawner
+		{
+			unitName = F/A-26B Spawn 1
+			globalPosition = (-41618.493713378906, 18.979999542236328, 200968.20310211182)
+			unitInstanceID = 97
+			unitID = MultiplayerSpawn
+			rotation = (-6.011082E-06, 21.87937, -3.665257E-06)
+			lastValidPlacement = (-41781.654357910156, 32.396831512451172, 201022.92018890381)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				vehicle = F/A-26B
+				selectableAltSpawn = False
+				slotLabel = F/A-26B Aircraft Carrier 1
+				unitGroup = Allied:Bravo
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = F/A-26B Spawn 2
+			globalPosition = (-41591.913757324219, 18.979999542236328, 200969.33310508728)
+			unitInstanceID = 98
+			unitID = MultiplayerSpawn
+			rotation = (-5.59267E-06, 27.91098, -4.276594E-06)
+			lastValidPlacement = (-41778.65625, 32.396831512451172, 200993.72635126114)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				vehicle = F/A-26B
+				selectableAltSpawn = False
+				slotLabel = F/A-26B Aircraft Carrier 2
+				unitGroup = Allied:Bravo
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
 	}
 	PATHS
 	{
@@ -7864,7 +7924,7 @@ CustomScenario
 			id = 9
 			name = CapAllAroundCoast
 			loop = True
-			points = (162698.125, 299.80078125, 99939.0859375);(151981.21875, 299.80078125, 97140.3671875);(141592.03125, 299.80078125, 99152.015625);(134244.953125, 299.80078125, 98441.421875);(127521.984375, 3043.0009765625, 105096.953125);(113689.15625, 3043.0009765625, 122266.265625);(104056.78125, 3043.0009765625, 131612.765625);(94666.828125, 299.80078125, 141906.046875);(93604.65625, 299.80078125, 145875.96875);(89985.125, 299.80078125, 146522.953125);(85052.78125, 299.80078125, 144660.84375);(79777.6796875, 299.80078125, 145538.0625);(73495.1953125, 299.80078125, 144194.609375);(66273.3828125, 299.80078125, 139653.125);(64255.890625, 299.80078125, 137660.03125);(56543.6328125, 299.80078125, 129302.34375);(54240.625, 299.80078125, 126762.46875);(46098.0859375, 299.80078125, 124359.15625);(23946.03125, 299.80078125, 123439.1875);(17192.328125, 299.80078125, 120786.65625);(14908.3125, 299.80078125, 118897.34375);(27148.46875, 299.80078125, 95899.015625);(37371.953125, 299.80078125, 80455.375);(49110.8671875, 3043.0009765625, 69800.90625);(102870.609375, 3043.0009765625, 59085.5625);(117186.75, 3043.0009765625, 56279.453125);(137755.4375, 299.80078125, 52011.765625);(145336.84375, 299.80078125, 50153.75);(161388.421875, 299.80078125, 58049.59375);(166249, 299.80078125, 64364.234375);(168862.671875, 299.80078125, 72384.0703125);
+			points = (162698.125, 299.80078125, 99939.0859375);(151981.21875, 299.80078125, 97140.3671875);(141592.03125, 299.80078125, 99152.015625);(134244.953125, 299.80078125, 98441.421875);(127521.984375, 3043.0009765625, 105096.953125);(113689.15625, 3043.0009765625, 122266.265625);(104056.78125, 3043.0009765625, 131612.765625);(94666.828125, 299.80078125, 141906.046875);(93604.65625, 299.80078125, 145875.96875);(89985.125, 299.80078125, 146522.953125);(85052.78125, 299.80078125, 144660.84375);(79777.6796875, 299.80078125, 145538.0625);(73495.1953125, 299.80078125, 144194.609375);(66273.3828125, 299.80078125, 139653.125);(64255.890625, 299.80078125, 137660.03125);(56543.6328125, 299.80078125, 129302.34375);(54240.625, 299.80078125, 126762.46875);(46098.0859375, 299.80078125, 124359.15625);(23946.03125, 299.80078125, 123439.1875);(17192.328125, 299.80078125, 120786.65625);(14908.3125, 299.80078125, 118897.34375);(27148.46875, 299.80078125, 95899.015625);(37371.953125, 299.80078125, 80455.375);(49110.8671875, 3043.0009765625, 69800.9140625);(102870.609375, 3043.0009765625, 59085.5625);(117186.75, 3043.0009765625, 56279.453125);(137755.4375, 299.80078125, 52011.765625);(145336.84375, 299.80078125, 50153.75);(161388.421875, 299.80078125, 58049.59375);(166249, 299.80078125, 64364.234375);(168862.671875, 299.80078125, 72384.0703125);
 			pathMode = Linear
 		}
 		PATH
@@ -7975,11 +8035,16 @@ CustomScenario
 		{
 			Hotel = 1;2;4;5;3;
 			Alpha = 2;95;96;
+			Bravo = 2;97;98;
 			Hotel_SETTINGS
 			{
 				syncAltSpawns = True
 			}
 			Alpha_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Bravo_SETTINGS
 			{
 				syncAltSpawns = False
 			}
