@@ -8878,6 +8878,70 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 29
+			enabled = True
+			triggerType = Conditional
+			conditional = 72
+			eventName = OnAlpha11Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = downed_alpha11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 30
+			enabled = True
+			triggerType = Conditional
+			conditional = 73
+			eventName = OnAlpha12Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = downed_alpha12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -11036,6 +11100,36 @@ CustomScenario
 				unit = 96
 				methodName = SCC_Landed
 				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 72
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-366, 67, 0)
+				unit = 95
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 73
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-426, 91, 0)
+				unit = 96
+				methodName = SCC_IsAlive
+				isNot = True
 			}
 		}
 	}
@@ -16216,6 +16310,8 @@ CustomScenario
 		1 = takeoff-alpha12.mp3
 		2 = landing-alpha11.mp3
 		3 = landing-alpha12.mp3
+		4 = downed_alpha11.mp3
+		5 = downed_alpha12.mp3
 	}
 }
 
