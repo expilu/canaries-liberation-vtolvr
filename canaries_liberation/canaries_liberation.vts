@@ -10925,6 +10925,87 @@ CustomScenario
 				radius = 1500
 			}
 		}
+		Objective
+		{
+			objectiveName = DestroyEnemyResupply
+			objectiveInfo = Destroy enemy resupply aircraft
+			objectiveID = 18
+			orderID = 18
+			required = False
+			completionReward = 0
+			waypoint = unit:1
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = resupply-survived.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = resupply-destroyed.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 1;
+				minRequired = 1
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
 	}
 	OBJECTIVES_OPFOR
 	{
@@ -16811,6 +16892,31 @@ CustomScenario
 			EVENT
 			{
 				delay = 0
+				nodeName = Activate objective
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 18
+						eventName = Reset Objective
+						methodName = ResetObjective
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 18
+						eventName = Begin Objective
+						methodName = BeginObjective
+						altTargetIdx = -1
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
 				nodeName = Choose landing base
 				exitConditional = 46
 				EventInfo
@@ -16835,7 +16941,7 @@ CustomScenario
 			EVENT
 			{
 				delay = 0
-				nodeName = Add resources
+				nodeName = Add resources and fail obj
 				EventInfo
 				{
 					eventName = 
@@ -16868,6 +16974,14 @@ CustomScenario
 								data = (0,99999)
 							}
 						}
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 18
+						eventName = Fail Objective
+						methodName = FailObjective
+						altTargetIdx = -1
 					}
 				}
 			}
@@ -17464,6 +17578,8 @@ CustomScenario
 		27 = landed-echo12.mp3
 		28 = destroyed-echo11.mp3
 		29 = destroyed-echo12.mp3
+		30 = resupply-destroyed.mp3
+		31 = resupply-survived.mp3
 	}
 }
 
