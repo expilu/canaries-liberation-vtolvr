@@ -10633,6 +10633,26 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = destroyed-ewr.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
 				}
 			}
 			fields
@@ -17829,6 +17849,7 @@ CustomScenario
 		38 = conquered-gando.mp3
 		39 = conquered-losrodeos.mp3
 		40 = conquered-south.mp3
+		41 = destroyed-ewr.mp3
 	}
 }
 
