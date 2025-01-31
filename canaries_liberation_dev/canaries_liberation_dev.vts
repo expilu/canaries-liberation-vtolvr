@@ -934,7 +934,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686067, 351.266)
+			rotation = (351.1896, 0.08686062, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1503,7 +1503,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165064.03157806396, 163.00082397460938, 71561.456359863281)
-				rotation = (2.588265E-07, 137.7815, -3.020849E-05)
+				rotation = (2.588273E-07, 137.7815, -3.020849E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2297,7 +2297,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803463E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803464E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2373,7 +2373,7 @@ CustomScenario
 			globalPosition = (165865.04296875, 39.2158203125, 71004.475158691406)
 			unitInstanceID = 34
 			unitID = staticAAA-20x2
-			rotation = (2.365924E-06, 166.2594, 9.675644E-06)
+			rotation = (2.365924E-06, 166.2594, 9.675645E-06)
 			lastValidPlacement = (165651.96810913086, 41.0765380859375, 72071.246643066406)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2648,7 +2648,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166471.17041015625, 41.076080322265625, 72938.75048828125)
-				rotation = (1.93457E-05, 41.67382, -1.17164E-06)
+				rotation = (1.93457E-05, 41.67382, -1.171639E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2666,7 +2666,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166471.17041015625, 41.076080322265625, 72938.75048828125)
-				rotation = (1.93457E-05, 41.67382, -1.17164E-06)
+				rotation = (1.93457E-05, 41.67382, -1.171639E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -3155,7 +3155,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165247.55224609375, 41.07666015625, 71716.535339355469)
-				rotation = (6.741066E-07, 133.5819, 1.921911E-05)
+				rotation = (6.741058E-07, 133.5819, 1.921911E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -3687,7 +3687,7 @@ CustomScenario
 			globalPosition = (74289.693481445313, 589.50645446777344, 132667.60968017578)
 			unitInstanceID = 45
 			unitID = SamFCR
-			rotation = (5.630022E-07, 26.76011, 1.379358E-05)
+			rotation = (5.630026E-07, 26.76011, 1.379358E-05)
 			lastValidPlacement = (74015.30322265625, 589.50636291503906, 132897.74273681641)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -6101,7 +6101,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49256.053283691406, 90.764602661132813, 84872.662506103516)
-				rotation = (7.982546E-06, 161.5388, -2.441157E-05)
+				rotation = (7.982547E-06, 161.5388, -2.441157E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -7467,7 +7467,7 @@ CustomScenario
 			globalPosition = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			unitInstanceID = 87
 			unitID = EMWSTruck
-			rotation = (3.101864E-07, 79.06618, -7.396826E-06)
+			rotation = (3.101864E-07, 79.06618, -7.396827E-06)
 			lastValidPlacement = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -7658,6 +7658,78 @@ CustomScenario
 				invincible = False
 				respawnable = True
 				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SupplyEscort1
+			globalPosition = (73687.259521484375, 591.76628112792969, 132912.80303955078)
+			unitInstanceID = 92
+			unitID = ASF-30
+			rotation = (-2.319245E-06, 197.6497, -1.333461E-05)
+			lastValidPlacement = (73687.259521484375, 591.76628112792969, 132912.80303955078)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Uniform
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:2
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;asf_mrmRail;asf_mrmRail;asf_mrmDrop;asf_mrmDrop;asf_mrmRail;asf_mrmRail;asf-srmx1;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SupplyEscort2
+			globalPosition = (166723.81042480469, 43.3743896484375, 73409.544067382813)
+			unitInstanceID = 93
+			unitID = ASF-30
+			rotation = (-1.179567E-06, 311.4995, -1.928265E-05)
+			lastValidPlacement = (166723.81042480469, 43.3743896484375, 73409.544067382813)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Uniform
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:0
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;asf_mrmRail;asf_mrmRail;asf_mrmDrop;asf_mrmDrop;asf_mrmRail;asf_mrmRail;asf-srmx1;asf30_jammer;
 			}
 		}
 	}
@@ -7863,6 +7935,7 @@ CustomScenario
 			Tango = 2;72;73;
 			Romeo = 2;74;75;
 			Victor = 0;89;90;
+			Uniform = 2;92;93;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = True
@@ -7886,6 +7959,10 @@ CustomScenario
 			Victor_SETTINGS
 			{
 				syncAltSpawns = True
+			}
+			Uniform_SETTINGS
+			{
+				syncAltSpawns = False
 			}
 		}
 	}
@@ -8316,6 +8393,42 @@ CustomScenario
 						type = RandomEventReference
 						value = 84
 						name = Event
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 24
+			enabled = True
+			triggerType = Conditional
+			conditional = 67
+			eventName = EscortSuplier
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = UnitGroup
+					targetID = 217
+					eventName = Form On Pilot
+					methodName = FormOnPilot
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = UnitReference
+						value = 1
+						name = Target Leader
+						ParamAttrInfo
+						{
+							type = TeamOptions
+							data = SameTeam
+						}
+						ParamAttrInfo
+						{
+							type = PilotUnitFilter
+							data = null
+						}
 					}
 				}
 			}
@@ -10375,6 +10488,46 @@ CustomScenario
 				id = 0
 				type = SCCUnitGroup
 				uiPos = (-369, 77, 0)
+				unitGroup = Enemy:Romeo
+				methodName = AllAirborne
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 67
+			outputNodePos = (0, 0, 0)
+			root = 1
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-466.3709, 239.7851, 0)
+				unit = 1
+				methodName = SC_IsAlive
+				isNot = False
+			}
+			COMP
+			{
+				id = 1
+				type = SCCAnd
+				uiPos = (-125.3923, 49.49692, 0)
+				factors = 0;2;3;
+			}
+			COMP
+			{
+				id = 2
+				type = SCCUnit
+				uiPos = (-471.8707, 96.79397, 0)
+				unit = 1
+				methodName = SC_IsLanded
+				isNot = True
+			}
+			COMP
+			{
+				id = 3
+				type = SCCUnitGroup
+				uiPos = (-449.872, -51.69678, 0)
 				unitGroup = Enemy:Romeo
 				methodName = AllAirborne
 				isNot = False
@@ -14168,6 +14321,100 @@ CustomScenario
 						methodName = SpawnUnit
 						altTargetIdx = -2
 					}
+				}
+			}
+			ACTION
+			{
+				id = 93
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-429, 174, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 1
+						type = SCCAnd
+						uiPos = (-124, 48, 0)
+						factors = 0;2;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-403, 7, 0)
+						unit = 92
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 92
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 94
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-424.5735, 180.3888, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 1
+						type = SCCAnd
+						uiPos = (-125.3922, 41.7974, 0)
+						factors = 0;2;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-392.5869, 0.9950002, 0)
+						unit = 93
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
 				}
 			}
 		}
