@@ -1,6 +1,6 @@
 CustomScenario
 {
-	gameVersion = 1.11.4f1
+	gameVersion = 1.11.4m1
 	campaignID = canaries_liberation
 	campaignOrderIdx = 0
 	scenarioName = Liberation of the Canaries
@@ -961,7 +961,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686051, 351.266)
+			rotation = (351.1896, 0.08686046, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1530,7 +1530,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165064.03157806396, 163.00082397460938, 71561.456359863281)
-				rotation = (2.58829E-07, 137.7815, -3.020849E-05)
+				rotation = (2.588298E-07, 137.7815, -3.020849E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2324,7 +2324,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803466E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803467E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2400,7 +2400,7 @@ CustomScenario
 			globalPosition = (165865.04296875, 39.2158203125, 71004.475158691406)
 			unitInstanceID = 34
 			unitID = staticAAA-20x2
-			rotation = (2.365924E-06, 166.2594, 9.675647E-06)
+			rotation = (2.365924E-06, 166.2594, 9.675648E-06)
 			lastValidPlacement = (165651.96810913086, 41.0765380859375, 72071.246643066406)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -3714,7 +3714,7 @@ CustomScenario
 			globalPosition = (74289.693481445313, 589.50645446777344, 132667.60968017578)
 			unitInstanceID = 45
 			unitID = SamFCR
-			rotation = (5.630036E-07, 26.76011, 1.379358E-05)
+			rotation = (5.63004E-07, 26.76011, 1.379358E-05)
 			lastValidPlacement = (74015.30322265625, 589.50636291503906, 132897.74273681641)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -7494,7 +7494,7 @@ CustomScenario
 			globalPosition = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			unitInstanceID = 87
 			unitID = EMWSTruck
-			rotation = (3.101864E-07, 79.06618, -7.39683E-06)
+			rotation = (3.101864E-07, 79.06618, -7.396831E-06)
 			lastValidPlacement = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -8834,7 +8834,7 @@ CustomScenario
 					ParamInfo
 					{
 						type = VTSAudioReference
-						value = landing-alpha11.mp3
+						value = landed-alpha11.mp3
 						name = Audio
 					}
 					ParamInfo
@@ -8866,7 +8866,7 @@ CustomScenario
 					ParamInfo
 					{
 						type = VTSAudioReference
-						value = landing-alpha12.mp3
+						value = landed-alpha12.mp3
 						name = Audio
 					}
 					ParamInfo
@@ -8898,7 +8898,7 @@ CustomScenario
 					ParamInfo
 					{
 						type = VTSAudioReference
-						value = downed_alpha11.mp3
+						value = destroyed-alpha11.mp3
 						name = Audio
 					}
 					ParamInfo
@@ -8930,7 +8930,775 @@ CustomScenario
 					ParamInfo
 					{
 						type = VTSAudioReference
-						value = downed_alpha12.mp3
+						value = destroyed-alpha12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 31
+			enabled = True
+			triggerType = Conditional
+			conditional = 74
+			eventName = OnBravo11Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-bravo11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 32
+			enabled = True
+			triggerType = Conditional
+			conditional = 75
+			eventName = OnBravo12Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-bravo12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 33
+			enabled = True
+			triggerType = Conditional
+			conditional = 76
+			eventName = OnBravo11Landed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = landed-bravo11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 34
+			enabled = True
+			triggerType = Conditional
+			conditional = 77
+			eventName = OnBravo12Landed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = landed-bravo12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 35
+			enabled = True
+			triggerType = Conditional
+			conditional = 78
+			eventName = OnBravo11Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-bravo11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 36
+			enabled = True
+			triggerType = Conditional
+			conditional = 79
+			eventName = OnBravo12Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-bravo12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 37
+			enabled = True
+			triggerType = Conditional
+			conditional = 80
+			eventName = OnCharlie11Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-charlie11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 38
+			enabled = True
+			triggerType = Conditional
+			conditional = 81
+			eventName = OnCharlie12Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-charlie12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 39
+			enabled = True
+			triggerType = Conditional
+			conditional = 82
+			eventName = OnCharlie11Landed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = landed-charlie11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 40
+			enabled = True
+			triggerType = Conditional
+			conditional = 83
+			eventName = OnCharlie12Landed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = landed-charlie12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 41
+			enabled = True
+			triggerType = Conditional
+			conditional = 84
+			eventName = OnCharlie11Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-charlie11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 42
+			enabled = True
+			triggerType = Conditional
+			conditional = 85
+			eventName = OnCharlie12Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-charlie12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 43
+			enabled = True
+			triggerType = Conditional
+			conditional = 86
+			eventName = OnDelta11Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-delta11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 44
+			enabled = True
+			triggerType = Conditional
+			conditional = 87
+			eventName = OnDelta12Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-delta12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 45
+			enabled = True
+			triggerType = Conditional
+			conditional = 88
+			eventName = OnDelta11Landed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = landed-delta11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 46
+			enabled = True
+			triggerType = Conditional
+			conditional = 89
+			eventName = OnDelta12Landed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = landed-delta12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 47
+			enabled = True
+			triggerType = Conditional
+			conditional = 90
+			eventName = OnDelta11Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-delta11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 48
+			enabled = True
+			triggerType = Conditional
+			conditional = 91
+			eventName = OnDelta12Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-delta12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 49
+			enabled = True
+			triggerType = Conditional
+			conditional = 92
+			eventName = OnEcho11Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-echo11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 50
+			enabled = True
+			triggerType = Conditional
+			conditional = 93
+			eventName = OnEcho12Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-echo12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 51
+			enabled = True
+			triggerType = Conditional
+			conditional = 94
+			eventName = OnEcho11Landed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = landed-echo11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 52
+			enabled = True
+			triggerType = Conditional
+			conditional = 95
+			eventName = OnEcho12Landed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = landed-echo12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 53
+			enabled = True
+			triggerType = Conditional
+			conditional = 96
+			eventName = OnEcho11Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-echo11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 54
+			enabled = True
+			triggerType = Conditional
+			conditional = 97
+			eventName = OnEcho12Destroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-echo12.mp3
 						name = Audio
 					}
 					ParamInfo
@@ -11128,6 +11896,366 @@ CustomScenario
 				type = SCCUnit
 				uiPos = (-426, 91, 0)
 				unit = 96
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 74
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-386, 63, 0)
+				unit = 97
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 75
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-379, 67, 0)
+				unit = 98
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 76
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-426, 70, 0)
+				unit = 97
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 77
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-377, 91, 0)
+				unit = 98
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 78
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-486, 123, 0)
+				unit = 97
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 79
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-363, 59, 0)
+				unit = 98
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 80
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-432, 91, 0)
+				unit = 99
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 81
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-333, 72, 0)
+				unit = 100
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 82
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-420, 95, 0)
+				unit = 99
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 83
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-361, 85, 0)
+				unit = 100
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 84
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-351, 72, 0)
+				unit = 99
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 85
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-358, 80, 0)
+				unit = 100
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 86
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-399, 103, 0)
+				unit = 101
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 87
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-356, 74, 0)
+				unit = 102
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 88
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-345, 98, 0)
+				unit = 101
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 89
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-370, 93, 0)
+				unit = 102
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 90
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-367, 86, 0)
+				unit = 101
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 91
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-365, 105, 0)
+				unit = 102
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 92
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-376, 83, 0)
+				unit = 103
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 93
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-385, 53, 0)
+				unit = 104
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 94
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-351, 89, 0)
+				unit = 103
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 95
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-379, 107, 0)
+				unit = 104
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 96
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-430, 123, 0)
+				unit = 103
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 97
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-425, 103, 0)
+				unit = 104
 				methodName = SCC_IsAlive
 				isNot = True
 			}
@@ -16308,10 +17436,34 @@ CustomScenario
 	{
 		0 = takeoff-alpha11.mp3
 		1 = takeoff-alpha12.mp3
-		2 = landing-alpha11.mp3
-		3 = landing-alpha12.mp3
-		4 = downed_alpha11.mp3
-		5 = downed_alpha12.mp3
+		2 = landed-alpha11.mp3
+		3 = landed-alpha12.mp3
+		4 = destroyed-alpha11.mp3
+		5 = destroyed-alpha12.mp3
+		6 = takeoff-bravo11.mp3
+		7 = takeoff-bravo12.mp3
+		8 = landed-bravo11.mp3
+		9 = landed-bravo12.mp3
+		10 = destroyed-bravo11.mp3
+		11 = destroyed-bravo12.mp3
+		12 = takeoff-charlie11.mp3
+		13 = takeoff-charlie12.mp3
+		14 = landed-charlie11.mp3
+		15 = landed-charlie12.mp3
+		16 = destroyed-charlie11.mp3
+		17 = destroyed-charlie12.mp3
+		18 = takeoff-delta11.mp3
+		19 = takeoff-delta12.mp3
+		20 = landed-delta11.mp3
+		21 = landed-delta12.mp3
+		22 = destroyed-delta11.mp3
+		23 = destroyed-delta12.mp3
+		24 = takeoff-echo11.mp3
+		25 = takeoff-echo12.mp3
+		26 = landed-echo11.mp3
+		27 = landed-echo12.mp3
+		28 = destroyed-echo11.mp3
+		29 = destroyed-echo12.mp3
 	}
 }
 
