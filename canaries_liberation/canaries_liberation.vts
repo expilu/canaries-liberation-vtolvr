@@ -8,7 +8,7 @@ CustomScenario
 	scenarioDescription = WIP
 	mapID = gctf
 	vehicle = F-45A
-	multiplayer = False
+	multiplayer = True
 	allowedEquips = f45_gun;f45_sidewinderx2;f45_aim9x1;f45_amraamInternal;f45_amraamRail;f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_droptank;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;f45_harmSDx1;f45_harmSDx2;
 	forcedEquips = ;;;;;;;;;;;
 	forceEquips = False
@@ -18,6 +18,19 @@ CustomScenario
 	isTraining = False
 	rtbWptID = 
 	refuelWptID = 
+	mpPlayerCount = 2
+	autoPlayerCount = True
+	overrideAlliedPlayerCount = 1
+	overrideEnemyPlayerCount = 0
+	scorePerDeath_A = 0
+	scorePerDeath_B = 0
+	scorePerKill_A = 0
+	scorePerKill_B = 0
+	mpBudgetMode = Life
+	rtbWptID_B = 
+	refuelWptID_B = 
+	separateBriefings = False
+	baseBudgetB = 100000
 	infiniteAmmo = False
 	infAmmoReloadDelay = 5
 	fuelDrainMult = 1
@@ -45,20 +58,30 @@ CustomScenario
 	{
 		UnitSpawner
 		{
-			unitName = Player
-			globalPosition = (-42823.4609375, 16.100006103515625, 201392.3125)
-			unitInstanceID = 0
-			unitID = PlayerSpawn
-			rotation = (0, 28.1477, 0)
-			lastValidPlacement = (165451.46472167969, 41.124755859375, 73023.281982421875)
-			editorPlacementMode = Ground
+			unitName = F-45 Spawn 1
+			globalPosition = (-42823.462211608887, 16.100000381469727, 201392.30755615234)
+			unitInstanceID = 95
+			unitID = MultiplayerSpawn
+			rotation = (0, 28.14769, 0)
+			lastValidPlacement = (-42973.325134277344, 32.396820068359375, 201406.97567749023)
+			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
 			UnitFields
 			{
+				vehicle = F-45A
+				selectableAltSpawn = False
+				slotLabel = F-45A Assault Carrier 1
+				unitGroup = Allied:Alpha
 				startMode = Cold
+				equipment = 
 				initialSpeed = 0
-				unitGroup = null
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
 				receiveFriendlyDamage = True
 			}
 		}
@@ -432,7 +455,7 @@ CustomScenario
 				invincible = False
 				respawnable = False
 				receiveFriendlyDamage = True
-				carrierSpawns = 0:0:-1;0:-1;0:-1;0:-1;0:-1;0:-1;
+				carrierSpawns = 0:95:-1;1:96:-1;2:-1;3:-1;4:-1;5:-1;
 			}
 			altSpawn
 			{
@@ -934,7 +957,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686062, 351.266)
+			rotation = (351.1896, 0.08686057, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1503,7 +1526,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165064.03157806396, 163.00082397460938, 71561.456359863281)
-				rotation = (2.588273E-07, 137.7815, -3.020849E-05)
+				rotation = (2.588282E-07, 137.7815, -3.020849E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2297,7 +2320,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803464E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803465E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2373,7 +2396,7 @@ CustomScenario
 			globalPosition = (165865.04296875, 39.2158203125, 71004.475158691406)
 			unitInstanceID = 34
 			unitID = staticAAA-20x2
-			rotation = (2.365924E-06, 166.2594, 9.675645E-06)
+			rotation = (2.365924E-06, 166.2594, 9.675646E-06)
 			lastValidPlacement = (165651.96810913086, 41.0765380859375, 72071.246643066406)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -3155,7 +3178,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165247.55224609375, 41.07666015625, 71716.535339355469)
-				rotation = (6.741058E-07, 133.5819, 1.921911E-05)
+				rotation = (6.74105E-07, 133.5819, 1.921911E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -3687,7 +3710,7 @@ CustomScenario
 			globalPosition = (74289.693481445313, 589.50645446777344, 132667.60968017578)
 			unitInstanceID = 45
 			unitID = SamFCR
-			rotation = (5.630026E-07, 26.76011, 1.379358E-05)
+			rotation = (5.63003E-07, 26.76011, 1.379358E-05)
 			lastValidPlacement = (74015.30322265625, 589.50636291503906, 132897.74273681641)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -6101,7 +6124,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49256.053283691406, 90.764602661132813, 84872.662506103516)
-				rotation = (7.982547E-06, 161.5388, -2.441157E-05)
+				rotation = (7.982549E-06, 161.5388, -2.441157E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -7467,7 +7490,7 @@ CustomScenario
 			globalPosition = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			unitInstanceID = 87
 			unitID = EMWSTruck
-			rotation = (3.101864E-07, 79.06618, -7.396827E-06)
+			rotation = (3.101864E-07, 79.06618, -7.396829E-06)
 			lastValidPlacement = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -7732,6 +7755,35 @@ CustomScenario
 				equips = asf30_gun;asf30_jammer;asf-srmx1;asf_mrmRail;asf_mrmRail;asf_mrmDrop;asf_mrmDrop;asf_mrmRail;asf_mrmRail;asf-srmx1;asf30_jammer;
 			}
 		}
+		UnitSpawner
+		{
+			unitName = F-45 Spawn 2
+			globalPosition = (-42806.142219543457, 16.100000381469727, 201392.30755615234)
+			unitInstanceID = 96
+			unitID = MultiplayerSpawn
+			rotation = (0, 28.14769, 0)
+			lastValidPlacement = (-42974.198211669922, 32.396820068359375, 201366.1641998291)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				vehicle = F-45A
+				selectableAltSpawn = False
+				slotLabel = F-45A Assault Carrier 2
+				unitGroup = Allied:Alpha
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
 	}
 	PATHS
 	{
@@ -7780,7 +7832,7 @@ CustomScenario
 			id = 5
 			name = EnemyAlertZone
 			loop = True
-			points = (195881.90625, -5, 62052.40625);(180784.265625, -5, 123830.15625);(123257.96875, -5, 126461.40625);(115122.421875, -5, 164876.53125);(61074.28125, -5, 171051.40625);(35594.953125, -5, 150750.65625);(-11368.328125, -5, 129127.765625);(16556.140625, -5, 59644.9453125);(94252.28125, -5, 61795.3046875);(146113.34375, -5, 20717.03125);(179730.71875, -5, 34312.6875);
+			points = (195881.90625, -5, 62052.40625);(180784.265625, -5, 123830.15625);(123257.96875, -5, 126461.40625);(115122.421875, -5, 164876.53125);(61074.28125, -5, 171051.40625);(35594.953125, -5, 150750.65625);(-11368.328125, -5, 129127.765625);(16556.140625, -5, 59644.9375);(94252.28125, -5, 61795.3125);(146113.34375, -5, 20717.03125);(179730.71875, -5, 34312.6875);
 			pathMode = Linear
 		}
 		PATH
@@ -7812,7 +7864,7 @@ CustomScenario
 			id = 9
 			name = CapAllAroundCoast
 			loop = True
-			points = (162698.125, 299.80078125, 99939.0859375);(151981.21875, 299.80078125, 97140.3671875);(141592.03125, 299.80078125, 99152.015625);(134244.953125, 299.80078125, 98441.421875);(127521.984375, 3043.0009765625, 105096.953125);(113689.15625, 3043.0009765625, 122266.265625);(104056.78125, 3043.0009765625, 131612.765625);(94666.828125, 299.80078125, 141906.046875);(93604.65625, 299.80078125, 145875.96875);(89985.125, 299.80078125, 146522.953125);(85052.78125, 299.80078125, 144660.84375);(79777.6796875, 299.80078125, 145538.0625);(73495.1953125, 299.80078125, 144194.609375);(66273.3828125, 299.80078125, 139653.125);(64255.890625, 299.80078125, 137660.03125);(56543.6328125, 299.80078125, 129302.34375);(54240.625, 299.80078125, 126762.46875);(46098.0859375, 299.80078125, 124359.15625);(23946.03125, 299.80078125, 123439.1875);(17192.328125, 299.80078125, 120786.65625);(14908.3125, 299.80078125, 118897.34375);(27148.46875, 299.80078125, 95899.015625);(37371.953125, 299.80078125, 80455.375);(49110.8671875, 3043.0009765625, 69800.9140625);(102870.609375, 3043.0009765625, 59085.5625);(117186.75, 3043.0009765625, 56279.453125);(137755.4375, 299.80078125, 52011.765625);(145336.84375, 299.80078125, 50153.75);(161388.421875, 299.80078125, 58049.59375);(166249, 299.80078125, 64364.234375);(168862.671875, 299.80078125, 72384.0703125);
+			points = (162698.125, 299.80078125, 99939.0859375);(151981.21875, 299.80078125, 97140.3671875);(141592.03125, 299.80078125, 99152.015625);(134244.953125, 299.80078125, 98441.421875);(127521.984375, 3043.0009765625, 105096.953125);(113689.15625, 3043.0009765625, 122266.265625);(104056.78125, 3043.0009765625, 131612.765625);(94666.828125, 299.80078125, 141906.046875);(93604.65625, 299.80078125, 145875.96875);(89985.125, 299.80078125, 146522.953125);(85052.78125, 299.80078125, 144660.84375);(79777.6796875, 299.80078125, 145538.0625);(73495.1953125, 299.80078125, 144194.609375);(66273.3828125, 299.80078125, 139653.125);(64255.890625, 299.80078125, 137660.03125);(56543.6328125, 299.80078125, 129302.34375);(54240.625, 299.80078125, 126762.46875);(46098.0859375, 299.80078125, 124359.15625);(23946.03125, 299.80078125, 123439.1875);(17192.328125, 299.80078125, 120786.65625);(14908.3125, 299.80078125, 118897.34375);(27148.46875, 299.80078125, 95899.015625);(37371.953125, 299.80078125, 80455.375);(49110.8671875, 3043.0009765625, 69800.90625);(102870.609375, 3043.0009765625, 59085.5625);(117186.75, 3043.0009765625, 56279.453125);(137755.4375, 299.80078125, 52011.765625);(145336.84375, 299.80078125, 50153.75);(161388.421875, 299.80078125, 58049.59375);(166249, 299.80078125, 64364.234375);(168862.671875, 299.80078125, 72384.0703125);
 			pathMode = Linear
 		}
 		PATH
@@ -7922,9 +7974,14 @@ CustomScenario
 		ALLIED
 		{
 			Hotel = 1;2;4;5;3;
+			Alpha = 2;95;96;
 			Hotel_SETTINGS
 			{
 				syncAltSpawns = True
+			}
+			Alpha_SETTINGS
+			{
+				syncAltSpawns = False
 			}
 		}
 		ENEMY
@@ -15700,6 +15757,9 @@ CustomScenario
 		}
 	}
 	Briefing
+	{
+	}
+	Briefing_B
 	{
 	}
 }
