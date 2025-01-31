@@ -961,7 +961,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686057, 351.266)
+			rotation = (351.1896, 0.08686051, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -1530,7 +1530,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165064.03157806396, 163.00082397460938, 71561.456359863281)
-				rotation = (2.588282E-07, 137.7815, -3.020849E-05)
+				rotation = (2.58829E-07, 137.7815, -3.020849E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2324,7 +2324,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803465E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803466E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -2400,7 +2400,7 @@ CustomScenario
 			globalPosition = (165865.04296875, 39.2158203125, 71004.475158691406)
 			unitInstanceID = 34
 			unitID = staticAAA-20x2
-			rotation = (2.365924E-06, 166.2594, 9.675646E-06)
+			rotation = (2.365924E-06, 166.2594, 9.675647E-06)
 			lastValidPlacement = (165651.96810913086, 41.0765380859375, 72071.246643066406)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -3714,7 +3714,7 @@ CustomScenario
 			globalPosition = (74289.693481445313, 589.50645446777344, 132667.60968017578)
 			unitInstanceID = 45
 			unitID = SamFCR
-			rotation = (5.63003E-07, 26.76011, 1.379358E-05)
+			rotation = (5.630036E-07, 26.76011, 1.379358E-05)
 			lastValidPlacement = (74015.30322265625, 589.50636291503906, 132897.74273681641)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -6128,7 +6128,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49256.053283691406, 90.764602661132813, 84872.662506103516)
-				rotation = (7.982549E-06, 161.5388, -2.441157E-05)
+				rotation = (7.98255E-06, 161.5388, -2.441157E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -7494,7 +7494,7 @@ CustomScenario
 			globalPosition = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			unitInstanceID = 87
 			unitID = EMWSTruck
-			rotation = (3.101864E-07, 79.06618, -7.396829E-06)
+			rotation = (3.101864E-07, 79.06618, -7.39683E-06)
 			lastValidPlacement = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -7794,7 +7794,7 @@ CustomScenario
 			globalPosition = (-41618.493728637695, 18.979995727539063, 200968.20309448242)
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
-			rotation = (-6.011082E-06, 21.87937, -3.665257E-06)
+			rotation = (-6.011081E-06, 21.87937, -3.665257E-06)
 			lastValidPlacement = (-41781.654357910156, 32.396831512451172, 201022.92018890381)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -7823,7 +7823,7 @@ CustomScenario
 			globalPosition = (-41591.91374206543, 18.979995727539063, 200969.33309936523)
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
-			rotation = (-5.59267E-06, 27.91098, -4.276594E-06)
+			rotation = (-5.592669E-06, 27.91098, -4.276594E-06)
 			lastValidPlacement = (-41778.65625, 32.396831512451172, 200993.72635126114)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8746,6 +8746,38 @@ CustomScenario
 							type = PilotUnitFilter
 							data = null
 						}
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 25
+			enabled = True
+			triggerType = Conditional
+			conditional = 68
+			eventName = OnAlpha11Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-alpha11.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
 					}
 				}
 			}
@@ -10848,6 +10880,21 @@ CustomScenario
 				unitGroup = Enemy:Romeo
 				methodName = AllAirborne
 				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 68
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-369, 55, 0)
+				unit = 95
+				methodName = SCC_Landed
+				isNot = True
 			}
 		}
 	}
@@ -16021,6 +16068,10 @@ CustomScenario
 	}
 	Briefing_B
 	{
+	}
+	ResourceManifest
+	{
+		0 = takeoff-alpha11.mp3
 	}
 }
 
