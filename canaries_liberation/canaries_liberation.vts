@@ -8782,6 +8782,38 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 26
+			enabled = True
+			triggerType = Conditional
+			conditional = 69
+			eventName = OnAlpha12Airborne
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = takeoff-alpha12.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -10893,6 +10925,21 @@ CustomScenario
 				type = SCCUnit
 				uiPos = (-369, 55, 0)
 				unit = 95
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 69
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-383, 78, 0)
+				unit = 96
 				methodName = SCC_Landed
 				isNot = True
 			}
@@ -16072,6 +16119,7 @@ CustomScenario
 	ResourceManifest
 	{
 		0 = takeoff-alpha11.mp3
+		1 = takeoff-alpha12.mp3
 	}
 }
 
