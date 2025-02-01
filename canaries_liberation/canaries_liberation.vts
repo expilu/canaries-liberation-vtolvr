@@ -10160,6 +10160,46 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 55
+			enabled = True
+			triggerType = Conditional
+			conditional = 98
+			eventName = OnCarrierProtected
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Objective
+					targetID = 19
+					eventName = Complete Objective
+					methodName = CompleteObjective
+					altTargetIdx = -1
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 56
+			enabled = True
+			triggerType = Conditional
+			conditional = 99
+			eventName = OnCarrierNotProtected
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Objective
+					targetID = 19
+					eventName = Fail Objective
+					methodName = FailObjective
+					altTargetIdx = -1
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -11716,6 +11756,46 @@ CustomScenario
 				fullCompleteBonus = 0
 			}
 		}
+		Objective
+		{
+			objectiveName = Carrier must survive
+			objectiveInfo = Protect the aircraft carrier at all costs
+			objectiveID = 19
+			orderID = 19
+			required = True
+			completionReward = 0
+			waypoint = unit:2
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Protect
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				target = 2
+				radius = 5
+				completionMode = Trigger
+			}
+		}
 	}
 	OBJECTIVES_OPFOR
 	{
@@ -13048,6 +13128,95 @@ CustomScenario
 				uiPos = (-425, 103, 0)
 				unit = 104
 				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 98
+			outputNodePos = (0, 0, 0)
+			root = 3
+			COMP
+			{
+				id = 3
+				type = SCCOr
+				uiPos = (-138, 47, 0)
+				factors = 1;2;4;
+			}
+			COMP
+			{
+				id = 1
+				type = SCCGlobalValue
+				uiPos = (-442, 160, 0)
+				gv = 2
+				comparison = Equals
+				c_value = 0
+			}
+			COMP
+			{
+				id = 2
+				type = SCCGlobalValue
+				uiPos = (-446, 39, 0)
+				gv = 3
+				comparison = Equals
+				c_value = 0
+			}
+			COMP
+			{
+				id = 4
+				type = SCCGlobalValue
+				uiPos = (-449, -92, 0)
+				gv = 4
+				comparison = Equals
+				c_value = 0
+			}
+		}
+		CONDITIONAL
+		{
+			id = 99
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCAnd
+				uiPos = (-153, 69, 0)
+				factors = 1;2;3;4;
+			}
+			COMP
+			{
+				id = 1
+				type = SCCGlobalValue
+				uiPos = (-485, 293, 0)
+				gv = 2
+				comparison = Equals
+				c_value = 1
+			}
+			COMP
+			{
+				id = 2
+				type = SCCGlobalValue
+				uiPos = (-488, 158, 0)
+				gv = 3
+				comparison = Equals
+				c_value = 1
+			}
+			COMP
+			{
+				id = 3
+				type = SCCGlobalValue
+				uiPos = (-489, 35, 0)
+				gv = 4
+				comparison = Equals
+				c_value = 1
+			}
+			COMP
+			{
+				id = 4
+				type = SCCUnit
+				uiPos = (-470, -94, 0)
+				unit = 2
+				methodName = SC_IsAlive
 				isNot = True
 			}
 		}
@@ -18494,6 +18663,10 @@ CustomScenario
 		gv
 		{
 			data = 12;enemyResources;Each resource allows respawning one unit;0;
+		}
+		gv
+		{
+			data = 13;attackTarget;a number indicating a chosen attack target from the allied side:///n///n1 - aircraft carrier///n2 - assault carrier///n3 - Gando///n4 - Los Rodeos///n5 - Tf South;0;
 		}
 	}
 	Briefing
