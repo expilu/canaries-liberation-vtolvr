@@ -13537,6 +13537,51 @@ CustomScenario
 				}
 			}
 		}
+		ConditionalAction
+		{
+			id = 12
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 33%
+				blockId = 13
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-271, 40, 0)
+						chance = 33
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 95
+							name = Event
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
 	}
 	RandomEvents
 	{
@@ -17929,6 +17974,296 @@ CustomScenario
 				}
 			}
 		}
+		RANDOM_EVENT
+		{
+			id = 95
+			note = Choose a random target
+			ACTION
+			{
+				id = 96
+				actionName = aircraft carrier
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCUnit
+						uiPos = (-398, 61, 0)
+						unit = 2
+						methodName = SC_IsAlive
+						isNot = False
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 13
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 97
+				actionName = assault carrier
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCUnit
+						uiPos = (-405, 52, 0)
+						unit = 3
+						methodName = SC_IsAlive
+						isNot = False
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 13
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 2
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 98
+				actionName = Gando
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-375, 51, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 13
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 3
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 99
+				actionName = Los Rodeos
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-409, 54, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 13
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 4
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 100
+				actionName = Tenerife South
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-415, 66, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 13
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	EventSequences
 	{
@@ -18595,6 +18930,53 @@ CustomScenario
 				}
 			}
 		}
+		SEQUENCE
+		{
+			id = 14
+			sequenceName = DecideAttackLoop
+			startImmediately = True
+			whileLoop = False
+			EVENT
+			{
+				delay = 300
+				nodeName = Choose target with chance
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 12
+							name = Action
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Loop
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 14
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+			}
+		}
 	}
 	BASES
 	{
@@ -18666,7 +19048,7 @@ CustomScenario
 		}
 		gv
 		{
-			data = 13;attackTarget;a number indicating a chosen attack target from the allied side:///n///n1 - aircraft carrier///n2 - assault carrier///n3 - Gando///n4 - Los Rodeos///n5 - Tf South;0;
+			data = 13;attackTarget;a number indicating a chosen attack target:///n///n1 - aircraft carrier///n2 - assault carrier///n3 - Gando///n4 - Los Rodeos///n5 - TF South///n5 - Tf South;0;
 		}
 	}
 	Briefing
