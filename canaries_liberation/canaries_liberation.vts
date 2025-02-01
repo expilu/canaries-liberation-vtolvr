@@ -13543,7 +13543,7 @@ CustomScenario
 			name = 
 			BASE_BLOCK
 			{
-				blockName = 33%
+				blockName = 50%
 				blockId = 13
 				CONDITIONAL
 				{
@@ -13555,7 +13555,7 @@ CustomScenario
 						id = 0
 						type = SCCChance
 						uiPos = (-271, 40, 0)
-						chance = 33
+						chance = 50
 					}
 				}
 				ACTIONS
@@ -18938,7 +18938,7 @@ CustomScenario
 			whileLoop = False
 			EVENT
 			{
-				delay = 300
+				delay = 600
 				nodeName = Choose target with chance
 				EventInfo
 				{
