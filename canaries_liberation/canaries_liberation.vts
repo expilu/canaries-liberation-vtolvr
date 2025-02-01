@@ -13582,6 +13582,487 @@ CustomScenario
 				}
 			}
 		}
+		ConditionalAction
+		{
+			id = 14
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Yankee joins attack
+				blockId = 15
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-347, 53, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 16
+			name = Starts an attack corresponding to the chosen attack target
+			BASE_BLOCK
+			{
+				blockName = Aircraft carrier
+				blockId = 17
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-364, 59, 0)
+						gv = 13
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 15
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+				ELSE_IF
+				{
+					blockName = Assault carrier
+					blockId = 18
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-369, 54, 0)
+							gv = 13
+							comparison = Equals
+							c_value = 2
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = Event_Sequences
+							targetID = 16
+							eventName = Restart
+							methodName = Restart
+							altTargetIdx = -1
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = Gando
+					blockId = 19
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-387, 56, 0)
+							gv = 13
+							comparison = Equals
+							c_value = 3
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = Event_Sequences
+							targetID = 17
+							eventName = Restart
+							methodName = Restart
+							altTargetIdx = -1
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = Los Rodeos
+					blockId = 20
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-376, 61, 0)
+							gv = 13
+							comparison = Equals
+							c_value = 4
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = Event_Sequences
+							targetID = 18
+							eventName = Restart
+							methodName = Restart
+							altTargetIdx = -1
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = Tenerife South
+					blockId = 21
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCGlobalValue
+							uiPos = (-405, 67, 0)
+							gv = 13
+							comparison = Equals
+							c_value = 5
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = Event_Sequences
+							targetID = 19
+							eventName = Restart
+							methodName = Restart
+							altTargetIdx = -1
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 22
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Sierra joins attack
+				blockId = 23
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 3
+					COMP
+					{
+						id = 3
+						type = SCCChance
+						uiPos = (-416, 124, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:1;2:0;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 24
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Quebec joins attack
+				blockId = 25
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 1
+						type = SCCChance
+						uiPos = (-384, 171, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;4;5;3;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 26
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Papa joins attack
+				blockId = 27
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-148, 54, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCChance
+						uiPos = (-373, 155, 0)
+						chance = 50
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnitGroup
+						uiPos = (-410, 24, 0)
+						unitGroup = Enemy:Papa
+						methodName = AllAirborne
+						isNot = True
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 28
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Oscar joins attack
+				blockId = 29
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 30
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Papa joins attack
+				blockId = 31
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-322, 55, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
 	}
 	RandomEvents
 	{
@@ -18962,6 +19443,29 @@ CustomScenario
 			EVENT
 			{
 				delay = 0
+				nodeName = Start attack
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 16
+							name = Action
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
 				nodeName = Loop
 				EventInfo
 				{
@@ -18976,6 +19480,134 @@ CustomScenario
 					}
 				}
 			}
+		}
+		SEQUENCE
+		{
+			id = 15
+			sequenceName = AttackAircraftCarrier
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Decide attackers & attack
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 14
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 22
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 24
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 26
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 28
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 30
+							name = Action
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 16
+			sequenceName = AttackAssaultCarrier
+			startImmediately = False
+			whileLoop = False
+		}
+		SEQUENCE
+		{
+			id = 17
+			sequenceName = AttackGando
+			startImmediately = False
+			whileLoop = False
+		}
+		SEQUENCE
+		{
+			id = 18
+			sequenceName = AttackLosRodeos
+			startImmediately = False
+			whileLoop = False
+		}
+		SEQUENCE
+		{
+			id = 19
+			sequenceName = AttackTenerifeSouth
+			startImmediately = False
+			whileLoop = False
 		}
 	}
 	BASES
