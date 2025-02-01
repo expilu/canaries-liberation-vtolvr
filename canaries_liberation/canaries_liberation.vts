@@ -961,7 +961,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686035, 351.266)
+			rotation = (351.1896, 0.08686029, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2324,7 +2324,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803469E-06, 21.87292, 3.534135E-06)
+				rotation = (8.80347E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -8024,6 +8024,426 @@ CustomScenario
 				slots = 2
 			}
 		}
+		UnitSpawner
+		{
+			unitName = Attack GC 1
+			globalPosition = (166570.91442871094, 43.273468017578125, 73234.149841308594)
+			unitInstanceID = 105
+			unitID = GAV-25
+			rotation = (-5.917359E-09, 314.9825, -1.931869E-05)
+			lastValidPlacement = (166570.91442871094, 43.273468017578125, 73234.149841308594)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Yankee
+				defaultBehavior = Parked
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				rtbDestination = map:0
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = gav_gun;asf-srmx3;wr-25;wr-25;gma-6x2;gma-6x2;wr-25;wr-25;gma-14x3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack GC 2
+			globalPosition = (166429.12158203125, 43.27349853515625, 73088.415420532227)
+			unitInstanceID = 106
+			unitID = GAV-25
+			rotation = (-5.917359E-09, 314.9825, -1.931869E-05)
+			lastValidPlacement = (166429.12158203125, 43.27349853515625, 73088.415420532227)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Yankee
+				defaultBehavior = Parked
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				rtbDestination = map:0
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = gav_gun;asf-srmx3;wr-25;wr-25;gma-6x2;gma-6x2;wr-25;wr-25;gma-14x3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack TFN 1
+			globalPosition = (73509.300369262695, 591.666259765625, 132974.8864440918)
+			unitInstanceID = 107
+			unitID = GAV-25
+			rotation = (-1.641793E-06, 197.9023, -1.373226E-05)
+			lastValidPlacement = (73509.300369262695, 591.666259765625, 132974.8864440918)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Sierra
+				defaultBehavior = Parked
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				rtbDestination = map:2
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = gav_gun;asf-srmx3;wr-25;wr-25;gma-6x2;gma-6x2;wr-25;wr-25;gma-14x3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack TFN 2
+			globalPosition = (73323.024139404297, 591.6661376953125, 133036.58642578125)
+			unitInstanceID = 108
+			unitID = GAV-25
+			rotation = (-2.260451E-06, 197.9023, -1.334471E-05)
+			lastValidPlacement = (73323.024139404297, 591.6661376953125, 133036.58642578125)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Sierra
+				defaultBehavior = Parked
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				rtbDestination = map:2
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = gav_gun;asf-srmx3;wr-25;wr-25;gma-6x2;gma-6x2;wr-25;wr-25;gma-14x3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack TFS 1
+			globalPosition = (48834.585632324219, 92.963110446929932, 85462.753402709961)
+			unitInstanceID = 109
+			unitID = GAV-25
+			rotation = (1.051316E-05, 156.7399, -2.310512E-05)
+			lastValidPlacement = (48834.585632324219, 92.963110446929932, 85462.753402709961)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Quebec
+				defaultBehavior = Parked
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				rtbDestination = map:1
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = gav_gun;asf-srmx3;wr-25;wr-25;gma-6x2;gma-6x2;wr-25;wr-25;gma-14x3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack TFS 2
+			globalPosition = (49190.857330322266, 92.963156223297119, 85614.548477172852)
+			unitInstanceID = 110
+			unitID = GAV-25
+			rotation = (1.051316E-05, 156.7399, -2.310512E-05)
+			lastValidPlacement = (49190.857330322266, 92.963156223297119, 85614.548477172852)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Quebec
+				defaultBehavior = Parked
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				rtbDestination = map:1
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = gav_gun;asf-srmx3;wr-25;wr-25;gma-6x2;gma-6x2;wr-25;wr-25;gma-14x3;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack GC 3
+			globalPosition = (166170.85696411133, 43.373664855957031, 72805.302581787109)
+			unitInstanceID = 111
+			unitID = ASF-30
+			rotation = (-1.252167E-06, 311.2837, -1.927807E-05)
+			lastValidPlacement = (166170.85696411133, 43.373664855957031, 72805.302581787109)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Papa
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:0
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx1;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack GC 4
+			globalPosition = (166032.49975585938, 43.37371826171875, 72655.722198486328)
+			unitInstanceID = 112
+			unitID = ASF-30
+			rotation = (-1.252167E-06, 311.2837, -1.927807E-05)
+			lastValidPlacement = (166032.49975585938, 43.37371826171875, 72655.722198486328)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Papa
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:0
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx1;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack TFN 3
+			globalPosition = (73137.179016113281, 591.76617431640625, 133083.57202148438)
+			unitInstanceID = 113
+			unitID = ASF-30
+			rotation = (-2.285378E-06, 197.7952, -1.334046E-05)
+			lastValidPlacement = (73137.179016113281, 591.76617431640625, 133083.57202148438)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Oscar
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:2
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx1;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack TFN 4
+			globalPosition = (72955.271179199219, 591.76605224609375, 133146.71136474609)
+			unitInstanceID = 114
+			unitID = ASF-30
+			rotation = (-2.285378E-06, 197.7952, -1.334046E-05)
+			lastValidPlacement = (72955.271179199219, 591.76605224609375, 133146.71136474609)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Oscar
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:2
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx1;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack TFS 3
+			globalPosition = (49377.033447265625, 93.063140869140625, 85693.315246582031)
+			unitInstanceID = 115
+			unitID = ASF-30
+			rotation = (1.057336E-05, 156.8893, -2.307763E-05)
+			lastValidPlacement = (49377.033447265625, 93.063140869140625, 85693.315246582031)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:November
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:1
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx1;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack TFS 4
+			globalPosition = (49563.576019287109, 93.06317138671875, 85772.071166992188)
+			unitInstanceID = 116
+			unitID = ASF-30
+			rotation = (1.057336E-05, 156.8893, -2.307763E-05)
+			lastValidPlacement = (49563.576019287109, 93.06317138671875, 85772.071166992188)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:November
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = map:1
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx1;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx1;asf30_jammer;
+			}
+		}
 	}
 	PATHS
 	{
@@ -8253,6 +8673,12 @@ CustomScenario
 			Romeo = 2;74;75;
 			Victor = 0;89;90;
 			Uniform = 2;92;93;
+			Yankee = 2;106;105;
+			Sierra = 2;107;108;
+			Quebec = 2;109;110;
+			Papa = 2;111;112;
+			Oscar = 2;114;113;
+			November = 2;116;115;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = True
@@ -8278,6 +8704,30 @@ CustomScenario
 				syncAltSpawns = True
 			}
 			Uniform_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Yankee_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Sierra_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Quebec_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Papa_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Oscar_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			November_SETTINGS
 			{
 				syncAltSpawns = False
 			}
