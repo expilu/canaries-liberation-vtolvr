@@ -1,6 +1,6 @@
 CustomScenario
 {
-	gameVersion = 1.11.4m1
+	gameVersion = 1.11.4f1
 	campaignID = canaries_liberation
 	campaignOrderIdx = 0
 	scenarioName = Liberation of the Canaries
@@ -961,7 +961,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686046, 351.266)
+			rotation = (351.1896, 0.08686035, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2324,7 +2324,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803467E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803469E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -7494,7 +7494,7 @@ CustomScenario
 			globalPosition = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			unitInstanceID = 87
 			unitID = EMWSTruck
-			rotation = (3.101864E-07, 79.06618, -7.396831E-06)
+			rotation = (3.101868E-07, 79.06618, -7.396832E-06)
 			lastValidPlacement = (32855.100006103516, 195.4102783203125, 81130.593360900879)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -17838,18 +17838,18 @@ CustomScenario
 		27 = landed-echo12.mp3
 		28 = destroyed-echo11.mp3
 		29 = destroyed-echo12.mp3
-		30 = resupply-destroyed.mp3
-		31 = resupply-survived.mp3
-		32 = oil-destroyed.mp3
-		33 = gando-defenses-eliminated.mp3
-		34 = losrodeos-defenses-eliminated.mp3
-		35 = south-defenses-eliminated.mp3
-		36 = carrier-sunk.mp3
-		37 = cruiser-sunk.mp3
-		38 = conquered-gando.mp3
-		39 = conquered-losrodeos.mp3
-		40 = conquered-south.mp3
-		41 = destroyed-ewr.mp3
+		30 = conquered-gando.mp3
+		31 = conquered-losrodeos.mp3
+		32 = conquered-south.mp3
+		33 = carrier-sunk.mp3
+		34 = cruiser-sunk.mp3
+		35 = oil-destroyed.mp3
+		36 = destroyed-ewr.mp3
+		37 = gando-defenses-eliminated.mp3
+		38 = losrodeos-defenses-eliminated.mp3
+		39 = south-defenses-eliminated.mp3
+		40 = resupply-survived.mp3
+		41 = resupply-destroyed.mp3
 	}
 }
 
