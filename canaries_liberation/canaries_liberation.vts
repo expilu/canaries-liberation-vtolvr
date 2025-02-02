@@ -961,7 +961,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686024, 351.266)
+			rotation = (351.1896, 0.08686019, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2324,7 +2324,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803471E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803472E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -8030,7 +8030,7 @@ CustomScenario
 			globalPosition = (166570.91442871094, 43.273468017578125, 73234.149841308594)
 			unitInstanceID = 105
 			unitID = GAV-25
-			rotation = (-5.916951E-09, 314.9825, -1.931869E-05)
+			rotation = (-5.916137E-09, 314.9825, -1.931869E-05)
 			lastValidPlacement = (166570.91442871094, 43.273468017578125, 73234.149841308594)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -8064,7 +8064,7 @@ CustomScenario
 			globalPosition = (166429.12158203125, 43.27349853515625, 73088.415420532227)
 			unitInstanceID = 106
 			unitID = GAV-25
-			rotation = (-5.916951E-09, 314.9825, -1.931869E-05)
+			rotation = (-5.916137E-09, 314.9825, -1.931869E-05)
 			lastValidPlacement = (166429.12158203125, 43.27349853515625, 73088.415420532227)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -17848,6 +17848,626 @@ CustomScenario
 				EVENT_INFO
 				{
 					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 93
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 101
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 0
+						type = SCCUnit
+						uiPos = (-432, -72, 0)
+						unit = 105
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 1
+						type = SCCAnd
+						uiPos = (-116, 44, 0)
+						factors = 2;0;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-459, 195, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 105
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 102
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-415, 131, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 1
+						type = SCCAnd
+						uiPos = (-147, 49, 0)
+						factors = 0;2;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-393, -18, 0)
+						unit = 106
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 106
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 103
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-141, 51, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-470, 195, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-433, 2, 0)
+						unit = 111
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 111
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 104
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-144, 42, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-460, 177, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-482, -11, 0)
+						unit = 112
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 112
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 105
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-163, 39, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-463, 168, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-443, 19, 0)
+						unit = 107
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 107
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 106
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-424, 173, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 1
+						type = SCCAnd
+						uiPos = (-131, 51, 0)
+						factors = 0;2;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-420, -19, 0)
+						unit = 108
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 108
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 107
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-454, 205, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 1
+						type = SCCAnd
+						uiPos = (-112, 34, 0)
+						factors = 0;2;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-403, 16, 0)
+						unit = 113
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 113
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 108
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-119, 42, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-388, 4, 0)
+						unit = 114
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-423, 216, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 114
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 109
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 0
+						type = SCCUnit
+						uiPos = (-415, -23, 0)
+						unit = 109
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 1
+						type = SCCAnd
+						uiPos = (-126, 43, 0)
+						factors = 2;0;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-445, 189, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 109
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 110
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-115, 50, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-394, 0, 0)
+						unit = 110
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-379, 183, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 110
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 111
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-111, 32, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-391, -32, 0)
+						unit = 115
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-439, 210, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 115
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 112
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 0
+						type = SCCUnit
+						uiPos = (-431, -18, 0)
+						unit = 116
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 1
+						type = SCCAnd
+						uiPos = (-115, 45, 0)
+						factors = 2;0;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-419, 177, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 116
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
 				}
 			}
 		}
