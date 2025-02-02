@@ -11391,6 +11391,44 @@ CustomScenario
 				equips = gau-8;hellfirex4;h70-4x4;maverickx3;sidewinderx3;;;
 			}
 		}
+		UnitSpawner
+		{
+			unitName = SupportStrike
+			globalPosition = (-41685.460205078125, 45.960792541503906, 201059.8627166748)
+			unitInstanceID = 150
+			unitID = FA-26B AI
+			rotation = (0, 90, 0)
+			lastValidPlacement = (-41685.460205078125, 45.960792541503906, 201059.8627166748)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				voiceProfile = null
+				playerCommandsMode = Unit_Group_Only
+				defaultBehavior = Orbit
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = null
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = False
+				rtbDestination = 
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+				equips = af_gun;af_aim9;af_aim9;af_amraamRail;af_amraam;af_amraam;af_amraam;af_amraam;af_amraamRail;af_aim9;af_aim9;fa26_droptank;fa26_droptank;fa26_droptank;af_tgp;;
+			}
+		}
 	}
 	PATHS
 	{
@@ -16936,8 +16974,8 @@ CustomScenario
 		CONDITIONAL
 		{
 			id = 105
-			outputNodePos = (1.894387, -210.2769, 0)
-			root = 3
+			outputNodePos = (334.8333, 63.18247, 0)
+			root = 13
 			COMP
 			{
 				id = 2
@@ -17115,12 +17153,28 @@ CustomScenario
 					value = 12
 				}
 			}
+			COMP
+			{
+				id = 13
+				type = SCCAnd
+				uiPos = (169.9649, 112.0904, 0)
+				factors = 14;3;
+			}
+			COMP
+			{
+				id = 14
+				type = SCCGlobalValue
+				uiPos = (-137.8017, 309.7583, 0)
+				gv = 2
+				comparison = Equals
+				c_value = 1
+			}
 		}
 		CONDITIONAL
 		{
 			id = 106
-			outputNodePos = (-58.40061, -257.3277, 0)
-			root = 0
+			outputNodePos = (290.2408, -6.895119, 0)
+			root = 11
 			COMP
 			{
 				id = 0
@@ -17298,12 +17352,28 @@ CustomScenario
 					value = 13
 				}
 			}
+			COMP
+			{
+				id = 11
+				type = SCCAnd
+				uiPos = (103.1192, 21.27848, 0)
+				factors = 12;0;
+			}
+			COMP
+			{
+				id = 12
+				type = SCCGlobalValue
+				uiPos = (-150.587, 284.8055, 0)
+				gv = 3
+				comparison = Equals
+				c_value = 1
+			}
 		}
 		CONDITIONAL
 		{
 			id = 107
-			outputNodePos = (-87.60114, 80.30084, 0)
-			root = 0
+			outputNodePos = (272.498, 293.0866, 0)
+			root = 11
 			COMP
 			{
 				id = 0
@@ -17480,6 +17550,22 @@ CustomScenario
 				{
 					value = 14
 				}
+			}
+			COMP
+			{
+				id = 11
+				type = SCCAnd
+				uiPos = (68.74619, 343.7309, 0)
+				factors = 12;0;
+			}
+			COMP
+			{
+				id = 12
+				type = SCCGlobalValue
+				uiPos = (-227.5172, 527.0541, 0)
+				gv = 4
+				comparison = Equals
+				c_value = 1
 			}
 		}
 		CONDITIONAL
