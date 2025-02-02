@@ -11451,7 +11451,7 @@ CustomScenario
 			id = 13
 			name = TFN Combat Zone
 			loop = True
-			points = (90225.4453125, -5, 176193.40625);(45634.4375, -5, 162223.4296875);(9667.3515625, -5, 150190.140625);(-14929.4765625, -5, 120742.921875);(21504.9765625, 348.45703125, 114303.6875);(44327.2109375, 1741.91015625, 114675.859375);(70945.359375, -5, 114879.734375);(100411.921875, -5, 112054.78125);(123926.296875, -5, 151695.03125);(110786.03125, -5, 171068.34375);
+			points = (90225.4453125, -5, 176193.40625);(45634.4375, -5, 162223.4296875);(9667.3515625, -5, 150190.140625);(-14929.4765625, -5, 120742.921875);(21504.9765625, 348.45703125, 114303.6875);(44327.2109375, 1741.91015625, 114675.859375);(70945.359375, -5, 114879.734375);(100411.92578125, -5, 112054.78125);(123926.296875, -5, 151695.03125);(110786.03515625, -5, 171068.3359375);
 			pathMode = Linear
 		}
 		PATH
@@ -11459,7 +11459,7 @@ CustomScenario
 			id = 12
 			name = GC Combat Zone
 			loop = True
-			points = (199322.46875, -5, 69749.3671875);(184950.140625, -5, 121540.4453125);(143497.859375, -5, 129611.6328125);(100491.4765625, -5, 88668.03515625);(90277.9453125, -5, 53622.625);(143727.359375, -5, 19954.2578125);(182065.03125, -5, 35533.7578125);
+			points = (199322.46875, -5, 69749.3671875);(184950.1328125, -5, 121540.4453125);(143497.859375, -5, 129611.6328125);(100491.4765625, -5, 88668.03515625);(90277.9453125, -5, 53622.625);(143727.359375, -5, 19954.2578125);(182065.0390625, -5, 35533.7578125);
 			pathMode = Linear
 		}
 		PATH
@@ -11467,7 +11467,7 @@ CustomScenario
 			id = 14
 			name = TFS Combat Zone
 			loop = True
-			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.041015625);(87234.87109375, -5, 88612.625);(89993.6640625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.181640625, -5, 109914.484375);(-6732.046875, -5, 95895.17578125);(8630.857421875, -5, 68994.09765625);
+			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.041015625);(87234.87109375, -5, 88612.625);(89993.6640625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.62890625);(19071.1796875, -5, 109914.484375);(-6732.046875, -5, 95895.17578125);(8630.859375, -5, 68994.09765625);
 			pathMode = Linear
 		}
 	}
@@ -13188,6 +13188,54 @@ CustomScenario
 					eventName = Restart
 					methodName = Restart
 					altTargetIdx = -1
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 59
+			enabled = True
+			triggerType = Conditional
+			conditional = 105
+			eventName = OnPlayersInsideGCCombatZone
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 147
+					eventName = Orbit Waypoint
+					methodName = SetOrbitNow
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = Waypoint
+						value = 9
+						name = Waypoint
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 10000
+						name = Radius
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,80000)
+						}
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 6000
+						name = Altitude
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,10000)
+						}
+					}
 				}
 			}
 		}
@@ -16442,6 +16490,189 @@ CustomScenario
 				methodParameters
 				{
 					value = 2000
+				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 105
+			outputNodePos = (1.894387, -210.2769, 0)
+			root = 3
+			COMP
+			{
+				id = 2
+				type = SCCUnit
+				uiPos = (-680.6454, 506.718, 0)
+				unit = 95
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 3
+				type = SCCOr
+				uiPos = (-172.9682, -88.39077, 0)
+				factors = 2;4;5;6;7;8;9;10;11;12;
+			}
+			COMP
+			{
+				id = 4
+				type = SCCUnit
+				uiPos = (-680.6454, 353.333, 0)
+				unit = 96
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 5
+				type = SCCUnit
+				uiPos = (-681.0975, 200.3935, 0)
+				unit = 97
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 6
+				type = SCCUnit
+				uiPos = (-679.5635, 48.71907, 0)
+				unit = 98
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 7
+				type = SCCUnit
+				uiPos = (-680.7037, -104.0604, 0)
+				unit = 99
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 8
+				type = SCCUnit
+				uiPos = (-680.7039, -255.6997, 0)
+				unit = 100
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 9
+				type = SCCUnit
+				uiPos = (-680.7039, -405.95, 0)
+				unit = 101
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 10
+				type = SCCUnit
+				uiPos = (-680.7039, -557.5893, 0)
+				unit = 102
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 11
+				type = SCCUnit
+				uiPos = (-680.7039, -707.5395, 0)
+				unit = 103
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 12
+				type = SCCUnit
+				uiPos = (-677.545, -858.8975, 0)
+				unit = 104
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
 				}
 			}
 		}
