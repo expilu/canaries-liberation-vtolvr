@@ -961,7 +961,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686019, 351.266)
+			rotation = (351.1896, 0.08686013, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2324,7 +2324,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803472E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803473E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -7794,7 +7794,7 @@ CustomScenario
 			globalPosition = (-41618.493713378906, 18.980010986328125, 200968.20309448242)
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
-			rotation = (-6.011082E-06, 21.87937, -3.665257E-06)
+			rotation = (-6.011081E-06, 21.87937, -3.665257E-06)
 			lastValidPlacement = (-41781.654357910156, 32.396831512451172, 201022.92018890381)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -7823,7 +7823,7 @@ CustomScenario
 			globalPosition = (-41591.913757324219, 18.980010986328125, 200969.33309936523)
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
-			rotation = (-5.59267E-06, 27.91098, -4.276594E-06)
+			rotation = (-5.592669E-06, 27.91098, -4.276594E-06)
 			lastValidPlacement = (-41778.65625, 32.396831512451172, 200993.72635126114)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8030,7 +8030,7 @@ CustomScenario
 			globalPosition = (166570.91442871094, 43.273468017578125, 73234.149841308594)
 			unitInstanceID = 105
 			unitID = GAV-25
-			rotation = (-5.916137E-09, 314.9825, -1.931869E-05)
+			rotation = (-5.915323E-09, 314.9825, -1.931869E-05)
 			lastValidPlacement = (166570.91442871094, 43.273468017578125, 73234.149841308594)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -8064,7 +8064,7 @@ CustomScenario
 			globalPosition = (166429.12158203125, 43.27349853515625, 73088.415420532227)
 			unitInstanceID = 106
 			unitID = GAV-25
-			rotation = (-5.916137E-09, 314.9825, -1.931869E-05)
+			rotation = (-5.915323E-09, 314.9825, -1.931869E-05)
 			lastValidPlacement = (166429.12158203125, 43.27349853515625, 73088.415420532227)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -8710,7 +8710,7 @@ CustomScenario
 			globalPosition = (165580.35513305664, 41.07550048828125, 72175.826904296875)
 			unitInstanceID = 119
 			unitID = AlliedEWRadar
-			rotation = (8.051837E-07, 132.9871, 1.937681E-05)
+			rotation = (8.051841E-07, 132.9871, 1.937681E-05)
 			lastValidPlacement = (166844.48443603516, 39.216064453125, 72908.22021484375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -8763,7 +8763,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166844.48443603516, 39.216064453125, 72908.22021484375)
-				rotation = (-6.312595E-06, 131.7159, 7.081137E-06)
+				rotation = (-6.312594E-06, 131.7159, 7.081137E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -8856,7 +8856,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (168176.73315429688, 63.0592041015625, 72528.678100585938)
-				rotation = (6.940643E-06, 42.97573, 6.46676E-06)
+				rotation = (6.940643E-06, 42.97573, 6.466761E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9024,7 +9024,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166628.52258300781, 39.216064453125, 72853.50537109375)
-				rotation = (1.541046E-06, 80.65096, 9.360368E-06)
+				rotation = (1.541046E-06, 80.65096, 9.360367E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9096,7 +9096,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166950.94677734375, 39.216064453125, 72950.53125)
-				rotation = (4.140681E-06, 64.12004, 8.534993E-06)
+				rotation = (4.140682E-06, 64.12004, 8.534994E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9114,7 +9114,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (164663.44848632813, 41.07568359375, 71899.047302246094)
-				rotation = (1.811944E-05, 64.12004, 6.182494E-06)
+				rotation = (1.811944E-05, 64.12004, 6.182495E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9172,7 +9172,7 @@ CustomScenario
 			globalPosition = (166288.19403076172, 41.074951171875, 73600.667114257813)
 			unitInstanceID = 123
 			unitID = staticCIWS
-			rotation = (1.936412E-05, 44.32694, -2.733087E-07)
+			rotation = (1.936412E-05, 44.32694, -2.733082E-07)
 			lastValidPlacement = (165085.16607666016, 41.075439453125, 72521.459106445313)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -9189,7 +9189,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166077.3274230957, 41.0751953125, 73013.504577636719)
-				rotation = (1.939034E-05, 44.32694, -3.518754E-07)
+				rotation = (1.939034E-05, 44.32694, -3.518758E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9207,7 +9207,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165826.10998535156, 41.0753173828125, 72753.099609375)
-				rotation = (1.939034E-05, 44.32694, -3.518754E-07)
+				rotation = (1.939034E-05, 44.32694, -3.518758E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9225,7 +9225,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165640.05723571777, 41.07562255859375, 72065.486694335938)
-				rotation = (4.323804E-08, 135.4619, 1.923088E-05)
+				rotation = (4.323844E-08, 135.4619, 1.923088E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9243,7 +9243,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165085.16607666016, 41.075439453125, 72521.459106445313)
-				rotation = (-1.913948E-05, 215.5222, 3.307497E-06)
+				rotation = (-1.913948E-05, 215.5222, 3.307496E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9287,7 +9287,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165875.96867370605, 41.07513427734375, 73385.883239746094)
-				rotation = (1.939305E-05, 42.13567, -1.081177E-06)
+				rotation = (1.939305E-05, 42.13567, -1.081176E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9310,7 +9310,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165275.89294433594, 41.075439453125, 72701.711059570313)
-				rotation = (1.939305E-05, 42.13567, -1.081177E-06)
+				rotation = (1.939305E-05, 42.13567, -1.081176E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9333,7 +9333,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166010.45428466797, 41.0753173828125, 72422.417358398438)
-				rotation = (1.93627E-05, 42.13567, -1.09302E-06)
+				rotation = (1.93627E-05, 42.13567, -1.093021E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9360,7 +9360,7 @@ CustomScenario
 			globalPosition = (165959.61358642578, 41.075164794921875, 73225.476989746094)
 			unitInstanceID = 125
 			unitID = aDecoyRadarTransmitter
-			rotation = (1.939305E-05, 42.13567, -1.081177E-06)
+			rotation = (1.939305E-05, 42.13567, -1.081176E-06)
 			lastValidPlacement = (164984.77197265625, 39.216064453125, 72457.800537109375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -9395,7 +9395,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165874.87118530273, 41.075286865234375, 72795.437408447266)
-				rotation = (1.93627E-05, 42.13567, -1.09302E-06)
+				rotation = (1.93627E-05, 42.13567, -1.093021E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9413,7 +9413,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165874.87118530273, 41.075286865234375, 72795.437408447266)
-				rotation = (1.93627E-05, 42.13567, -1.09302E-06)
+				rotation = (1.93627E-05, 42.13567, -1.093021E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9431,7 +9431,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (164984.77197265625, 39.216064453125, 72457.800537109375)
-				rotation = (7.034701E-06, 42.13567, 6.364299E-06)
+				rotation = (7.034701E-06, 42.13567, 6.3643E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9475,7 +9475,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165334.31085205078, 41.123809814453125, 73015.387145996094)
-				rotation = (5.157132E-07, 133.4703, 1.93118E-05)
+				rotation = (5.15714E-07, 133.4703, 1.93118E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9498,7 +9498,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165481.54354858398, 41.123779296875, 73170.390747070313)
-				rotation = (5.157132E-07, 133.4703, 1.93118E-05)
+				rotation = (5.15714E-07, 133.4703, 1.93118E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9521,7 +9521,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166010.20281982422, 41.12347412109375, 73722.367492675781)
-				rotation = (5.157132E-07, 133.4703, 1.93118E-05)
+				rotation = (5.15714E-07, 133.4703, 1.93118E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9544,7 +9544,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166145.93862915039, 41.12335205078125, 73886.703918457031)
-				rotation = (5.157132E-07, 133.4703, 1.93118E-05)
+				rotation = (5.15714E-07, 133.4703, 1.93118E-05)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9619,7 +9619,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74589.153564453125, 587.60791015625, 131838.44921875)
-				rotation = (-2.898515E-06, 107.791, 9.032714E-06)
+				rotation = (-2.898514E-06, 107.791, 9.032714E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9748,7 +9748,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74580.006164550781, 586.13330078125, 131425.4033203125)
-				rotation = (0.8710952, 125.4186, 358.7753)
+				rotation = (0.8710953, 125.4186, 358.7753)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9805,7 +9805,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (72892.465454101563, 588.54145812988281, 133300.47039794922)
-				rotation = (0.3003224, 294.9417, 357.8019)
+				rotation = (0.3003225, 294.9417, 357.8019)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9823,7 +9823,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (73433.107360839844, 589.50616455078125, 133046.24645996094)
-				rotation = (1.148623E-05, 332.1875, 7.516983E-06)
+				rotation = (1.148623E-05, 332.1875, 7.516982E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9845,7 +9845,7 @@ CustomScenario
 			globalPosition = (73178.935424804688, 589.50613403320313, 132829.63787841797)
 			unitInstanceID = 131
 			unitID = aIRMDlauncher
-			rotation = (1.345098E-05, 287.4702, -2.740354E-06)
+			rotation = (1.345098E-05, 287.4702, -2.740353E-06)
 			lastValidPlacement = (74329.908935546875, 589.138916015625, 132058.43572998047)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -9862,7 +9862,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (73129.445861816406, 589.50616455078125, 132440.62252807617)
-				rotation = (1.345098E-05, 287.4702, -2.740354E-06)
+				rotation = (1.345098E-05, 287.4702, -2.740353E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10132,7 +10132,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (73975.736206054688, 589.51638793945313, 132815.27632141113)
-				rotation = (1.334225E-05, 287.8402, -2.274897E-06)
+				rotation = (1.334225E-05, 287.8402, -2.274896E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10193,7 +10193,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74081.540771484375, 587.608154296875, 132079.97778320313)
-				rotation = (-5.527531E-06, 125.6393, 7.709585E-06)
+				rotation = (-5.527531E-06, 125.6393, 7.709586E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10211,7 +10211,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74081.540771484375, 587.608154296875, 132079.97778320313)
-				rotation = (-5.527531E-06, 125.6393, 7.709585E-06)
+				rotation = (-5.527531E-06, 125.6393, 7.709586E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10233,7 +10233,7 @@ CustomScenario
 			globalPosition = (74264.1669921875, 589.50643920898438, 132628.06488037109)
 			unitInstanceID = 135
 			unitID = AJammerTruck
-			rotation = (1.339291E-05, 285.0616, -3.348114E-06)
+			rotation = (1.339291E-05, 285.0616, -3.348115E-06)
 			lastValidPlacement = (72790.249450683594, 589.51608276367188, 132424.78784179688)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -10255,7 +10255,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74137.119995117188, 589.50643920898438, 132530.17834472656)
-				rotation = (1.339291E-05, 285.0616, -3.348114E-06)
+				rotation = (1.339291E-05, 285.0616, -3.348115E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10278,7 +10278,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (73690.688354492188, 589.50631713867188, 132451.84362792969)
-				rotation = (1.339291E-05, 285.0616, -3.348114E-06)
+				rotation = (1.339291E-05, 285.0616, -3.348115E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10301,7 +10301,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (72790.249450683594, 589.51608276367188, 132424.78784179688)
-				rotation = (1.332578E-05, 285.0616, -3.253069E-06)
+				rotation = (1.332578E-05, 285.0616, -3.25307E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10328,7 +10328,7 @@ CustomScenario
 			globalPosition = (73581.245361328125, 589.51625061035156, 132892.38171386719)
 			unitInstanceID = 136
 			unitID = AMWSTruck Variant
-			rotation = (1.363402E-05, 285.0616, -2.32032E-06)
+			rotation = (1.363402E-05, 285.0616, -2.320319E-06)
 			lastValidPlacement = (73581.245361328125, 589.51625061035156, 132892.38171386719)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -10394,7 +10394,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (48131.2197265625, 90.7642822265625, 85210.620849609375)
-				rotation = (2.541093E-05, 241.266, 3.569647E-06)
+				rotation = (2.541093E-05, 241.266, 3.569648E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10412,7 +10412,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (48131.2197265625, 90.7642822265625, 85210.620849609375)
-				rotation = (2.541093E-05, 241.266, 3.569647E-06)
+				rotation = (2.541093E-05, 241.266, 3.569648E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10452,7 +10452,7 @@ CustomScenario
 			globalPosition = (48414.178649902344, 90.764312744140625, 84740.935791015625)
 			unitInstanceID = 138
 			unitID = PatRadarTrailer
-			rotation = (2.436914E-05, 215.0996, -7.99227E-06)
+			rotation = (2.436914E-05, 215.0996, -7.992271E-06)
 			lastValidPlacement = (48555.724304199219, 90.764404296875, 85110.198974609375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -10487,7 +10487,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (48262.884094238281, 90.76434326171875, 85051.965637207031)
-				rotation = (2.43809E-05, 215.0996, -8.001851E-06)
+				rotation = (2.43809E-05, 215.0996, -8.001852E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10505,7 +10505,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (48555.724304199219, 90.764404296875, 85110.198974609375)
-				rotation = (2.43809E-05, 215.0996, -8.001851E-06)
+				rotation = (2.43809E-05, 215.0996, -8.001852E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10602,7 +10602,7 @@ CustomScenario
 			globalPosition = (49472.111267089844, 90.7647705078125, 85481.171997070313)
 			unitInstanceID = 142
 			unitID = PatriotLauncher
-			rotation = (-2.503517E-05, 66.02595, -5.58862E-06)
+			rotation = (-2.503517E-05, 66.02595, -5.588621E-06)
 			lastValidPlacement = (49167.6474609375, 90.76458740234375, 85120.803955078125)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -10645,7 +10645,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49385.583984375, 90.7647705078125, 85897.552734375)
-				rotation = (-2.503517E-05, 66.02595, -5.58862E-06)
+				rotation = (-2.503517E-05, 66.02595, -5.588621E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10667,7 +10667,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (48950.029113769531, 90.76458740234375, 85491.395568847656)
-				rotation = (-2.502708E-05, 66.02595, -5.665981E-06)
+				rotation = (-2.502708E-05, 66.02595, -5.665982E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10689,7 +10689,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (48845.95166015625, 90.7645263671875, 85218.287292480469)
-				rotation = (-2.502708E-05, 66.02595, -5.665981E-06)
+				rotation = (-2.502708E-05, 66.02595, -5.665982E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10754,7 +10754,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (50461.858520507813, 90.765106201171875, 85668.475708007813)
-				rotation = (-2.496167E-05, 64.12933, -4.808283E-06)
+				rotation = (-2.496167E-05, 64.12933, -4.808282E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10808,7 +10808,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (48452.447204589844, 90.7642822265625, 84587.44775390625)
-				rotation = (2.452656E-05, 216.2643, -7.495311E-06)
+				rotation = (2.452656E-05, 216.2643, -7.49531E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10883,7 +10883,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (50752.65966796875, 88.90478515625, 85543.953857421875)
-				rotation = (1.927263E-06, 66.02595, 4.333985E-06)
+				rotation = (1.927263E-06, 66.02595, 4.333986E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10901,7 +10901,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (50752.65966796875, 88.90478515625, 85543.953857421875)
-				rotation = (1.927263E-06, 66.02595, 4.333985E-06)
+				rotation = (1.927263E-06, 66.02595, 4.333986E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10959,7 +10959,7 @@ CustomScenario
 			globalPosition = (49891.2529296875, 90.764892578125, 85671.575256347656)
 			unitInstanceID = 144
 			unitID = aDecoyRadarTransmitter
-			rotation = (-2.50601E-05, 65.76781, -5.475769E-06)
+			rotation = (-2.50601E-05, 65.76781, -5.475768E-06)
 			lastValidPlacement = (49677.105102539063, 90.7647705078125, 85230.573516845703)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -11034,7 +11034,7 @@ CustomScenario
 			globalPosition = (49086.056945800781, 90.7646484375, 85517.606628417969)
 			unitInstanceID = 145
 			unitID = AJammerTruck
-			rotation = (-2.50601E-05, 65.76781, -5.475769E-06)
+			rotation = (-2.50601E-05, 65.76781, -5.475768E-06)
 			lastValidPlacement = (49848.255126953125, 90.813232421875, 85107.421722412109)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -11056,7 +11056,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49202.919677734375, 90.7646484375, 85390.01741027832)
-				rotation = (-2.50601E-05, 65.76781, -5.475769E-06)
+				rotation = (-2.50601E-05, 65.76781, -5.475768E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -11079,7 +11079,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49389.888122558594, 90.76470947265625, 85429.774169921875)
-				rotation = (-2.50601E-05, 65.76781, -5.475769E-06)
+				rotation = (-2.50601E-05, 65.76781, -5.475768E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -11102,7 +11102,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49389.888122558594, 90.76470947265625, 85429.774169921875)
-				rotation = (-2.50601E-05, 65.76781, -5.475769E-06)
+				rotation = (-2.50601E-05, 65.76781, -5.475768E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -11152,7 +11152,7 @@ CustomScenario
 			globalPosition = (50518.414855957031, 90.76513671875, 85937.921264648438)
 			unitInstanceID = 146
 			unitID = AMWSTruck Variant
-			rotation = (-2.489299E-05, 65.76781, -5.410781E-06)
+			rotation = (-2.489299E-05, 65.76781, -5.41078E-06)
 			lastValidPlacement = (49187.780487060547, 90.7646484375, 85411.284484863281)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -11179,7 +11179,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (50015.820251464844, 90.76495361328125, 85912.145324707031)
-				rotation = (-2.489299E-05, 65.76781, -5.410781E-06)
+				rotation = (-2.489299E-05, 65.76781, -5.41078E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -11291,7 +11291,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (49187.780487060547, 90.7646484375, 85411.284484863281)
-				rotation = (-2.50601E-05, 65.76781, -5.475769E-06)
+				rotation = (-2.50601E-05, 65.76781, -5.475768E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -11323,7 +11323,7 @@ CustomScenario
 			globalPosition = (-41634.653747558594, 18.980010986328125, 201009.58309936523)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600371E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600372E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41761.380279541016, 59.063232421875, 201050.60763549805)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -11451,7 +11451,7 @@ CustomScenario
 			id = 13
 			name = TFN Combat Zone
 			loop = True
-			points = (90225.4453125, -5, 176193.40625);(45634.4375, -5, 162223.4296875);(9667.3515625, -5, 150190.140625);(-14929.4765625, -5, 120742.921875);(21504.9765625, 348.45703125, 114303.6875);(44327.2109375, 1741.91015625, 114675.859375);(70945.359375, -5, 114879.734375);(100411.92578125, -5, 112054.78125);(123926.296875, -5, 151695.03125);(110786.03515625, -5, 171068.3359375);
+			points = (90225.4453125, -5, 176193.40625);(45634.4375, -5, 162223.4375);(9667.3515625, -5, 150190.140625);(-14929.4765625, -5, 120742.921875);(21504.9765625, 348.45703125, 114303.6875);(44327.2109375, 1741.91015625, 114675.859375);(70945.359375, -5, 114879.734375);(100411.921875, -5, 112054.78125);(123926.296875, -5, 151695.03125);(110786.03125, -5, 171068.34375);
 			pathMode = Linear
 		}
 		PATH
@@ -11459,7 +11459,7 @@ CustomScenario
 			id = 12
 			name = GC Combat Zone
 			loop = True
-			points = (199322.46875, -5, 69749.3671875);(184950.1328125, -5, 121540.4453125);(143497.859375, -5, 129611.6328125);(100491.4765625, -5, 88668.03515625);(90277.9453125, -5, 53622.625);(143727.359375, -5, 19954.2578125);(182065.0390625, -5, 35533.7578125);
+			points = (199322.46875, -5, 69749.3671875);(184950.125, -5, 121540.4453125);(143497.859375, -5, 129611.6328125);(100491.4765625, -5, 88668.03125);(90277.9453125, -5, 53622.625);(143727.359375, -5, 19954.2578125);(182065.03125, -5, 35533.7578125);
 			pathMode = Linear
 		}
 		PATH
@@ -11467,7 +11467,7 @@ CustomScenario
 			id = 14
 			name = TFS Combat Zone
 			loop = True
-			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.041015625);(87234.87109375, -5, 88612.625);(89993.6640625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.62890625);(19071.1796875, -5, 109914.484375);(-6732.046875, -5, 95895.17578125);(8630.859375, -5, 68994.09765625);
+			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.0390625);(87234.875, -5, 88612.625);(89993.6640625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1796875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
 			pathMode = Linear
 		}
 	}
@@ -13153,6 +13153,26 @@ CustomScenario
 					methodName = Restart
 					altTargetIdx = -1
 				}
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-allied-supplier.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
 			}
 		}
 		TriggerEvent
@@ -13237,6 +13257,26 @@ CustomScenario
 						}
 					}
 				}
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = support-gc.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
 			}
 		}
 		TriggerEvent
@@ -13285,6 +13325,26 @@ CustomScenario
 						}
 					}
 				}
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = support-tfn.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
 			}
 		}
 		TriggerEvent
@@ -13331,6 +13391,26 @@ CustomScenario
 							type = MinMax
 							data = (1000,10000)
 						}
+					}
+				}
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = support-tfs.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
 					}
 				}
 			}
@@ -14116,6 +14196,26 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = destroyed-factory.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
 				}
 			}
 			fields
@@ -14185,6 +14285,26 @@ CustomScenario
 								type = MinMax
 								data = (0,99999)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = destroyed-factory.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
 						}
 					}
 				}
@@ -14915,6 +15035,26 @@ CustomScenario
 				EventInfo
 				{
 					eventName = Failed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = destroyed-allied-carrier.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
 				}
 			}
 			completeEvent
@@ -29033,6 +29173,12 @@ CustomScenario
 		39 = south-defenses-eliminated.mp3
 		40 = resupply-survived.mp3
 		41 = resupply-destroyed.mp3
+		42 = destroyed-factory.mp3
+		43 = destroyed-allied-carrier.mp3
+		44 = destroyed-allied-supplier.mp3
+		45 = support-gc.mp3
+		46 = support-tfn.mp3
+		47 = support-tfs.mp3
 	}
 }
 
