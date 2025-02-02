@@ -361,7 +361,7 @@ CustomScenario
 				respawnable = False
 				receiveFriendlyDamage = True
 				lsoFreq = 284.4
-				carrierSpawns = 0:147:-1;1:-1;2:-1;3:97:-1;4:98:-1;5:100:-1;6:-1;7:-1;8:99:-1;
+				carrierSpawns = 0:147:-1:0;1:-1;2:-1;3:97:-1;4:98:-1;5:100:-1;6:-1;7:-1;8:99:-1;
 			}
 			altSpawn
 			{
@@ -11451,7 +11451,7 @@ CustomScenario
 			id = 13
 			name = TFN Combat Zone
 			loop = True
-			points = (90225.4453125, -5, 176193.40625);(45634.4375, -5, 162223.4375);(9667.3515625, -5, 150190.140625);(-14929.4765625, -5, 120742.921875);(21504.9765625, 348.45703125, 114303.6875);(44327.2109375, 1741.91015625, 114675.859375);(70945.359375, -5, 114879.734375);(100411.921875, -5, 112054.78125);(123926.296875, -5, 151695.03125);(110786.03125, -5, 171068.34375);
+			points = (90225.4375, -5, 176193.40625);(45634.4296875, -5, 162223.4375);(9667.34375, -5, 150190.140625);(-14929.484375, -5, 120742.921875);(21504.96875, 348.45703125, 114303.6875);(44327.203125, 1741.91015625, 114675.859375);(70945.3515625, -5, 114879.734375);(100411.90625, -5, 112054.78125);(123926.28125, -5, 151695.03125);(110786.03125, -5, 171068.34375);
 			pathMode = Linear
 		}
 		PATH
@@ -11459,7 +11459,7 @@ CustomScenario
 			id = 12
 			name = GC Combat Zone
 			loop = True
-			points = (199322.46875, -5, 69749.3671875);(184950.125, -5, 121540.4453125);(143497.859375, -5, 129611.6328125);(100491.4765625, -5, 88668.03125);(90277.9453125, -5, 53622.625);(143727.359375, -5, 19954.2578125);(182065.03125, -5, 35533.7578125);
+			points = (199322.46875, -5, 69749.375);(184950.125, -5, 121540.453125);(143497.859375, -5, 129611.640625);(100491.46875, -5, 88668.0390625);(90277.9375, -5, 53622.6328125);(143727.359375, -5, 19954.265625);(182065.03125, -5, 35533.765625);
 			pathMode = Linear
 		}
 		PATH
@@ -11467,7 +11467,7 @@ CustomScenario
 			id = 14
 			name = TFS Combat Zone
 			loop = True
-			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.0390625);(87234.875, -5, 88612.625);(89993.6640625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1796875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
+			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.0390625);(87234.875, -5, 88612.625);(89993.65625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1796875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
 			pathMode = Linear
 		}
 	}
@@ -13412,6 +13412,46 @@ CustomScenario
 						value = Team_A
 						name = Team
 					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 62
+			enabled = True
+			triggerType = Conditional
+			conditional = 108
+			eventName = OnJammerFLightDestroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-jammer.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+				EventTarget
+				{
+					targetType = Event_Sequences
+					targetID = 22
+					eventName = Restart
+					methodName = Restart
+					altTargetIdx = -1
 				}
 			}
 		}
@@ -17276,6 +17316,21 @@ CustomScenario
 				{
 					value = 14
 				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 108
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-425, 136, 0)
+				unit = 147
+				methodName = SC_IsAlive
+				isNot = True
 			}
 		}
 	}
@@ -29045,6 +29100,30 @@ CustomScenario
 				}
 			}
 		}
+		SEQUENCE
+		{
+			id = 22
+			sequenceName = RespawnJammerWithWait
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 900
+				nodeName = Respawn
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 147
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+		}
 	}
 	BASES
 	{
@@ -29179,6 +29258,7 @@ CustomScenario
 		45 = support-gc.mp3
 		46 = support-tfn.mp3
 		47 = support-tfs.mp3
+		48 = destroyed-jammer.mp3
 	}
 }
 
