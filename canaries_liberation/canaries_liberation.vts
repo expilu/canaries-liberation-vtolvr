@@ -361,7 +361,7 @@ CustomScenario
 				respawnable = False
 				receiveFriendlyDamage = True
 				lsoFreq = 284.4
-				carrierSpawns = 0:-1;1:-1;2:-1;3:97:-1;4:98:-1;5:100:-1;6:-1;7:-1;8:99:-1;
+				carrierSpawns = 0:147:-1;1:-1;2:-1;3:97:-1;4:98:-1;5:100:-1;6:-1;7:-1;8:99:-1;
 			}
 			altSpawn
 			{
@@ -7791,10 +7791,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 1
-			globalPosition = (-41618.493728637695, 18.979995727539063, 200968.20309448242)
+			globalPosition = (-41618.493713378906, 18.980010986328125, 200968.20309448242)
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
-			rotation = (-6.011081E-06, 21.87937, -3.665257E-06)
+			rotation = (-6.011082E-06, 21.87937, -3.665257E-06)
 			lastValidPlacement = (-41781.654357910156, 32.396831512451172, 201022.92018890381)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -7820,10 +7820,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 2
-			globalPosition = (-41591.91374206543, 18.979995727539063, 200969.33309936523)
+			globalPosition = (-41591.913757324219, 18.980010986328125, 200969.33309936523)
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
-			rotation = (-5.592669E-06, 27.91098, -4.276594E-06)
+			rotation = (-5.59267E-06, 27.91098, -4.276594E-06)
 			lastValidPlacement = (-41778.65625, 32.396831512451172, 200993.72635126114)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -7849,7 +7849,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 1
-			globalPosition = (-41537.293746948242, 18.979995727539063, 200967.00311279297)
+			globalPosition = (-41537.293762207031, 18.980010986328125, 200967.00311279297)
 			unitInstanceID = 99
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
@@ -7879,7 +7879,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 2
-			globalPosition = (-41503.563751220703, 18.979995727539063, 200964.27313232422)
+			globalPosition = (-41503.563720703125, 18.980010986328125, 200964.27311706543)
 			unitInstanceID = 100
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
@@ -11317,6 +11317,44 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = SupportEW
+			globalPosition = (-41634.653747558594, 18.980010986328125, 201009.58309936523)
+			unitInstanceID = 147
+			unitID = EF-24 AI
+			rotation = (6.600371E-06, 150.1424, -2.44996E-06)
+			lastValidPlacement = (-41761.380279541016, 59.063232421875, 201050.60763549805)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				voiceProfile = null
+				playerCommandsMode = Unit_Group_Only
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = null
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = unit:2
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = ef24_gun;ef24_jammerSuper;ef24_jammerSuper;ef24_phoenixUnder;ef24_phoenixUnder;ef24_aim9x1;ef24_amraamRail;ef24_jammerSuper;ef24_amraamRail;ef24_aim9x1;ef24_jammerSuper;ef24_droptank;ef24_droptank;;
+			}
+		}
 	}
 	PATHS
 	{
@@ -11406,6 +11444,30 @@ CustomScenario
 			name = GC SL-MRM path
 			loop = True
 			points = (164849.5625, -2.3984375, 97210.484375);(130080.046875, 106.232421875, 59819.796875);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 13
+			name = TFN Combat Zone
+			loop = True
+			points = (90225.4453125, -5, 176193.40625);(45634.4375, -5, 162223.4296875);(9667.3515625, -5, 150190.140625);(-14929.4765625, -5, 120742.921875);(21504.9765625, 348.45703125, 114303.6875);(44327.2109375, 1741.91015625, 114675.859375);(70945.359375, -5, 114879.734375);(100411.921875, -5, 112054.78125);(123926.296875, -5, 151695.03125);(110786.03125, -5, 171068.34375);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 12
+			name = GC Combat Zone
+			loop = True
+			points = (199322.46875, -5, 69749.3671875);(184950.140625, -5, 121540.4453125);(143497.859375, -5, 129611.6328125);(100491.4765625, -5, 88668.03515625);(90277.9453125, -5, 53622.625);(143727.359375, -5, 19954.2578125);(182065.03125, -5, 35533.7578125);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 14
+			name = TFS Combat Zone
+			loop = True
+			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.041015625);(87234.87109375, -5, 88612.625);(89993.6640625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.181640625, -5, 109914.484375);(-6732.046875, -5, 95895.17578125);(8630.857421875, -5, 68994.09765625);
 			pathMode = Linear
 		}
 	}
