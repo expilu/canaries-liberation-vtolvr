@@ -13239,6 +13239,102 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 60
+			enabled = True
+			triggerType = Conditional
+			conditional = 106
+			eventName = OnPlayersInsideTFNCombatZone
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 147
+					eventName = Orbit Waypoint
+					methodName = SetOrbitNow
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = Waypoint
+						value = 10
+						name = Waypoint
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 10000
+						name = Radius
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,80000)
+						}
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 6000
+						name = Altitude
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,10000)
+						}
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 61
+			enabled = True
+			triggerType = Conditional
+			conditional = 107
+			eventName = OnPlayersInsideTFSCombatZone
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 147
+					eventName = Orbit Waypoint
+					methodName = SetOrbitNow
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = Waypoint
+						value = 11
+						name = Waypoint
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 10000
+						name = Radius
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,80000)
+						}
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 6000
+						name = Altitude
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,10000)
+						}
+					}
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -16673,6 +16769,372 @@ CustomScenario
 				methodParameters
 				{
 					value = 12
+				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 106
+			outputNodePos = (-58.40061, -257.3277, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCOr
+				uiPos = (-236.3012, -133.0269, 0)
+				factors = 1;2;3;4;5;6;7;8;9;10;
+			}
+			COMP
+			{
+				id = 1
+				type = SCCUnit
+				uiPos = (-762.858, 492.7552, 0)
+				unit = 95
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 2
+				type = SCCUnit
+				uiPos = (-762.858, 339.4536, 0)
+				unit = 96
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 3
+				type = SCCUnit
+				uiPos = (-762.858, 187.977, 0)
+				unit = 97
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 4
+				type = SCCUnit
+				uiPos = (-766.5081, 34.67536, 0)
+				unit = 98
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 5
+				type = SCCUnit
+				uiPos = (-766.5081, -114.9762, 0)
+				unit = 99
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 6
+				type = SCCUnit
+				uiPos = (-764.683, -268.2778, 0)
+				unit = 100
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 7
+				type = SCCUnit
+				uiPos = (-768.3331, -419.7544, 0)
+				unit = 101
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 8
+				type = SCCUnit
+				uiPos = (-766.5081, -573.056, 0)
+				unit = 102
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 9
+				type = SCCUnit
+				uiPos = (-766.5081, -722.301, 0)
+				unit = 103
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 10
+				type = SCCUnit
+				uiPos = (-770.1581, -873.7776, 0)
+				unit = 104
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 107
+			outputNodePos = (-87.60114, 80.30084, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCOr
+				uiPos = (-257.3277, 208.0522, 0)
+				factors = 1;2;3;4;5;6;7;8;9;10;
+			}
+			COMP
+			{
+				id = 1
+				type = SCCUnit
+				uiPos = (-855.934, 797.5334, 0)
+				unit = 95
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 2
+				type = SCCUnit
+				uiPos = (-854.1089, 642.4067, 0)
+				unit = 96
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 3
+				type = SCCUnit
+				uiPos = (-854.1089, 489.1051, 0)
+				unit = 97
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 4
+				type = SCCUnit
+				uiPos = (-854.1089, 335.8035, 0)
+				unit = 98
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 5
+				type = SCCUnit
+				uiPos = (-850.4589, 184.3269, 0)
+				unit = 99
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 6
+				type = SCCUnit
+				uiPos = (-848.6339, 32.85035, 0)
+				unit = 100
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 7
+				type = SCCUnit
+				uiPos = (-850.623, -124.217, 0)
+				unit = 101
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 8
+				type = SCCUnit
+				uiPos = (-854.273, -275.6936, 0)
+				unit = 102
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 9
+				type = SCCUnit
+				uiPos = (-852.448, -430.8203, 0)
+				unit = 103
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 10
+				type = SCCUnit
+				uiPos = (-850.623, -582.2968, 0)
+				unit = 104
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
 				}
 			}
 		}
