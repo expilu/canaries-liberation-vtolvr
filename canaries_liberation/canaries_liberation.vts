@@ -961,7 +961,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08686002, 351.266)
+			rotation = (351.1896, 0.08685997, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2324,7 +2324,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803475E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803476E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -7653,42 +7653,6 @@ CustomScenario
 		}
 		UnitSpawner
 		{
-			unitName = E-4 Overlord
-			globalPosition = (-47640.24560546875, 9139, 196305.21362304688)
-			unitInstanceID = 91
-			unitID = E-4
-			rotation = (0, 90, 0)
-			lastValidPlacement = (-47640.24560546875, 9139, 196305.21362304688)
-			editorPlacementMode = Air
-			onCarrier = False
-			mpSelectEnabled = True
-			UnitFields
-			{
-				awacsVoiceProfile = null
-				commsEnabled = True
-				unitGroup = null
-				defaultBehavior = Orbit
-				initialSpeed = 210
-				defaultNavSpeed = 210
-				defaultOrbitPoint = null
-				defaultPath = null
-				orbitAltitude = 8000
-				fuel = 100
-				autoRefuel = True
-				autoRTB = True
-				defaultRadarEnabled = True
-				rtbDestination = 
-				parkedStartMode = FlightReady
-				engageEnemies = False
-				detectionMode = Default
-				spawnOnStart = True
-				invincible = False
-				respawnable = True
-				receiveFriendlyDamage = True
-			}
-		}
-		UnitSpawner
-		{
 			unitName = SupplyEscort1
 			globalPosition = (73687.259521484375, 591.76628112792969, 132912.80303955078)
 			unitInstanceID = 92
@@ -7794,7 +7758,7 @@ CustomScenario
 			globalPosition = (-41618.493728637695, 18.979995727539063, 200968.20309448242)
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
-			rotation = (-6.011082E-06, 21.87937, -3.665257E-06)
+			rotation = (-6.011081E-06, 21.87937, -3.665257E-06)
 			lastValidPlacement = (-41781.654357910156, 32.396831512451172, 201022.92018890381)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -7823,7 +7787,7 @@ CustomScenario
 			globalPosition = (-41591.91374206543, 18.979995727539063, 200969.33309936523)
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
-			rotation = (-5.59267E-06, 27.91098, -4.276594E-06)
+			rotation = (-5.592669E-06, 27.91098, -4.276594E-06)
 			lastValidPlacement = (-41778.65625, 32.396831512451172, 200993.72635126114)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8856,7 +8820,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (168176.73315429688, 63.0592041015625, 72528.678100585938)
-				rotation = (6.940645E-06, 42.97573, 6.466763E-06)
+				rotation = (6.940645E-06, 42.97573, 6.466764E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9096,7 +9060,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166950.94677734375, 39.216064453125, 72950.53125)
-				rotation = (4.140684E-06, 64.12004, 8.534997E-06)
+				rotation = (4.140685E-06, 64.12004, 8.534997E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9748,7 +9712,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74580.006164550781, 586.13330078125, 131425.4033203125)
-				rotation = (0.8710956, 125.4186, 358.7753)
+				rotation = (0.8710957, 125.4186, 358.7753)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -10452,7 +10416,7 @@ CustomScenario
 			globalPosition = (48414.178649902344, 90.764312744140625, 84740.935791015625)
 			unitInstanceID = 138
 			unitID = PatRadarTrailer
-			rotation = (2.436914E-05, 215.0996, -7.992275E-06)
+			rotation = (2.436914E-05, 215.0996, -7.992277E-06)
 			lastValidPlacement = (48555.724304199219, 90.764404296875, 85110.198974609375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -11323,7 +11287,7 @@ CustomScenario
 			globalPosition = (-41634.653747558594, 18.979995727539063, 201009.58309936523)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600371E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600372E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -29854,23 +29818,23 @@ CustomScenario
 		32 = support-tfn.mp3
 		33 = support-tfs.mp3
 		34 = destroyed-jammer.mp3
-		35 = conquered-gando.mp3
-		36 = conquered-losrodeos.mp3
-		37 = conquered-south.mp3
-		38 = carrier-sunk.mp3
-		39 = cruiser-sunk.mp3
-		40 = oil-destroyed.mp3
-		41 = destroyed-factory.mp3
-		42 = destroyed-ewr.mp3
-		43 = gando-defenses-eliminated.mp3
-		44 = losrodeos-defenses-eliminated.mp3
-		45 = south-defenses-eliminated.mp3
-		46 = resupply-survived.mp3
-		47 = resupply-destroyed.mp3
-		48 = destroyed-allied-carrier.mp3
-		49 = destroyed-attack.mp3
-		50 = destroyed-strike.mp3
-		51 = destroyed-allied-drone-tanker.mp3
+		35 = destroyed-attack.mp3
+		36 = destroyed-strike.mp3
+		37 = destroyed-allied-drone-tanker.mp3
+		38 = conquered-gando.mp3
+		39 = conquered-losrodeos.mp3
+		40 = conquered-south.mp3
+		41 = carrier-sunk.mp3
+		42 = cruiser-sunk.mp3
+		43 = oil-destroyed.mp3
+		44 = destroyed-factory.mp3
+		45 = destroyed-ewr.mp3
+		46 = gando-defenses-eliminated.mp3
+		47 = losrodeos-defenses-eliminated.mp3
+		48 = south-defenses-eliminated.mp3
+		49 = resupply-survived.mp3
+		50 = resupply-destroyed.mp3
+		51 = destroyed-allied-carrier.mp3
 	}
 }
 
