@@ -7653,6 +7653,361 @@ CustomScenario
 		}
 		UnitSpawner
 		{
+			unitName = Infantry MANPADS
+			globalPosition = (80000.276336669922, 120.498779296875, 130596.46893310547)
+			unitInstanceID = 152
+			unitID = EnemySoldierMANPAD
+			rotation = (0, 90, 8.515282E-06)
+			lastValidPlacement = (80609.477745056152, 151.648681640625, 130901.13934326172)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (80000.276336669922, 120.498779296875, 130596.46893310547)
+				rotation = (0, 90, 8.515282E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79854.246871948242, 184.8868408203125, 130578.71720123291)
+				rotation = (-1.791288E-11, 90.00002, 4.644016E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79769.859039306641, 142.912841796875, 130584.88215637207)
+				rotation = (0, 90, 2.554578E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79855.719512939453, 197.571533203125, 130653.72320556641)
+				rotation = (2.035555E-13, 90, 3.903954E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79923.292266845703, 166.140869140625, 130585.98258972168)
+				rotation = (-2.576249E-05, 130.054, -1.291119E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79922.166900634766, 186.707763671875, 130665.78100585938)
+				rotation = (-6.828928E-06, 130.054, 8.12285E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79912.150955200195, 137.6236572265625, 130750.09921646118)
+				rotation = (-5.989881E-07, 268.2692, -1.9823E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79811.448547363281, 141.412841796875, 130744.84771347046)
+				rotation = (-7.715951E-07, 268.2692, -2.553421E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79763.881542205811, 142.912841796875, 130808.1114730835)
+				rotation = (-7.715592E-07, 268.2692, -2.553412E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79816.029289245605, 218.473876953125, 130886.21754455566)
+				rotation = (-7.715608E-07, 268.2692, -2.553421E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (80116.932495117188, 212.333251953125, 130882.74270629883)
+				rotation = (-2.898035E-05, 193.4971, -6.955986E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (80126.053192138672, 212.333251953125, 130957.86231994629)
+				rotation = (-2.484029E-05, 193.4971, -5.962272E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (80439.05517578125, 125.1783447265625, 130882.41216278076)
+				rotation = (-2.12986E-05, 193.4971, -5.112181E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (80540.766723632813, 187.1485595703125, 130881.63104248047)
+				rotation = (-3.27587E-05, 193.4971, 0.0001074339)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (80609.477745056152, 151.648681640625, 130901.13934326172)
+				rotation = (-2.836766E-05, 93.30708, 5.067652E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
 			unitName = SupplyEscort1
 			globalPosition = (73687.259521484375, 591.76628112792969, 132912.80303955078)
 			unitInstanceID = 92
@@ -7755,10 +8110,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 1
-			globalPosition = (-41618.493728637695, 18.979995727539063, 200968.20309448242)
+			globalPosition = (-41618.493774414063, 18.980010986328125, 200968.203125)
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
-			rotation = (-6.011081E-06, 21.87937, -3.665257E-06)
+			rotation = (-6.011082E-06, 21.87937, -3.665257E-06)
 			lastValidPlacement = (-41781.654357910156, 32.396831512451172, 201022.92018890381)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -7784,10 +8139,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 2
-			globalPosition = (-41591.91374206543, 18.979995727539063, 200969.33309936523)
+			globalPosition = (-41591.913696289063, 18.980010986328125, 200969.33312988281)
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
-			rotation = (-5.592669E-06, 27.91098, -4.276594E-06)
+			rotation = (-5.59267E-06, 27.91098, -4.276594E-06)
 			lastValidPlacement = (-41778.65625, 32.396831512451172, 200993.72635126114)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -7813,7 +8168,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 1
-			globalPosition = (-41537.293731689453, 18.979995727539063, 200967.00311279297)
+			globalPosition = (-41537.293701171875, 18.980010986328125, 200967.00317382813)
 			unitInstanceID = 99
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
@@ -7843,7 +8198,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 2
-			globalPosition = (-41503.563751220703, 18.979995727539063, 200964.27313232422)
+			globalPosition = (-41503.563720703125, 18.980010986328125, 200964.27307128906)
 			unitInstanceID = 100
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
@@ -11284,10 +11639,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportEW
-			globalPosition = (-41634.653747558594, 18.979995727539063, 201009.58309936523)
+			globalPosition = (-41634.65380859375, 18.980010986328125, 201009.58312988281)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600372E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600371E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -11358,7 +11713,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportStrike
-			globalPosition = (-41608.933746337891, 18.979995727539063, 201020.95309448242)
+			globalPosition = (-41608.933715820313, 18.980010986328125, 201020.953125)
 			unitInstanceID = 150
 			unitID = FA-26B AI
 			rotation = (6.335029E-06, 144.6399, -3.071583E-06)
@@ -11396,7 +11751,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = MQ-31 UARV
-			globalPosition = (-41585.893753051758, 18.979995727539063, 201028.40310668945)
+			globalPosition = (-41585.893798828125, 18.980010986328125, 201028.40307617188)
 			unitInstanceID = 151
 			unitID = MQ-31
 			rotation = (6.299547E-06, 143.9857, -3.143708E-06)
@@ -11425,6 +11780,1639 @@ CustomScenario
 				respawnable = True
 				receiveFriendlyDamage = True
 				equips = mq31-46lt;mq31-46lt;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (81511.605787277222, 107.81103515625, 132672.10717010498)
+			unitInstanceID = 153
+			unitID = EnemySoldierMANPAD
+			rotation = (-1.263554E-06, 93.30708, 2.186705E-05)
+			lastValidPlacement = (81075.977935791016, 189.133056640625, 131866.83444976807)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (81465.896514892578, 162.66842651367188, 132574.56478881836)
+				rotation = (-6.121773E-07, 93.30708, 1.059434E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81548.242378234863, 97.18756103515625, 132432.78269958496)
+				rotation = (-1.291131E-06, 93.30708, 2.234395E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81389.643363952637, 118.437255859375, 132444.86959838867)
+				rotation = (-1.525406E-06, 93.30708, 2.639866E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81393.825721740723, 191.73883056640625, 132280.75369262695)
+				rotation = (-4.464966E-07, 93.30708, 7.727068E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81155.367752075195, 171.07467651367188, 132421.82917022705)
+				rotation = (1.041351E-05, 11.09943, 2.042941E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81218.81795501709, 173.73529052734375, 132120.20062637329)
+				rotation = (7.66178E-06, 11.09943, 1.503101E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81171.113189697266, 181.57080078125, 132028.65001678467)
+				rotation = (-1.971122E-05, 11.09943, -3.866982E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81383.102523803711, 105.296630859375, 132126.48746490479)
+				rotation = (-3.141317E-06, 88.59599, 1.70839E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81374.034057617188, 154.66455078125, 131736.17697143555)
+				rotation = (-2.703517E-05, 88.59599, 4.084844E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81171.252029418945, 177.90673828125, 131720.62773895264)
+				rotation = (-4.921703E-07, 88.59599, -2.008092E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (81075.977935791016, 189.133056640625, 131866.83444976807)
+				rotation = (3.605683E-05, 88.59599, 4.389203E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (72788.029418945313, 589.51611328125, 132396.06686401367)
+			unitInstanceID = 154
+			unitID = EnemySoldierMANPAD
+			rotation = (2.209904E-06, 19.50918, 1.353791E-05)
+			lastValidPlacement = (75005.526977539063, 582.820556640625, 131537.88061523438)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (73082.837219238281, 589.51611328125, 133072.91599082947)
+				rotation = (-1.993825E-06, 199.0452, -1.338714E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74849.62841796875, 589.5166015625, 132461.78570556641)
+				rotation = (-1.410574E-05, 122.1223, -7.236011E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (75025.810852050781, 596.781494140625, 132043.25231933594)
+				rotation = (-3.266264E-06, 122.1223, 5.202373E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (75005.526977539063, 582.820556640625, 131537.88061523438)
+				rotation = (-3.266264E-06, 122.1223, 5.202373E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (79771.723266601563, 239.4033203125, 131813.98480224609)
+			unitInstanceID = 155
+			unitID = EnemySoldierMANPAD
+			rotation = (-4.115549E-06, 122.1223, 6.55508E-06)
+			lastValidPlacement = (79027.318054199219, 154.16357421875, 131265.27624511719)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (79974.994110107422, 214.96923828125, 131830.34103393555)
+				rotation = (-2.975174E-06, 122.1223, 4.738736E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79793.783851623535, 227.46923828125, 132030.69467163086)
+				rotation = (3.668021E-07, 89.53049, 4.476081E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79930.884506225586, 210.97705078125, 131513.61573791504)
+				rotation = (2.8082E-05, 89.53049, 6.465711E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79923.646697998047, 197.942138671875, 131652.49172973633)
+				rotation = (8.696054E-08, 89.53049, 1.061174E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79318.298400878906, 167.390869140625, 131729.19039916992)
+				rotation = (4.585047E-08, 89.53049, 5.595102E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79226.988555908203, 157.328369140625, 131423.0754699707)
+				rotation = (4.585047E-08, 89.53049, 5.595102E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79241.877746582031, 174.305419921875, 131865.27571105957)
+				rotation = (5.187429E-08, 89.53049, 6.330222E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79214.432235717773, 176.53131103515625, 132424.85377502441)
+				rotation = (4.585047E-08, 89.53049, 5.595102E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (79027.318054199219, 154.16357421875, 131265.27624511719)
+				rotation = (4.454625E-07, 89.53049, 5.43596E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (74153.48583984375, 565.09326171875, 134174.08482933044)
+			unitInstanceID = 156
+			unitID = EnemySoldierMANPAD
+			rotation = (0.0001770258, 89.53049, 1.063004E-05)
+			lastValidPlacement = (74560.371978759766, 546.01513671875, 133985.28174591064)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (74096.180816650391, 573.812744140625, 133984.10577392578)
+				rotation = (4.585047E-08, 89.53049, 5.595102E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73976.170867919922, 559.355712890625, 134111.73947143555)
+				rotation = (1.048645E-07, 89.53049, 1.279661E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74450.638000488281, 546.015380859375, 134491.03387451172)
+				rotation = (-8.90925E-07, 89.53049, -0.0001087192)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (75238.059814453125, 541.031494140625, 134169.26156616211)
+				rotation = (3.523546E-07, 89.53049, 4.299768E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74447.417236328125, 535.511962890625, 133897.07428503036)
+				rotation = (8.049155E-08, 89.53049, 9.822396E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74560.371978759766, 546.01513671875, 133985.28174591064)
+				rotation = (1.038661E-06, 89.53049, 0.0001268386)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (166004.47515106201, 41.12347412109375, 73726.378448486328)
+			unitInstanceID = 157
+			unitID = EnemySoldierMANPAD
+			rotation = (1.917882E-05, 51.89888, 2.320511E-06)
+			lastValidPlacement = (165512.5133972168, 83.57427978515625, 73288.489379882813)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (166240.59986114502, 41.07501220703125, 73503.398620605469)
+				rotation = (1.923128E-05, 51.89888, 2.280704E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165054.10200881958, 49.583511352539063, 71670.095413208008)
+				rotation = (5.268221E-07, 51.89888, 6.718541E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164946.36907958984, 57.07861328125, 73357.96728515625)
+				rotation = (4.198525E-05, 31.52981, 1.379167E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
+				rotation = (1.659359E-05, 31.52981, 1.639424E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164871.79162597656, 41.07568359375, 71609.784423828125)
+				rotation = (1.865473E-05, 31.52981, -4.672212E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165005.79974365234, 69.21875, 73771.205444335938)
+				rotation = (1.185959E-07, 31.52981, 2.432226E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165512.5133972168, 83.57427978515625, 73288.489379882813)
+				rotation = (9.52936, 31.21511, 358.0998)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (161414.02368164063, 250.53662109375, 94859.173084259033)
+			unitInstanceID = 158
+			unitID = EnemySoldierMANPAD
+			rotation = (3.991989E-05, 31.52981, 2.449152E-05)
+			lastValidPlacement = (161366.17059326172, 188.520751953125, 94256.402893066406)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (161041.49145507813, 171.97705078125, 94973.644943237305)
+				rotation = (-1.411389E-05, 317.2383, -2.512383E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (161856.58171081543, 164.677001953125, 94548.115753173828)
+				rotation = (-1.185437E-06, 91.99448, 3.404052E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (161535.06457519531, 234.98193359375, 94508.015594482422)
+				rotation = (-2.963589E-07, 91.99448, 8.510116E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (161881.72875976563, 168.5828857421875, 95325.298461914063)
+				rotation = (-1.037255E-06, 91.99448, 2.978549E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (161338.68734741211, 163.34368896484375, 95265.258125305176)
+				rotation = (-2.865895E-05, 262.564, -3.011982E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (160734.64022827148, 148.437744140625, 94564.289627075195)
+				rotation = (-4.332718E-06, 262.564, -3.319676E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (160918.17993164063, 212.3642578125, 94031.958160400391)
+				rotation = (5.311482E-06, 282.0005, -2.498754E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (161366.17059326172, 188.520751953125, 94256.402893066406)
+				rotation = (-3.379526E-06, 97.6021, 2.532129E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (159397.51544189453, 290.4658203125, 93002.633178710938)
+			unitInstanceID = 159
+			unitID = EnemySoldierMANPAD
+			rotation = (2.90248E-05, 328.4451, -1.782468E-05)
+			lastValidPlacement = (159168.2462310791, 258.3873291015625, 93331.427978515625)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (159472.06386566162, 282.5546875, 93326.141784667969)
+				rotation = (-4.955492E-05, 328.4451, -9.364758E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (159817.45947265625, 200.5142822265625, 93174.538452148438)
+				rotation = (3.351766E-05, 357.3518, -1.129189E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (159875.58285522461, 294.1451416015625, 92729.8076171875)
+				rotation = (3.814964E-07, 87.1748, 7.730575E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (159168.2462310791, 258.3873291015625, 93331.427978515625)
+				rotation = (8.24562E-06, 320.9866, -6.680359E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (164620.87054443359, 87.68359375, 80708.373840332031)
+			unitInstanceID = 160
+			unitID = EnemySoldierMANPAD
+			rotation = (4.899951E-05, 359.2114, -8.629936E-06)
+			lastValidPlacement = (164578.55560302734, 112.125732421875, 81363.443359375)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (165025.95378112793, 105.02362060546875, 80722.793060302734)
+				rotation = (2.237899E-05, 359.2114, -3.080272E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164758.36743164063, 112.12548828125, 81124.471282958984)
+				rotation = (5.063833E-05, 359.2114, -6.970404E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164723.75051307678, 105.023681640625, 81352.318695068359)
+				rotation = (5.594761E-06, 359.2114, -7.701231E-08)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164886.77255249023, 112.12548828125, 81362.898040771484)
+				rotation = (-3.07246E-05, 359.2114, 6.76299E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164886.76303100586, 99.05615234375, 81144.087097167969)
+				rotation = (5.418761E-06, 85.93378, 7.622581E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164704.7529296875, 93.226654052734375, 80213.628593444824)
+				rotation = (-1.970844E-05, 85.93378, 1.425363E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164578.55560302734, 112.125732421875, 81363.443359375)
+				rotation = (-7.067061E-05, 46.84294, 2.287488E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (160017.6848449707, 152.7149658203125, 62398.300810694695)
+			unitInstanceID = 161
+			unitID = EnemySoldierMANPAD
+			rotation = (-5.443168E-06, 166.609, 1.295838E-06)
+			lastValidPlacement = (160739.63647460938, 128.8675537109375, 63226.290344238281)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (160320.2746887207, 128.87115478515625, 62079.617889404297)
+				rotation = (-5.443168E-06, 166.609, 1.295838E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (159848.7124786377, 159.81689453125, 62063.544189453125)
+				rotation = (-5.034164E-05, 186.2583, -5.520653E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (159668.32473754883, 159.81298828125, 62627.697021484375)
+				rotation = (-6.292783E-06, 186.2583, -6.900901E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (160328.15284729004, 152.715087890625, 62906.50163936615)
+				rotation = (-5.561947E-06, 186.2583, -6.099438E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (160629.77501106262, 128.8675537109375, 63009.655120849609)
+				rotation = (-5.561947E-06, 186.2583, -6.099438E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (160276.80817222595, 135.97320556640625, 62324.046325683594)
+				rotation = (-6.292707E-06, 186.2583, -6.900817E-07)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (160650.52702331543, 108.2230224609375, 62476.854526519775)
+				rotation = (-0.001076046, 186.2583, -0.0001180032)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (160739.63647460938, 128.8675537109375, 63226.290344238281)
+				rotation = (-4.868179E-06, 150.4644, 2.758282E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
 			}
 		}
 	}
@@ -11539,7 +13527,7 @@ CustomScenario
 			id = 14
 			name = TFS Combat Zone
 			loop = True
-			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.03125);(87234.875, -5, 88612.625);(89993.65625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1796875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
+			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.03125);(87234.875, -5, 88612.625);(89993.65625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
 			pathMode = Linear
 		}
 	}
