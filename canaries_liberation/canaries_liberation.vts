@@ -13938,29 +13938,13 @@ CustomScenario
 				{
 					id = 0
 					outputNodePos = (0, 0, 0)
-					root = 0
-					COMP
-					{
-						id = 0
-						type = SCCAnd
-						uiPos = (-148, 54, 0)
-						factors = 1;2;
-					}
+					root = 1
 					COMP
 					{
 						id = 1
 						type = SCCChance
-						uiPos = (-373, 155, 0)
+						uiPos = (-351, 70, 0)
 						chance = 50
-					}
-					COMP
-					{
-						id = 2
-						type = SCCUnitGroup
-						uiPos = (-410, 24, 0)
-						unitGroup = Enemy:Papa
-						methodName = AllAirborne
-						isNot = True
 					}
 				}
 				ACTIONS
@@ -13973,6 +13957,20 @@ CustomScenario
 						eventName = Take Off
 						methodName = TakeOff
 						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
 					}
 				}
 				ELSE_ACTIONS
@@ -13993,6 +13991,14 @@ CustomScenario
 				{
 					id = 0
 					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-320, 57, 0)
+						chance = 50
+					}
 				}
 				ACTIONS
 				{
@@ -14032,7 +14038,7 @@ CustomScenario
 			name = 
 			BASE_BLOCK
 			{
-				blockName = Papa joins attack
+				blockName = November joins attack
 				blockId = 31
 				CONDITIONAL
 				{
@@ -14044,6 +14050,271 @@ CustomScenario
 						id = 0
 						type = SCCChance
 						uiPos = (-322, 55, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 32
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Quebec joins attack
+				blockId = 33
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-324, 51, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 34
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Yankee joins attack
+				blockId = 35
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-335, 76, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;3;3:0;3:1;3:2;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 36
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Sierra joins attack
+				blockId = 37
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-329, 63, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;3;3:0;3:1;3:2;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 38
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Quebec joins attack
+				blockId = 39
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-282, 57, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;3;3:0;3:1;3:2;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 40
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Papa joins attack
+				blockId = 41
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-285, 41, 0)
 						chance = 50
 					}
 				}
@@ -14068,8 +14339,1464 @@ CustomScenario
 						ParamInfo
 						{
 							type = UnitReferenceListOtherSubs
-							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							value = 2;3;3:0;3:1;3:2;4;5;
 							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 42
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Oscar joins attack
+				blockId = 43
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-246, 38, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;3;3:1;3:0;3:2;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 44
+			name = 
+			BASE_BLOCK
+			{
+				blockName = November joins attack
+				blockId = 45
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-314, 49, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Add Designated Targets
+						methodName = AddDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;3;3:0;3:1;3:2;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 46
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Yankee joins attack
+				blockId = 47
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-307, 41, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 48
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Sierra joins attack
+				blockId = 49
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-243, 3, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 50
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Quebec joins attack
+				blockId = 51
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-267, 45, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 52
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Papa joins attack
+				blockId = 53
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-283, 22, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 54
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Oscar joins attack
+				blockId = 55
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-312, 29, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 56
+			name = 
+			BASE_BLOCK
+			{
+				blockName = November joins attack
+				blockId = 57
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-274, 57, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 58
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Yankee joins attack
+				blockId = 59
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-247, 44, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 60
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Sierra joins attack
+				blockId = 61
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-309, 37, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 62
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Quebec joins attack
+				blockId = 63
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-350, 48, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 64
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Papa joins attack
+				blockId = 65
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-349, 45, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 66
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Oscar joins attack
+				blockId = 67
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-338, 44, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 68
+			name = 
+			BASE_BLOCK
+			{
+				blockName = November joins attack
+				blockId = 69
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-335, 49, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 70
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Yankee joins attack
+				blockId = 71
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-337, 67, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 72
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Sierra joins attack
+				blockId = 73
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-324, 62, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 74
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Quebec joins attack
+				blockId = 75
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-270, 40, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 76
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Papa joins attack
+				blockId = 77
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-279, 37, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 78
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Oscar joins attack
+				blockId = 79
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-310, 45, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 80
+			name = 
+			BASE_BLOCK
+			{
+				blockName = November joins attack
+				blockId = 81
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-365, 62, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
 						}
 					}
 				}
@@ -20168,7 +21895,7 @@ CustomScenario
 						ParamInfo
 						{
 							type = ConditionalActionReference
-							value = 24
+							value = 32
 							name = Action
 						}
 					}
@@ -20223,6 +21950,99 @@ CustomScenario
 			sequenceName = AttackAssaultCarrier
 			startImmediately = False
 			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Decide attackers & attack
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 34
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 36
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 38
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 40
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 42
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 44
+							name = Action
+						}
+					}
+				}
+			}
 		}
 		SEQUENCE
 		{
@@ -20230,6 +22050,99 @@ CustomScenario
 			sequenceName = AttackGando
 			startImmediately = False
 			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Decide attackers & attack
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 46
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 48
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 50
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 52
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 54
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 56
+							name = Action
+						}
+					}
+				}
+			}
 		}
 		SEQUENCE
 		{
@@ -20237,6 +22150,99 @@ CustomScenario
 			sequenceName = AttackLosRodeos
 			startImmediately = False
 			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Decide attackers & attack
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 58
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 60
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 62
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 64
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 66
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 68
+							name = Action
+						}
+					}
+				}
+			}
 		}
 		SEQUENCE
 		{
@@ -20244,6 +22250,99 @@ CustomScenario
 			sequenceName = AttackTenerifeSouth
 			startImmediately = False
 			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Decide attackers & attack
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 70
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 72
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 74
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 76
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 78
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 80
+							name = Action
+						}
+					}
+				}
+			}
 		}
 	}
 	BASES
