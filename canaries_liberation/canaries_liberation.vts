@@ -361,7 +361,7 @@ CustomScenario
 				respawnable = False
 				receiveFriendlyDamage = True
 				lsoFreq = 284.4
-				carrierSpawns = 0:147:-1:0;1:-1;2:-1;3:97:-1;4:98:-1;5:100:-1;6:-1;7:-1;8:99:-1;
+				carrierSpawns = 0:147:-1;1:150:-1;2:-1;3:97:-1;4:98:-1;5:100:-1;6:-1;7:-1;8:99:-1;
 			}
 			altSpawn
 			{
@@ -7791,10 +7791,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 1
-			globalPosition = (-41618.493713378906, 18.980010986328125, 200968.20309448242)
+			globalPosition = (-41618.493728637695, 18.979995727539063, 200968.20309448242)
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
-			rotation = (-6.011081E-06, 21.87937, -3.665257E-06)
+			rotation = (-6.011082E-06, 21.87937, -3.665257E-06)
 			lastValidPlacement = (-41781.654357910156, 32.396831512451172, 201022.92018890381)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -7820,10 +7820,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 2
-			globalPosition = (-41591.913757324219, 18.980010986328125, 200969.33309936523)
+			globalPosition = (-41591.91374206543, 18.979995727539063, 200969.33309936523)
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
-			rotation = (-5.592669E-06, 27.91098, -4.276594E-06)
+			rotation = (-5.59267E-06, 27.91098, -4.276594E-06)
 			lastValidPlacement = (-41778.65625, 32.396831512451172, 200993.72635126114)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -7849,7 +7849,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 1
-			globalPosition = (-41537.293762207031, 18.980010986328125, 200967.00311279297)
+			globalPosition = (-41537.293731689453, 18.979995727539063, 200967.00311279297)
 			unitInstanceID = 99
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
@@ -7879,7 +7879,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 2
-			globalPosition = (-41503.563720703125, 18.980010986328125, 200964.27311706543)
+			globalPosition = (-41503.563751220703, 18.979995727539063, 200964.27313232422)
 			unitInstanceID = 100
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
@@ -11323,8 +11323,8 @@ CustomScenario
 			globalPosition = (-41634.653747558594, 18.979995727539063, 201009.58309936523)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600372E-06, 150.1424, -2.44996E-06)
-			lastValidPlacement = (-41726.230804443359, 35.959999084472656, 200913.27463531494)
+			rotation = (6.600371E-06, 150.1424, -2.44996E-06)
+			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -11394,20 +11394,20 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportStrike
-			globalPosition = (-41685.460205078125, 45.960792541503906, 201059.8627166748)
+			globalPosition = (-41608.933746337891, 18.979995727539063, 201020.95309448242)
 			unitInstanceID = 150
 			unitID = FA-26B AI
-			rotation = (0, 90, 0)
+			rotation = (6.335029E-06, 144.6399, -3.071583E-06)
 			lastValidPlacement = (-41685.460205078125, 45.960792541503906, 201059.8627166748)
 			editorPlacementMode = Air
-			onCarrier = False
+			onCarrier = True
 			mpSelectEnabled = True
 			UnitFields
 			{
 				unitGroup = null
 				voiceProfile = null
 				playerCommandsMode = Unit_Group_Only
-				defaultBehavior = Orbit
+				defaultBehavior = TakeOff
 				initialSpeed = 220
 				defaultNavSpeed = 220
 				defaultOrbitPoint = null
@@ -11417,16 +11417,16 @@ CustomScenario
 				autoRefuel = True
 				autoRTB = True
 				defaultRadarEnabled = True
-				allowJammingAtWill = False
-				rtbDestination = 
-				parkedStartMode = FlightReady
+				allowJammingAtWill = True
+				rtbDestination = unit:2
+				parkedStartMode = Cold
 				engageEnemies = True
 				detectionMode = Default
 				spawnOnStart = True
 				invincible = False
-				respawnable = False
+				respawnable = True
 				receiveFriendlyDamage = True
-				equips = af_gun;af_aim9;af_aim9;af_amraamRail;af_amraam;af_amraam;af_amraam;af_amraam;af_amraamRail;af_aim9;af_aim9;fa26_droptank;fa26_droptank;fa26_droptank;af_tgp;;
+				equips = af_gun;af_aim9;af_amraamRail;fa26_maverickx1;fa26_harmx1;fa26_gbu12x1;fa26_gbu12x1;fa26_harmx1;fa26_maverickx1;af_amraamRail;af_aim9;fa26_maverickx1;fa26_maverickx1;;af_tgp;fa26-cft;
 			}
 		}
 	}
@@ -13387,6 +13387,42 @@ CustomScenario
 						}
 					}
 				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 150
+					eventName = Orbit Waypoint
+					methodName = SetOrbitNow
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = Waypoint
+						value = 9
+						name = Waypoint
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 5000
+						name = Radius
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,80000)
+						}
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 3000
+						name = Altitude
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,10000)
+						}
+					}
+				}
 			}
 		}
 		TriggerEvent
@@ -13483,6 +13519,42 @@ CustomScenario
 					{
 						type = System.Single
 						value = 1000
+						name = Altitude
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,10000)
+						}
+					}
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 150
+					eventName = Orbit Waypoint
+					methodName = SetOrbitNow
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = Waypoint
+						value = 10
+						name = Waypoint
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 5000
+						name = Radius
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,80000)
+						}
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 3000
 						name = Altitude
 						ParamAttrInfo
 						{
@@ -13595,6 +13667,42 @@ CustomScenario
 						}
 					}
 				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 150
+					eventName = Orbit Waypoint
+					methodName = SetOrbitNow
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = Waypoint
+						value = 11
+						name = Waypoint
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 5000
+						name = Radius
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,80000)
+						}
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 3000
+						name = Altitude
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,10000)
+						}
+					}
+				}
 			}
 		}
 		TriggerEvent
@@ -13654,6 +13762,66 @@ CustomScenario
 					eventName = Restart
 					methodName = Restart
 					altTargetIdx = -1
+				}
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-attack.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 64
+			enabled = True
+			triggerType = Conditional
+			conditional = 110
+			eventName = OnAlliedStrikeFlightDestroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Event_Sequences
+					targetID = 24
+					eventName = Restart
+					methodName = Restart
+					altTargetIdx = -1
+				}
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-strike.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
 				}
 			}
 		}
@@ -17594,6 +17762,21 @@ CustomScenario
 				type = SCCUnit
 				uiPos = (-330, 86, 0)
 				unit = 149
+				methodName = SC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 110
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-500.8651, 60.56212, 0)
+				unit = 150
 				methodName = SC_IsAlive
 				isNot = True
 			}
@@ -29413,6 +29596,30 @@ CustomScenario
 				}
 			}
 		}
+		SEQUENCE
+		{
+			id = 24
+			sequenceName = RespawnAlliedStrikeWithWait
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 900
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 150
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+		}
 	}
 	BASES
 	{
@@ -29548,6 +29755,8 @@ CustomScenario
 		46 = resupply-survived.mp3
 		47 = resupply-destroyed.mp3
 		48 = destroyed-allied-carrier.mp3
+		49 = destroyed-attack.mp3
+		50 = destroyed-strike.mp3
 	}
 }
 
