@@ -13572,6 +13572,141 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = E-4 Overlord
+			globalPosition = (119593.35989379883, 9139, 253811.734375)
+			unitInstanceID = 163
+			unitID = E-4
+			rotation = (0, 0, 0)
+			lastValidPlacement = (-179810.73681640625, 9139, 82856.984375)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				awacsVoiceProfile = null
+				commsEnabled = True
+				unitGroup = null
+				defaultBehavior = Path
+				initialSpeed = 210
+				defaultNavSpeed = 210
+				defaultOrbitPoint = null
+				defaultPath = 0
+				orbitAltitude = 8000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = 
+				parkedStartMode = FlightReady
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (335806.40966796875, 9139, 77270.88671875)
+				rotation = (0, 0, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					awacsVoiceProfile = null
+					commsEnabled = True
+					unitGroup = null
+					defaultBehavior = Path
+					initialSpeed = 210
+					defaultNavSpeed = 210
+					defaultOrbitPoint = null
+					defaultPath = 0
+					orbitAltitude = 8000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (68269.401657104492, 9139, -93504.689453125)
+				rotation = (0, 0, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					awacsVoiceProfile = null
+					commsEnabled = True
+					unitGroup = null
+					defaultBehavior = Path
+					initialSpeed = 210
+					defaultNavSpeed = 210
+					defaultOrbitPoint = null
+					defaultPath = 0
+					orbitAltitude = 8000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (-179810.73681640625, 9139, 82856.984375)
+				rotation = (0, 0, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					awacsVoiceProfile = null
+					commsEnabled = True
+					unitGroup = null
+					defaultBehavior = Path
+					initialSpeed = 210
+					defaultNavSpeed = 210
+					defaultOrbitPoint = null
+					defaultPath = 0
+					orbitAltitude = 8000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = False
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -13588,7 +13723,7 @@ CustomScenario
 			id = 1
 			name = EnemyCarrierPath
 			loop = True
-			points = (120032.8125, -5, 121600.40625);(96634.484375, -5, 68211.921875);(67051.984375, -5, 78726.5546875);(85912.171875, -5, 115008.5625);
+			points = (120032.8125, -5, 121600.40625);(96634.5, -5, 68211.921875);(67051.984375, -5, 78726.5546875);(85912.1875, -5, 115008.5625);
 			pathMode = Smooth
 		}
 		PATH
@@ -13596,7 +13731,7 @@ CustomScenario
 			id = 2
 			name = CapTFPath
 			loop = True
-			points = (42505.921875, 6091, 84289.4375);(58819.421875, 6091, 92274.1875);(65085.03125, 6091, 106564.8125);(69067.578125, 6091, 117079.515625);(82079.34375, 6091, 132585.046875);(81512.21875, 6091, 138542.8125);(74493.25, 6091, 143834.734375);(60905.5, 6091, 132018.21875);(46424.40625, 6091, 123786.6875);(29613.859375, 6091, 121548.65625);(22764.28125, 6091, 119311.46875);(23131.1875, 6091, 107700.578125);(29915.53125, 6091, 92421.71875);
+			points = (42505.9375, 6091, 84289.4375);(58819.4375, 6091, 92274.1875);(65085.046875, 6091, 106564.8125);(69067.59375, 6091, 117079.515625);(82079.375, 6091, 132585.046875);(81512.25, 6091, 138542.8125);(74493.265625, 6091, 143834.734375);(60905.515625, 6091, 132018.21875);(46424.421875, 6091, 123786.6875);(29613.875, 6091, 121548.65625);(22764.296875, 6091, 119311.46875);(23131.203125, 6091, 107700.578125);(29915.546875, 6091, 92421.71875);
 			pathMode = Bezier
 		}
 		PATH
@@ -13604,7 +13739,7 @@ CustomScenario
 			id = 3
 			name = CapGCPath
 			loop = True
-			points = (144488.6875, 6091, 51751);(156692.25, 6091, 57634.78125);(164578.9375, 6091, 67128.875);(166155.75, 6091, 79309.2890625);(161815.875, 6091, 91100.96875);(153064.9375, 6091, 96145.53125);(139322.828125, 6091, 96816.28125);(132107.046875, 6091, 88250.90625);(124440.171875, 6091, 81203.609375);(122931.859375, 6091, 70475.453125);(133967.796875, 6091, 55081.984375);
+			points = (144488.6875, 6091, 51751);(156692.25, 6091, 57634.78125);(164578.9375, 6091, 67128.875);(166155.75, 6091, 79309.2890625);(161815.875, 6091, 91100.96875);(153064.9375, 6091, 96145.53125);(139322.8125, 6091, 96816.28125);(132107.0625, 6091, 88250.90625);(124440.1875, 6091, 81203.609375);(122931.875, 6091, 70475.453125);(133967.8125, 6091, 55081.984375);
 			pathMode = Bezier
 		}
 		PATH
@@ -13612,7 +13747,7 @@ CustomScenario
 			id = 4
 			name = CapChannelPath
 			loop = True
-			points = (75520.25, 6091, 60514.28125);(98166.84375, 6091, 61032.546875);(108376.15625, 6091, 71296.0390625);(118102.515625, 6091, 91362.234375);(131087.65625, 6091, 108567.984375);(120893.4375, 6091, 117686.46875);(102920.03125, 6091, 119763.71875);(92419.3125, 6091, 106059.09375);(81017.78125, 6091, 89610.53125);(69565.15625, 6091, 69281.96875);
+			points = (75520.25, 6091, 60514.28125);(98166.84375, 6091, 61032.546875);(108376.15625, 6091, 71296.0390625);(118102.5, 6091, 91362.234375);(131087.65625, 6091, 108567.984375);(120893.4375, 6091, 117686.46875);(102920.03125, 6091, 119763.71875);(92419.3125, 6091, 106059.09375);(81017.78125, 6091, 89610.53125);(69565.15625, 6091, 69281.96875);
 			pathMode = Bezier
 		}
 		PATH
@@ -13620,7 +13755,7 @@ CustomScenario
 			id = 5
 			name = EnemyAlertZone
 			loop = True
-			points = (195881.90625, -5, 62052.40625);(180784.265625, -5, 123830.15625);(123257.96875, -5, 126461.40625);(115122.421875, -5, 164876.53125);(61074.28125, -5, 171051.40625);(35594.953125, -5, 150750.65625);(-11368.328125, -5, 129127.765625);(16556.140625, -5, 59644.9375);(94252.28125, -5, 61795.3125);(146113.34375, -5, 20717.03125);(179730.71875, -5, 34312.6875);
+			points = (195881.90625, -5, 62052.40625);(180784.25, -5, 123830.15625);(123257.96875, -5, 126461.40625);(115122.4375, -5, 164876.53125);(61074.28125, -5, 171051.40625);(35594.953125, -5, 150750.65625);(-11368.328125, -5, 129127.765625);(16556.140625, -5, 59644.9375);(94252.28125, -5, 61795.3125);(146113.34375, -5, 20717.03125);(179730.71875, -5, 34312.6875);
 			pathMode = Linear
 		}
 		PATH
@@ -13636,7 +13771,7 @@ CustomScenario
 			id = 7
 			name = RodeosDecoyPath
 			loop = True
-			points = (73853.625, 995, 131187.140625);(75189.0390625, 995, 131291.015625);(76006.6953125, 995, 131938.328125);(75787.296875, 995, 133115.953125);(74214.9296875, 995, 133823.3125);(72745.3203125, 995, 134014.71875);(71151.4140625, 995, 133070.3125);
+			points = (73853.625, 995, 131187.140625);(75189.03125, 995, 131291.015625);(76006.6875, 995, 131938.328125);(75787.296875, 995, 133115.953125);(74214.9375, 995, 133823.3125);(72745.3125, 995, 134014.71875);(71151.40625, 995, 133070.3125);
 			pathMode = Bezier
 		}
 		PATH
@@ -13652,7 +13787,7 @@ CustomScenario
 			id = 9
 			name = CapAllAroundCoast
 			loop = True
-			points = (162698.125, 299.80078125, 99939.0859375);(151981.21875, 299.80078125, 97140.3671875);(141592.03125, 299.80078125, 99152.015625);(134244.953125, 299.80078125, 98441.421875);(127521.984375, 3043.0009765625, 105096.953125);(113689.15625, 3043.0009765625, 122266.265625);(104056.78125, 3043.0009765625, 131612.765625);(94666.828125, 299.80078125, 141906.046875);(93604.65625, 299.80078125, 145875.96875);(89985.125, 299.80078125, 146522.953125);(85052.78125, 299.80078125, 144660.84375);(79777.6796875, 299.80078125, 145538.0625);(73495.1953125, 299.80078125, 144194.609375);(66273.3828125, 299.80078125, 139653.125);(64255.890625, 299.80078125, 137660.03125);(56543.6328125, 299.80078125, 129302.34375);(54240.625, 299.80078125, 126762.46875);(46098.09375, 299.80078125, 124359.15625);(23946.03125, 299.80078125, 123439.1875);(17192.328125, 299.80078125, 120786.65625);(14908.3125, 299.80078125, 118897.34375);(27148.46875, 299.80078125, 95899.015625);(37371.953125, 299.80078125, 80455.375);(49110.875, 3043.0009765625, 69800.90625);(102870.609375, 3043.0009765625, 59085.5625);(117186.75, 3043.0009765625, 56279.453125);(137755.4375, 299.80078125, 52011.765625);(145336.84375, 299.80078125, 50153.75);(161388.421875, 299.80078125, 58049.59375);(166249, 299.80078125, 64364.234375);(168862.671875, 299.80078125, 72384.0703125);
+			points = (162698.125, 299.80078125, 99939.09375);(151981.21875, 299.80078125, 97140.375);(141592.03125, 299.80078125, 99152.0234375);(134244.9375, 299.80078125, 98441.4296875);(127522, 3043.0009765625, 105096.9609375);(113689.15625, 3043.0009765625, 122266.2734375);(104056.78125, 3043.0009765625, 131612.7734375);(94666.8125, 299.80078125, 141906.0546875);(93604.65625, 299.80078125, 145875.9765625);(89985.125, 299.80078125, 146522.9609375);(85052.78125, 299.80078125, 144660.8515625);(79777.6875, 299.80078125, 145538.0703125);(73495.1875, 299.80078125, 144194.6171875);(66273.375, 299.80078125, 139653.1328125);(64255.890625, 299.80078125, 137660.0390625);(56543.625, 299.80078125, 129302.3515625);(54240.625, 299.80078125, 126762.4765625);(46098.09375, 299.80078125, 124359.1640625);(23946.03125, 299.80078125, 123439.1953125);(17192.328125, 299.80078125, 120786.6640625);(14908.3125, 299.80078125, 118897.3515625);(27148.46875, 299.80078125, 95899.0234375);(37371.953125, 299.80078125, 80455.3828125);(49110.875, 3043.0009765625, 69800.9140625);(102870.625, 3043.0009765625, 59085.5703125);(117186.75, 3043.0009765625, 56279.4609375);(137755.4375, 299.80078125, 52011.7734375);(145336.84375, 299.80078125, 50153.7578125);(161388.4375, 299.80078125, 58049.6015625);(166249, 299.80078125, 64364.2421875);(168862.6875, 299.80078125, 72384.078125);
 			pathMode = Linear
 		}
 		PATH
@@ -13660,7 +13795,7 @@ CustomScenario
 			id = 10
 			name = GC SL-MRM path
 			loop = True
-			points = (164849.5625, -2.3984375, 97210.484375);(130080.046875, 106.232421875, 59819.796875);
+			points = (164849.5625, -2.3984375, 97210.484375);(130080.0625, 106.232421875, 59819.796875);
 			pathMode = Linear
 		}
 		PATH
@@ -13668,7 +13803,7 @@ CustomScenario
 			id = 13
 			name = TFN Combat Zone
 			loop = True
-			points = (90225.4375, -5, 176193.40625);(45634.4296875, -5, 162223.4375);(9667.34375, -5, 150190.140625);(-14929.484375, -5, 120742.921875);(21504.96875, 348.45703125, 114303.6875);(44327.203125, 1741.91015625, 114675.859375);(70945.3515625, -5, 114879.734375);(100411.90625, -5, 112054.78125);(123926.28125, -5, 151695.03125);(110786.03125, -5, 171068.34375);
+			points = (90225.4375, -5, 176193.40625);(45634.4375, -5, 162223.4375);(9667.34375, -5, 150190.140625);(-14929.484375, -5, 120742.921875);(21504.96875, 348.45703125, 114303.6875);(44327.203125, 1741.91015625, 114675.859375);(70945.34375, -5, 114879.734375);(100411.90625, -5, 112054.78125);(123926.28125, -5, 151695.03125);(110786.03125, -5, 171068.34375);
 			pathMode = Linear
 		}
 		PATH
@@ -13676,7 +13811,7 @@ CustomScenario
 			id = 12
 			name = GC Combat Zone
 			loop = True
-			points = (199322.46875, -5, 69749.375);(184950.125, -5, 121540.453125);(143497.859375, -5, 129611.640625);(100491.46875, -5, 88668.0390625);(90277.9375, -5, 53622.625);(143727.359375, -5, 19954.265625);(182065.03125, -5, 35533.765625);
+			points = (199322.46875, -5, 69749.375);(184950.125, -5, 121540.453125);(143497.875, -5, 129611.640625);(100491.46875, -5, 88668.0390625);(90277.9375, -5, 53622.625);(143727.375, -5, 19954.265625);(182065.03125, -5, 35533.765625);
 			pathMode = Linear
 		}
 		PATH
@@ -13684,7 +13819,39 @@ CustomScenario
 			id = 14
 			name = TFS Combat Zone
 			loop = True
-			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.03125);(87234.875, -5, 88612.625);(89993.65625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1796875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
+			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.03125);(87234.875, -5, 88612.625);(89993.65625, -5, 102381.9609375);(42850.109375, 2153.62109375, 106540.625);(19071.1875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 15
+			name = NorthLine
+			loop = False
+			points = (-78713.3125, -5, 173699.75);(283050.78125, -5, 164199.65625);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 16
+			name = EastLine
+			loop = False
+			points = (258757.59375, -5, 226530.03125);(256935.78125, -5, -61265.78125);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 17
+			name = SouthLine
+			loop = False
+			points = (312704.09375, -5, -12453.328125);(-152851.46875, -5, -11395.75);
+			pathMode = Linear
+		}
+		PATH
+		{
+			id = 18
+			name = WestLine
+			loop = False
+			points = (-97189.6875, -5, -64546.125);(9803.78125, -5, 220163.15625);
 			pathMode = Linear
 		}
 	}
@@ -14419,7 +14586,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 27
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 70
 			eventName = OnAlpha11Landed
@@ -14451,7 +14618,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 28
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 71
 			eventName = OnAlpha12Landed
@@ -14611,7 +14778,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 33
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 76
 			eventName = OnBravo11Landed
@@ -14643,7 +14810,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 34
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 77
 			eventName = OnBravo12Landed
@@ -14803,7 +14970,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 39
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 82
 			eventName = OnCharlie11Landed
@@ -14835,7 +15002,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 40
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 83
 			eventName = OnCharlie12Landed
@@ -14995,7 +15162,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 45
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 88
 			eventName = OnDelta11Landed
@@ -15027,7 +15194,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 46
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 89
 			eventName = OnDelta12Landed
@@ -15187,7 +15354,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 51
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 94
 			eventName = OnEcho11Landed
@@ -15219,7 +15386,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 52
-			enabled = True
+			enabled = False
 			triggerType = Conditional
 			conditional = 95
 			eventName = OnEcho12Landed
@@ -15997,6 +16164,110 @@ CustomScenario
 					{
 						type = VTSAudioReference
 						value = destroyed-allied-drone-tanker.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 67
+			enabled = True
+			triggerType = Conditional
+			conditional = 113
+			eventName = OnAlliedAwacsDestroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Event_Sequences
+					targetID = 28
+					eventName = Restart
+					methodName = Restart
+					altTargetIdx = -1
+				}
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = destroyed-allied-awacs.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 68
+			enabled = True
+			triggerType = Conditional
+			conditional = 114
+			eventName = OnAwacsLanded
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = sunset.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 69
+			enabled = False
+			triggerType = Conditional
+			conditional = 115
+			eventName = OnAwacsTakeoff
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = sunshine.mp3
 						name = Audio
 					}
 					ParamInfo
@@ -20017,6 +20288,51 @@ CustomScenario
 				uiPos = (-328.9996, 122.761, 0)
 				unit = 151
 				methodName = SC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 113
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-440, 78, 0)
+				unit = 163
+				methodName = SC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 114
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-341, 93, 0)
+				unit = 163
+				methodName = SC_IsLanded
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 115
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-361, 84, 0)
+				unit = 163
+				methodName = SC_IsLanded
 				isNot = True
 			}
 		}
@@ -31885,17 +32201,157 @@ CustomScenario
 		}
 		SEQUENCE
 		{
-			id = 26
+			id = 28
+			sequenceName = RespawnAlliedAWACS
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 600
+				nodeName = Respawn
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 163
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 163
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = sunshine.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 29
 			sequenceName = DelayTriggers
 			startImmediately = True
 			whileLoop = False
 			EVENT
 			{
 				delay = 60
-				nodeName = New Node
+				nodeName = Delay 1 min
 				EventInfo
 				{
 					eventName = 
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 69
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 27
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 28
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 33
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 34
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 39
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 40
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 45
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 46
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 51
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 52
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
 				}
 			}
 		}
@@ -32037,6 +32493,9 @@ CustomScenario
 		49 = resupply-survived.mp3
 		50 = resupply-destroyed.mp3
 		51 = destroyed-allied-carrier.mp3
+		52 = destroyed-allied-awacs.mp3
+		53 = sunshine.mp3
+		54 = sunset.mp3
 	}
 }
 
