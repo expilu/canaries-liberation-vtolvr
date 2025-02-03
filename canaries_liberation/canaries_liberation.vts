@@ -17,7 +17,7 @@ CustomScenario
 	baseBudget = 1000000
 	isTraining = False
 	rtbWptID = 
-	refuelWptID = 
+	refuelWptID = unit:151
 	mpPlayerCount = 12
 	autoPlayerCount = True
 	overrideAlliedPlayerCount = 1
@@ -40,7 +40,7 @@ CustomScenario
 	windSpeed = 1
 	windVariation = 1
 	windGusts = 1
-	defaultWeather = 0
+	defaultWeather = 1
 	customTimeOfDay = 11
 	overrideLocation = True
 	overrideLatitude = 28.15494
@@ -13857,7 +13857,7 @@ CustomScenario
 			id = 14
 			name = TFS Combat Zone
 			loop = True
-			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.03125);(87234.875, -5, 88612.625);(89993.65625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
+			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.03125);(87234.875, -5, 88612.625);(89993.65625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1796875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
 			pathMode = Linear
 		}
 		PATH
@@ -13889,7 +13889,7 @@ CustomScenario
 			id = 18
 			name = WestLine
 			loop = False
-			points = (-97189.6875, -5, -64546.125);(9803.78125, -5, 220163.15625);
+			points = (-97189.6875, -5, -64546.125);(9803.7890625, -5, 220163.15625);
 			pathMode = Linear
 		}
 	}
