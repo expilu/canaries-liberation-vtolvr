@@ -30907,6 +30907,26 @@ CustomScenario
 						methodName = BeginObjective
 						altTargetIdx = -1
 					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = detected-resupply.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
 				}
 			}
 			EVENT
@@ -32733,6 +32753,7 @@ CustomScenario
 		52 = resupply-survived.mp3
 		53 = resupply-destroyed.mp3
 		54 = destroyed-allied-carrier.mp3
+		55 = detected-resupply.mp3
 	}
 }
 
