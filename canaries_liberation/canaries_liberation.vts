@@ -23440,6 +23440,51 @@ CustomScenario
 				}
 			}
 		}
+		ConditionalAction
+		{
+			id = 92
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 50%
+				blockId = 93
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-291, 52, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 161
+							name = Event
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
 	}
 	RandomEvents
 	{
@@ -31252,6 +31297,307 @@ CustomScenario
 				}
 			}
 		}
+		RANDOM_EVENT
+		{
+			id = 161
+			note = Choose random weather
+			ACTION
+			{
+				id = 162
+				actionName = Clear
+				fixedWeight = 300
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Weather
+						methodName = TransitionWeather
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = WeatherPresetReference
+							value = 0
+							name = Weather Preset
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 163
+				actionName = Few
+				fixedWeight = 400
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Weather
+						methodName = TransitionWeather
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = WeatherPresetReference
+							value = 1
+							name = Weather Preset
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 164
+				actionName = Scattered
+				fixedWeight = 300
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Weather
+						methodName = TransitionWeather
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = WeatherPresetReference
+							value = 2
+							name = Weather Preset
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 165
+				actionName = Broken
+				fixedWeight = 300
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Weather
+						methodName = TransitionWeather
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = WeatherPresetReference
+							value = 3
+							name = Weather Preset
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 166
+				actionName = Overcast
+				fixedWeight = 200
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Weather
+						methodName = TransitionWeather
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = WeatherPresetReference
+							value = 4
+							name = Weather Preset
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 167
+				actionName = Foggy
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Weather
+						methodName = TransitionWeather
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = WeatherPresetReference
+							value = 5
+							name = Weather Preset
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 168
+				actionName = Rain
+				fixedWeight = 200
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Weather
+						methodName = TransitionWeather
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = WeatherPresetReference
+							value = 6
+							name = Weather Preset
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 169
+				actionName = Storm
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Weather
+						methodName = TransitionWeather
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = WeatherPresetReference
+							value = 7
+							name = Weather Preset
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	EventSequences
 	{
@@ -33061,6 +33407,36 @@ CustomScenario
 						{
 							type = ConditionalActionReference
 							value = 90
+							name = Action
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 32
+			sequenceName = RandomizeWeather
+			startImmediately = True
+			whileLoop = False
+			EVENT
+			{
+				delay = 900
+				nodeName = Possible weather change
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 92
 							name = Action
 						}
 					}
