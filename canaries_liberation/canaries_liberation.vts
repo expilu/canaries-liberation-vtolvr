@@ -34,7 +34,7 @@ CustomScenario
 	infiniteAmmo = False
 	infAmmoReloadDelay = 5
 	fuelDrainMult = 1
-	envName = day
+	envName = morning
 	selectableEnv = False
 	windDir = 190
 	windSpeed = 1
@@ -44,7 +44,7 @@ CustomScenario
 	customTimeOfDay = 11
 	overrideLocation = False
 	overrideLatitude = 0
-	overrideLongitude = -2.245383E-06
+	overrideLongitude = 0
 	month = 1
 	day = 1
 	year = 2025
