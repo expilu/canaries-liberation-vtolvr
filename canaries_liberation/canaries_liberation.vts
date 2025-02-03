@@ -13745,6 +13745,81 @@ CustomScenario
 				equips = af_gun;af_aim9;af_aim9;af_amraamRail;af_amraam;af_amraam;af_amraam;af_amraam;af_amraamRail;af_aim9;af_aim9;fa26_droptank;fa26_droptank;fa26_droptank;af_tgp;;
 			}
 		}
+		UnitSpawner
+		{
+			unitName = IRMD Launcher
+			globalPosition = (148216.7158203125, 1803.6083984375, 75867.265380859375)
+			unitInstanceID = 165
+			unitID = eIRMDlauncher
+			rotation = (-4.060289E-06, 115.3415, 8.573536E-06)
+			lastValidPlacement = (148071.86840820313, 1803.6083984375, 76004.741943359375)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (148082.44372558594, 1803.6083984375, 75779.661376953125)
+				rotation = (-9.193393E-06, 194.277, -2.339439E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (147922.69985961914, 1826.5361328125, 75873.873046875)
+				rotation = (351.3373, 281.0398, 358.3168)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (148071.86840820313, 1803.6083984375, 76004.741943359375)
+				rotation = (9.415504E-06, 352.992, -1.157414E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -13889,7 +13964,7 @@ CustomScenario
 			id = 18
 			name = WestLine
 			loop = False
-			points = (-97189.6875, -5, -64546.125);(9803.7890625, -5, 220163.15625);
+			points = (-97189.6875, -5, -64546.125);(9803.78125, -5, 220163.15625);
 			pathMode = Linear
 		}
 	}
