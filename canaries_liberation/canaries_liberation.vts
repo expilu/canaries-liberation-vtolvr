@@ -8110,10 +8110,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 1
-			globalPosition = (-41618.493713378906, 18.979995727539063, 200968.20310211182)
+			globalPosition = (-41618.5, 18.97998046875, 200968.203125)
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
-			rotation = (-6.011081E-06, 21.87937, -3.665257E-06)
+			rotation = (-6.011082E-06, 21.87937, -3.665257E-06)
 			lastValidPlacement = (-41781.654357910156, 32.396831512451172, 201022.92018890381)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8139,10 +8139,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 2
-			globalPosition = (-41591.913757324219, 18.979995727539063, 200969.33310508728)
+			globalPosition = (-41591.90625, 18.97998046875, 200969.3359375)
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
-			rotation = (-5.592669E-06, 27.91098, -4.276594E-06)
+			rotation = (-5.59267E-06, 27.91098, -4.276594E-06)
 			lastValidPlacement = (-41778.65625, 32.396831512451172, 200993.72635126114)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8168,7 +8168,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 1
-			globalPosition = (-41537.293731689453, 18.979995727539063, 200967.00311660767)
+			globalPosition = (-41537.296875, 18.97998046875, 200967)
 			unitInstanceID = 99
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
@@ -8198,7 +8198,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 2
-			globalPosition = (-41503.563751220703, 18.979995727539063, 200964.27312469482)
+			globalPosition = (-41503.5625, 18.97998046875, 200964.2734375)
 			unitInstanceID = 100
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
@@ -11639,10 +11639,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportEW
-			globalPosition = (-41634.653747558594, 18.979995727539063, 201009.58309555054)
+			globalPosition = (-41634.65625, 18.97998046875, 201009.5859375)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600374E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600371E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -11713,7 +11713,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportStrike
-			globalPosition = (-41608.933746337891, 18.979995727539063, 201020.95310020447)
+			globalPosition = (-41608.9375, 18.97998046875, 201020.953125)
 			unitInstanceID = 150
 			unitID = FA-26B AI
 			rotation = (6.335029E-06, 144.6399, -3.071583E-06)
@@ -11751,7 +11751,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = MQ-31 UARV
-			globalPosition = (-41585.893737792969, 18.979995727539063, 201028.40310668945)
+			globalPosition = (-41585.890625, 18.97998046875, 201028.40625)
 			unitInstanceID = 151
 			unitID = MQ-31
 			rotation = (6.299547E-06, 143.9857, -3.143708E-06)
@@ -11766,7 +11766,7 @@ CustomScenario
 				initialSpeed = 180
 				defaultNavSpeed = 180
 				defaultOrbitPoint = null
-				defaultPath = null
+				defaultPath = 0
 				orbitAltitude = 3000
 				fuel = 100
 				autoRefuel = True
@@ -13710,7 +13710,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = AlliedAwacsEscort
-			globalPosition = (-41476.08447265625, 18.979995727539063, 200966.29621887207)
+			globalPosition = (-41476.078125, 18.97998046875, 200966.296875)
 			unitInstanceID = 164
 			unitID = FA-26B AI
 			rotation = (0, 31.34999, 0)
@@ -13964,7 +13964,7 @@ CustomScenario
 			id = 18
 			name = WestLine
 			loop = False
-			points = (-97189.6875, -5, -64546.125);(9803.78125, -5, 220163.15625);
+			points = (-97189.6875, -5, -64546.125);(9803.7890625, -5, 220163.15625);
 			pathMode = Linear
 		}
 	}
