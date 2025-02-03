@@ -13932,7 +13932,7 @@ CustomScenario
 			id = 14
 			name = TFS Combat Zone
 			loop = True
-			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.03125);(87234.875, -5, 88612.625);(89993.65625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1796875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
+			points = (37773.875, -5, 49406.125);(78902.484375, -5, 66263.03125);(87234.875, -5, 88612.625);(89993.65625, -5, 102381.9609375);(42850.109375, 2153.6201171875, 106540.625);(19071.1875, -5, 109914.484375);(-6732.046875, -5, 95895.171875);(8630.859375, -5, 68994.09375);
 			pathMode = Linear
 		}
 		PATH
@@ -13964,7 +13964,7 @@ CustomScenario
 			id = 18
 			name = WestLine
 			loop = False
-			points = (-97189.6875, -5, -64546.125);(9803.7890625, -5, 220163.15625);
+			points = (-97189.6875, -5, -64546.125);(9803.78125, -5, 220163.15625);
 			pathMode = Linear
 		}
 	}
@@ -23395,6 +23395,51 @@ CustomScenario
 				}
 			}
 		}
+		ConditionalAction
+		{
+			id = 90
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 50% chance
+				blockId = 91
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-280, 45, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 155
+							name = Event
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
 	}
 	RandomEvents
 	{
@@ -30827,6 +30872,386 @@ CustomScenario
 				}
 			}
 		}
+		RANDOM_EVENT
+		{
+			id = 155
+			note = Choose a random wind setting
+			ACTION
+			{
+				id = 156
+				actionName = No wind
+				fixedWeight = 200
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Wind
+						methodName = TransitionWind
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.Single
+							value = 0
+							name = Direction
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,360)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 0
+							name = Speed
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,72)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 0
+							name = Variation
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,20)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 0
+							name = Gusts
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,16)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 157
+				actionName = Suave
+				fixedWeight = 300
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Wind
+						methodName = TransitionWind
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.Single
+							value = 180
+							name = Direction
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,360)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 2
+							name = Speed
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,72)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 2
+							name = Variation
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,20)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 2
+							name = Gusts
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,16)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 158
+				actionName = Mid
+				fixedWeight = 300
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Wind
+						methodName = TransitionWind
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.Single
+							value = 180
+							name = Direction
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,360)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 3
+							name = Speed
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,72)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 2
+							name = Variation
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,20)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 2
+							name = Gusts
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,16)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 159
+				actionName = Strong
+				fixedWeight = 200
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Wind
+						methodName = TransitionWind
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.Single
+							value = 180
+							name = Direction
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,360)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Speed
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,72)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 2
+							name = Variation
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,20)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 3
+							name = Gusts
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,16)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 160
+				actionName = Very strong
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Transition Wind
+						methodName = TransitionWind
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.Single
+							value = 180
+							name = Direction
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,360)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 7
+							name = Speed
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,72)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 2
+							name = Variation
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,20)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 3
+							name = Gusts
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,16)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 450
+							name = Transition Seconds
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0.1,600)
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	EventSequences
 	{
@@ -32608,6 +33033,36 @@ CustomScenario
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 31
+			sequenceName = RandomizeWind
+			startImmediately = True
+			whileLoop = False
+			EVENT
+			{
+				delay = 900
+				nodeName = Possible wind change 15min
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 90
+							name = Action
+						}
 					}
 				}
 			}
