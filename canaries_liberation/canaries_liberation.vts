@@ -31000,7 +31000,7 @@ CustomScenario
 			{
 				id = 157
 				actionName = Suave
-				fixedWeight = 300
+				fixedWeight = 400
 				gvWeight = -1
 				useGv = False
 				EVENT_INFO
