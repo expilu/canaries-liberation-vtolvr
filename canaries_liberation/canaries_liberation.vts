@@ -961,7 +961,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08685975, 351.266)
+			rotation = (351.1896, 0.0868597, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2324,7 +2324,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803482E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803484E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9175,7 +9175,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (168176.73315429688, 63.0592041015625, 72528.678100585938)
-				rotation = (6.940646E-06, 42.97573, 6.466768E-06)
+				rotation = (6.940646E-06, 42.97573, 6.466769E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -11642,7 +11642,7 @@ CustomScenario
 			globalPosition = (-41634.65625, 18.97998046875, 201009.5859375)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600372E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600374E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -12277,7 +12277,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79318.298400878906, 167.390869140625, 131729.19039916992)
-				rotation = (4.584945E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584905E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12299,7 +12299,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79226.988555908203, 157.328369140625, 131423.0754699707)
-				rotation = (4.584945E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584905E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12343,7 +12343,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79214.432235717773, 176.53131103515625, 132424.85377502441)
-				rotation = (4.584945E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584905E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12412,7 +12412,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74096.180816650391, 573.812744140625, 133984.10577392578)
-				rotation = (4.584945E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584905E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12635,7 +12635,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.63944E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639448E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12701,7 +12701,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (165512.5133972168, 83.57427978515625, 73288.489379882813)
-				rotation = (9.529365, 31.21511, 358.0998)
+				rotation = (9.529366, 31.21511, 358.0998)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13768,7 +13768,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (148082.44372558594, 1803.6083984375, 75779.661376953125)
-				rotation = (-9.193394E-06, 194.277, -2.339439E-06)
+				rotation = (-9.193395E-06, 194.277, -2.339439E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13828,7 +13828,7 @@ CustomScenario
 			id = 0
 			name = AlliedCarrierPath
 			loop = True
-			points = (-20279.921875, -5, 178978.72265625);(220501.21875, -5, 144374.33984375);(223174.125, -5, 6652.3125);(-24412.21875, -5, 24949.5);
+			points = (-20279.921875, -5, 178978.71875);(220501.21875, -5, 144374.34375);(223174.125, -5, 6652.3125);(-24412.21875, -5, 24949.5);
 			pathMode = Smooth
 		}
 		PATH
@@ -13940,7 +13940,7 @@ CustomScenario
 			id = 15
 			name = NorthLine
 			loop = False
-			points = (-59586.59375, -5, 165968.1796875);(228389.65625, -5, 133044.58203125);
+			points = (-59586.59375, -5, 165968.1875);(228389.65625, -5, 133044.578125);
 			pathMode = Linear
 		}
 		PATH
@@ -31305,7 +31305,7 @@ CustomScenario
 			{
 				id = 162
 				actionName = Clear
-				fixedWeight = 300
+				fixedWeight = 400
 				gvWeight = -1
 				useGv = False
 				EVENT_INFO
@@ -31342,7 +31342,7 @@ CustomScenario
 			{
 				id = 163
 				actionName = Few
-				fixedWeight = 400
+				fixedWeight = 500
 				gvWeight = -1
 				useGv = False
 				EVENT_INFO
@@ -31379,7 +31379,7 @@ CustomScenario
 			{
 				id = 164
 				actionName = Scattered
-				fixedWeight = 300
+				fixedWeight = 400
 				gvWeight = -1
 				useGv = False
 				EVENT_INFO
@@ -31416,7 +31416,7 @@ CustomScenario
 			{
 				id = 165
 				actionName = Broken
-				fixedWeight = 300
+				fixedWeight = 400
 				gvWeight = -1
 				useGv = False
 				EVENT_INFO
@@ -31453,7 +31453,7 @@ CustomScenario
 			{
 				id = 166
 				actionName = Overcast
-				fixedWeight = 200
+				fixedWeight = 300
 				gvWeight = -1
 				useGv = False
 				EVENT_INFO
@@ -31527,7 +31527,7 @@ CustomScenario
 			{
 				id = 168
 				actionName = Rain
-				fixedWeight = 200
+				fixedWeight = 300
 				gvWeight = -1
 				useGv = False
 				EVENT_INFO
@@ -31564,7 +31564,7 @@ CustomScenario
 			{
 				id = 169
 				actionName = Storm
-				fixedWeight = 100
+				fixedWeight = 200
 				gvWeight = -1
 				useGv = False
 				EVENT_INFO
