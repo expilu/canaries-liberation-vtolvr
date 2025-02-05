@@ -90,7 +90,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F-45A
@@ -116,7 +116,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F-45A
@@ -142,7 +142,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F-45A
@@ -1038,7 +1038,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08685943, 351.266)
+			rotation = (351.1896, 0.08685938, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2401,7 +2401,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803493E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803494E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -8169,7 +8169,7 @@ CustomScenario
 			UnitFields
 			{
 				vehicle = F-45A
-				selectableAltSpawn = False
+				selectableAltSpawn = True
 				slotLabel = F-45A Assault Carrier 2
 				unitGroup = Allied:Alpha
 				startMode = Cold
@@ -8190,7 +8190,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F-45A
@@ -8216,7 +8216,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F-45A
@@ -8242,7 +8242,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F-45A
@@ -8276,7 +8276,7 @@ CustomScenario
 			UnitFields
 			{
 				vehicle = F/A-26B
-				selectableAltSpawn = False
+				selectableAltSpawn = True
 				slotLabel = F/A-26B Aircraft Carrier 1
 				unitGroup = Allied:Bravo
 				startMode = Cold
@@ -8297,7 +8297,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F/A-26B
@@ -8323,7 +8323,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F/A-26B
@@ -8349,7 +8349,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F/A-26B
@@ -8383,7 +8383,7 @@ CustomScenario
 			UnitFields
 			{
 				vehicle = F/A-26B
-				selectableAltSpawn = False
+				selectableAltSpawn = True
 				slotLabel = F/A-26B Aircraft Carrier 2
 				unitGroup = Allied:Bravo
 				startMode = Cold
@@ -8404,7 +8404,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F/A-26B
@@ -8430,7 +8430,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F/A-26B
@@ -8456,7 +8456,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = F/A-26B
@@ -8490,7 +8490,7 @@ CustomScenario
 			UnitFields
 			{
 				vehicle = EF-24G
-				selectableAltSpawn = False
+				selectableAltSpawn = True
 				slotLabel = EF-24G Aircraft Carrier 1
 				unitGroup = Allied:Charlie
 				startMode = Cold
@@ -8512,7 +8512,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = EF-24G
@@ -8539,7 +8539,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = EF-24G
@@ -8566,7 +8566,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = EF-24G
@@ -8601,7 +8601,7 @@ CustomScenario
 			UnitFields
 			{
 				vehicle = EF-24G
-				selectableAltSpawn = False
+				selectableAltSpawn = True
 				slotLabel = EF-24G Aircraft Carrier 2
 				unitGroup = Allied:Charlie
 				startMode = Cold
@@ -8623,7 +8623,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = EF-24G
@@ -8650,7 +8650,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = EF-24G
@@ -8677,7 +8677,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = EF-24G
@@ -8712,7 +8712,7 @@ CustomScenario
 			UnitFields
 			{
 				vehicle = AV-42C
-				selectableAltSpawn = False
+				selectableAltSpawn = True
 				slotLabel = AV-42C Assault Carrier 1
 				unitGroup = Allied:Delta
 				startMode = Cold
@@ -8733,7 +8733,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AV-42C
@@ -8759,7 +8759,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AV-42C
@@ -8785,7 +8785,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AV-42C
@@ -8819,7 +8819,7 @@ CustomScenario
 			UnitFields
 			{
 				vehicle = AV-42C
-				selectableAltSpawn = False
+				selectableAltSpawn = True
 				slotLabel = AV-42C Assault Carrier 2
 				unitGroup = Allied:Delta
 				startMode = Cold
@@ -8840,7 +8840,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AV-42C
@@ -8866,7 +8866,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AV-42C
@@ -8892,7 +8892,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AV-42C
@@ -8926,7 +8926,7 @@ CustomScenario
 			UnitFields
 			{
 				vehicle = AH-94
-				selectableAltSpawn = False
+				selectableAltSpawn = True
 				slotLabel = AH-94 Embarked 1
 				unitGroup = Allied:Echo
 				startMode = Cold
@@ -8948,7 +8948,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AH-94
@@ -8975,7 +8975,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AH-94
@@ -9002,7 +9002,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AH-94
@@ -9037,7 +9037,7 @@ CustomScenario
 			UnitFields
 			{
 				vehicle = AH-94
-				selectableAltSpawn = False
+				selectableAltSpawn = True
 				slotLabel = AH-94 Embarked 2
 				unitGroup = Allied:Echo
 				startMode = Cold
@@ -9059,7 +9059,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AH-94
@@ -9086,7 +9086,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AH-94
@@ -9113,7 +9113,7 @@ CustomScenario
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
-				mpSelectEnabled = True
+				mpSelectEnabled = False
 				unitFields
 				{
 					vehicle = AH-94
@@ -12433,7 +12433,7 @@ CustomScenario
 			globalPosition = (-41634.65625, 18.97998046875, 201009.5859375)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.60038E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600381E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -13068,7 +13068,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79318.298400878906, 167.390869140625, 131729.19039916992)
-				rotation = (4.584762E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584741E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13090,7 +13090,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79226.988555908203, 157.328369140625, 131423.0754699707)
-				rotation = (4.584762E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584741E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13134,7 +13134,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79214.432235717773, 176.53131103515625, 132424.85377502441)
-				rotation = (4.584762E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584741E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13203,7 +13203,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74096.180816650391, 573.812744140625, 133984.10577392578)
-				rotation = (4.584762E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584741E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13426,7 +13426,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639472E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639476E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -14559,7 +14559,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (148082.44372558594, 1803.6083984375, 75779.661376953125)
-				rotation = (-9.1934E-06, 194.277, -2.339439E-06)
+				rotation = (-9.193401E-06, 194.277, -2.339439E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -14619,7 +14619,7 @@ CustomScenario
 			id = 0
 			name = AlliedCarrierPath
 			loop = True
-			points = (-20279.9375, -5, 178978.71875);(220501.203125, -5, 144374.34375);(223174.109375, -5, 6652.3125);(-24412.234375, -5, 24949.5);
+			points = (-20279.9375, -5, 178978.71875);(220501.1875, -5, 144374.34375);(223174.125, -5, 6652.3125);(-24412.234375, -5, 24949.5);
 			pathMode = Smooth
 		}
 		PATH
