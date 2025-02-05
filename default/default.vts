@@ -14643,7 +14643,7 @@ CustomScenario
 			id = 3
 			name = CapGCPath
 			loop = True
-			points = (144488.6875, 6091, 51751);(156692.25, 6091, 57634.78125);(164578.9375, 6091, 67128.875);(166155.75, 6091, 79309.2890625);(161815.875, 6091, 91100.96875);(153064.9375, 6091, 96145.53125);(139322.828125, 6091, 96816.28125);(132107.046875, 6091, 88250.90625);(124440.171875, 6091, 81203.609375);(122931.859375, 6091, 70475.453125);(133967.796875, 6091, 55081.984375);
+			points = (144488.6875, 6091, 51751);(156692.25, 6091, 57634.78125);(164578.9375, 6091, 67128.875);(166155.75, 6091, 79309.2890625);(161815.875, 6091, 91100.96875);(153064.9375, 6091, 96145.53125);(139322.8125, 6091, 96816.28125);(132107.046875, 6091, 88250.90625);(124440.171875, 6091, 81203.609375);(122931.859375, 6091, 70475.453125);(133967.796875, 6091, 55081.984375);
 			pathMode = Bezier
 		}
 		PATH
@@ -14659,7 +14659,7 @@ CustomScenario
 			id = 5
 			name = EnemyAlertZone
 			loop = True
-			points = (195881.90625, -5, 62052.40625);(180784.265625, -5, 123830.15625);(123257.96875, -5, 126461.40625);(115122.421875, -5, 164876.53125);(61074.28125, -5, 171051.40625);(35594.953125, -5, 150750.65625);(-11368.328125, -5, 129127.765625);(16556.140625, -5, 59644.9375);(94252.28125, -5, 61795.3125);(146113.34375, -5, 20717.03125);(179730.71875, -5, 34312.6875);
+			points = (195881.90625, -5, 62052.40625);(180784.25, -5, 123830.15625);(123257.96875, -5, 126461.40625);(115122.421875, -5, 164876.53125);(61074.28125, -5, 171051.40625);(35594.953125, -5, 150750.65625);(-11368.328125, -5, 129127.765625);(16556.140625, -5, 59644.9375);(94252.28125, -5, 61795.3125);(146113.34375, -5, 20717.03125);(179730.71875, -5, 34312.6875);
 			pathMode = Linear
 		}
 		PATH
@@ -14675,7 +14675,7 @@ CustomScenario
 			id = 7
 			name = RodeosDecoyPath
 			loop = True
-			points = (73853.625, 995, 131187.140625);(75189.0390625, 995, 131291.015625);(76006.6953125, 995, 131938.328125);(75787.296875, 995, 133115.953125);(74214.9296875, 995, 133823.3125);(72745.3203125, 995, 134014.71875);(71151.4140625, 995, 133070.3125);
+			points = (73853.625, 995, 131187.140625);(75189.03125, 995, 131291.015625);(76006.6875, 995, 131938.328125);(75787.296875, 995, 133115.953125);(74214.9375, 995, 133823.3125);(72745.3125, 995, 134014.71875);(71151.40625, 995, 133070.3125);
 			pathMode = Bezier
 		}
 		PATH
@@ -14691,7 +14691,7 @@ CustomScenario
 			id = 9
 			name = CapAllAroundCoast
 			loop = True
-			points = (162698.125, 299.80078125, 99939.09375);(151981.21875, 299.80078125, 97140.375);(141592.03125, 299.80078125, 99152.0234375);(134244.953125, 299.80078125, 98441.4296875);(127521.984375, 3043.0009765625, 105096.9609375);(113689.15625, 3043.0009765625, 122266.28125);(104056.78125, 3043.0009765625, 131612.78125);(94666.828125, 299.80078125, 141906.0625);(93604.65625, 299.80078125, 145875.96875);(89985.125, 299.80078125, 146522.96875);(85052.78125, 299.80078125, 144660.84375);(79777.6796875, 299.80078125, 145538.0625);(73495.1953125, 299.80078125, 144194.625);(66273.3828125, 299.80078125, 139653.125);(64255.890625, 299.80078125, 137660.03125);(56543.6328125, 299.80078125, 129302.34375);(54240.625, 299.80078125, 126762.46875);(46098.09375, 299.80078125, 124359.15625);(23946.03125, 299.80078125, 123439.1875);(17192.328125, 299.80078125, 120786.65625);(14908.3125, 299.80078125, 118897.34375);(27148.46875, 299.80078125, 95899.0234375);(37371.953125, 299.80078125, 80455.3828125);(49110.875, 3043.0009765625, 69800.90625);(102870.609375, 3043.0009765625, 59085.5625);(117186.75, 3043.0009765625, 56279.46875);(137755.4375, 299.80078125, 52011.78125);(145336.84375, 299.80078125, 50153.75);(161388.421875, 299.80078125, 58049.59375);(166249, 299.80078125, 64364.25);(168862.671875, 299.80078125, 72384.078125);
+			points = (162698.125, 299.80078125, 99939.09375);(151981.21875, 299.80078125, 97140.375);(141592.03125, 299.80078125, 99152.0234375);(134244.953125, 299.80078125, 98441.4296875);(127521.984375, 3043.0009765625, 105096.9609375);(113689.15625, 3043.0009765625, 122266.28125);(104056.78125, 3043.0009765625, 131612.78125);(94666.828125, 299.80078125, 141906.0625);(93604.65625, 299.80078125, 145875.96875);(89985.125, 299.80078125, 146522.96875);(85052.78125, 299.80078125, 144660.84375);(79777.6875, 299.80078125, 145538.0625);(73495.1875, 299.80078125, 144194.625);(66273.375, 299.80078125, 139653.125);(64255.890625, 299.80078125, 137660.03125);(56543.625, 299.80078125, 129302.34375);(54240.625, 299.80078125, 126762.46875);(46098.09375, 299.80078125, 124359.15625);(23946.03125, 299.80078125, 123439.1875);(17192.328125, 299.80078125, 120786.65625);(14908.3125, 299.80078125, 118897.34375);(27148.46875, 299.80078125, 95899.0234375);(37371.953125, 299.80078125, 80455.3828125);(49110.875, 3043.0009765625, 69800.90625);(102870.609375, 3043.0009765625, 59085.5625);(117186.75, 3043.0009765625, 56279.46875);(137755.4375, 299.80078125, 52011.78125);(145336.84375, 299.80078125, 50153.75);(161388.4375, 299.80078125, 58049.59375);(166249, 299.80078125, 64364.25);(168862.6875, 299.80078125, 72384.078125);
 			pathMode = Linear
 		}
 		PATH
@@ -14707,7 +14707,7 @@ CustomScenario
 			id = 13
 			name = TFN Combat Zone
 			loop = True
-			points = (90225.4375, -5, 176193.40625);(45634.4296875, -5, 162223.4375);(9667.34375, -5, 150190.140625);(-14929.484375, -5, 120742.921875);(21504.96875, 348.45703125, 114303.6875);(44327.203125, 1741.91015625, 114675.859375);(70945.3515625, -5, 114879.734375);(100411.90625, -5, 112054.78125);(123926.28125, -5, 151695.03125);(110786.03125, -5, 171068.34375);
+			points = (90225.4375, -5, 176193.40625);(45634.4375, -5, 162223.4375);(9667.34375, -5, 150190.140625);(-14929.484375, -5, 120742.921875);(21504.96875, 348.45703125, 114303.6875);(44327.203125, 1741.91015625, 114675.859375);(70945.34375, -5, 114879.734375);(100411.90625, -5, 112054.78125);(123926.28125, -5, 151695.03125);(110786.03125, -5, 171068.34375);
 			pathMode = Linear
 		}
 		PATH
@@ -14715,7 +14715,7 @@ CustomScenario
 			id = 12
 			name = GC Combat Zone
 			loop = True
-			points = (199322.46875, -5, 69749.375);(184950.125, -5, 121540.453125);(143497.859375, -5, 129611.640625);(100491.46875, -5, 88668.0390625);(90277.9375, -5, 53622.625);(143727.359375, -5, 19954.265625);(182065.03125, -5, 35533.765625);
+			points = (199322.46875, -5, 69749.375);(184950.125, -5, 121540.453125);(143497.875, -5, 129611.640625);(100491.46875, -5, 88668.0390625);(90277.9375, -5, 53622.625);(143727.375, -5, 19954.265625);(182065.03125, -5, 35533.765625);
 			pathMode = Linear
 		}
 		PATH
@@ -33278,6 +33278,467 @@ CustomScenario
 				}
 			}
 		}
+		RANDOM_EVENT
+		{
+			id = 179
+			note = 
+			ACTION
+			{
+				id = 180
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-377, 62, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 118
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 1
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 181
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCOr
+						uiPos = (-130, 46, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-393, 9, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 0
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-416, 171, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 118
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 2
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 182
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-410, 105, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 118
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 3
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 183
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-359, 43, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 118
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 4
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 184
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-359, 50, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 118
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 5
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 185
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCOr
+						uiPos = (-176, 43, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-459, -13, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 0
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-474, 194, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 118
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 6
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 186
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-349, 46, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 118
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 7
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 187
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCOr
+						uiPos = (-153, 41, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCGlobalValue
+						uiPos = (-476, 0, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 0
+					}
+					COMP
+					{
+						id = 2
+						type = SCCGlobalValue
+						uiPos = (-495, 176, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 118
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 8
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	EventSequences
 	{
@@ -34555,11 +35016,17 @@ CustomScenario
 					eventName = 
 					EventTarget
 					{
-						targetType = Unit
-						targetID = 118
-						eventName = Randomize Alt Spawn
-						methodName = RandomizeAltSpawn
-						altTargetIdx = -2
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 179
+							name = Event
+						}
 					}
 				}
 			}
