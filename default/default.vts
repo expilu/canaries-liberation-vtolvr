@@ -1,7 +1,7 @@
 CustomScenario
 {
 	gameVersion = 1.11.4f1
-	campaignID = canariesliberation
+	campaignID = expilu_liberation
 	campaignOrderIdx = 0
 	scenarioName = Liberation of the Canaries
 	scenarioID = default
@@ -62,7 +62,7 @@ CustomScenario
 			unitInstanceID = 95
 			unitID = MultiplayerSpawn
 			rotation = (0, 28.14769, 0)
-			lastValidPlacement = (-42973.325134277344, 32.396820068359375, 201406.97567749023)
+			lastValidPlacement = (48462.802062988281, 90.813079833984375, 85240.995025634766)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -82,6 +82,84 @@ CustomScenario
 				costToSpawn = 0
 				liveryRef = 0;
 				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (166692.25726318359, 41.1243896484375, 73436.638854980469)
+				rotation = (-1.605573E-06, 310.2327, -1.925186E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F-45A
+					selectableAltSpawn = False
+					slotLabel = F-45A Assault Carrier 1
+					unitGroup = Allied:Alpha
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72753.213806152344, 589.5159912109375, 133139.75994873047)
+				rotation = (-2.835592E-06, 195.423, -1.323444E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F-45A
+					selectableAltSpawn = False
+					slotLabel = F-45A Assault Carrier 1
+					unitGroup = Allied:Alpha
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48462.802062988281, 90.813079833984375, 85240.995025634766)
+				rotation = (1.02774E-05, 156.1566, -2.321095E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F-45A
+					selectableAltSpawn = False
+					slotLabel = F-45A Assault Carrier 1
+					unitGroup = Allied:Alpha
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
 			}
 		}
 		UnitSpawner
@@ -960,7 +1038,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08685964, 351.266)
+			rotation = (351.1896, 0.08685959, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2323,7 +2401,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803486E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803488E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -9174,7 +9252,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (168176.73315429688, 63.0592041015625, 72528.678100585938)
-				rotation = (6.940646E-06, 42.97573, 6.46677E-06)
+				rotation = (6.940646E-06, 42.97573, 6.466771E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -11641,7 +11719,7 @@ CustomScenario
 			globalPosition = (-41634.65625, 18.97998046875, 201009.5859375)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600375E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600376E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -12276,7 +12354,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79318.298400878906, 167.390869140625, 131729.19039916992)
-				rotation = (4.584864E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584843E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12298,7 +12376,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79226.988555908203, 157.328369140625, 131423.0754699707)
-				rotation = (4.584864E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584843E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12342,7 +12420,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79214.432235717773, 176.53131103515625, 132424.85377502441)
-				rotation = (4.584864E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584843E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12411,7 +12489,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74096.180816650391, 573.812744140625, 133984.10577392578)
-				rotation = (4.584864E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584843E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12634,7 +12712,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639456E-07)
+				rotation = (1.659359E-05, 31.52981, 1.63946E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13767,7 +13845,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (148082.44372558594, 1803.6083984375, 75779.661376953125)
-				rotation = (-9.193396E-06, 194.277, -2.339439E-06)
+				rotation = (-9.193397E-06, 194.277, -2.339439E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
