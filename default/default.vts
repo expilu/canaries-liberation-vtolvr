@@ -58,7 +58,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F-45 Spawn 1
-			globalPosition = (-42823.462219238281, 16.100006103515625, 201392.30755615234)
+			globalPosition = (-42823.46875, 16.100006103515625, 201392.3125)
 			unitInstanceID = 95
 			unitID = MultiplayerSpawn
 			rotation = (0, 28.14769, 0)
@@ -86,7 +86,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166692.25726318359, 41.1243896484375, 73436.638854980469)
-				rotation = (-1.605573E-06, 310.2327, -1.925186E-05)
+				rotation = (-1.605572E-06, 310.2327, -1.925186E-05)
 				weight = 0
 				placementMode = Ground
 				onCarrier = False
@@ -95,7 +95,7 @@ CustomScenario
 				{
 					vehicle = F-45A
 					selectableAltSpawn = False
-					slotLabel = F-45A Assault Carrier 1
+					slotLabel = F-45A Gando 1
 					unitGroup = Allied:Alpha
 					startMode = Cold
 					equipment = 
@@ -121,7 +121,7 @@ CustomScenario
 				{
 					vehicle = F-45A
 					selectableAltSpawn = False
-					slotLabel = F-45A Assault Carrier 1
+					slotLabel = F-45A Los Rodeos 1
 					unitGroup = Allied:Alpha
 					startMode = Cold
 					equipment = 
@@ -147,7 +147,7 @@ CustomScenario
 				{
 					vehicle = F-45A
 					selectableAltSpawn = False
-					slotLabel = F-45A Assault Carrier 1
+					slotLabel = F-45A Tenerife South 1
 					unitGroup = Allied:Alpha
 					startMode = Cold
 					equipment = 
@@ -1038,7 +1038,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08685959, 351.266)
+			rotation = (351.1896, 0.08685954, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2401,7 +2401,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803488E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803489E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -8158,11 +8158,11 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F-45 Spawn 2
-			globalPosition = (-42806.142211914063, 16.100006103515625, 201392.30755615234)
+			globalPosition = (-42806.140625, 16.100006103515625, 201392.3125)
 			unitInstanceID = 96
 			unitID = MultiplayerSpawn
 			rotation = (0, 28.14769, 0)
-			lastValidPlacement = (-42974.198211669922, 32.396820068359375, 201366.1641998291)
+			lastValidPlacement = (48672.471069335938, 90.813079833984375, 85333.898590087891)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -8183,6 +8183,84 @@ CustomScenario
 				liveryRef = 0;
 				receiveFriendlyDamage = True
 			}
+			altSpawn
+			{
+				globalPos = (166533.42028808594, 41.12347412109375, 73269.232727050781)
+				rotation = (-4.312209E-07, 313.721, -1.931388E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F-45A
+					selectableAltSpawn = False
+					slotLabel = F-45A Gando 2
+					unitGroup = Allied:Alpha
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72936.474792480469, 589.51611328125, 133082.57431030273)
+				rotation = (-2.835592E-06, 195.423, -1.323444E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F-45A
+					selectableAltSpawn = False
+					slotLabel = F-45A Los Rodeos 2
+					unitGroup = Allied:Alpha
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48672.471069335938, 90.813079833984375, 85333.898590087891)
+				rotation = (1.02774E-05, 156.1566, -2.321095E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F-45A
+					selectableAltSpawn = False
+					slotLabel = F-45A Tenerife South 2
+					unitGroup = Allied:Alpha
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -8191,7 +8269,7 @@ CustomScenario
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
 			rotation = (-6.011081E-06, 21.87937, -3.665257E-06)
-			lastValidPlacement = (-41781.654357910156, 32.396831512451172, 201022.92018890381)
+			lastValidPlacement = (48860.767822265625, 90.8131103515625, 85415.312866210938)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -8212,6 +8290,84 @@ CustomScenario
 				liveryRef = 0;
 				receiveFriendlyDamage = True
 			}
+			altSpawn
+			{
+				globalPos = (166394.87854003906, 41.12347412109375, 73120.523880004883)
+				rotation = (-4.312209E-07, 313.721, -1.931388E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F/A-26B
+					selectableAltSpawn = False
+					slotLabel = F/A-26B Gando 1
+					unitGroup = Allied:Bravo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73122.852447509766, 589.51617431640625, 133024.52941894531)
+				rotation = (-2.794222E-06, 195.6021, -1.324323E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F/A-26B
+					selectableAltSpawn = False
+					slotLabel = F/A-26B Los Rodeos 1
+					unitGroup = Allied:Bravo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (48860.767822265625, 90.8131103515625, 85415.312866210938)
+				rotation = (1.02774E-05, 156.1566, -2.321095E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F/A-26B
+					selectableAltSpawn = False
+					slotLabel = F/A-26B Tenerife South 1
+					unitGroup = Allied:Bravo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -8220,7 +8376,7 @@ CustomScenario
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
 			rotation = (-5.592669E-06, 27.91098, -4.276594E-06)
-			lastValidPlacement = (-41778.65625, 32.396831512451172, 200993.72635126114)
+			lastValidPlacement = (49209.645385742188, 90.8131103515625, 85566.300354003906)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -8241,6 +8397,84 @@ CustomScenario
 				liveryRef = 0;
 				receiveFriendlyDamage = True
 			}
+			altSpawn
+			{
+				globalPos = (166133.27758789063, 41.1236572265625, 72835.45149230957)
+				rotation = (-4.312209E-07, 313.721, -1.931388E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F/A-26B
+					selectableAltSpawn = False
+					slotLabel = F/A-26B Gando 2
+					unitGroup = Allied:Bravo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73307.123474121094, 589.51617431640625, 132967.14584350586)
+				rotation = (-2.34878E-06, 197.5228, -1.332944E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F/A-26B
+					selectableAltSpawn = False
+					slotLabel = F/A-26B Los Rodeos 2
+					unitGroup = Allied:Bravo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49209.645385742188, 90.8131103515625, 85566.300354003906)
+				rotation = (9.756553E-06, 154.8771, -2.343465E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = F/A-26B
+					selectableAltSpawn = False
+					slotLabel = F/A-26B Tenerife South 2
+					unitGroup = Allied:Bravo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -8249,7 +8483,7 @@ CustomScenario
 			unitInstanceID = 99
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
-			lastValidPlacement = (-41803.829956054688, 32.396820068359375, 201032.5591468811)
+			lastValidPlacement = (49398.261810302734, 90.81317138671875, 85655.300140380859)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -8271,6 +8505,87 @@ CustomScenario
 				receiveFriendlyDamage = True
 				slots = 1
 			}
+			altSpawn
+			{
+				globalPos = (165996.18424987793, 41.123733520507813, 72686.159820556641)
+				rotation = (-4.312209E-07, 313.721, -1.931388E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = EF-24G
+					selectableAltSpawn = False
+					slotLabel = EF-24G Gando 1
+					unitGroup = Allied:Charlie
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 1
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73495.695373535156, 589.51626586914063, 132908.42288208008)
+				rotation = (-1.732703E-06, 197.5228, -1.372109E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = EF-24G
+					selectableAltSpawn = False
+					slotLabel = EF-24G Los Rodeos 1
+					unitGroup = Allied:Charlie
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 1
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49398.261810302734, 90.81317138671875, 85655.300140380859)
+				rotation = (9.756553E-06, 154.8771, -2.343465E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = EF-24G
+					selectableAltSpawn = False
+					slotLabel = EF-24G Tenerife South 1
+					unitGroup = Allied:Charlie
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 1
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -8279,7 +8594,7 @@ CustomScenario
 			unitInstanceID = 100
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.34999, 0)
-			lastValidPlacement = (-41802.777618408203, 32.396820068359375, 200969.63870239258)
+			lastValidPlacement = (49579.530334472656, 90.81317138671875, 85732.8173828125)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -8301,15 +8616,96 @@ CustomScenario
 				receiveFriendlyDamage = True
 				slots = 2
 			}
+			altSpawn
+			{
+				globalPos = (165865.10928344727, 41.123779296875, 72535.152709960938)
+				rotation = (-4.312209E-07, 313.721, -1.931388E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = EF-24G
+					selectableAltSpawn = False
+					slotLabel = EF-24G Gando 2
+					unitGroup = Allied:Charlie
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 2
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73670.419982910156, 589.51629638671875, 132854.01214599609)
+				rotation = (-2.34878E-06, 197.5228, -1.332944E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = EF-24G
+					selectableAltSpawn = False
+					slotLabel = EF-24G Los Rodeos 2
+					unitGroup = Allied:Charlie
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 2
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49579.530334472656, 90.81317138671875, 85732.8173828125)
+				rotation = (9.756555E-06, 154.8771, -2.343465E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = EF-24G
+					selectableAltSpawn = False
+					slotLabel = EF-24G Tenerife South 2
+					unitGroup = Allied:Charlie
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 2
+				}
+			}
 		}
 		UnitSpawner
 		{
 			unitName = AV-42C Spawn 1
-			globalPosition = (-42688.332214355469, 16.100006103515625, 201392.30758666992)
+			globalPosition = (-42688.328125, 16.100006103515625, 201392.3125)
 			unitInstanceID = 101
 			unitID = MultiplayerSpawn
 			rotation = (0, 28.14769, 0)
-			lastValidPlacement = (-42943.44348526001, 32.396835327148438, 201417.17568969727)
+			lastValidPlacement = (49792.149963378906, 90.813201904296875, 85830.419250488281)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -8330,15 +8726,93 @@ CustomScenario
 				liveryRef = 0;
 				receiveFriendlyDamage = True
 			}
+			altSpawn
+			{
+				globalPos = (165706.12652587891, 41.12384033203125, 72366.821105957031)
+				rotation = (-4.312209E-07, 313.721, -1.931388E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AV-42C
+					selectableAltSpawn = False
+					slotLabel = AV-42C Gando 1
+					unitGroup = Allied:Delta
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (73858.62483215332, 589.51634216308594, 132795.4035949707)
+				rotation = (-2.34878E-06, 197.5228, -1.332944E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AV-42C
+					selectableAltSpawn = False
+					slotLabel = AV-42C Los Rodeos 1
+					unitGroup = Allied:Delta
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49792.149963378906, 90.813201904296875, 85830.419250488281)
+				rotation = (9.756555E-06, 154.8771, -2.343465E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AV-42C
+					selectableAltSpawn = False
+					slotLabel = AV-42C Tenerife South 1
+					unitGroup = Allied:Delta
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
 		}
 		UnitSpawner
 		{
 			unitName = AV-42C Spawn 2
-			globalPosition = (-42670.652221679688, 16.100006103515625, 201392.30758666992)
+			globalPosition = (-42670.65625, 16.100006103515625, 201392.3125)
 			unitInstanceID = 102
 			unitID = MultiplayerSpawn
 			rotation = (0, 28.14769, 0)
-			lastValidPlacement = (0, 0, 0)
+			lastValidPlacement = (50109.609313964844, 90.813255310058594, 85965.03857421875)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -8359,6 +8833,84 @@ CustomScenario
 				liveryRef = 0;
 				receiveFriendlyDamage = True
 			}
+			altSpawn
+			{
+				globalPos = (165472.86474609375, 41.1239013671875, 72107.95947265625)
+				rotation = (-4.312209E-07, 313.721, -1.931388E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AV-42C
+					selectableAltSpawn = False
+					slotLabel = AV-42C Gando 2
+					unitGroup = Allied:Delta
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74038.821472167969, 589.51638793945313, 132739.2886505127)
+				rotation = (-2.34878E-06, 197.5228, -1.332944E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AV-42C
+					selectableAltSpawn = False
+					slotLabel = AV-42C Los Rodeos 2
+					unitGroup = Allied:Delta
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50109.609313964844, 90.813255310058594, 85965.03857421875)
+				rotation = (9.756555E-06, 154.8771, -2.343465E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AV-42C
+					selectableAltSpawn = False
+					slotLabel = AV-42C Tenerife South 2
+					unitGroup = Allied:Delta
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -8367,7 +8919,7 @@ CustomScenario
 			unitInstanceID = 103
 			unitID = MultiplayerSpawn
 			rotation = (0, 89.99999, 0)
-			lastValidPlacement = (-42484.337219238281, 32.396835327148438, 200987.28607177734)
+			lastValidPlacement = (50479.642509460449, 91.096145629882813, 86130.330209732056)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -8389,6 +8941,87 @@ CustomScenario
 				receiveFriendlyDamage = True
 				slots = 1
 			}
+			altSpawn
+			{
+				globalPos = (165206.19083547592, 41.406696319580078, 71806.450083732605)
+				rotation = (1.956474E-05, 221.699, 3.709263E-06)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AH-94
+					selectableAltSpawn = False
+					slotLabel = AH-94 Gando 1
+					unitGroup = Allied:Echo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 1
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74160.385772705078, 589.79926300048828, 132669.59480285645)
+				rotation = (1.405061E-05, 107.7888, 9.215499E-07)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AH-94
+					selectableAltSpawn = False
+					slotLabel = AH-94 Los Rodeos 1
+					unitGroup = Allied:Echo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 1
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50479.642509460449, 91.096145629882813, 86130.330209732056)
+				rotation = (1.386325E-05, 65.87927, -2.465549E-06)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AH-94
+					selectableAltSpawn = False
+					slotLabel = AH-94 Tenerife South 1
+					unitGroup = Allied:Echo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 1
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -8397,7 +9030,7 @@ CustomScenario
 			unitInstanceID = 104
 			unitID = MultiplayerSpawn
 			rotation = (0, 89.99999, 0)
-			lastValidPlacement = (-42480.965759277344, 32.396835327148438, 200950.69985961914)
+			lastValidPlacement = (50531.054840087891, 91.096145629882813, 86153.706535339355)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -8418,6 +9051,87 @@ CustomScenario
 				liveryRef = 0;
 				receiveFriendlyDamage = True
 				slots = 2
+			}
+			altSpawn
+			{
+				globalPos = (165168.64602661133, 41.406696319580078, 71763.996719360352)
+				rotation = (-1.957934E-05, 41.47103, -3.631387E-06)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AH-94
+					selectableAltSpawn = False
+					slotLabel = AH-94 Gando 2
+					unitGroup = Allied:Echo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 2
+				}
+			}
+			altSpawn
+			{
+				globalPos = (74215.687071800232, 589.79929351806641, 132653.26655578613)
+				rotation = (-1.405687E-05, 287.3766, -8.204487E-07)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AH-94
+					selectableAltSpawn = False
+					slotLabel = AH-94 Los Rodeos 2
+					unitGroup = Allied:Echo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 2
+				}
+			}
+			altSpawn
+			{
+				globalPos = (50531.054840087891, 91.096145629882813, 86153.706535339355)
+				rotation = (-1.382184E-05, 244.9583, 2.688055E-06)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					vehicle = AH-94
+					selectableAltSpawn = False
+					slotLabel = AH-94 Tenerife South 2
+					unitGroup = Allied:Echo
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = 0;
+					receiveFriendlyDamage = True
+					slots = 2
+				}
 			}
 		}
 		UnitSpawner
@@ -9252,7 +9966,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (168176.73315429688, 63.0592041015625, 72528.678100585938)
-				rotation = (6.940646E-06, 42.97573, 6.466771E-06)
+				rotation = (6.940646E-06, 42.97573, 6.466772E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -11719,7 +12433,7 @@ CustomScenario
 			globalPosition = (-41634.65625, 18.97998046875, 201009.5859375)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600376E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600377E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -11754,7 +12468,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportAttack
-			globalPosition = (-42788.872222900391, 16.100006103515625, 201392.30755615234)
+			globalPosition = (-42788.875, 16.100006103515625, 201392.3125)
 			unitInstanceID = 149
 			unitID = AV-42CAI
 			rotation = (0, 28.14769, 0)
@@ -12354,7 +13068,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79318.298400878906, 167.390869140625, 131729.19039916992)
-				rotation = (4.584843E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584823E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12376,7 +13090,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79226.988555908203, 157.328369140625, 131423.0754699707)
-				rotation = (4.584843E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584823E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12420,7 +13134,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (79214.432235717773, 176.53131103515625, 132424.85377502441)
-				rotation = (4.584843E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584823E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12489,7 +13203,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (74096.180816650391, 573.812744140625, 133984.10577392578)
-				rotation = (4.584843E-08, 89.53049, 5.595102E-06)
+				rotation = (4.584823E-08, 89.53049, 5.595102E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12712,7 +13426,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.63946E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639464E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13845,7 +14559,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (148082.44372558594, 1803.6083984375, 75779.661376953125)
-				rotation = (-9.193397E-06, 194.277, -2.339439E-06)
+				rotation = (-9.193398E-06, 194.277, -2.339439E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -16601,6 +17315,146 @@ CustomScenario
 							name = Team
 						}
 					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 95
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 96
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 97
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 98
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 99
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 100
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 101
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 102
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 102
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 104
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
 				}
 			}
 			fields
@@ -16660,6 +17514,146 @@ CustomScenario
 							name = Team
 						}
 					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 95
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 96
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 97
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 98
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 99
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 100
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 101
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 102
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 103
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 104
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
 				}
 			}
 			fields
@@ -16717,6 +17711,146 @@ CustomScenario
 							type = MPUITeams
 							value = Team_A
 							name = Team
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 95
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 96
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 97
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 98
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 99
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 100
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 101
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 102
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 103
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 104
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
 						}
 					}
 				}
