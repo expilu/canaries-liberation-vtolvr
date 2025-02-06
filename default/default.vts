@@ -7637,8 +7637,8 @@ CustomScenario
 			{
 				unitGroup = Enemy:Victor
 				moveSpeed = Slow_10
-				behavior = Path
-				defaultPath = 10
+				behavior = Parked
+				defaultPath = null
 				waypoint = null
 				engageEnemies = True
 				detectionMode = Default
@@ -7689,8 +7689,8 @@ CustomScenario
 				reloadTime = 120
 				unitGroup = Enemy:Victor
 				moveSpeed = Slow_10
-				behavior = Path
-				defaultPath = 10
+				behavior = Parked
+				defaultPath = null
 				waypoint = null
 				engageEnemies = True
 				detectionMode = Default
@@ -14611,6 +14611,86 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = TF M SL-MRM Radar
+			globalPosition = (79286.957168579102, 109.25908660888672, 130423.33340454102)
+			unitInstanceID = 166
+			unitID = slmrmRadar
+			rotation = (355.4104, 210.1878, 0.1880241)
+			lastValidPlacement = (79286.957168579102, 109.25908660888672, 130423.33340454102)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Mike
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = TF M SL-MRM Launcher
+			globalPosition = (79299.664688110352, 109.20928192138672, 130415.95889282227)
+			unitInstanceID = 167
+			unitID = slmrmLauncher
+			rotation = (355.4075, 211.3968, 0.09124796)
+			lastValidPlacement = (79299.664688110352, 109.20928192138672, 130415.95889282227)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				radarUnits = 166;
+				allowReload = True
+				reloadTime = 120
+				unitGroup = Enemy:Mike
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (79299.664688110352, 109.20928192138672, 130415.95889282227)
+				rotation = (355.4075, 211.3968, 0.09124796)
+				weight = 100
+				placementMode = Unknown
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					radarUnits = 166;
+					allowReload = True
+					reloadTime = 120
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -14692,14 +14772,6 @@ CustomScenario
 			name = CapAllAroundCoast
 			loop = True
 			points = (162698.125, 299.80078125, 99939.09375);(151981.21875, 299.80078125, 97140.375);(141592.03125, 299.80078125, 99152.0234375);(134244.953125, 299.80078125, 98441.4296875);(127521.984375, 3043.0009765625, 105096.9609375);(113689.15625, 3043.0009765625, 122266.28125);(104056.78125, 3043.0009765625, 131612.78125);(94666.828125, 299.80078125, 141906.0625);(93604.65625, 299.80078125, 145875.96875);(89985.125, 299.80078125, 146522.96875);(85052.78125, 299.80078125, 144660.84375);(79777.6796875, 299.80078125, 145538.0625);(73495.1953125, 299.80078125, 144194.625);(66273.3828125, 299.80078125, 139653.125);(64255.890625, 299.80078125, 137660.03125);(56543.6328125, 299.80078125, 129302.34375);(54240.625, 299.80078125, 126762.46875);(46098.09375, 299.80078125, 124359.15625);(23946.03125, 299.80078125, 123439.1875);(17192.328125, 299.80078125, 120786.65625);(14908.3125, 299.80078125, 118897.34375);(27148.46875, 299.80078125, 95899.0234375);(37371.953125, 299.80078125, 80455.3828125);(49110.875, 3043.0009765625, 69800.90625);(102870.609375, 3043.0009765625, 59085.5625);(117186.75, 3043.0009765625, 56279.46875);(137755.4375, 299.80078125, 52011.78125);(145336.84375, 299.80078125, 50153.75);(161388.421875, 299.80078125, 58049.59375);(166249, 299.80078125, 64364.25);(168862.671875, 299.80078125, 72384.078125);
-			pathMode = Linear
-		}
-		PATH
-		{
-			id = 10
-			name = GC SL-MRM path
-			loop = True
-			points = (164849.5625, -2.3984375, 97210.484375);(130080.046875, 106.232421875, 59819.796875);
 			pathMode = Linear
 		}
 		PATH
@@ -14859,6 +14931,102 @@ CustomScenario
 			name = oil3
 			globalPoint = (74805.2109375, 68.843978881835938, 157162.294921875)
 		}
+		WAYPOINT
+		{
+			id = 15
+			name = TF SL MRM 1
+			globalPoint = (79336.510223388672, 101.97900390625, 130496.09994506836)
+		}
+		WAYPOINT
+		{
+			id = 16
+			name = TF SL MRM 2
+			globalPoint = (67808.047729492188, 79.914306640625, 139667.41577148438)
+		}
+		WAYPOINT
+		{
+			id = 18
+			name = TF SL MRM 3
+			globalPoint = (51626.0791015625, 115.67626953125, 124845.03540039063)
+		}
+		WAYPOINT
+		{
+			id = 19
+			name = TF SL MRM 4
+			globalPoint = (27947.04931640625, 1110.89208984375, 114081.42993164063)
+		}
+		WAYPOINT
+		{
+			id = 20
+			name = TF SL MRM 5
+			globalPoint = (28035.852783203125, 107.8900146484375, 96825.743591308594)
+		}
+		WAYPOINT
+		{
+			id = 21
+			name = TF SL MRM 6
+			globalPoint = (38368.055786132813, 15.37261962890625, 80277.111450195313)
+		}
+		WAYPOINT
+		{
+			id = 22
+			name = TF SL MRM 7
+			globalPoint = (51607.220275878906, 15.3726806640625, 84429.5263671875)
+		}
+		WAYPOINT
+		{
+			id = 23
+			name = TF SL MRM 8
+			globalPoint = (63079.405883789063, 39.2159423828125, 96720.056274414063)
+		}
+		WAYPOINT
+		{
+			id = 24
+			name = GC SL MRM 1
+			globalPoint = (162531.61694335938, 110.74517822265625, 98431.140869140625)
+		}
+		WAYPOINT
+		{
+			id = 25
+			name = GC SL MRM 2
+			globalPoint = (152307.60571289063, 25.9334716796875, 97007.166381835938)
+		}
+		WAYPOINT
+		{
+			id = 26
+			name = GC SL MRM 3
+			globalPoint = (137608.87548828125, 439.3572998046875, 94104.673675537109)
+		}
+		WAYPOINT
+		{
+			id = 27
+			name = GC SL MRM 4
+			globalPoint = (124005.08618164063, 15.373046875, 79848.143558502197)
+		}
+		WAYPOINT
+		{
+			id = 28
+			name = GC SL MRM 5
+			globalPoint = (133253.6904296875, 22.33154296875, 57644.827606201172)
+		}
+		WAYPOINT
+		{
+			id = 29
+			name = GC SL MRM 6
+			globalPoint = (146217.79650878906, 39.2159423828125, 53658.594299316406)
+		}
+		WAYPOINT
+		{
+			id = 30
+			name = GC SL MRM 7
+			globalPoint = (158917.44763183594, 63.05908203125, 59965.845520019531)
+		}
+		WAYPOINT
+		{
+			id = 31
+			name = GC SL MRM 8
+			globalPoint = (164925.43817138672, 39.216064453125, 72492.148193359375)
+		}
 	}
 	UNITGROUPS
 	{
@@ -14910,6 +15078,7 @@ CustomScenario
 			Papa = 2;111;112;
 			Oscar = 2;114;113;
 			November = 2;116;115;
+			Mike = 0;166;167;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = True
@@ -14959,6 +15128,10 @@ CustomScenario
 				syncAltSpawns = False
 			}
 			November_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Mike_SETTINGS
 			{
 				syncAltSpawns = False
 			}
@@ -29095,6 +29268,156 @@ CustomScenario
 					}
 				}
 			}
+			ACTION
+			{
+				id = 188
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 1
+					COMP
+					{
+						id = 0
+						type = SCCUnit
+						uiPos = (-419, 220, 0)
+						unit = 166
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 1
+						type = SCCAnd
+						uiPos = (-121, 41, 0)
+						factors = 0;2;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCOr
+						uiPos = (-255, 21, 0)
+						factors = 3;4;
+					}
+					COMP
+					{
+						id = 3
+						type = SCCGlobalValue
+						uiPos = (-514, 90, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 4
+						type = SCCGlobalValue
+						uiPos = (-507, -73, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 166
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 166
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 189
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-117, 47, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCOr
+						uiPos = (-250, 4, 0)
+						factors = 4;3;
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-414, 227, 0)
+						unit = 167
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 3
+						type = SCCGlobalValue
+						uiPos = (-485, -71, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+					COMP
+					{
+						id = 4
+						type = SCCGlobalValue
+						uiPos = (-483, 67, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 167
+						eventName = Randomize Alt Spawn
+						methodName = RandomizeAltSpawn
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 167
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
 		}
 		RANDOM_EVENT
 		{
@@ -33739,6 +34062,432 @@ CustomScenario
 				}
 			}
 		}
+		RANDOM_EVENT
+		{
+			id = 190
+			note = 
+			ACTION
+			{
+				id = 191
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 221
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 24
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 192
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 221
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 25
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 193
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 221
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 26
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 194
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 221
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 27
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 195
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 221
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 28
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 196
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 221
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 29
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 197
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 221
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 30
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 198
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 221
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 31
+							name = wpt
+						}
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 199
+			note = 
+			ACTION
+			{
+				id = 200
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 212
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 15
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 201
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 212
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 16
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 202
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 212
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 18
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 203
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 212
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 19
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 204
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 212
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 20
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 205
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 212
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 21
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 206
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 212
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 22
+							name = wpt
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 207
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 212
+						eventName = Move To
+						methodName = MoveTo
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 23
+							name = wpt
+						}
+					}
+				}
+			}
+		}
 	}
 	EventSequences
 	{
@@ -35626,6 +36375,66 @@ CustomScenario
 						eventName = Restart
 						methodName = Restart
 						altTargetIdx = -1
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 33
+			sequenceName = Pick GC SL-MRM wpt
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Pick next destination
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 190
+							name = Event
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 34
+			sequenceName = Pick TF SL-MRM wpt
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Pick next destination
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 199
+							name = Event
+						}
 					}
 				}
 			}
