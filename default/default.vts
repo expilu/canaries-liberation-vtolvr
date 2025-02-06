@@ -7624,7 +7624,7 @@ CustomScenario
 		}
 		UnitSpawner
 		{
-			unitName = GC SL-MRM Radar
+			unitName = GC M SL-MRM Radar
 			globalPosition = (164846.99951934814, -2.280975341796875, 97185.553985595703)
 			unitInstanceID = 89
 			unitID = slmrmRadar
@@ -7673,7 +7673,7 @@ CustomScenario
 		}
 		UnitSpawner
 		{
-			unitName = GC SL-MRM Launcher
+			unitName = GC M SL-MRM Launcher
 			globalPosition = (164840.83985137939, -2.195037841796875, 97189.637969970703)
 			unitInstanceID = 90
 			unitID = slmrmLauncher
