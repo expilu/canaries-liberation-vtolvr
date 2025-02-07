@@ -1038,7 +1038,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.0868591, 351.266)
+			rotation = (351.1896, 0.08685894, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2401,7 +2401,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803499E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803501E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12733,7 +12733,7 @@ CustomScenario
 			globalPosition = (-41634.65625, 18.97998046875, 201009.5859375)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600386E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600389E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -13726,7 +13726,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639497E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639509E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15081,7 +15081,7 @@ CustomScenario
 			globalPosition = (79299.664688110352, 109.20928192138672, 130415.95889282227)
 			unitInstanceID = 167
 			unitID = slmrmLauncher
-			rotation = (355.4075, 211.3968, 0.09124754)
+			rotation = (355.4075, 211.3968, 0.09124732)
 			lastValidPlacement = (66343.44580078125, 173.35302734375, 114063.61059570313)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15260,7 +15260,7 @@ CustomScenario
 			globalPosition = (161854.4482421875, 182.274658203125, 86745.012268066406)
 			unitInstanceID = 168
 			unitID = MAD-4Radar
-			rotation = (-9.35522E-06, 189.5381, -1.571916E-06)
+			rotation = (-9.355222E-06, 189.5381, -1.571916E-06)
 			lastValidPlacement = (147594.36840820313, 897.56884765625, 70689.462890625)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15351,7 +15351,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (156484.94311523438, 44.4091796875, 58701.472778320313)
-				rotation = (358.5603, 189.3176, 8.706179)
+				rotation = (358.5603, 189.3176, 8.706177)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15401,7 +15401,7 @@ CustomScenario
 			globalPosition = (161875.0029296875, 182.27471923828125, 86745.415710449219)
 			unitInstanceID = 169
 			unitID = MAD-4Launcher
-			rotation = (-9.35522E-06, 189.5381, -1.571916E-06)
+			rotation = (-9.355222E-06, 189.5381, -1.571916E-06)
 			lastValidPlacement = (147398.072265625, 897.5693359375, 70587.38623046875)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15508,7 +15508,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (156434.07666015625, 52.30517578125, 58761.811889648438)
-				rotation = (358.5603, 189.3176, 8.706179)
+				rotation = (358.5603, 189.3176, 8.706177)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
