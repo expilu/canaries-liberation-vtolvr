@@ -812,7 +812,7 @@ CustomScenario
 				invincible = False
 				respawnable = False
 				receiveFriendlyDamage = True
-				carrierSpawns = 0:-1;0:-1;0:-1;0:-1;0:-1;0:-1;0:12:-1;0:-1;0:-1;0:11:-1;
+				carrierSpawns = 0:174:-1;1:173:-1;2:175:-1;3:176:-1;4:177:-1;5:-1;6:12:-1;7:-1;8:172:-1;9:11:-1;
 			}
 		}
 		UnitSpawner
@@ -867,8 +867,8 @@ CustomScenario
 		}
 		UnitSpawner
 		{
-			unitName = CruiserStealthCap1
-			globalPosition = (83981.118507385254, 13.530029296875, 66334.250381469727)
+			unitName = CarrierStealthCap1
+			globalPosition = (83981.118507385254, 13.530029296875, 66334.250366210938)
 			unitInstanceID = 11
 			unitID = ASF-33
 			rotation = (0, 220.7402, 0)
@@ -902,8 +902,8 @@ CustomScenario
 		}
 		UnitSpawner
 		{
-			unitName = CruiserStealthCap2
-			globalPosition = (83962.431678771973, 13.529998779296875, 66351.505279541016)
+			unitName = CarrierStealthCap2
+			globalPosition = (83962.431671142578, 13.529998779296875, 66351.505279541016)
 			unitInstanceID = 12
 			unitID = ASF-33
 			rotation = (0, 217.4544, 0)
@@ -1038,7 +1038,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08685894, 351.266)
+			rotation = (351.1896, 0.08685889, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2401,7 +2401,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803501E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803502E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12733,7 +12733,7 @@ CustomScenario
 			globalPosition = (-41634.65625, 18.97998046875, 201009.5859375)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600389E-06, 150.1424, -2.44996E-06)
+			rotation = (6.60039E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -13726,7 +13726,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639509E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639517E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15081,7 +15081,7 @@ CustomScenario
 			globalPosition = (79299.664688110352, 109.20928192138672, 130415.95889282227)
 			unitInstanceID = 167
 			unitID = slmrmLauncher
-			rotation = (355.4075, 211.3968, 0.09124732)
+			rotation = (355.4075, 211.3968, 0.09124722)
 			lastValidPlacement = (66343.44580078125, 173.35302734375, 114063.61059570313)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15260,7 +15260,7 @@ CustomScenario
 			globalPosition = (161854.4482421875, 182.274658203125, 86745.012268066406)
 			unitInstanceID = 168
 			unitID = MAD-4Radar
-			rotation = (-9.355222E-06, 189.5381, -1.571916E-06)
+			rotation = (-9.355223E-06, 189.5381, -1.571916E-06)
 			lastValidPlacement = (147594.36840820313, 897.56884765625, 70689.462890625)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15351,7 +15351,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (156484.94311523438, 44.4091796875, 58701.472778320313)
-				rotation = (358.5603, 189.3176, 8.706177)
+				rotation = (358.5603, 189.3176, 8.706176)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15401,7 +15401,7 @@ CustomScenario
 			globalPosition = (161875.0029296875, 182.27471923828125, 86745.415710449219)
 			unitInstanceID = 169
 			unitID = MAD-4Launcher
-			rotation = (-9.355222E-06, 189.5381, -1.571916E-06)
+			rotation = (-9.355223E-06, 189.5381, -1.571916E-06)
 			lastValidPlacement = (147398.072265625, 897.5693359375, 70587.38623046875)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15508,7 +15508,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (156434.07666015625, 52.30517578125, 58761.811889648438)
-				rotation = (358.5603, 189.3176, 8.706177)
+				rotation = (358.5603, 189.3176, 8.706176)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15923,6 +15923,220 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = Attack carrier 1
+			globalPosition = (83956.083709716797, 13.530029296875, 66261.856903076172)
+			unitInstanceID = 172
+			unitID = ASF-33
+			rotation = (0, 357.4124, 0)
+			lastValidPlacement = (84100.158172607422, 62.553985595703125, 66173.411651611328)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Juliet
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = unit:7
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;;;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack carrier 2
+			globalPosition = (83930.569747924805, 13.529998779296875, 66259.675720214844)
+			unitInstanceID = 173
+			unitID = ASF-33
+			rotation = (0, 359.4389, 0)
+			lastValidPlacement = (84078.230010986328, 62.553985595703125, 66121.620714187622)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Juliet
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = unit:7
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;;;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack carrier 3
+			globalPosition = (83904.352584838867, 13.529998779296875, 66255.981292724609)
+			unitInstanceID = 174
+			unitID = ASF-30
+			rotation = (0, 4.415893, 0)
+			lastValidPlacement = (84078.230010986328, 62.553985595703125, 66121.620714187622)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:India
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = 8
+				defaultPath = 1
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = unit:7
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx3;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx3;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack carrier 4
+			globalPosition = (83878.193313598633, 13.529998779296875, 66267.630523681641)
+			unitInstanceID = 175
+			unitID = ASF-30
+			rotation = (0, 4.415893, 0)
+			lastValidPlacement = (84062.547424316406, 62.553985595703125, 66081.712251663208)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:India
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = 8
+				defaultPath = 1
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = unit:7
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx3;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx3;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack carrier 5
+			globalPosition = (83856.550872802734, 13.529998779296875, 66275.114807128906)
+			unitInstanceID = 176
+			unitID = ASF-30
+			rotation = (0, 4.415893, 0)
+			lastValidPlacement = (84142.575134277344, 62.553985595703125, 66223.94580078125)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Golf
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = 8
+				defaultPath = 1
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = unit:7
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx3;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx3;asf30_jammer;
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Attack carrier 6
+			globalPosition = (83835.035614013672, 13.529998779296875, 66282.660949707031)
+			unitInstanceID = 177
+			unitID = ASF-30
+			rotation = (0, 4.415893, 0)
+			lastValidPlacement = (84108.072479248047, 62.553985595703125, 66170.101333618164)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Golf
+				defaultBehavior = Parked
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = 8
+				defaultPath = 1
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = unit:7
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = asf30_gun;asf30_jammer;asf-srmx3;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx3;asf30_jammer;
+			}
+		}
 	}
 	PATHS
 	{
@@ -16313,6 +16527,9 @@ CustomScenario
 			Mike = 0;166;167;
 			Lima = 0;168;169;
 			Kilo = 0;171;170;
+			Juliet = 2;172;173;
+			India = 2;174;175;
+			Golf = 2;176;177;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = True
@@ -16376,6 +16593,18 @@ CustomScenario
 			Kilo_SETTINGS
 			{
 				syncAltSpawns = True
+			}
+			Juliet_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			India_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Golf_SETTINGS
+			{
+				syncAltSpawns = False
 			}
 		}
 	}
@@ -24417,13 +24646,13 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 224
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
 							type = UnitReferenceListOtherSubs
-							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							value = 2;2:1;2:0;2:2;2:3;2:4;2:5;3;4;5;
 							name = Targets
 						}
 					}
@@ -24655,13 +24884,13 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 218
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
 							type = UnitReferenceListOtherSubs
-							value = 2;2:1;2:0;2:2;2:3;2:4;2:5;3;4;5;
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
 							name = Targets
 						}
 					}
@@ -24761,8 +24990,8 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 215
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
@@ -24814,8 +25043,8 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 214
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
@@ -24867,8 +25096,8 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 213
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
@@ -24920,8 +25149,8 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 216
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
@@ -24973,8 +25202,8 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 224
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
@@ -25026,13 +25255,13 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 218
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
 							type = UnitReferenceListOtherSubs
-							value = 2;3;3:0;3:1;3:2;4;5;
+							value = 
 							name = Targets
 						}
 					}
@@ -25079,8 +25308,8 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 216
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
@@ -25132,8 +25361,8 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 215
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
@@ -25185,13 +25414,13 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 214
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
 							type = UnitReferenceListOtherSubs
-							value = 2;3;3:1;3:0;3:2;4;5;
+							value = 2;3;3:0;3:1;3:2;4;5;
 							name = Targets
 						}
 					}
@@ -25238,8 +25467,8 @@ CustomScenario
 					{
 						targetType = UnitGroup
 						targetID = 213
-						eventName = Add Designated Targets
-						methodName = AddDesignatedTargets
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
 						altTargetIdx = -1
 						ParamInfo
 						{
@@ -26946,6 +27175,999 @@ CustomScenario
 							type = RandomEventReference
 							value = 161
 							name = Event
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 94
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Juliet joins attack
+				blockId = 95
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-306, 42, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 96
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Juliet joins attack
+				blockId = 97
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-280, 40, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 98
+			name = 
+			BASE_BLOCK
+			{
+				blockName = India joins attack
+				blockId = 99
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-286, 49, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:1;2:0;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 100
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Golf joins attack
+				blockId = 101
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-307, 41, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 102
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Juliet joins attack
+				blockId = 103
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-286, 38, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;3;3:0;3:1;3:2;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 104
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Golf joins attack
+				blockId = 105
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-305, 49, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;3;3:0;3:1;3:2;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 106
+			name = 
+			BASE_BLOCK
+			{
+				blockName = India joins attack
+				blockId = 107
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-292, 53, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;3;3:0;3:1;3:2;4;5;
+							name = Targets
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 108
+			name = 
+			BASE_BLOCK
+			{
+				blockName = India joins attack
+				blockId = 109
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-339, 48, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 110
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Golf joins attack
+				blockId = 111
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-262, 46, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 112
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Juliet joins attack
+				blockId = 113
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-288, 15, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 114
+			name = 
+			BASE_BLOCK
+			{
+				blockName = India joins attack
+				blockId = 115
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-281, 37, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 116
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Golf joins attack
+				blockId = 117
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-322, 52, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 118
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Juliet joins attack
+				blockId = 119
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-327, 25, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 120
+			name = 
+			BASE_BLOCK
+			{
+				blockName = India joins attack
+				blockId = 121
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-312, 46, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 122
+			name = 
+			BASE_BLOCK
+			{
+				blockName = Golf joins attack
+				blockId = 123
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-339, 62, 0)
+						chance = 50
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Take Off
+						methodName = TakeOff
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
 						}
 					}
 				}
@@ -31758,6 +32980,312 @@ CustomScenario
 					{
 						targetType = Unit
 						targetID = 170
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 230
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-139, 43, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-413, 128, 0)
+						unit = 172
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-418, -20, 0)
+						unit = 7
+						methodName = SC_IsAlive
+						isNot = False
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 172
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 231
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-120, 49, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-418, 152, 0)
+						unit = 173
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-406, -7, 0)
+						unit = 7
+						methodName = SC_IsAlive
+						isNot = False
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 173
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 232
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-142, 43, 0)
+						factors = 1;2;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-429, 185, 0)
+						unit = 174
+						methodName = SC_IsAlive
+						isNot = True
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-424, 18, 0)
+						unit = 7
+						methodName = SC_IsAlive
+						isNot = False
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 174
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 233
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-129, 39, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-427, -11, 0)
+						unit = 7
+						methodName = SC_IsAlive
+						isNot = False
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-438, 142, 0)
+						unit = 175
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 175
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 234
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-132, 38, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-421, -20, 0)
+						unit = 7
+						methodName = SC_IsAlive
+						isNot = False
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-421, 150, 0)
+						unit = 176
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 176
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+			}
+			ACTION
+			{
+				id = 235
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCAnd
+						uiPos = (-173, 49, 0)
+						factors = 2;1;
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-469, 15, 0)
+						unit = 7
+						methodName = SC_IsAlive
+						isNot = False
+					}
+					COMP
+					{
+						id = 2
+						type = SCCUnit
+						uiPos = (-462, 190, 0)
+						unit = 177
+						methodName = SC_IsAlive
+						isNot = True
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 177
 						eventName = Spawn Unit
 						methodName = SpawnUnit
 						altTargetIdx = -2
@@ -38119,6 +39647,48 @@ CustomScenario
 							name = Action
 						}
 					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 96
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 98
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 100
+							name = Action
+						}
+					}
 				}
 			}
 		}
@@ -38216,6 +39786,48 @@ CustomScenario
 						{
 							type = ConditionalActionReference
 							value = 44
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 102
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 106
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 104
 							name = Action
 						}
 					}
@@ -38319,6 +39931,48 @@ CustomScenario
 							name = Action
 						}
 					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 94
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 108
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 110
+							name = Action
+						}
+					}
 				}
 			}
 		}
@@ -38419,6 +40073,48 @@ CustomScenario
 							name = Action
 						}
 					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 112
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 114
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 116
+							name = Action
+						}
+					}
 				}
 			}
 		}
@@ -38516,6 +40212,48 @@ CustomScenario
 						{
 							type = ConditionalActionReference
 							value = 80
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 118
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 120
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 122
 							name = Action
 						}
 					}
@@ -39378,7 +41116,7 @@ CustomScenario
 	{
 		gv
 		{
-			data = 0;debug;Enables debug mode.///nUsed for debug messages.;1;
+			data = 0;debug;Enables debug mode.///nUsed for debug messages.;0;
 		}
 		gv
 		{
