@@ -1038,7 +1038,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08685916, 351.266)
+			rotation = (351.1896, 0.0868591, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2401,7 +2401,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803498E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803499E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -12733,7 +12733,7 @@ CustomScenario
 			globalPosition = (-41634.65625, 18.97998046875, 201009.5859375)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600385E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600386E-06, 150.1424, -2.44996E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -13726,7 +13726,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639493E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639497E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15081,7 +15081,7 @@ CustomScenario
 			globalPosition = (79299.664688110352, 109.20928192138672, 130415.95889282227)
 			unitInstanceID = 167
 			unitID = slmrmLauncher
-			rotation = (355.4075, 211.3968, 0.09124764)
+			rotation = (355.4075, 211.3968, 0.09124754)
 			lastValidPlacement = (66343.44580078125, 173.35302734375, 114063.61059570313)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15260,7 +15260,7 @@ CustomScenario
 			globalPosition = (161854.4482421875, 182.274658203125, 86745.012268066406)
 			unitInstanceID = 168
 			unitID = MAD-4Radar
-			rotation = (-9.355219E-06, 189.5381, -1.571916E-06)
+			rotation = (-9.35522E-06, 189.5381, -1.571916E-06)
 			lastValidPlacement = (147594.36840820313, 897.56884765625, 70689.462890625)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15351,7 +15351,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (156484.94311523438, 44.4091796875, 58701.472778320313)
-				rotation = (358.5603, 189.3176, 8.70618)
+				rotation = (358.5603, 189.3176, 8.706179)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15401,7 +15401,7 @@ CustomScenario
 			globalPosition = (161875.0029296875, 182.27471923828125, 86745.415710449219)
 			unitInstanceID = 169
 			unitID = MAD-4Launcher
-			rotation = (-9.355219E-06, 189.5381, -1.571916E-06)
+			rotation = (-9.35522E-06, 189.5381, -1.571916E-06)
 			lastValidPlacement = (147398.072265625, 897.5693359375, 70587.38623046875)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15508,7 +15508,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (156434.07666015625, 52.30517578125, 58761.811889648438)
-				rotation = (358.5603, 189.3176, 8.70618)
+				rotation = (358.5603, 189.3176, 8.706179)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15566,7 +15566,7 @@ CustomScenario
 			globalPosition = (50032.715209960938, 88.904388427734375, 86416.980773925781)
 			unitInstanceID = 170
 			unitID = MAD-4Launcher
-			rotation = (6.947736E-06, 42.9129, 6.459147E-06)
+			rotation = (6.947737E-06, 42.9129, 6.459147E-06)
 			lastValidPlacement = (47410.618896484375, 2060.263916015625, 107330.20043945313)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -15705,7 +15705,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (61901.554931640625, 39.09857177734375, 95784.796081542969)
-				rotation = (5.956521, 42.23325, 353.4787)
+				rotation = (5.956522, 42.23325, 353.4787)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15765,7 +15765,7 @@ CustomScenario
 			globalPosition = (50060.8447265625, 88.90435791015625, 86382.155944824219)
 			unitInstanceID = 171
 			unitID = MAD-4Radar
-			rotation = (6.947736E-06, 42.9129, 6.459147E-06)
+			rotation = (6.947737E-06, 42.9129, 6.459147E-06)
 			lastValidPlacement = (47525.88427734375, 2042.0400390625, 107194.95825195313)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -18921,8 +18921,8 @@ CustomScenario
 	{
 		Objective
 		{
-			objectiveName = Conquer Gando
-			objectiveInfo = Conquer Gando airbase. Eliminate all hostiles and land.
+			objectiveName = Capture Gando
+			objectiveInfo = Capture Gando airbase. Eliminate all hostiles and land.
 			objectiveID = 0
 			orderID = 0
 			required = True
@@ -19120,8 +19120,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = Conquer Los Rodeos
-			objectiveInfo = Conquer Los Rodeos airbase. Eliminate all hostiles and land.
+			objectiveName = Capture Los Rodeos
+			objectiveInfo = Capture Los Rodeos airbase. Eliminate all hostiles and land.
 			objectiveID = 1
 			orderID = 1
 			required = True
@@ -19319,7 +19319,7 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = Conquer South base
+			objectiveName = Capture Tf. South
 			objectiveInfo = Conquer Tenerife South airbase. Eliminate all hostiles and land.
 			objectiveID = 2
 			orderID = 2
@@ -19518,7 +19518,7 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = Sink aircraft carrie
+			objectiveName = Sink enemy carrier
 			objectiveInfo = Sink the enemy aircraft carrier
 			objectiveID = 3
 			orderID = 3
@@ -19610,7 +19610,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Sink DMS Cruiser
-			objectiveInfo = Sink DMS Cruiser
+			objectiveInfo = Sink the enemy DMS Cruiser
 			objectiveID = 4
 			orderID = 4
 			required = False
@@ -19701,7 +19701,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Sink NMSS Cruiser
-			objectiveInfo = Sink NMSS Cruiser
+			objectiveInfo = Sink the enemy NMSS Cruiser
 			objectiveID = 5
 			orderID = 5
 			required = False
@@ -19791,8 +19791,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = Destroy oil1
-			objectiveInfo = Destroy oil platform east of Gran Canaria
+			objectiveName = Hit oil platform 1
+			objectiveInfo = Destroy oil platform off the east coast of Gran Canaria
 			objectiveID = 6
 			orderID = 6
 			required = False
@@ -19880,8 +19880,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = Destroy oil2
-			objectiveInfo = Destroy oil platform south of Tenerife
+			objectiveName = Hit oil platform 2
+			objectiveInfo = Destroy oil platform off the south coast of Tenerife
 			objectiveID = 7
 			orderID = 7
 			required = False
@@ -19969,8 +19969,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = Destroy oil3
-			objectiveInfo = Destroy oil platform north of Tenerife
+			objectiveName = Hit oil platform 3
+			objectiveInfo = Destroy oil platform off the north coast of Tenerife
 			objectiveID = 8
 			orderID = 8
 			required = False
@@ -20058,8 +20058,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = DestroyFactoryTFNort
-			objectiveInfo = Destroy enemy factory at the north of Tenerife
+			objectiveName = Destroy Factory
+			objectiveInfo = Destroy the enemy factory in the north area of Tenerife island
 			objectiveID = 9
 			orderID = 9
 			required = False
@@ -20149,8 +20149,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = DestroyFactoryGCNort
-			objectiveInfo = 
+			objectiveName = Destroy Factory
+			objectiveInfo = Destroy the enemy factory in the north area of Gran Canaria island
 			objectiveID = 10
 			orderID = 10
 			required = False
@@ -20240,8 +20240,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = DestroyGCEWR
-			objectiveInfo = Destroy the EWR in Pico de las Nieves
+			objectiveName = Destroy EWR
+			objectiveInfo = Destroy the EWR in Pico de las Nieves, the tallest point of Gran Canaria
 			objectiveID = 11
 			orderID = 11
 			required = False
@@ -20331,8 +20331,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = DestroyGandoDefenses
-			objectiveInfo = Destroy Gando base air defenses
+			objectiveName = Gando Defenses
+			objectiveInfo = Destroy Gando airbase air defenses.
 			objectiveID = 12
 			orderID = 12
 			required = True
@@ -20422,8 +20422,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = DestroyRodeosDefense
-			objectiveInfo = Destroy all air defenses at Los Rodeos
+			objectiveName = Los Rodeos Defenses
+			objectiveInfo = Destroy all air defenses at Los Rodeos airbase
 			objectiveID = 13
 			orderID = 13
 			required = True
@@ -20513,8 +20513,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = DestroyTfSouthDefens
-			objectiveInfo = Destroy all air defenses at Tenerife South
+			objectiveName = Tf. South Defenses
+			objectiveInfo = Destroy all air defenses at Tenerife South airbase
 			objectiveID = 14
 			orderID = 14
 			required = True
@@ -20604,8 +20604,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = LandToCaptureGando
-			objectiveInfo = Land on Gando to capture it
+			objectiveName = Land in Gando
+			objectiveInfo = Land on Gando airbase to capture it
 			objectiveID = 15
 			orderID = 15
 			required = True
@@ -20687,8 +20687,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = LandToCaptureRodeos
-			objectiveInfo = Land on Los Rodeos to capture it
+			objectiveName = Land in Los Rodeos
+			objectiveInfo = Land on Los Rodeos airbase to capture it
 			objectiveID = 16
 			orderID = 16
 			required = True
@@ -20770,8 +20770,8 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = LandToCaptureTfSouth
-			objectiveInfo = Land on Tenerife south to capture it
+			objectiveName = Land in Tf. South
+			objectiveInfo = Land on Tenerife South airbase to capture it
 			objectiveID = 17
 			orderID = 17
 			required = True
@@ -20853,7 +20853,7 @@ CustomScenario
 		}
 		Objective
 		{
-			objectiveName = DestroyEnemyResupply
+			objectiveName = Hunt resupply flight
 			objectiveInfo = Destroy enemy resupply aircraft
 			objectiveID = 18
 			orderID = 18
@@ -20935,7 +20935,7 @@ CustomScenario
 		Objective
 		{
 			objectiveName = Carrier must survive
-			objectiveInfo = Protect the aircraft carrier at all costs
+			objectiveInfo = Protect our aircraft carrier at all costs
 			objectiveID = 19
 			orderID = 19
 			required = True
