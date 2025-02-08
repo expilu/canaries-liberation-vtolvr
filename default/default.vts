@@ -58,7 +58,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F-45 Spawn 1
-			globalPosition = (-42823.46875, 16.100006103515625, 201392.3125)
+			globalPosition = (-42823.462219238281, 16.100000381469727, 201392.30755615234)
 			unitInstanceID = 95
 			unitID = MultiplayerSpawn
 			rotation = (0, 28.14769, 0)
@@ -534,7 +534,7 @@ CustomScenario
 				invincible = False
 				respawnable = False
 				receiveFriendlyDamage = True
-				carrierSpawns = 0:95:-1;1:96:-1;2:149:-1;3:-1;4:101:-1;5:102:-1;
+				carrierSpawns = 0:95:-1;1:96:-1;2:178:-1;3:149:-1;4:101:-1;5:102:-1;
 			}
 			altSpawn
 			{
@@ -8458,7 +8458,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F-45 Spawn 2
-			globalPosition = (-42806.140625, 16.100006103515625, 201392.3125)
+			globalPosition = (-42806.142211914063, 16.100000381469727, 201392.30755615234)
 			unitInstanceID = 96
 			unitID = MultiplayerSpawn
 			rotation = (0, 28.14769, 0)
@@ -9001,7 +9001,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = AV-42C Spawn 1
-			globalPosition = (-42688.328125, 16.100006103515625, 201392.3125)
+			globalPosition = (-42688.332229614258, 16.100000381469727, 201392.30758666992)
 			unitInstanceID = 101
 			unitID = MultiplayerSpawn
 			rotation = (0, 28.14769, 0)
@@ -9108,7 +9108,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = AV-42C Spawn 2
-			globalPosition = (-42670.65625, 16.100006103515625, 201392.3125)
+			globalPosition = (-42670.652221679688, 16.100000381469727, 201392.30758666992)
 			unitInstanceID = 102
 			unitID = MultiplayerSpawn
 			rotation = (0, 28.14769, 0)
@@ -12714,11 +12714,11 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportAttack
-			globalPosition = (-42788.875, 16.100006103515625, 201392.3125)
+			globalPosition = (-42773.522216796875, 16.100000381469727, 201392.30755615234)
 			unitInstanceID = 149
 			unitID = AV-42CAI
 			rotation = (0, 28.14769, 0)
-			lastValidPlacement = (-42954.767837524414, 45.960784912109375, 201440.26831436157)
+			lastValidPlacement = (-42793.205932617188, 30.642238616943359, 201355.88973999023)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -16083,6 +16083,44 @@ CustomScenario
 				equips = asf30_gun;asf30_jammer;asf-srmx3;wr-25;sb1x3;asf_mrmDrop;asf_mrmDrop;sb1x3;wr-25;asf-srmx3;asf30_jammer;
 			}
 		}
+		UnitSpawner
+		{
+			unitName = SupportStealth
+			globalPosition = (-42788.872222900391, 16.100000381469727, 201392.30755615234)
+			unitInstanceID = 178
+			unitID = F-45A AI
+			rotation = (0, 28.14769, 0)
+			lastValidPlacement = (-42798.430480957031, 30.642234802246094, 201347.31680297852)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				voiceProfile = null
+				playerCommandsMode = Unit_Group_Only
+				defaultBehavior = TakeOff
+				initialSpeed = 220
+				defaultNavSpeed = 220
+				defaultOrbitPoint = null
+				defaultPath = null
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				allowJammingAtWill = True
+				rtbDestination = unit:3
+				parkedStartMode = Cold
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = f45_gun;f45-agm145ISide;f45-agm145I;f45_amraamInternal;f45_sidewinderx2;;;;;;;
+			}
+		}
 	}
 	PATHS
 	{
@@ -16091,7 +16129,7 @@ CustomScenario
 			id = 0
 			name = AlliedCarrierPath
 			loop = True
-			points = (-20279.9375, -5, 178978.71875);(220501.203125, -5, 144374.34375);(223174.109375, -5, 6652.3125);(-24412.234375, -5, 24949.5);
+			points = (-20279.9375, -5, 178978.71875);(220501.1875, -5, 144374.34375);(223174.125, -5, 6652.3125);(-24412.234375, -5, 24949.5);
 			pathMode = Smooth
 		}
 		PATH
@@ -19087,6 +19125,142 @@ CustomScenario
 						type = System.Boolean
 						value = False
 						name = Engage
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 80
+			enabled = True
+			triggerType = Conditional
+			conditional = 122
+			eventName = OnAlliedAircraftCarrierDestroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 97
+					eventName = Set AltSpawn Available
+					methodName = SetAltSpawnAvailable
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Available
+					}
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 98
+					eventName = Set AltSpawn Available
+					methodName = SetAltSpawnAvailable
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Available
+					}
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 99
+					eventName = Set AltSpawn Available
+					methodName = SetAltSpawnAvailable
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Available
+					}
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 100
+					eventName = Set AltSpawn Available
+					methodName = SetAltSpawnAvailable
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Available
+					}
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 81
+			enabled = True
+			triggerType = Conditional
+			conditional = 123
+			eventName = OnAlliedAssaultCarrierDestroyed
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 95
+					eventName = Set AltSpawn Available
+					methodName = SetAltSpawnAvailable
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Available
+					}
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 96
+					eventName = Set AltSpawn Available
+					methodName = SetAltSpawnAvailable
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Available
+					}
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 101
+					eventName = Set AltSpawn Available
+					methodName = SetAltSpawnAvailable
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Available
+					}
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 102
+					eventName = Set AltSpawn Available
+					methodName = SetAltSpawnAvailable
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = System.Boolean
+						value = False
+						name = Available
 					}
 				}
 			}
@@ -24192,6 +24366,36 @@ CustomScenario
 				{
 					value = 500
 				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 122
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-394, 55, 0)
+				unit = 2
+				methodName = SC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 123
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-411, 49, 0)
+				unit = 3
+				methodName = SC_IsAlive
+				isNot = True
 			}
 		}
 	}
