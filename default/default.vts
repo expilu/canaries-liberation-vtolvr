@@ -28,7 +28,7 @@ CustomScenario
 	mpBudgetMode = Life
 	rtbWptID_B = 
 	refuelWptID_B = 
-	separateBriefings = False
+	separateBriefings = True
 	baseBudgetB = 1000000
 	infiniteAmmo = False
 	infAmmoReloadDelay = 5
@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803511E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803513E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639554E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639566E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -46716,8 +46716,8 @@ CustomScenario
 	{
 		BRIEFING_NOTE
 		{
-			text = WIP
-			imagePath = 
+			text = The enemy captured the Canary Islands by surprise months ago. Their hold on the region is tenuous, dependent entirely on airlifted supplies to sustain them. Intelligence confirms that enemy units have repurposed three airports into military bases.///n///nObjective:///nRetake control of the islands by seizing the bases currently under enemy occupation on Gran Canaria and Tenerife, the main islands. Neutralizing these airfields will disrupt the enemy’s logistics and serve as the first step towards liberation of the archipelago
+			imagePath = briefing1.png
 			audioClipPath = 
 		}
 	}
@@ -46783,6 +46783,7 @@ CustomScenario
 		54 = destroyed-allied-carrier.mp3
 		55 = detected-resupply.mp3
 		56 = protect-mother.mp3
+		57 = briefing1.png
 	}
 }
 
