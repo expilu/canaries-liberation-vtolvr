@@ -19971,6 +19971,42 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 82
+			enabled = True
+			triggerType = Proximity
+			waypoint = unit:2
+			radius = 64000
+			sphericalRadius = True
+			triggerMode = AnyEnemy
+			proxyMode = OnEnter
+			eventName = OnEnemiesApproachingMother
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = System
+					targetID = 0
+					eventName = Radio Message Team
+					methodName = RadioMessageTeam
+					altTargetIdx = -1
+					ParamInfo
+					{
+						type = VTSAudioReference
+						value = protect-mother.mp3
+						name = Audio
+					}
+					ParamInfo
+					{
+						type = MPUITeams
+						value = Team_A
+						name = Team
+					}
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -43418,6 +43454,7 @@ CustomScenario
 		53 = resupply-destroyed.mp3
 		54 = destroyed-allied-carrier.mp3
 		55 = detected-resupply.mp3
+		56 = protect-mother.mp3
 	}
 }
 
