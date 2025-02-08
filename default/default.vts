@@ -16739,6 +16739,996 @@ CustomScenario
 				receiveFriendlyDamage = True
 			}
 		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 1
+			globalPosition = (72135.396755218506, 685.1656494140625, 133038.4496421814)
+			unitInstanceID = 189
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (167083.21020507813, 464.9805908203125, 74413.28369140625)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (51463.135620117188, 259.65020751953125, 86266.47802734375)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (167083.21020507813, 464.9805908203125, 74413.28369140625)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 5
+			globalPosition = (72418.064727783203, 685.1656494140625, 132946.33343887329)
+			unitInstanceID = 197
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (166242.28576660156, 464.9805908203125, 73416.691711425781)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (51100.332153320313, 259.65020751953125, 86068.891708374023)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (166242.28576660156, 464.9805908203125, 73416.691711425781)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 4
+			globalPosition = (72340.087326049805, 685.1656494140625, 132971.74482536316)
+			unitInstanceID = 196
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (166378.232421875, 464.9805908203125, 73610.116821289063)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (51174.44758605957, 259.65020751953125, 86109.94352722168)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (166378.232421875, 464.9805908203125, 73610.116821289063)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 3
+			globalPosition = (72258.905609130859, 685.1656494140625, 132998.20044016838)
+			unitInstanceID = 195
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (166674.08312988281, 464.9805908203125, 73912.310729980469)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (51260.133880615234, 259.65020751953125, 86157.404296875)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (166674.08312988281, 464.9805908203125, 73912.310729980469)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 2
+			globalPosition = (72188.432243347168, 685.1656494140625, 133021.16637229919)
+			unitInstanceID = 194
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (166870.92590332031, 464.9805908203125, 74196.2744140625)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (51356.474578857422, 259.65020751953125, 86207.788360595703)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (166870.92590332031, 464.9805908203125, 74196.2744140625)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 6
+			globalPosition = (72507.175262451172, 685.1656494140625, 132917.29396057129)
+			unitInstanceID = 198
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (166034.82336425781, 464.9805908203125, 73204.781372070313)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (51011.079159736633, 259.65020751953125, 86019.455360412598)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (166034.82336425781, 464.9805908203125, 73204.781372070313)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 7
+			globalPosition = (72580.943969726563, 685.1656494140625, 132893.25409698486)
+			unitInstanceID = 199
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (165937.34619140625, 464.9805908203125, 73105.21435546875)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (50946.791061401367, 259.65020751953125, 86015.696830749512)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165937.34619140625, 464.9805908203125, 73105.21435546875)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 8
+			globalPosition = (72646.331298828125, 685.1656494140625, 132871.94561767578)
+			unitInstanceID = 200
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (165814.13989257813, 464.9805908203125, 72979.366455078125)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (50853.885757446289, 259.65020751953125, 85975.390663146973)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165814.13989257813, 464.9805908203125, 72979.366455078125)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 9
+			globalPosition = (72721.500244140625, 685.1656494140625, 132847.44947814941)
+			unitInstanceID = 201
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (165743.41186523438, 464.9805908203125, 72879.95263671875)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (50745.319213867188, 259.65020751953125, 85915.256683349609)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165743.41186523438, 464.9805908203125, 72879.95263671875)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 10
+			globalPosition = (72792.634460449219, 685.1656494140625, 132824.26818847656)
+			unitInstanceID = 202
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (165581.07019042969, 464.9805908203125, 72714.130249023438)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (50633.24934387207, 259.65020751953125, 85881.346939086914)
+				rotation = (0, 63.06898, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165581.07019042969, 464.9805908203125, 72714.130249023438)
+				rotation = (0, 42.75545, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -17133,6 +18123,7 @@ CustomScenario
 			India = 2;174;175;
 			Golf = 2;176;177;
 			Foxtrot = 2;179;180;183;184;185;
+			Echo = 2;189;194;195;196;197;198;199;200;201;202;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = True
@@ -17210,6 +18201,10 @@ CustomScenario
 				syncAltSpawns = False
 			}
 			Foxtrot_SETTINGS
+			{
+				syncAltSpawns = True
+			}
+			Echo_SETTINGS
 			{
 				syncAltSpawns = True
 			}
@@ -29950,6 +30945,291 @@ CustomScenario
 				}
 			}
 		}
+		ConditionalAction
+		{
+			id = 139
+			name = 5 players
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 140
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-356, 50, 0)
+						gv = 16
+						comparison = Greater_Than
+						c_value = 4
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 197
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 141
+			name = 6 players
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 142
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-416, 88, 0)
+						gv = 16
+						comparison = Greater_Than
+						c_value = 5
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 198
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 143
+			name = 7 players
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 144
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-384, 52, 0)
+						gv = 16
+						comparison = Greater_Than
+						c_value = 6
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 199
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 145
+			name = 8 players
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 146
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-387, 51, 0)
+						gv = 16
+						comparison = Equals
+						c_value = 7
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 200
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 147
+			name = 9 players
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 148
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-389, 68, 0)
+						gv = 16
+						comparison = Greater_Than
+						c_value = 8
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 201
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 149
+			name = 10 players or more
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 150
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-348, 55, 0)
+						gv = 16
+						comparison = Greater_Than
+						c_value = 9
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 202
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 151
+			name = 33% chance
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 152
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCChance
+						uiPos = (-324, 60, 0)
+						chance = 33
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 41
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+			}
+		}
 	}
 	RandomEvents
 	{
@@ -41678,6 +42958,457 @@ CustomScenario
 				}
 			}
 		}
+		RANDOM_EVENT
+		{
+			id = 263
+			note = 
+			ACTION
+			{
+				id = 264
+				actionName = Gando
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-384, 59, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.Int32
+							value = 1
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 265
+				actionName = Los Rodeos
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-394, 55, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.Int32
+							value = 2
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 266
+				actionName = Tenerife South
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-393, 69, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.Int32
+							value = 3
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 267
+			note = 
+			ACTION
+			{
+				id = 268
+				actionName = carrier group
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 2
+					COMP
+					{
+						id = 0
+						type = SCCUnit
+						uiPos = (-405, -14, 0)
+						unit = 3
+						methodName = SC_IsAlive
+						isNot = False
+					}
+					COMP
+					{
+						id = 1
+						type = SCCUnit
+						uiPos = (-396, 181, 0)
+						unit = 2
+						methodName = SC_IsAlive
+						isNot = False
+					}
+					COMP
+					{
+						id = 2
+						type = SCCOr
+						uiPos = (-111, 45, 0)
+						factors = 1;0;
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 2;2:0;2:1;2:2;2:3;2:4;2:5;3;3:0;3:1;3:2;4;4:0;4:1;4:2;4:3;4:4;4:5;5;5:0;5:1;5:2;5:3;5:4;5:5;
+							name = Targets
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 269
+				actionName = Gando
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-420, 78, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 9
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 270
+				actionName = Los Rodeos
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-464, 48, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 10
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;132;133;134;135;136;
+							name = Targets
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 271
+				actionName = Tenerife south
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-390, 41, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Fly Orbit
+						methodName = FlyOrbit
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = Waypoint
+							value = 11
+							name = Waypoint
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1000
+							name = Radius
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1000,80000)
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1500
+							name = Altitude
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1500,10000)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 204
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
+						}
+					}
+				}
+			}
+		}
 	}
 	EventSequences
 	{
@@ -44086,7 +45817,7 @@ CustomScenario
 			EVENT
 			{
 				delay = 1800
-				nodeName = 20 min
+				nodeName = 30 min
 				EventInfo
 				{
 					eventName = 
@@ -44292,6 +46023,224 @@ CustomScenario
 					{
 						targetType = Event_Sequences
 						targetID = 40
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 41
+			sequenceName = Drone Swarm attack
+			startImmediately = True
+			whileLoop = False
+			EVENT
+			{
+				delay = 1200
+				nodeName = Randomize attack chance
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 151
+							name = Action
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Randomize swarm spawn
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 263
+							name = Event
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Spawn drones
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 189
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 194
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 195
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 196
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 139
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 141
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 143
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 145
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 147
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 149
+							name = Action
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Choose swarm attack
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 267
+							name = Event
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Loop
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 41
 						eventName = Restart
 						methodName = Restart
 						altTargetIdx = -1
