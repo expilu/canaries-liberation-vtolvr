@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803509E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803511E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639546E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639554E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
