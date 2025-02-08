@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803508E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803509E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639542E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639546E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -29277,6 +29277,10 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_IF
 				{
@@ -29338,6 +29342,10 @@ CustomScenario
 								}
 							}
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -29401,6 +29409,10 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_IF
 				{
@@ -29462,6 +29474,10 @@ CustomScenario
 								}
 							}
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -29525,6 +29541,10 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_IF
 				{
@@ -29586,6 +29606,10 @@ CustomScenario
 								}
 							}
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_IF
@@ -29649,6 +29673,10 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_IF
 				{
@@ -29711,6 +29739,10 @@ CustomScenario
 							}
 						}
 					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
 				}
 				ELSE_IF
 				{
@@ -29772,6 +29804,10 @@ CustomScenario
 								}
 							}
 						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
 					}
 				}
 				ELSE_ACTIONS
@@ -41663,36 +41699,6 @@ CustomScenario
 					eventName = 
 					EventTarget
 					{
-						targetType = System
-						targetID = 2
-						eventName = Increment Value
-						methodName = IncrementValue
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = GlobalValue
-							value = 12
-							name = Global Value
-						}
-						ParamInfo
-						{
-							type = System.Single
-							value = 2
-							name = Add
-							ParamAttrInfo
-							{
-								type = UnitSpawnAttributeRange+RangeTypes
-								data = Int
-							}
-							ParamAttrInfo
-							{
-								type = MinMax
-								data = (0,99999)
-							}
-						}
-					}
-					EventTarget
-					{
 						targetType = Objective
 						targetID = 18
 						eventName = Fail Objective
@@ -41711,6 +41717,26 @@ CustomScenario
 							type = ConditionalActionReference
 							value = 6
 							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Add Values
+						methodName = AddValues
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 16
+							name = Source
+						}
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 12
+							name = Destination
 						}
 					}
 				}
