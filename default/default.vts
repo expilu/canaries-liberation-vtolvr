@@ -627,7 +627,7 @@ CustomScenario
 				invincible = False
 				respawnable = False
 				receiveFriendlyDamage = True
-				carrierSpawns = 0:104:-1;
+				carrierSpawns = 0:-1;
 			}
 			altSpawn
 			{
@@ -720,7 +720,7 @@ CustomScenario
 				invincible = False
 				respawnable = False
 				receiveFriendlyDamage = True
-				carrierSpawns = 0:103:-1;
+				carrierSpawns = 0:-1;
 			}
 			altSpawn
 			{
@@ -9215,14 +9215,14 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = AH-94 Embarked 1
-			globalPosition = (-42382.492370605469, 5.8489990234375, 201010.14050292969)
+			globalPosition = (165246.86862182617, 41.40667724609375, 71766.641540527344)
 			unitInstanceID = 103
 			unitID = MultiplayerSpawn
-			rotation = (0, 89.99999, 0)
-			lastValidPlacement = (50479.642509460449, 91.096145629882813, 86130.330209732056)
-			editorPlacementMode = Air
-			onCarrier = True
-			mpSelectEnabled = True
+			rotation = (1.939263E-05, 224.0942, 4.523678E-06)
+			lastValidPlacement = (165246.86862182617, 41.40667724609375, 71766.641540527344)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = False
 			UnitFields
 			{
 				vehicle = AH-94
@@ -9240,33 +9240,6 @@ CustomScenario
 				liveryRef = 0;
 				receiveFriendlyDamage = True
 				slots = 1
-			}
-			altSpawn
-			{
-				globalPos = (165206.19083547592, 41.406696319580078, 71806.450083732605)
-				rotation = (1.956474E-05, 221.699, 3.709263E-06)
-				weight = 0
-				placementMode = Ground
-				onCarrier = False
-				mpSelectEnabled = False
-				unitFields
-				{
-					vehicle = AH-94
-					selectableAltSpawn = False
-					slotLabel = AH-94 Gando 1
-					unitGroup = Allied:Echo
-					startMode = Cold
-					equipment = 
-					initialSpeed = 0
-					rtbIsSpawn = True
-					limitedLives = False
-					lifeCount = 1
-					b_eqAssignmentMode = False
-					costToSpawn = 0
-					liveryRef = 0;
-					receiveFriendlyDamage = True
-					slots = 1
-				}
 			}
 			altSpawn
 			{
@@ -9326,14 +9299,14 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = AH-94 Embarked 2
-			globalPosition = (-42022.431335449219, 5.8489990234375, 200723.81949996948)
+			globalPosition = (165209.79119873047, 41.40667724609375, 71726.801361083984)
 			unitInstanceID = 104
 			unitID = MultiplayerSpawn
-			rotation = (0, 89.99999, 0)
-			lastValidPlacement = (50531.054840087891, 91.096145629882813, 86153.706535339355)
-			editorPlacementMode = Air
-			onCarrier = True
-			mpSelectEnabled = True
+			rotation = (-1.940891E-05, 43.88638, -4.4533E-06)
+			lastValidPlacement = (165209.79119873047, 41.40667724609375, 71726.801361083984)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = False
 			UnitFields
 			{
 				vehicle = AH-94
@@ -9351,33 +9324,6 @@ CustomScenario
 				liveryRef = 0;
 				receiveFriendlyDamage = True
 				slots = 2
-			}
-			altSpawn
-			{
-				globalPos = (165168.64602661133, 41.406696319580078, 71763.996719360352)
-				rotation = (-1.957934E-05, 41.47103, -3.631387E-06)
-				weight = 0
-				placementMode = Ground
-				onCarrier = False
-				mpSelectEnabled = False
-				unitFields
-				{
-					vehicle = AH-94
-					selectableAltSpawn = False
-					slotLabel = AH-94 Gando 2
-					unitGroup = Allied:Echo
-					startMode = Cold
-					equipment = 
-					initialSpeed = 0
-					rtbIsSpawn = True
-					limitedLives = False
-					lifeCount = 1
-					b_eqAssignmentMode = False
-					costToSpawn = 0
-					liveryRef = 0;
-					receiveFriendlyDamage = True
-					slots = 2
-				}
 			}
 			altSpawn
 			{
@@ -19317,7 +19263,7 @@ CustomScenario
 						targetID = 103
 						eventName = Set AltSpawn Available
 						methodName = SetAltSpawnAvailable
-						altTargetIdx = 0
+						altTargetIdx = -1
 						ParamInfo
 						{
 							type = System.Boolean
@@ -19331,7 +19277,7 @@ CustomScenario
 						targetID = 104
 						eventName = Set AltSpawn Available
 						methodName = SetAltSpawnAvailable
-						altTargetIdx = 0
+						altTargetIdx = -1
 						ParamInfo
 						{
 							type = System.Boolean
@@ -19516,7 +19462,7 @@ CustomScenario
 						targetID = 103
 						eventName = Set AltSpawn Available
 						methodName = SetAltSpawnAvailable
-						altTargetIdx = 1
+						altTargetIdx = 0
 						ParamInfo
 						{
 							type = System.Boolean
@@ -19530,7 +19476,7 @@ CustomScenario
 						targetID = 104
 						eventName = Set AltSpawn Available
 						methodName = SetAltSpawnAvailable
-						altTargetIdx = 1
+						altTargetIdx = 0
 						ParamInfo
 						{
 							type = System.Boolean
@@ -19715,7 +19661,7 @@ CustomScenario
 						targetID = 103
 						eventName = Set AltSpawn Available
 						methodName = SetAltSpawnAvailable
-						altTargetIdx = 2
+						altTargetIdx = 1
 						ParamInfo
 						{
 							type = System.Boolean
@@ -19729,7 +19675,7 @@ CustomScenario
 						targetID = 104
 						eventName = Set AltSpawn Available
 						methodName = SetAltSpawnAvailable
-						altTargetIdx = 2
+						altTargetIdx = 1
 						ParamInfo
 						{
 							type = System.Boolean
