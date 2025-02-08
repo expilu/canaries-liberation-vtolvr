@@ -16714,6 +16714,31 @@ CustomScenario
 				equips = ebomber_stdRack;ebomber_stdRack;ebomber_stdRack;ebomber_stdRack;
 			}
 		}
+		UnitSpawner
+		{
+			unitName = Drone Carrier
+			globalPosition = (84099.030975341797, -5, 65535.041534423828)
+			unitInstanceID = 186
+			unitID = DroneCarrier
+			rotation = (0, 284.7794, 0)
+			lastValidPlacement = (84099.030975341797, -5, 65535.041534423828)
+			editorPlacementMode = Sea
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Whiskey
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 1
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
 	}
 	PATHS
 	{
@@ -17088,7 +17113,7 @@ CustomScenario
 		}
 		ENEMY
 		{
-			Whiskey = 1;7;8;9;
+			Whiskey = 1;7;8;9;186;
 			Zulu = 2;11;12;
 			Xray = 2;20;22;23;
 			Tango = 2;72;73;
@@ -19995,6 +20020,30 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 83
+			enabled = True
+			triggerType = Proximity
+			waypoint = unit:186
+			radius = 64000
+			sphericalRadius = True
+			triggerMode = AnyAllied
+			proxyMode = OnEnter
+			eventName = OnAlliesApproachDroneCarrier
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 186
+					eventName = Launch Drones
+					methodName = LaunchDrones
+					altTargetIdx = -2
+				}
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -22069,6 +22118,77 @@ CustomScenario
 				target = 2
 				radius = 5
 				completionMode = Trigger
+			}
+		}
+		Objective
+		{
+			objectiveName = Sink drone carrier
+			objectiveInfo = Sink the enemy Drone carrier ship
+			objectiveID = 20
+			orderID = 20
+			required = False
+			completionReward = 0
+			waypoint = unit:186
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				targets = 186;
+				minRequired = 1
+				perUnitReward = 0
+				fullCompleteBonus = 0
 			}
 		}
 	}
