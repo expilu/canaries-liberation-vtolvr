@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803507E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803508E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13103,7 +13103,7 @@ CustomScenario
 			globalPosition = (-20383.2373046875, 18.97998046875, 179014.421875)
 			unitInstanceID = 151
 			unitID = MQ-31
-			rotation = (6.299551E-06, 143.9857, -3.143708E-06)
+			rotation = (6.299552E-06, 143.9857, -3.143708E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639538E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639542E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -29151,6 +29151,649 @@ CustomScenario
 				}
 			}
 		}
+		ConditionalAction
+		{
+			id = 128
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 10 or more
+				blockId = 129
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCUnitList
+						uiPos = (-354.3074, 64.8426, 0)
+						unitList = 95;96;97;98;99;100;101;102;103;104;
+						methodName = SCC_NumAlive
+						isNot = False
+						methodParameters
+						{
+							value = Greater_Than
+						}
+						methodParameters
+						{
+							value = 9
+						}
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 16
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 10
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 9
+					blockId = 130
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-330.3446, 76.65456, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 9
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 9
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 8
+					blockId = 131
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-372.3221, 56.57836, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 8
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 8
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 7
+					blockId = 132
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-490.1448, 49.43824, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 7
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 7
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 6
+					blockId = 133
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-485.9072, 91.81386, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 6
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 6
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 5
+					blockId = 134
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-497.2073, 57.91336, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 5
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 5
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 4
+					blockId = 135
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-573.4835, 103.114, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 4
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 4
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 3
+					blockId = 136
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-535.3454, 74.86361, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 3
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 3
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 2
+					blockId = 137
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-477.4321, 64.97596, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 2
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 2
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 1
+					blockId = 138
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-440.7065, 52.26327, 0)
+							unitList = 95;96;97;99;98;100;101;102;103;104;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 1
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 1
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Reset Value
+						methodName = ResetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 16
+							name = Global Value
+						}
+					}
+				}
+			}
+		}
 	}
 	RandomEvents
 	{
@@ -43463,6 +44106,53 @@ CustomScenario
 				}
 			}
 		}
+		SEQUENCE
+		{
+			id = 40
+			sequenceName = Count players
+			startImmediately = True
+			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Count players
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 128
+							name = Action
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 30
+				nodeName = Loop
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 40
+						eventName = Restart
+						methodName = Restart
+						altTargetIdx = -1
+					}
+				}
+			}
+		}
 	}
 	BASES
 	{
@@ -43543,6 +44233,10 @@ CustomScenario
 		gv
 		{
 			data = 15;motherDangerJustAnnounce;flag to avoid spamming alerts to players when Mother is in danger;0;
+		}
+		gv
+		{
+			data = 16;playerAircraftCount;;0;
 		}
 	}
 	Briefing
