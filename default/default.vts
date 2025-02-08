@@ -1041,7 +1041,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08685873, 351.266)
+			rotation = (351.1896, 0.08685867, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803505E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803506E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13103,7 +13103,7 @@ CustomScenario
 			globalPosition = (-20383.2373046875, 18.97998046875, 179014.421875)
 			unitInstanceID = 151
 			unitID = MQ-31
-			rotation = (6.299549E-06, 143.9857, -3.143708E-06)
+			rotation = (6.29955E-06, 143.9857, -3.143708E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639529E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639533E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15609,7 +15609,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (156484.94311523438, 44.4091796875, 58701.472778320313)
-				rotation = (358.5603, 189.3176, 8.706173)
+				rotation = (358.5603, 189.3176, 8.706172)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15766,7 +15766,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (156434.07666015625, 52.30517578125, 58761.811889648438)
-				rotation = (358.5603, 189.3176, 8.706173)
+				rotation = (358.5603, 189.3176, 8.706172)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
