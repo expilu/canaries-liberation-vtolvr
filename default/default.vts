@@ -58,10 +58,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F-45 Spawn 1
-			globalPosition = (-42823.462219238281, 16.100000381469727, 201392.30755615234)
+			globalPosition = (-21292.92333984375, 16.100006103515625, 179625.015625)
 			unitInstanceID = 95
 			unitID = MultiplayerSpawn
-			rotation = (0, 28.14769, 0)
+			rotation = (0, 25.97368, 0)
 			lastValidPlacement = (48462.802062988281, 90.813079833984375, 85240.995025634766)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -416,11 +416,11 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = Aircraft Carrier
-			globalPosition = (-41482.59375, -5, 200992.703125)
+			globalPosition = (-20279.9375, -5, 178978.71875)
 			unitInstanceID = 2
 			unitID = AlliedCarrier
-			rotation = (0, 89.99999, 0)
-			lastValidPlacement = (-121062.71875, -5, -40563.3076171875)
+			rotation = (0, 90, 0)
+			lastValidPlacement = (-24412.234375, -5, 24949.5)
 			editorPlacementMode = Sea
 			onCarrier = False
 			mpSelectEnabled = True
@@ -442,7 +442,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (278701.375, -5, 203128.7041015625)
+				globalPos = (220501.203125, -5, 144374.34375)
 				rotation = (0, 180, 0)
 				weight = 100
 				placementMode = Sea
@@ -461,11 +461,12 @@ CustomScenario
 					invincible = False
 					respawnable = False
 					receiveFriendlyDamage = True
+					lsoFreq = 284.4
 				}
 			}
 			altSpawn
 			{
-				globalPos = (277720.39453125, -5, -39963.046875)
+				globalPos = (223174.11145019531, -5, 6652.4913482666016)
 				rotation = (0, 270, 0)
 				weight = 100
 				placementMode = Sea
@@ -484,11 +485,12 @@ CustomScenario
 					invincible = False
 					respawnable = False
 					receiveFriendlyDamage = True
+					lsoFreq = 284.4
 				}
 			}
 			altSpawn
 			{
-				globalPos = (-121062.71875, -5, -40563.3076171875)
+				globalPos = (-24412.234375, -5, 24949.5)
 				rotation = (0, 0, 0)
 				weight = 100
 				placementMode = Sea
@@ -507,17 +509,18 @@ CustomScenario
 					invincible = False
 					respawnable = False
 					receiveFriendlyDamage = True
+					lsoFreq = 284.4
 				}
 			}
 		}
 		UnitSpawner
 		{
 			unitName = Assault Carrier
-			globalPosition = (-42735.0322265625, -5, 201402.88757324219)
+			globalPosition = (-21204.958190917969, -5, 179638.94321060181)
 			unitInstanceID = 3
 			unitID = AlliedAAShip
-			rotation = (0, 90, 0)
-			lastValidPlacement = (-122079.92712402344, -5, -42447.727996826172)
+			rotation = (0, 87.826, 0)
+			lastValidPlacement = (-25355.77116394043, -5, 23824.10302734375)
 			editorPlacementMode = Sea
 			onCarrier = False
 			mpSelectEnabled = True
@@ -538,8 +541,8 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (279395.03616333008, -5, 205278.79962158203)
-				rotation = (0, 180, 0)
+				globalPos = (221126.85745239258, -5, 145270.70678710938)
+				rotation = (0, 171.7188, 0)
 				weight = 100
 				placementMode = Sea
 				onCarrier = False
@@ -560,8 +563,8 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (279383.50085449219, -5, -41529.672485351563)
-				rotation = (0, 301.052, 0)
+				globalPos = (224128.49450683594, -5, 5962.5175170898438)
+				rotation = (0, 270, 0)
 				weight = 100
 				placementMode = Sea
 				onCarrier = False
@@ -582,7 +585,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (-122079.92712402344, -5, -42447.727996826172)
+				globalPos = (-25355.77116394043, -5, 23824.10302734375)
 				rotation = (0, 0, 0)
 				weight = 100
 				placementMode = Sea
@@ -606,11 +609,11 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = Cruiser
-			globalPosition = (-41918.011352539063, -5, 200723.81951904297)
+			globalPosition = (-20693.862548828125, -5, 179288.28039550781)
 			unitInstanceID = 4
 			unitID = EscortCruiser
-			rotation = (0, 89.99999, 0)
-			lastValidPlacement = (-120540.98608398438, -5, -40571.615966796875)
+			rotation = (0, 87.826, 0)
+			lastValidPlacement = (-24834.912014007568, -5, 24384.908142089844)
 			editorPlacementMode = Sea
 			onCarrier = False
 			mpSelectEnabled = True
@@ -631,7 +634,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (278177.55242919922, -5, 203147.17309570313)
+				globalPos = (220885.67227935791, -5, 144803.44055175781)
 				rotation = (0, 180, 0)
 				weight = 100
 				placementMode = Sea
@@ -653,7 +656,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (277701.96435546875, -5, -39424.008445739746)
+				globalPos = (223626.73809814453, -5, 6327.9221572875977)
 				rotation = (0, 270, 0)
 				weight = 100
 				placementMode = Sea
@@ -675,7 +678,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (-120540.98608398438, -5, -40571.615966796875)
+				globalPos = (-24834.912014007568, -5, 24384.908142089844)
 				rotation = (0, 0, 0)
 				weight = 100
 				placementMode = Sea
@@ -699,11 +702,11 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = Cruiser
-			globalPosition = (-42278.072387695313, -5, 201010.14053821564)
+			globalPosition = (-20735.87548828125, -5, 178515.80001831055)
 			unitInstanceID = 5
 			unitID = EscortCruiser
-			rotation = (0, 89.99999, 0)
-			lastValidPlacement = (-121143.84187316895, -5, -41827.342407226563)
+			rotation = (0, 87.826, 0)
+			lastValidPlacement = (-23864.666625976563, -5, 24315.436279296875)
 			editorPlacementMode = Sea
 			onCarrier = False
 			mpSelectEnabled = True
@@ -724,8 +727,8 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (278705.90215444565, -5, 204303.68383789063)
-				rotation = (0, 180, 0)
+				globalPos = (220049.3996887207, -5, 144748.51013183594)
+				rotation = (0, 171.7188, 0)
 				weight = 100
 				placementMode = Sea
 				onCarrier = False
@@ -746,7 +749,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (278748.07934570313, -5, -39988.860420227051)
+				globalPos = (223635.28619384766, -5, 7071.440185546875)
 				rotation = (0, 270, 0)
 				weight = 100
 				placementMode = Sea
@@ -768,7 +771,7 @@ CustomScenario
 			}
 			altSpawn
 			{
-				globalPos = (-121143.84187316895, -5, -41827.342407226563)
+				globalPos = (-23864.666625976563, -5, 24315.436279296875)
 				rotation = (0, 0, 0)
 				weight = 100
 				placementMode = Sea
@@ -8458,10 +8461,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F-45 Spawn 2
-			globalPosition = (-42806.142211914063, 16.100000381469727, 201392.30755615234)
+			globalPosition = (-21275.61572265625, 16.100006103515625, 179625.671875)
 			unitInstanceID = 96
 			unitID = MultiplayerSpawn
-			rotation = (0, 28.14769, 0)
+			rotation = (0, 25.97368, 0)
 			lastValidPlacement = (48672.471069335938, 90.813079833984375, 85333.898590087891)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8565,10 +8568,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 1
-			globalPosition = (-41618.5, 18.97998046875, 200968.203125)
+			globalPosition = (-20415.83740234375, 18.97998046875, 178954.21875)
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
-			rotation = (-6.011081E-06, 21.87937, -3.665257E-06)
+			rotation = (-6.011083E-06, 21.87938, -3.665257E-06)
 			lastValidPlacement = (48860.767822265625, 90.8131103515625, 85415.312866210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8672,10 +8675,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 2
-			globalPosition = (-41591.90625, 18.97998046875, 200969.3359375)
+			globalPosition = (-20389.25732421875, 18.97998046875, 178955.34375)
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
-			rotation = (-5.592669E-06, 27.91098, -4.276594E-06)
+			rotation = (-5.592671E-06, 27.91099, -4.276595E-06)
 			lastValidPlacement = (49209.645385742188, 90.8131103515625, 85566.300354003906)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8779,10 +8782,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 1
-			globalPosition = (-41537.296875, 18.97998046875, 200967)
+			globalPosition = (-20334.6376953125, 18.97998046875, 178953.015625)
 			unitInstanceID = 99
 			unitID = MultiplayerSpawn
-			rotation = (0, 31.34999, 0)
+			rotation = (0, 31.35001, 0)
 			lastValidPlacement = (49398.261810302734, 90.81317138671875, 85655.300140380859)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8890,10 +8893,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 2
-			globalPosition = (-41503.5625, 18.97998046875, 200964.2734375)
+			globalPosition = (-20300.90771484375, 18.97998046875, 178950.28125)
 			unitInstanceID = 100
 			unitID = MultiplayerSpawn
-			rotation = (0, 31.34999, 0)
+			rotation = (0, 31.35001, 0)
 			lastValidPlacement = (49579.530334472656, 90.81317138671875, 85732.8173828125)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -9001,10 +9004,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = AV-42C Spawn 1
-			globalPosition = (-42688.332229614258, 16.100000381469727, 201392.30758666992)
+			globalPosition = (-21157.890625, 16.100006103515625, 179630.140625)
 			unitInstanceID = 101
 			unitID = MultiplayerSpawn
-			rotation = (0, 28.14769, 0)
+			rotation = (0, 25.97368, 0)
 			lastValidPlacement = (49792.149963378906, 90.813201904296875, 85830.419250488281)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -9108,10 +9111,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = AV-42C Spawn 2
-			globalPosition = (-42670.652221679688, 16.100000381469727, 201392.30758666992)
+			globalPosition = (-21140.22314453125, 16.100006103515625, 179630.8125)
 			unitInstanceID = 102
 			unitID = MultiplayerSpawn
-			rotation = (0, 28.14769, 0)
+			rotation = (0, 25.97368, 0)
 			lastValidPlacement = (50109.609313964844, 90.813255310058594, 85965.03857421875)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -12676,10 +12679,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportEW
-			globalPosition = (-41634.65625, 18.97998046875, 201009.5859375)
+			globalPosition = (-20431.99755859375, 18.97998046875, 178995.59375)
 			unitInstanceID = 147
 			unitID = EF-24 AI
-			rotation = (6.600393E-06, 150.1424, -2.44996E-06)
+			rotation = (6.600372E-06, 150.1425, -2.44996E-06)
 			lastValidPlacement = (49275.024078369141, 93.14312744140625, 85972.449279785156)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -12819,10 +12822,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportAttack
-			globalPosition = (-42773.522216796875, 16.100000381469727, 201392.30755615234)
+			globalPosition = (-21243.019287109375, 16.100006103515625, 179626.90625)
 			unitInstanceID = 149
 			unitID = AV-42CAI
-			rotation = (0, 28.14769, 0)
+			rotation = (0, 25.97368, 0)
 			lastValidPlacement = (49146.941101074219, 93.153171539306641, 85885.185424804688)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -12954,7 +12957,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportStrike
-			globalPosition = (-41608.9375, 18.97998046875, 201020.953125)
+			globalPosition = (-20406.27734375, 18.97998046875, 179006.96875)
 			unitInstanceID = 150
 			unitID = FA-26B AI
 			rotation = (6.335029E-06, 144.6399, -3.071583E-06)
@@ -13097,10 +13100,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = MQ-31 UARV
-			globalPosition = (-41585.890625, 18.97998046875, 201028.40625)
+			globalPosition = (-20383.2373046875, 18.97998046875, 179014.421875)
 			unitInstanceID = 151
 			unitID = MQ-31
-			rotation = (6.299547E-06, 143.9857, -3.143708E-06)
+			rotation = (6.299549E-06, 143.9857, -3.143708E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -15056,10 +15059,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = AlliedAwacsEscort
-			globalPosition = (-41476.078125, 18.97998046875, 200966.296875)
+			globalPosition = (-20273.42822265625, 18.97998046875, 178952.3125)
 			unitInstanceID = 164
 			unitID = FA-26B AI
-			rotation = (0, 31.34999, 0)
+			rotation = (0, 31.35001, 0)
 			lastValidPlacement = (-41836.885269165039, 44.083343505859375, 200983.20916175842)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -16395,10 +16398,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportStealth
-			globalPosition = (-42788.872222900391, 16.100000381469727, 201392.30755615234)
+			globalPosition = (-21258.358154296875, 16.100006103515625, 179626.328125)
 			unitInstanceID = 178
 			unitID = F-45A AI
-			rotation = (0, 28.14769, 0)
+			rotation = (0, 25.97368, 0)
 			lastValidPlacement = (49568.371597290039, 92.593186378479004, 86072.903503417969)
 			editorPlacementMode = Air
 			onCarrier = True
