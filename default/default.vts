@@ -27547,6 +27547,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -27620,6 +27634,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
 						}
 					}
 				}
@@ -27697,6 +27725,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -27770,6 +27812,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
 						}
 					}
 				}
@@ -27847,6 +27903,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -27920,6 +27990,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
 						}
 					}
 				}
@@ -27997,6 +28081,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;132;133;134;135;136;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -28070,6 +28168,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;132;133;134;135;136;
+							name = Targets
 						}
 					}
 				}
@@ -28147,6 +28259,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;132;133;134;135;136;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -28220,6 +28346,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;133;132;134;135;136;
+							name = Targets
 						}
 					}
 				}
@@ -28297,6 +28437,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;132;133;134;135;136;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -28370,6 +28524,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;132;133;134;135;136;
+							name = Targets
 						}
 					}
 				}
@@ -28447,6 +28615,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 224
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -28520,6 +28702,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 218
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
 						}
 					}
 				}
@@ -28597,6 +28793,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 216
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -28670,6 +28880,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 215
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
 						}
 					}
 				}
@@ -28747,6 +28971,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 214
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -28820,6 +29058,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 213
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
 						}
 					}
 				}
@@ -29247,6 +29499,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -29640,6 +29906,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -29713,6 +29993,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 119;120;121;122;123;124;125;126;127;
+							name = Targets
 						}
 					}
 				}
@@ -29790,6 +30084,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;132;133;134;135;136;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -29863,6 +30171,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;132;133;134;135;136;
+							name = Targets
 						}
 					}
 				}
@@ -29940,6 +30262,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 128;129;130;131;132;133;134;135;136;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -30013,6 +30349,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 209
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
 						}
 					}
 				}
@@ -30090,6 +30440,20 @@ CustomScenario
 							}
 						}
 					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 208
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
+						}
+					}
 				}
 				ELSE_ACTIONS
 				{
@@ -30163,6 +30527,20 @@ CustomScenario
 								type = MinMax
 								data = (1500,10000)
 							}
+						}
+					}
+					EventTarget
+					{
+						targetType = UnitGroup
+						targetID = 206
+						eventName = Set Designated Targets
+						methodName = SetDesignatedTargets
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = UnitReferenceListOtherSubs
+							value = 137;138;139;141;142;143;144;145;146;
+							name = Targets
 						}
 					}
 				}
