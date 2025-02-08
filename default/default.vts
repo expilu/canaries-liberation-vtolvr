@@ -1041,7 +1041,7 @@ CustomScenario
 			globalPosition = (79348.90869140625, 83.6175537109375, 130322.94995117188)
 			unitInstanceID = 18
 			unitID = factory1e
-			rotation = (351.1896, 0.08685867, 351.266)
+			rotation = (351.1896, 0.08685862, 351.266)
 			lastValidPlacement = (71714.73046875, 587.608154296875, 134353.6552734375)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803506E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803507E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13103,7 +13103,7 @@ CustomScenario
 			globalPosition = (-20383.2373046875, 18.97998046875, 179014.421875)
 			unitInstanceID = 151
 			unitID = MQ-31
-			rotation = (6.29955E-06, 143.9857, -3.143708E-06)
+			rotation = (6.299551E-06, 143.9857, -3.143708E-06)
 			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639533E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639538E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -19987,23 +19987,11 @@ CustomScenario
 				eventName = 
 				EventTarget
 				{
-					targetType = System
-					targetID = 0
-					eventName = Radio Message Team
-					methodName = RadioMessageTeam
+					targetType = Event_Sequences
+					targetID = 39
+					eventName = Restart
+					methodName = Restart
 					altTargetIdx = -1
-					ParamInfo
-					{
-						type = VTSAudioReference
-						value = protect-mother.mp3
-						name = Audio
-					}
-					ParamInfo
-					{
-						type = MPUITeams
-						value = Team_A
-						name = Team
-					}
 				}
 			}
 		}
@@ -29114,6 +29102,47 @@ CustomScenario
 							value = 258
 							name = Event
 						}
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 126
+			name = 
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 127
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-349, 46, 0)
+						gv = 15
+						comparison = Equals
+						c_value = 1
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Event_Sequences
+						targetID = 39
+						eventName = Stop
+						methodName = Stop
+						altTargetIdx = -1
 					}
 				}
 				ELSE_ACTIONS
@@ -43306,6 +43335,134 @@ CustomScenario
 				}
 			}
 		}
+		SEQUENCE
+		{
+			id = 39
+			sequenceName = Alert mother danger
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 0
+				nodeName = Check flag
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 126
+							name = Action
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Announce
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Radio Message Team
+						methodName = RadioMessageTeam
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = protect-mother.mp3
+							name = Audio
+						}
+						ParamInfo
+						{
+							type = MPUITeams
+							value = Team_A
+							name = Team
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 15
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 60
+				nodeName = Reset flag after some time
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Set Value
+						methodName = SetValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 15
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 0
+							name = Set to
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (-99999,99999)
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	BASES
 	{
@@ -43382,6 +43539,10 @@ CustomScenario
 		gv
 		{
 			data = 14;alliedResources;Each resource allows respawning one unit;0;
+		}
+		gv
+		{
+			data = 15;motherDangerJustAnnounce;flag to avoid spamming alerts to players when Mother is in danger;0;
 		}
 	}
 	Briefing
