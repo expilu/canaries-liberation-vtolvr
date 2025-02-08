@@ -12680,7 +12680,7 @@ CustomScenario
 			unitInstanceID = 147
 			unitID = EF-24 AI
 			rotation = (6.600391E-06, 150.1424, -2.44996E-06)
-			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
+			lastValidPlacement = (49275.024078369141, 93.14312744140625, 85972.449279785156)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -12710,6 +12710,111 @@ CustomScenario
 				receiveFriendlyDamage = True
 				equips = ef24_gun;ef24_jammerSuper;ef24_jammerSuper;ef24_phoenixUnder;ef24_phoenixUnder;ef24_aim9x1;ef24_amraamRail;ef24_jammerSuper;ef24_amraamRail;ef24_aim9x1;ef24_jammerSuper;ef24_droptank;ef24_droptank;;
 			}
+			altSpawn
+			{
+				globalPos = (166309.9382019043, 43.453659057617188, 72765.054260253906)
+				rotation = (1.447814E-05, 86.45839, 1.279044E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 220
+					defaultNavSpeed = 220
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					allowJammingAtWill = True
+					rtbDestination = map:0
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ef24_gun;ef24_jammerSuper;ef24_jammerSuper;ef24_phoenixUnder;ef24_phoenixUnder;ef24_aim9x1;ef24_amraamRail;ef24_jammerSuper;ef24_amraamRail;ef24_aim9x1;ef24_jammerSuper;ef24_droptank;ef24_droptank;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72561.33056640625, 591.84602355957031, 132556.51419067383)
+				rotation = (3.294632E-06, 14.88284, 1.331556E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 220
+					defaultNavSpeed = 220
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					allowJammingAtWill = True
+					rtbDestination = map:2
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ef24_gun;ef24_jammerSuper;ef24_jammerSuper;ef24_phoenixUnder;ef24_phoenixUnder;ef24_aim9x1;ef24_amraamRail;ef24_jammerSuper;ef24_amraamRail;ef24_aim9x1;ef24_jammerSuper;ef24_droptank;ef24_droptank;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49275.024078369141, 93.14312744140625, 85972.449279785156)
+				rotation = (-9.42257E-06, 334.0629, 2.357093E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 220
+					defaultNavSpeed = 220
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					allowJammingAtWill = True
+					rtbDestination = map:1
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = ef24_gun;ef24_jammerSuper;ef24_jammerSuper;ef24_phoenixUnder;ef24_phoenixUnder;ef24_aim9x1;ef24_amraamRail;ef24_jammerSuper;ef24_amraamRail;ef24_aim9x1;ef24_jammerSuper;ef24_droptank;ef24_droptank;;
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -12718,7 +12823,7 @@ CustomScenario
 			unitInstanceID = 149
 			unitID = AV-42CAI
 			rotation = (0, 28.14769, 0)
-			lastValidPlacement = (-42793.205932617188, 30.642238616943359, 201355.88973999023)
+			lastValidPlacement = (49146.941101074219, 93.153171539306641, 85885.185424804688)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -12746,6 +12851,105 @@ CustomScenario
 				receiveFriendlyDamage = True
 				equips = gau-8;hellfirex4;h70-4x4;maverickx3;sidewinderx3;;;
 			}
+			altSpawn
+			{
+				globalPos = (166323.62371826172, 43.463710784912109, 72569.442230224609)
+				rotation = (1.447814E-05, 86.45839, 1.279044E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = map:0
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = gau-8;hellfirex4;h70-4x4;maverickx3;sidewinderx3;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72645.318725585938, 591.85610961914063, 132534.34170532227)
+				rotation = (2.112141E-06, 19.92269, 1.355351E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = map:2
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = gau-8;hellfirex4;h70-4x4;maverickx3;sidewinderx3;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49146.941101074219, 93.153171539306641, 85885.185424804688)
+				rotation = (1.067868E-05, 287.3964, 2.302909E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					rtbDestination = map:1
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = gau-8;hellfirex4;h70-4x4;maverickx3;sidewinderx3;;;
+				}
+			}
 		}
 		UnitSpawner
 		{
@@ -12754,7 +12958,7 @@ CustomScenario
 			unitInstanceID = 150
 			unitID = FA-26B AI
 			rotation = (6.335029E-06, 144.6399, -3.071583E-06)
-			lastValidPlacement = (-41685.460205078125, 45.960792541503906, 201059.8627166748)
+			lastValidPlacement = (49417.885055541992, 93.213186740875244, 86036.187561035156)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -12783,6 +12987,111 @@ CustomScenario
 				respawnable = True
 				receiveFriendlyDamage = True
 				equips = af_gun;af_aim9;af_amraamRail;fa26_maverickx1;fa26_harmx1;fa26_gbu12x1;fa26_gbu12x1;fa26_harmx1;fa26_maverickx1;af_amraamRail;af_aim9;fa26_maverickx1;fa26_maverickx1;;af_tgp;fa26-cft;
+			}
+			altSpawn
+			{
+				globalPos = (166237.36990356445, 43.523750305175781, 72445.300506591797)
+				rotation = (7.245241E-07, 132.8507, 1.93051E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 220
+					defaultNavSpeed = 220
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					allowJammingAtWill = True
+					rtbDestination = map:0
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = af_gun;af_aim9;af_amraamRail;fa26_maverickx1;fa26_harmx1;fa26_gbu12x1;fa26_gbu12x1;fa26_harmx1;fa26_maverickx1;af_amraamRail;af_aim9;fa26_maverickx1;fa26_maverickx1;;af_tgp;fa26-cft;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72730.264404296875, 591.91611480712891, 132529.6467590332)
+				rotation = (2.112141E-06, 19.92269, 1.355351E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 220
+					defaultNavSpeed = 220
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					allowJammingAtWill = True
+					rtbDestination = map:2
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = af_gun;af_aim9;af_amraamRail;fa26_maverickx1;fa26_harmx1;fa26_gbu12x1;fa26_gbu12x1;fa26_harmx1;fa26_maverickx1;af_amraamRail;af_aim9;fa26_maverickx1;fa26_maverickx1;;af_tgp;fa26-cft;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49417.885055541992, 93.213186740875244, 86036.187561035156)
+				rotation = (-1.103363E-05, 338.0374, 2.286116E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 220
+					defaultNavSpeed = 220
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					allowJammingAtWill = True
+					rtbDestination = map:1
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = af_gun;af_aim9;af_amraamRail;fa26_maverickx1;fa26_harmx1;fa26_gbu12x1;fa26_gbu12x1;fa26_harmx1;fa26_maverickx1;af_amraamRail;af_aim9;fa26_maverickx1;fa26_maverickx1;;af_tgp;fa26-cft;
+				}
 			}
 		}
 		UnitSpawner
@@ -16090,7 +16399,7 @@ CustomScenario
 			unitInstanceID = 178
 			unitID = F-45A AI
 			rotation = (0, 28.14769, 0)
-			lastValidPlacement = (-42798.430480957031, 30.642234802246094, 201347.31680297852)
+			lastValidPlacement = (49568.371597290039, 92.593186378479004, 86072.903503417969)
 			editorPlacementMode = Air
 			onCarrier = True
 			mpSelectEnabled = True
@@ -16120,6 +16429,111 @@ CustomScenario
 				receiveFriendlyDamage = True
 				equips = f45_gun;f45-agm145ISide;f45-agm145I;f45_amraamInternal;f45_sidewinderx2;;;;;;;
 			}
+			altSpawn
+			{
+				globalPos = (166135.26446533203, 42.90380859375, 72326.819519042969)
+				rotation = (7.245241E-07, 132.8507, 1.93051E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 220
+					defaultNavSpeed = 220
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					allowJammingAtWill = True
+					rtbDestination = map:0
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = f45_gun;f45-agm145ISide;f45-agm145I;f45_amraamInternal;f45_sidewinderx2;;;;;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72831.470703125, 591.29608154296875, 132503.96200561523)
+				rotation = (2.112141E-06, 19.92269, 1.355351E-05)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 220
+					defaultNavSpeed = 220
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					allowJammingAtWill = True
+					rtbDestination = map:2
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = f45_gun;f45-agm145ISide;f45-agm145I;f45_amraamInternal;f45_sidewinderx2;;;;;;;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49568.371597290039, 92.593186378479004, 86072.903503417969)
+				rotation = (-2.353664E-05, 20.27692, 9.507878E-06)
+				weight = 0
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					voiceProfile = null
+					playerCommandsMode = Unit_Group_Only
+					defaultBehavior = TakeOff
+					initialSpeed = 220
+					defaultNavSpeed = 220
+					defaultOrbitPoint = null
+					defaultPath = null
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = True
+					defaultRadarEnabled = True
+					allowJammingAtWill = True
+					rtbDestination = map:1
+					parkedStartMode = Cold
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = f45_gun;f45-agm145ISide;f45-agm145I;f45_amraamInternal;f45_sidewinderx2;;;;;;;
+				}
+			}
 		}
 	}
 	PATHS
@@ -16129,7 +16543,7 @@ CustomScenario
 			id = 0
 			name = AlliedCarrierPath
 			loop = True
-			points = (-20279.9375, -5, 178978.71875);(220501.1875, -5, 144374.34375);(223174.125, -5, 6652.3125);(-24412.234375, -5, 24949.5);
+			points = (-20279.9375, -5, 178978.71875);(220501.203125, -5, 144374.34375);(223174.109375, -5, 6652.3125);(-24412.234375, -5, 24949.5);
 			pathMode = Smooth
 		}
 		PATH
@@ -18273,6 +18687,42 @@ CustomScenario
 						}
 					}
 				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 178
+					eventName = Orbit Waypoint
+					methodName = SetOrbitNow
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = Waypoint
+						value = 9
+						name = Waypoint
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 5000
+						name = Radius
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,80000)
+						}
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 3000
+						name = Altitude
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,10000)
+						}
+					}
+				}
 			}
 		}
 		TriggerEvent
@@ -18413,6 +18863,42 @@ CustomScenario
 						}
 					}
 				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 178
+					eventName = Orbit Waypoint
+					methodName = SetOrbitNow
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = Waypoint
+						value = 10
+						name = Waypoint
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 5000
+						name = Radius
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,80000)
+						}
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 3000
+						name = Altitude
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,10000)
+						}
+					}
+				}
 			}
 		}
 		TriggerEvent
@@ -18521,6 +19007,42 @@ CustomScenario
 				{
 					targetType = Unit
 					targetID = 150
+					eventName = Orbit Waypoint
+					methodName = SetOrbitNow
+					altTargetIdx = -2
+					ParamInfo
+					{
+						type = Waypoint
+						value = 11
+						name = Waypoint
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 5000
+						name = Radius
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,80000)
+						}
+					}
+					ParamInfo
+					{
+						type = System.Single
+						value = 3000
+						name = Altitude
+						ParamAttrInfo
+						{
+							type = MinMax
+							data = (1000,10000)
+						}
+					}
+				}
+				EventTarget
+				{
+					targetType = Unit
+					targetID = 178
 					eventName = Orbit Waypoint
 					methodName = SetOrbitNow
 					altTargetIdx = -2
@@ -38938,6 +39460,782 @@ CustomScenario
 				}
 			}
 		}
+		RANDOM_EVENT
+		{
+			id = 236
+			note = 
+			ACTION
+			{
+				id = 237
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 147
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 1
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 238
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-338, 57, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 147
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 2
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 239
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-383, 58, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 147
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 3
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 240
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-381, 54, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 147
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 4
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 241
+			note = 
+			ACTION
+			{
+				id = 242
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 149
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 1
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 243
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-373, 61, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 149
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 2
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 244
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-373, 69, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 149
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 3
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 245
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-366, 55, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 149
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 4
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 246
+			note = 
+			ACTION
+			{
+				id = 247
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 150
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 1
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 248
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-325, 68, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 150
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 2
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 249
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-324, 48, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 150
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 3
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 250
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-328, 79, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 150
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 4
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+		}
+		RANDOM_EVENT
+		{
+			id = 251
+			note = 
+			ACTION
+			{
+				id = 252
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 178
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 1
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 253
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-340, 33, 0)
+						gv = 2
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 178
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 2
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 254
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-403, 97, 0)
+						gv = 3
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 178
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 3
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+			ACTION
+			{
+				id = 255
+				actionName = 
+				fixedWeight = 100
+				gvWeight = -1
+				useGv = False
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-296, 68, 0)
+						gv = 4
+						comparison = Equals
+						c_value = 0
+					}
+				}
+				EVENT_INFO
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 178
+						eventName = Force Alt Spawn
+						methodName = ForceAltSpawn
+						altTargetIdx = -2
+						ParamInfo
+						{
+							type = System.Int32
+							value = 4
+							name = Spawn #
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,1000)
+							}
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	EventSequences
 	{
@@ -40678,6 +41976,29 @@ CustomScenario
 			EVENT
 			{
 				delay = 900
+				nodeName = Chose spawn point
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 236
+							name = Event
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
 				nodeName = Respawn
 				EventInfo
 				{
@@ -40702,6 +42023,29 @@ CustomScenario
 			EVENT
 			{
 				delay = 900
+				nodeName = Choose spawn point
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 241
+							name = Event
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
 				nodeName = Respawn
 				EventInfo
 				{
@@ -40726,6 +42070,29 @@ CustomScenario
 			EVENT
 			{
 				delay = 900
+				nodeName = Choose spawn point
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 246
+							name = Event
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
 				nodeName = Respawn
 				EventInfo
 				{
@@ -41227,6 +42594,53 @@ CustomScenario
 						eventName = Restart
 						methodName = Restart
 						altTargetIdx = -1
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 37
+			sequenceName = RespawnAlliedStealthWithWait
+			startImmediately = False
+			whileLoop = False
+			EVENT
+			{
+				delay = 900
+				nodeName = Choose spawn point
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Random Event
+						methodName = FireRandomEvent
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = RandomEventReference
+							value = 251
+							name = Event
+						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Respawn
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 178
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
 					}
 				}
 			}
