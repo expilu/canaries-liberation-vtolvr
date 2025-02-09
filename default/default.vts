@@ -17729,6 +17729,81 @@ CustomScenario
 				}
 			}
 		}
+		UnitSpawner
+		{
+			unitName = SAAW
+			globalPosition = (148181.10205078125, 1804.1783986091614, 75824.91064453125)
+			unitInstanceID = 203
+			unitID = SAAW
+			rotation = (-4.48325E-06, 118.2031, 8.36014E-06)
+			lastValidPlacement = (148099.97174072266, 1804.1783986091614, 75974.9541015625)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				stopToEngage = True
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+			altSpawn
+			{
+				globalPos = (147920.19033813477, 1825.3826694488525, 75892.09521484375)
+				rotation = (351.813, 274.0522, 350.6797)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					stopToEngage = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+			altSpawn
+			{
+				globalPos = (148099.97174072266, 1804.1783986091614, 75974.9541015625)
+				rotation = (9.083941E-06, 343.2513, -2.733737E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = null
+					moveSpeed = Slow_10
+					behavior = Parked
+					defaultPath = null
+					waypoint = null
+					stopToEngage = True
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = False
+					receiveFriendlyDamage = True
+				}
+			}
+		}
 	}
 	PATHS
 	{
@@ -46742,7 +46817,7 @@ CustomScenario
 		}
 		BRIEFING_NOTE
 		{
-			text = ADDITIONAL NOTES///n----------------///n///n- Bullseye is located at a sea point at the center of the two islands///n///n- Weather will be variable as the islands are at the transition between two large systems at the moment.
+			text = ADDITIONAL NOTES///n----------------///n///n- Once we capture a base, we will be able to operate from it.///n///n- Bullseye is located at a sea point at the center of the two islands///n///n- Weather will be variable as the islands are at the transition between two large systems at the moment.
 			imagePath = 
 			audioClipPath = 
 		}
