@@ -17879,6 +17879,8 @@ CustomScenario
 	}
 	WAYPOINTS
 	{
+		bullseyeID = 32
+		bullseyeID_B = 32
 		WAYPOINT
 		{
 			id = 0
@@ -18064,6 +18066,12 @@ CustomScenario
 			id = 31
 			name = GC SL MRM 8
 			globalPoint = (164925.43817138672, 39.216064453125, 72492.148193359375)
+		}
+		WAYPOINT
+		{
+			id = 32
+			name = bullseye
+			globalPoint = (95845.0107421875, -5, 93250.935546875)
 		}
 	}
 	UNITGROUPS
