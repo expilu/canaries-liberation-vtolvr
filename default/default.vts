@@ -17,7 +17,7 @@ CustomScenario
 	isTraining = False
 	rtbWptID = 
 	refuelWptID = unit:151
-	mpPlayerCount = 12
+	mpPlayerCount = 14
 	autoPlayerCount = True
 	overrideAlliedPlayerCount = 1
 	overrideEnemyPlayerCount = 0
@@ -8806,7 +8806,7 @@ CustomScenario
 				costToSpawn = 0
 				liveryRef = 0;
 				receiveFriendlyDamage = True
-				slots = 1
+				slots = 2
 			}
 			altSpawn
 			{
@@ -9242,7 +9242,7 @@ CustomScenario
 				costToSpawn = 0
 				liveryRef = 0;
 				receiveFriendlyDamage = True
-				slots = 1
+				slots = 2
 			}
 			altSpawn
 			{
