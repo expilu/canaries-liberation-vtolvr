@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803515E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803517E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639574E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639582E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17782,7 +17782,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (148099.97174072266, 1804.1783986091614, 75974.9541015625)
-				rotation = (9.083942E-06, 343.2513, -2.733737E-06)
+				rotation = (9.083944E-06, 343.2513, -2.733737E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17810,7 +17810,7 @@ CustomScenario
 			globalPosition = (138104.99194335938, 4.000244140625, 52138.45556640625)
 			unitInstanceID = 204
 			unitID = factory1e
-			rotation = (9.483259E-06, 358.5309, -2.43207E-07)
+			rotation = (9.483261E-06, 358.5309, -2.43207E-07)
 			lastValidPlacement = (163928.02233886719, 39.2158203125, 65275.433166503906)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -17847,7 +17847,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (146347.78210449219, 63.059326171875, 55203.0244140625)
-				rotation = (9.483237E-06, 358.5309, -2.432065E-07)
+				rotation = (9.483239E-06, 358.5309, -2.432065E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17866,7 +17866,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (159877.49841308594, 86.902069091796875, 61866.863891601563)
-				rotation = (9.483274E-06, 358.5309, -2.432074E-07)
+				rotation = (9.483276E-06, 358.5309, -2.432074E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17885,7 +17885,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (163928.02233886719, 39.2158203125, 65275.433166503906)
-				rotation = (9.48324E-06, 358.5309, -2.432065E-07)
+				rotation = (9.483242E-06, 358.5309, -2.432065E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
