@@ -13,7 +13,7 @@ CustomScenario
 	forceEquips = False
 	normForcedFuel = 1
 	equipsConfigurable = True
-	baseBudget = 1000000
+	baseBudget = 9999999
 	isTraining = False
 	rtbWptID = 
 	refuelWptID = unit:151
@@ -21,15 +21,15 @@ CustomScenario
 	autoPlayerCount = True
 	overrideAlliedPlayerCount = 1
 	overrideEnemyPlayerCount = 0
-	scorePerDeath_A = 0
+	scorePerDeath_A = 1
 	scorePerDeath_B = 0
-	scorePerKill_A = 0
+	scorePerKill_A = 1
 	scorePerKill_B = 0
 	mpBudgetMode = Life
 	rtbWptID_B = 
 	refuelWptID_B = 
 	separateBriefings = True
-	baseBudgetB = 1000000
+	baseBudgetB = 9999999
 	infiniteAmmo = False
 	infAmmoReloadDelay = 5
 	fuelDrainMult = 1
@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803513E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803514E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639566E-07)
+				rotation = (1.659359E-05, 31.52981, 1.63957E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
