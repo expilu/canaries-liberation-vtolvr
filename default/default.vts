@@ -46805,7 +46805,7 @@ CustomScenario
 		}
 		BRIEFING_NOTE
 		{
-			text = Logistics///n---------///n///nThe enemy is using large aircraft to fly supplies, troops and material to the islands from far away.///n///nThis is costly for them.///n///nIntel suggest that attacking assets in the islands (enemy units, factories, oil platforms, depots,...) will break the capability and will of the enemy to keep the rhythm and make flights less frequent.///n///nAlso, interpceting these flights will avoid enemy reinforcements reaching the islands.
+			text = LOGISTICS///n---------///n///nThe enemy is using large aircraft to fly supplies, troops and material to the islands from far away.///n///nThis is costly for them.///n///nIntel suggest that attacking assets in the islands (enemy units, factories, oil platforms, depots,...) will break the capability and will of the enemy to keep the rhythm and make flights less frequent.///n///nAlso, interpceting these flights will avoid enemy reinforcements reaching the islands.
 			imagePath = HB106_Profile.png
 			audioClipPath = 
 		}
@@ -46817,7 +46817,13 @@ CustomScenario
 		}
 		BRIEFING_NOTE
 		{
-			text = ADDITIONAL NOTES///n----------------///n///n- Once we capture a base, we will be able to operate from it.///n///n- Bullseye is located at a sea point at the center of the two islands///n///n- Weather will be variable as the islands are at the transition between two large systems at the moment.
+			text = NAVAL///n-----///n///nThe enemy has one of their latest generation NFP carriers in the area.///n///nThe carrier is protected by cruisers of various types.///n///nThey usually operate between the islands. This gives them good coverage of both islands.///n///nThis fleet is a major danger for our operations in the area.
+			imagePath = NFP_Profile.png
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			{text} = {ADDITIONAL NOTES///n----------------///n///n- Once we capture a base, we will be able to operate from it.///n///n- Bullseye is located at a sea point at the center of the two islands///n///n- Weather will be variable as the islands are at the transition between two large systems at the moment.///n///n- Intel thinks a secretive R&D drone unit might be operating in the area. They are known to have tested concepts like "loyal wingman" and "drone swarms".}
 			imagePath = 
 			audioClipPath = 
 		}
@@ -46887,6 +46893,7 @@ CustomScenario
 		57 = briefing1.png
 		58 = HB106_Profile.png
 		59 = EnemyEarlyWarningRadar_Profile.png
+		60 = NFP_Profile.png
 	}
 }
 
