@@ -46728,6 +46728,12 @@ CustomScenario
 			imagePath = briefing1.png
 			audioClipPath = 
 		}
+		BRIEFING_NOTE
+		{
+			text = Logistics///n---------///n///nThe enemy is using large aircraft to fly supplies, troops and material to the islands from far away.///n///nThis is costly for them.///n///nIntel suggest that attacking assets in the islands (enemy units, factories, oil platforms, depots,...) will break the capability and will of the enemy to keep the rhythm and make flights less frequent.///n///nAlso, interpceting these flights will avoid enemy reinforcements reaching the islands.
+			imagePath = HB106_Profile.png
+			audioClipPath = 
+		}
 	}
 	Briefing_B
 	{
@@ -46792,6 +46798,7 @@ CustomScenario
 		55 = detected-resupply.mp3
 		56 = protect-mother.mp3
 		57 = briefing1.png
+		58 = HB106_Profile.png
 	}
 }
 
