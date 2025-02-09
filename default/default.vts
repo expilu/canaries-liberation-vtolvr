@@ -15,7 +15,7 @@ CustomScenario
 	equipsConfigurable = True
 	baseBudget = 9999999
 	isTraining = False
-	rtbWptID = 
+	rtbWptID = unit:2
 	refuelWptID = unit:151
 	mpPlayerCount = 14
 	autoPlayerCount = True
