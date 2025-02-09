@@ -46734,6 +46734,18 @@ CustomScenario
 			imagePath = HB106_Profile.png
 			audioClipPath = 
 		}
+		BRIEFING_NOTE
+		{
+			text = AIR DEFENSES///n------------///n///nIn their time holding the islands, the enemy has invested heavily in radar and SAM coverage.///n///nThey have heavily protected airbases with modern systems, point defenses and EW.///n///nThey might also have smaller systems around the islands protecting other assets. These might include shorads, manpads and moving SAMs.///n///nFinally, we know they have an EWR at the mountains in the center of Gran Canaria.
+			imagePath = EnemyEarlyWarningRadar_Profile.png
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = ADDITIONAL NOTES///n----------------///n///n- Bullseye is located at a sea point at the center of the two islands///n///n- Weather will be variable as the islands are at the transition between two large systems at the moment.
+			imagePath = 
+			audioClipPath = 
+		}
 	}
 	Briefing_B
 	{
@@ -46799,6 +46811,7 @@ CustomScenario
 		56 = protect-mother.mp3
 		57 = briefing1.png
 		58 = HB106_Profile.png
+		59 = EnemyEarlyWarningRadar_Profile.png
 	}
 }
 
