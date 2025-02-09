@@ -17,7 +17,7 @@ CustomScenario
 	isTraining = False
 	rtbWptID = unit:2
 	refuelWptID = unit:151
-	mpPlayerCount = 14
+	mpPlayerCount = 15
 	autoPlayerCount = True
 	overrideAlliedPlayerCount = 1
 	overrideEnemyPlayerCount = 0
@@ -438,7 +438,7 @@ CustomScenario
 				respawnable = False
 				receiveFriendlyDamage = True
 				lsoFreq = 284.4
-				carrierSpawns = 0:147:-1;1:150:-1;2:151:-1;3:97:-1;4:98:-1;5:100:-1;6:164:-1;7:-1;8:99:-1;
+				carrierSpawns = 0:147:-1;1:150:-1;2:207:-1;3:97:-1;4:98:-1;5:100:-1;6:164:-1;7:206:-1;8:99:-1;
 			}
 			altSpawn
 			{
@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.803517E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803518E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -8568,10 +8568,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 1
-			globalPosition = (-20415.83740234375, 18.97998046875, 178954.21875)
+			globalPosition = (-20415.837463378906, 18.979995727539063, 178954.21875)
 			unitInstanceID = 97
 			unitID = MultiplayerSpawn
-			rotation = (-6.011083E-06, 21.87938, -3.665257E-06)
+			rotation = (-6.011082E-06, 21.87938, -3.665257E-06)
 			lastValidPlacement = (48860.767822265625, 90.8131103515625, 85415.312866210938)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8675,10 +8675,10 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = F/A-26B Spawn 2
-			globalPosition = (-20389.25732421875, 18.97998046875, 178955.34375)
+			globalPosition = (-20389.257507324219, 18.979995727539063, 178955.34873962402)
 			unitInstanceID = 98
 			unitID = MultiplayerSpawn
-			rotation = (-5.592671E-06, 27.91099, -4.276595E-06)
+			rotation = (-5.59267E-06, 27.91099, -4.276595E-06)
 			lastValidPlacement = (49209.645385742188, 90.8131103515625, 85566.300354003906)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -8782,7 +8782,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 1
-			globalPosition = (-20334.6376953125, 18.97998046875, 178953.015625)
+			globalPosition = (-20334.637512207031, 18.979995727539063, 178953.01875305176)
 			unitInstanceID = 99
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.35001, 0)
@@ -8806,7 +8806,7 @@ CustomScenario
 				costToSpawn = 0
 				liveryRef = 0;
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 			altSpawn
 			{
@@ -8893,7 +8893,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = EF-24G Spawn 2
-			globalPosition = (-20300.90771484375, 18.97998046875, 178950.28125)
+			globalPosition = (-20300.907501220703, 18.979995727539063, 178950.28875732422)
 			unitInstanceID = 100
 			unitID = MultiplayerSpawn
 			rotation = (0, 31.35001, 0)
@@ -9242,7 +9242,7 @@ CustomScenario
 				costToSpawn = 0
 				liveryRef = 0;
 				receiveFriendlyDamage = True
-				slots = 2
+				slots = 1
 			}
 			altSpawn
 			{
@@ -12679,7 +12679,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportEW
-			globalPosition = (-20431.99755859375, 18.97998046875, 178995.59375)
+			globalPosition = (-20431.997497558594, 18.979995727539063, 178995.59873962402)
 			unitInstanceID = 147
 			unitID = EF-24 AI
 			rotation = (6.600372E-06, 150.1425, -2.44996E-06)
@@ -12957,7 +12957,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = SupportStrike
-			globalPosition = (-20406.27734375, 18.97998046875, 179006.96875)
+			globalPosition = (-20406.277496337891, 18.979995727539063, 179006.96873474121)
 			unitInstanceID = 150
 			unitID = FA-26B AI
 			rotation = (6.335029E-06, 144.6399, -3.071583E-06)
@@ -13100,18 +13100,18 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = MQ-31 UARV
-			globalPosition = (-20383.2373046875, 18.97998046875, 179014.421875)
+			globalPosition = (-20051.405139923096, 81.518180847167969, 178979.2523651123)
 			unitInstanceID = 151
 			unitID = MQ-31
-			rotation = (6.299552E-06, 143.9857, -3.143708E-06)
-			lastValidPlacement = (-41790.662596702576, 58.979995727539063, 201006.31616210938)
+			rotation = (0, 90.00002, 0)
+			lastValidPlacement = (-20051.405139923096, 81.518180847167969, 178979.2523651123)
 			editorPlacementMode = Air
-			onCarrier = True
+			onCarrier = False
 			mpSelectEnabled = True
 			UnitFields
 			{
 				unitGroup = null
-				defaultBehavior = TakeOff
+				defaultBehavior = Path
 				initialSpeed = 180
 				defaultNavSpeed = 180
 				defaultOrbitPoint = null
@@ -13121,12 +13121,12 @@ CustomScenario
 				autoRefuel = True
 				autoRTB = True
 				rtbDestination = unit:2
-				parkedStartMode = Cold
+				parkedStartMode = FlightReady
 				engageEnemies = False
 				detectionMode = Default
 				spawnOnStart = True
-				invincible = True
-				respawnable = False
+				invincible = False
+				respawnable = True
 				receiveFriendlyDamage = True
 				equips = mq31-46lt;mq31-46lt;
 			}
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639582E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639586E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -15059,7 +15059,7 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = AlliedAwacsEscort
-			globalPosition = (-20273.42822265625, 18.97998046875, 178952.3125)
+			globalPosition = (-20273.42822265625, 18.979995727539063, 178952.31184387207)
 			unitInstanceID = 164
 			unitID = FA-26B AI
 			rotation = (0, 31.35001, 0)
@@ -17810,7 +17810,7 @@ CustomScenario
 			globalPosition = (138104.99194335938, 4.000244140625, 52138.45556640625)
 			unitInstanceID = 204
 			unitID = factory1e
-			rotation = (9.483261E-06, 358.5309, -2.43207E-07)
+			rotation = (9.483262E-06, 358.5309, -2.43207E-07)
 			lastValidPlacement = (163928.02233886719, 39.2158203125, 65275.433166503906)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -17847,7 +17847,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (146347.78210449219, 63.059326171875, 55203.0244140625)
-				rotation = (9.483239E-06, 358.5309, -2.432065E-07)
+				rotation = (9.48324E-06, 358.5309, -2.432065E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17866,7 +17866,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (159877.49841308594, 86.902069091796875, 61866.863891601563)
-				rotation = (9.483276E-06, 358.5309, -2.432074E-07)
+				rotation = (9.483277E-06, 358.5309, -2.432074E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17885,7 +17885,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (163928.02233886719, 39.2158203125, 65275.433166503906)
-				rotation = (9.483242E-06, 358.5309, -2.432065E-07)
+				rotation = (9.483243E-06, 358.5309, -2.432065E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17978,6 +17978,426 @@ CustomScenario
 					combatTarget = False
 					respawnable = False
 					receiveFriendlyDamage = True
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = T-55 Spawn 1
+			globalPosition = (-20249.137451171875, 18.979995727539063, 178952.21875)
+			unitInstanceID = 206
+			unitID = MultiplayerSpawn
+			rotation = (0, 31.35001, 0)
+			lastValidPlacement = (49749.128494262695, 90.813201904296875, 86001.820068359375)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				vehicle = T-55
+				selectableAltSpawn = True
+				slotLabel = T-55 Aircraft Carrier 1
+				unitGroup = Allied:Foxtrot
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = clr_ltGray
+				receiveFriendlyDamage = True
+				slots = 1
+			}
+			altSpawn
+			{
+				globalPos = (165819.845703125, 41.1248779296875, 72223.186096191406)
+				rotation = (-1.338648E-05, 178.8624, 1.39289E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = False
+				unitFields
+				{
+					vehicle = T-55
+					selectableAltSpawn = True
+					slotLabel = T-55 Aircraft Carrier 1
+					unitGroup = Allied:Foxtrot
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = clr_ltGray
+					receiveFriendlyDamage = True
+					slots = 1
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72637.083068847656, 589.5159912109375, 132606.05493164063)
+				rotation = (-3.054581E-06, 195.9135, -1.337267E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = False
+				unitFields
+				{
+					vehicle = T-55
+					selectableAltSpawn = True
+					slotLabel = T-55 Aircraft Carrier 1
+					unitGroup = Allied:Foxtrot
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = clr_ltGray
+					receiveFriendlyDamage = True
+					slots = 1
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49749.128494262695, 90.813201904296875, 86001.820068359375)
+				rotation = (-2.406335E-05, 23.70713, 8.082583E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = False
+				unitFields
+				{
+					vehicle = T-55
+					selectableAltSpawn = True
+					slotLabel = T-55 Aircraft Carrier 1
+					unitGroup = Allied:Foxtrot
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = clr_ltGray
+					receiveFriendlyDamage = True
+					slots = 1
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = T-55 Spawn 2
+			globalPosition = (-20383.237487792969, 18.979995727539063, 179014.41874694824)
+			unitInstanceID = 207
+			unitID = MultiplayerSpawn
+			rotation = (6.299549E-06, 143.9857, -3.143708E-06)
+			lastValidPlacement = (49571.510818481445, 90.81317138671875, 86073.592224121094)
+			editorPlacementMode = Air
+			onCarrier = True
+			mpSelectEnabled = True
+			UnitFields
+			{
+				vehicle = T-55
+				selectableAltSpawn = True
+				slotLabel = T-55 Aircraft Carrier 2
+				unitGroup = Allied:Foxtrot
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = True
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = clr_ltGray
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+			altSpawn
+			{
+				globalPos = (166014.12159729004, 41.12481689453125, 72230.678161621094)
+				rotation = (-1.338648E-05, 178.8624, 1.39289E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = False
+				unitFields
+				{
+					vehicle = T-55
+					selectableAltSpawn = True
+					slotLabel = T-55 Aircraft Carrier 2
+					unitGroup = Allied:Foxtrot
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = clr_ltGray
+					receiveFriendlyDamage = True
+					slots = 2
+				}
+			}
+			altSpawn
+			{
+				globalPos = (72673.7412109375, 589.51602172851563, 132588.16693115234)
+				rotation = (-3.054581E-06, 195.9135, -1.337267E-05)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = False
+				unitFields
+				{
+					vehicle = T-55
+					selectableAltSpawn = True
+					slotLabel = T-55 Aircraft Carrier 2
+					unitGroup = Allied:Foxtrot
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = clr_ltGray
+					receiveFriendlyDamage = True
+					slots = 2
+				}
+			}
+			altSpawn
+			{
+				globalPos = (49571.510818481445, 90.81317138671875, 86073.592224121094)
+				rotation = (-2.406335E-05, 23.70713, 8.082583E-06)
+				weight = 100
+				placementMode = Ground
+				onCarrier = False
+				mpSelectEnabled = False
+				unitFields
+				{
+					vehicle = T-55
+					selectableAltSpawn = True
+					slotLabel = T-55 Aircraft Carrier 2
+					unitGroup = Allied:Foxtrot
+					startMode = Cold
+					equipment = 
+					initialSpeed = 0
+					rtbIsSpawn = True
+					limitedLives = False
+					lifeCount = 1
+					b_eqAssignmentMode = False
+					costToSpawn = 0
+					liveryRef = clr_ltGray
+					receiveFriendlyDamage = True
+					slots = 2
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 11
+			globalPosition = (72907.291030883789, 685.1656494140625, 132799.83712005615)
+			unitInstanceID = 208
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (165337.28198242188, 464.9805908203125, 72425.887939453125)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (50565.24006652832, 259.650390625, 85859.915191650391)
+				rotation = (0, 63.069, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (165337.28198242188, 464.9805908203125, 72425.887939453125)
+				rotation = (0, 42.75546, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Drone Swarm 12
+			globalPosition = (72999.517906188965, 685.1656494140625, 132775.83683013916)
+			unitInstanceID = 209
+			unitID = AIUCAV
+			rotation = (0, 289.1796, 0)
+			lastValidPlacement = (164776.59924316406, 464.9805908203125, 71707.400146484375)
+			editorPlacementMode = Air
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				unitGroup = Enemy:Echo
+				defaultBehavior = Orbit
+				initialSpeed = 180
+				defaultNavSpeed = 180
+				defaultOrbitPoint = 8
+				defaultPath = 4
+				orbitAltitude = 3000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = True
+				rtbDestination = map:2
+				parkedStartMode = FlightReady
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = False
+				invincible = False
+				respawnable = True
+				receiveFriendlyDamage = True
+				equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+			}
+			altSpawn
+			{
+				globalPos = (50457.079742431641, 259.650390625, 85811.577713012695)
+				rotation = (0, 63.069, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
+				}
+			}
+			altSpawn
+			{
+				globalPos = (164776.59924316406, 464.9805908203125, 71707.400146484375)
+				rotation = (0, 42.75546, 0)
+				weight = 100
+				placementMode = Air
+				onCarrier = False
+				mpSelectEnabled = True
+				unitFields
+				{
+					unitGroup = Enemy:Echo
+					defaultBehavior = Orbit
+					initialSpeed = 180
+					defaultNavSpeed = 180
+					defaultOrbitPoint = 8
+					defaultPath = 4
+					orbitAltitude = 3000
+					fuel = 100
+					autoRefuel = True
+					autoRTB = False
+					defaultRadarEnabled = True
+					rtbDestination = 
+					parkedStartMode = FlightReady
+					engageEnemies = True
+					detectionMode = Default
+					spawnOnStart = True
+					invincible = False
+					respawnable = True
+					receiveFriendlyDamage = True
+					equips = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;
 				}
 			}
 		}
@@ -18336,6 +18756,7 @@ CustomScenario
 			Charlie = 2;99;100;
 			Delta = 2;101;102;
 			Echo = 2;103;104;
+			Foxtrot = 2;206;207;
 			Hotel_SETTINGS
 			{
 				syncAltSpawns = True
@@ -18357,6 +18778,10 @@ CustomScenario
 				syncAltSpawns = False
 			}
 			Echo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Foxtrot_SETTINGS
 			{
 				syncAltSpawns = False
 			}
@@ -18383,7 +18808,7 @@ CustomScenario
 			India = 2;174;175;
 			Golf = 2;176;177;
 			Foxtrot = 2;179;180;183;184;185;
-			Echo = 2;189;194;195;196;197;198;199;200;201;202;
+			Echo = 2;189;194;195;196;197;198;199;200;201;202;208;209;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = True
@@ -20776,7 +21201,7 @@ CustomScenario
 		TriggerEvent
 		{
 			id = 69
-			enabled = False
+			enabled = True
 			triggerType = Conditional
 			conditional = 115
 			eventName = OnAwacsTakeoff
@@ -21339,6 +21764,98 @@ CustomScenario
 				}
 			}
 		}
+		TriggerEvent
+		{
+			id = 86
+			enabled = True
+			triggerType = Conditional
+			conditional = 127
+			eventName = OnDroneCarrierDetected
+			EventInfo
+			{
+				eventName = 
+				EventTarget
+				{
+					targetType = Objective
+					targetID = 20
+					eventName = Begin Objective
+					methodName = BeginObjective
+					altTargetIdx = -1
+				}
+			}
+		}
+		TriggerEvent
+		{
+			id = 87
+			enabled = True
+			triggerType = Conditional
+			conditional = 128
+			eventName = OnFoxtrot11Airborne
+			EventInfo
+			{
+				eventName = 
+			}
+		}
+		TriggerEvent
+		{
+			id = 88
+			enabled = True
+			triggerType = Conditional
+			conditional = 129
+			eventName = OnFoxtrot12Airborne
+			EventInfo
+			{
+				eventName = 
+			}
+		}
+		TriggerEvent
+		{
+			id = 89
+			enabled = False
+			triggerType = Conditional
+			conditional = 130
+			eventName = OnFoxtrot11Landed
+			EventInfo
+			{
+				eventName = 
+			}
+		}
+		TriggerEvent
+		{
+			id = 90
+			enabled = False
+			triggerType = Conditional
+			conditional = 131
+			eventName = OnFoxtrot12Landed
+			EventInfo
+			{
+				eventName = 
+			}
+		}
+		TriggerEvent
+		{
+			id = 91
+			enabled = True
+			triggerType = Conditional
+			conditional = 132
+			eventName = OnFoxtrot11Destroyed
+			EventInfo
+			{
+				eventName = 
+			}
+		}
+		TriggerEvent
+		{
+			id = 92
+			enabled = True
+			triggerType = Conditional
+			conditional = 133
+			eventName = OnFoxtrot12Destroyed
+			EventInfo
+			{
+				eventName = 
+			}
+		}
 	}
 	OBJECTIVES
 	{
@@ -21526,6 +22043,34 @@ CustomScenario
 						eventName = Set AltSpawn Available
 						methodName = SetAltSpawnAvailable
 						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 206
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 207
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 0
 						ParamInfo
 						{
 							type = System.Boolean
@@ -21732,6 +22277,34 @@ CustomScenario
 							name = Available
 						}
 					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 206
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 207
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
 				}
 			}
 			fields
@@ -21924,6 +22497,34 @@ CustomScenario
 						eventName = Set AltSpawn Available
 						methodName = SetAltSpawnAvailable
 						altTargetIdx = 1
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 206
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
+						ParamInfo
+						{
+							type = System.Boolean
+							value = True
+							name = Available
+						}
+					}
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 207
+						eventName = Set AltSpawn Available
+						methodName = SetAltSpawnAvailable
+						altTargetIdx = 2
 						ParamInfo
 						{
 							type = System.Boolean
@@ -23425,7 +24026,7 @@ CustomScenario
 			completionReward = 0
 			waypoint = unit:186
 			autoSetWaypoint = False
-			startMode = Immediate
+			startMode = Triggered
 			objectiveType = Destroy
 			startEvent
 			{
@@ -23666,6 +24267,75 @@ CustomScenario
 				minRequired = 1
 				perUnitReward = 0
 				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = Hunt Drone Swarm
+			objectiveInfo = We detected the enemy launched a drone swarm. Intercept and destroy it.
+			objectiveID = 23
+			orderID = 23
+			required = False
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 2
+						eventName = Increment Value
+						methodName = IncrementValue
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = GlobalValue
+							value = 6
+							name = Global Value
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Add
+							ParamAttrInfo
+							{
+								type = UnitSpawnAttributeRange+RangeTypes
+								data = Int
+							}
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (0,99999)
+							}
+						}
+					}
+				}
+			}
+			fields
+			{
+				successConditional = 126
+				failConditional = null
 			}
 		}
 	}
@@ -25394,7 +26064,7 @@ CustomScenario
 				id = 3
 				type = SCCOr
 				uiPos = (-172.9682, -88.39077, 0)
-				factors = 2;4;5;6;7;8;9;10;11;12;
+				factors = 2;4;5;6;7;8;9;10;11;12;15;16;
 			}
 			COMP
 			{
@@ -25565,6 +26235,40 @@ CustomScenario
 				comparison = Equals
 				c_value = 1
 			}
+			COMP
+			{
+				id = 15
+				type = SCCUnit
+				uiPos = (-683.3065, -1015.2, 0)
+				unit = 206
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
+			COMP
+			{
+				id = 16
+				type = SCCUnit
+				uiPos = (-688.1904, -1166.6, 0)
+				unit = 207
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 12
+				}
+			}
 		}
 		CONDITIONAL
 		{
@@ -25576,7 +26280,7 @@ CustomScenario
 				id = 0
 				type = SCCOr
 				uiPos = (-236.3012, -133.0269, 0)
-				factors = 1;2;3;4;5;6;7;8;9;10;
+				factors = 1;2;3;4;5;6;7;8;9;10;13;14;
 			}
 			COMP
 			{
@@ -25764,6 +26468,40 @@ CustomScenario
 				comparison = Equals
 				c_value = 1
 			}
+			COMP
+			{
+				id = 13
+				type = SCCUnit
+				uiPos = (-772.5723, -1028.078, 0)
+				unit = 206
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
+			COMP
+			{
+				id = 14
+				type = SCCUnit
+				uiPos = (-772.5723, -1181.305, 0)
+				unit = 207
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 13
+				}
+			}
 		}
 		CONDITIONAL
 		{
@@ -25775,7 +26513,7 @@ CustomScenario
 				id = 0
 				type = SCCOr
 				uiPos = (-257.3277, 208.0522, 0)
-				factors = 1;2;3;4;5;6;7;8;9;10;
+				factors = 1;2;3;4;5;6;7;8;9;10;14;13;
 			}
 			COMP
 			{
@@ -25962,6 +26700,40 @@ CustomScenario
 				gv = 4
 				comparison = Equals
 				c_value = 1
+			}
+			COMP
+			{
+				id = 13
+				type = SCCUnit
+				uiPos = (-854.4471, -889.191, 0)
+				unit = 207
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
+			}
+			COMP
+			{
+				id = 14
+				type = SCCUnit
+				uiPos = (-852.3234, -736.7097, 0)
+				unit = 206
+				methodName = IsUnitInsidePath
+				isNot = False
+				methodParameters
+				{
+					value = Inside
+				}
+				methodParameters
+				{
+					value = 14
+				}
 			}
 		}
 		CONDITIONAL
@@ -26761,6 +27533,130 @@ CustomScenario
 				{
 					value = Allied
 				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 126
+			outputNodePos = (113.2467, 76.29255, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnitList
+				uiPos = (-199.0759, 134.108, 0)
+				unitList = 189;194;195;196;197;198;199;200;201;202;208;209;
+				methodName = SCC_AllAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 127
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-519.8068, 150.2686, 0)
+				unit = 186
+				methodName = SC_DetectedBy
+				isNot = False
+				methodParameters
+				{
+					value = Allied
+				}
+			}
+		}
+		CONDITIONAL
+		{
+			id = 128
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-611.8079, 119.6015, 0)
+				unit = 206
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 129
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-387.9383, 82.80106, 0)
+				unit = 207
+				methodName = SCC_Landed
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 130
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-435.4722, 96.60123, 0)
+				unit = 206
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 131
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-492.2063, 69.00089, 0)
+				unit = 207
+				methodName = SCC_Landed
+				isNot = False
+			}
+		}
+		CONDITIONAL
+		{
+			id = 132
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-565.8073, 92.00117, 0)
+				unit = 206
+				methodName = SCC_IsAlive
+				isNot = True
+			}
+		}
+		CONDITIONAL
+		{
+			id = 133
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCUnit
+				uiPos = (-403.6303, 72.80334, 0)
+				unit = 207
+				methodName = SCC_IsAlive
+				isNot = True
 			}
 		}
 	}
@@ -31170,7 +32066,7 @@ CustomScenario
 			name = 
 			BASE_BLOCK
 			{
-				blockName = 10 or more
+				blockName = 12 or more
 				blockId = 129
 				CONDITIONAL
 				{
@@ -31182,7 +32078,7 @@ CustomScenario
 						id = 0
 						type = SCCUnitList
 						uiPos = (-354.3074, 64.8426, 0)
-						unitList = 95;96;97;98;99;100;101;102;103;104;
+						unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
 						methodName = SCC_NumAlive
 						isNot = False
 						methodParameters
@@ -31191,7 +32087,7 @@ CustomScenario
 						}
 						methodParameters
 						{
-							value = 9
+							value = 11
 						}
 					}
 				}
@@ -31214,7 +32110,7 @@ CustomScenario
 						ParamInfo
 						{
 							type = System.Single
-							value = 10
+							value = 12
 							name = Set to
 							ParamAttrInfo
 							{
@@ -31231,7 +32127,7 @@ CustomScenario
 				}
 				ELSE_IF
 				{
-					blockName = 9
+					blockName = 11
 					blockId = 130
 					CONDITIONAL
 					{
@@ -31243,7 +32139,139 @@ CustomScenario
 							id = 0
 							type = SCCUnitList
 							uiPos = (-330.3446, 76.65456, 0)
-							unitList = 95;96;97;98;99;100;101;102;103;104;
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 11
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 11
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 10
+					blockId = 131
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-372.3221, 56.57836, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
+							methodName = SCC_NumAlive
+							isNot = False
+							methodParameters
+							{
+								value = Equals
+							}
+							methodParameters
+							{
+								value = 10
+							}
+						}
+					}
+					ACTIONS
+					{
+						eventName = 
+						EventTarget
+						{
+							targetType = System
+							targetID = 2
+							eventName = Set Value
+							methodName = SetValue
+							altTargetIdx = -1
+							ParamInfo
+							{
+								type = GlobalValue
+								value = 16
+								name = Global Value
+							}
+							ParamInfo
+							{
+								type = System.Single
+								value = 10
+								name = Set to
+								ParamAttrInfo
+								{
+									type = UnitSpawnAttributeRange+RangeTypes
+									data = Int
+								}
+								ParamAttrInfo
+								{
+									type = MinMax
+									data = (-99999,99999)
+								}
+							}
+						}
+					}
+					ELSE_ACTIONS
+					{
+						eventName = 
+					}
+				}
+				ELSE_IF
+				{
+					blockName = 9
+					blockId = 132
+					CONDITIONAL
+					{
+						id = 0
+						outputNodePos = (0, 0, 0)
+						root = 0
+						COMP
+						{
+							id = 0
+							type = SCCUnitList
+							uiPos = (-490.1448, 49.43824, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
 							methodName = SCC_NumAlive
 							isNot = False
 							methodParameters
@@ -31298,7 +32326,7 @@ CustomScenario
 				ELSE_IF
 				{
 					blockName = 8
-					blockId = 131
+					blockId = 133
 					CONDITIONAL
 					{
 						id = 0
@@ -31308,8 +32336,8 @@ CustomScenario
 						{
 							id = 0
 							type = SCCUnitList
-							uiPos = (-372.3221, 56.57836, 0)
-							unitList = 95;96;97;98;99;100;101;102;103;104;
+							uiPos = (-485.9072, 91.81386, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
 							methodName = SCC_NumAlive
 							isNot = False
 							methodParameters
@@ -31364,7 +32392,7 @@ CustomScenario
 				ELSE_IF
 				{
 					blockName = 7
-					blockId = 132
+					blockId = 134
 					CONDITIONAL
 					{
 						id = 0
@@ -31374,8 +32402,8 @@ CustomScenario
 						{
 							id = 0
 							type = SCCUnitList
-							uiPos = (-490.1448, 49.43824, 0)
-							unitList = 95;96;97;98;99;100;101;102;103;104;
+							uiPos = (-497.2073, 57.91336, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
 							methodName = SCC_NumAlive
 							isNot = False
 							methodParameters
@@ -31430,7 +32458,7 @@ CustomScenario
 				ELSE_IF
 				{
 					blockName = 6
-					blockId = 133
+					blockId = 135
 					CONDITIONAL
 					{
 						id = 0
@@ -31440,8 +32468,8 @@ CustomScenario
 						{
 							id = 0
 							type = SCCUnitList
-							uiPos = (-485.9072, 91.81386, 0)
-							unitList = 95;96;97;98;99;100;101;102;103;104;
+							uiPos = (-573.4835, 103.114, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
 							methodName = SCC_NumAlive
 							isNot = False
 							methodParameters
@@ -31496,7 +32524,7 @@ CustomScenario
 				ELSE_IF
 				{
 					blockName = 5
-					blockId = 134
+					blockId = 136
 					CONDITIONAL
 					{
 						id = 0
@@ -31506,8 +32534,8 @@ CustomScenario
 						{
 							id = 0
 							type = SCCUnitList
-							uiPos = (-497.2073, 57.91336, 0)
-							unitList = 95;96;97;98;99;100;101;102;103;104;
+							uiPos = (-535.3454, 74.86361, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
 							methodName = SCC_NumAlive
 							isNot = False
 							methodParameters
@@ -31562,7 +32590,7 @@ CustomScenario
 				ELSE_IF
 				{
 					blockName = 4
-					blockId = 135
+					blockId = 137
 					CONDITIONAL
 					{
 						id = 0
@@ -31572,8 +32600,8 @@ CustomScenario
 						{
 							id = 0
 							type = SCCUnitList
-							uiPos = (-573.4835, 103.114, 0)
-							unitList = 95;96;97;98;99;100;101;102;103;104;
+							uiPos = (-477.4321, 64.97596, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
 							methodName = SCC_NumAlive
 							isNot = False
 							methodParameters
@@ -31628,7 +32656,7 @@ CustomScenario
 				ELSE_IF
 				{
 					blockName = 3
-					blockId = 136
+					blockId = 138
 					CONDITIONAL
 					{
 						id = 0
@@ -31638,8 +32666,8 @@ CustomScenario
 						{
 							id = 0
 							type = SCCUnitList
-							uiPos = (-535.3454, 74.86361, 0)
-							unitList = 95;96;97;98;99;100;101;102;103;104;
+							uiPos = (-440.7065, 52.26327, 0)
+							unitList = 95;96;97;99;98;100;101;102;103;104;206;207;
 							methodName = SCC_NumAlive
 							isNot = False
 							methodParameters
@@ -31694,7 +32722,7 @@ CustomScenario
 				ELSE_IF
 				{
 					blockName = 2
-					blockId = 137
+					blockId = 157
 					CONDITIONAL
 					{
 						id = 0
@@ -31704,8 +32732,8 @@ CustomScenario
 						{
 							id = 0
 							type = SCCUnitList
-							uiPos = (-477.4321, 64.97596, 0)
-							unitList = 95;96;97;98;99;100;101;102;103;104;
+							uiPos = (-330.294, 75.95908, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
 							methodName = SCC_NumAlive
 							isNot = False
 							methodParameters
@@ -31751,16 +32779,12 @@ CustomScenario
 								}
 							}
 						}
-					}
-					ELSE_ACTIONS
-					{
-						eventName = 
 					}
 				}
 				ELSE_IF
 				{
 					blockName = 1
-					blockId = 138
+					blockId = 158
 					CONDITIONAL
 					{
 						id = 0
@@ -31770,8 +32794,8 @@ CustomScenario
 						{
 							id = 0
 							type = SCCUnitList
-							uiPos = (-440.7065, 52.26327, 0)
-							unitList = 95;96;97;99;98;100;101;102;103;104;
+							uiPos = (-265.2358, 56.02735, 0)
+							unitList = 95;96;97;98;99;100;101;102;103;104;206;207;
 							methodName = SCC_NumAlive
 							isNot = False
 							methodParameters
@@ -31817,10 +32841,6 @@ CustomScenario
 								}
 							}
 						}
-					}
-					ELSE_ACTIONS
-					{
-						eventName = 
 					}
 				}
 				ELSE_ACTIONS
@@ -32051,7 +33071,7 @@ CustomScenario
 		ConditionalAction
 		{
 			id = 149
-			name = 10 players or more
+			name = 10 players
 			BASE_BLOCK
 			{
 				blockName = 
@@ -32067,8 +33087,8 @@ CustomScenario
 						type = SCCGlobalValue
 						uiPos = (-348, 55, 0)
 						gv = 16
-						comparison = Greater_Than
-						c_value = 9
+						comparison = Equals
+						c_value = 10
 					}
 				}
 				ACTIONS
@@ -32125,6 +33145,88 @@ CustomScenario
 						methodName = Restart
 						altTargetIdx = -1
 					}
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 153
+			name = 11 players
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 154
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-376, 73, 0)
+						gv = 16
+						comparison = Equals
+						c_value = 11
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 208
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
+				}
+			}
+		}
+		ConditionalAction
+		{
+			id = 155
+			name = 12 players or more
+			BASE_BLOCK
+			{
+				blockName = 
+				blockId = 156
+				CONDITIONAL
+				{
+					id = 0
+					outputNodePos = (0, 0, 0)
+					root = 0
+					COMP
+					{
+						id = 0
+						type = SCCGlobalValue
+						uiPos = (-374, 76, 0)
+						gv = 16
+						comparison = Greater_Than
+						c_value = 11
+					}
+				}
+				ACTIONS
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Unit
+						targetID = 209
+						eventName = Spawn Unit
+						methodName = SpawnUnit
+						altTargetIdx = -2
+					}
+				}
+				ELSE_ACTIONS
+				{
+					eventName = 
 				}
 			}
 		}
@@ -46346,6 +47448,22 @@ CustomScenario
 						methodName = Enable
 						altTargetIdx = -1
 					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 89
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Trigger_Events
+						targetID = 90
+						eventName = Enable
+						methodName = Enable
+						altTargetIdx = -1
+					}
 				}
 			}
 		}
@@ -47103,6 +48221,34 @@ CustomScenario
 							name = Action
 						}
 					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 153
+							name = Action
+						}
+					}
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Fire Conditional Action
+						methodName = FireConditionalAction
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = ConditionalActionReference
+							value = 155
+							name = Action
+						}
+					}
 				}
 			}
 			EVENT
@@ -47125,6 +48271,39 @@ CustomScenario
 							value = 267
 							name = Event
 						}
+					}
+				}
+			}
+			EVENT
+			{
+				delay = 0
+				nodeName = Start objective
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 23
+						eventName = Cancel Objective
+						methodName = CancelObjective
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 23
+						eventName = Reset Objective
+						methodName = ResetObjective
+						altTargetIdx = -1
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 23
+						eventName = Begin Objective
+						methodName = BeginObjective
+						altTargetIdx = -1
 					}
 				}
 			}
