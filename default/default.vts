@@ -2404,7 +2404,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166407.8896484375, 39.21588134765625, 74277.3681640625)
-				rotation = (8.80352E-06, 21.87292, 3.534135E-06)
+				rotation = (8.803523E-06, 21.87292, 3.534135E-06)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -13984,7 +13984,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (166741.04992675781, 39.2158203125, 74804.182746887207)
-				rotation = (1.659359E-05, 31.52981, 1.639595E-07)
+				rotation = (1.659359E-05, 31.52981, 1.639603E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17810,7 +17810,7 @@ CustomScenario
 			globalPosition = (138104.99194335938, 4.000244140625, 52138.45556640625)
 			unitInstanceID = 204
 			unitID = factory1e
-			rotation = (9.483264E-06, 358.5309, -2.43207E-07)
+			rotation = (9.483266E-06, 358.5309, -2.43207E-07)
 			lastValidPlacement = (163928.02233886719, 39.2158203125, 65275.433166503906)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -17847,7 +17847,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (146347.78210449219, 63.059326171875, 55203.0244140625)
-				rotation = (9.483242E-06, 358.5309, -2.432065E-07)
+				rotation = (9.483244E-06, 358.5309, -2.432065E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17866,7 +17866,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (159877.49841308594, 86.902069091796875, 61866.863891601563)
-				rotation = (9.483279E-06, 358.5309, -2.432074E-07)
+				rotation = (9.483281E-06, 358.5309, -2.432074E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -17885,7 +17885,7 @@ CustomScenario
 			altSpawn
 			{
 				globalPos = (163928.02233886719, 39.2158203125, 65275.433166503906)
-				rotation = (9.483245E-06, 358.5309, -2.432065E-07)
+				rotation = (9.483247E-06, 358.5309, -2.432065E-07)
 				weight = 100
 				placementMode = Ground
 				onCarrier = False
@@ -18098,7 +18098,7 @@ CustomScenario
 			globalPosition = (-20383.237487792969, 18.979995727539063, 179014.41874694824)
 			unitInstanceID = 207
 			unitID = MultiplayerSpawn
-			rotation = (6.299551E-06, 143.9857, -3.143708E-06)
+			rotation = (6.299552E-06, 143.9857, -3.143708E-06)
 			lastValidPlacement = (49571.510818481445, 90.81317138671875, 86073.592224121094)
 			editorPlacementMode = Air
 			onCarrier = True
@@ -24371,6 +24371,20 @@ CustomScenario
 			id = 3
 			globalPos = (148115.16465759277, 1803.608642578125, 75889.472137451172)
 			rotation = (0, 57.56036, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform2_2x2
+			id = 4
+			globalPos = (151930.10162353516, 563.764892578125, 89848.282119750977)
+			rotation = (0, 0, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform2_2x2
+			id = 5
+			globalPos = (152009.70919799805, 563.86489868164063, 89848.101837158203)
+			rotation = (0, 0, 0)
 		}
 	}
 	Conditionals
